@@ -1,0 +1,912 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: Global
+log-level: info
+external-controller: :9090
+proxies:
+  - {name: RELAY-45.85.118.88-0135, server: 45.85.118.88, port: 2096, type: vmess, uuid: a1e97dd4-b1ad-49b8-ae60-59e3ca3804bb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: wg1.anothervmess.link, network: ws, ws-opts: {path: /, headers: {Host: wg1.anothervmess.link}}, udp: true}
+  - {name: JP-3.112.246.87-3145, server: 3.112.246.87, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: KR-3.36.51.105-21628, server: 3.36.51.105, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: KR-52.78.137.254-20087, server: 52.78.137.254, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: IN-172.105.42.111-3227, server: vin1.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: vin1.0bad.com, network: ws, ws-opts: {path: /chat, headers: {Host: vin1.0bad.com}}, udp: true}
+  - {name: US-52.203.115.64-2978, server: cooing-luxuriant-blue.glitch.me, port: 443, type: vmess, uuid: 80e7dd59-b1fc-45a0-98be-1478a9af89f2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: cooing-luxuriant-blue.glitch.me, network: ws, ws-opts: {path: /api, headers: {Host: cooing-luxuriant-blue.glitch.me}}, udp: true}
+  - {name: RELAY-104.16.176.44-7268, server: www.codepen.io, port: 443, type: vmess, uuid: c002de50-e64e-4328-b98a-fae82bdcafa4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: de-v.sshmax.xyz, network: ws, ws-opts: {path: /vmess, headers: {Host: de-v.sshmax.xyz}}, udp: true}
+  - {name: CN-42.225.20.24-0162, server: z00031.security-cloudfront-cdn.com, port: 42833, type: ssr, cipher: aes-256-cfb, password: YpX2opBbrfqJzzMs, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: "", udp: true}
+  - {name: SE-13.50.133.227-0152, server: z0117.security-cloudfront-cdn.com, port: 42833, type: ssr, cipher: aes-256-cfb, password: YpX2opBbrfqJzzMs, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: "", udp: true}
+  - {name: GB-212.38.189.174-2459, server: 212.38.189.174, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: CA-15.223.68.151-4621, server: z0115.security-cloudfront-cdn.com, port: 42833, type: ssr, cipher: aes-256-cfb, password: YpX2opBbrfqJzzMs, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: "", udp: true}
+  - {name: US-185.199.224.150-5732, server: ssr1.ssrfree8.xyz, port: 12345, type: ssr, cipher: aes-256-cfb, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: US-185.199.224.156-0189, server: 185.199.224.156, port: 12345, type: ssr, cipher: aes-256-cfb, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: AU-3.26.164.136-20111, server: z0113.security-cloudfront-cdn.com, port: 42833, type: ssr, cipher: aes-256-cfb, password: YpX2opBbrfqJzzMs, protocol: origin, obfs: http_simple, protocol-param: ====, obfs-param: ====, udp: true}
+  - {name: CA-15.223.68.151-20105, server: z0115.security-cloudfront-cdn.com, port: 42833, type: ssr, cipher: aes-256-cfb, password: YpX2opBbrfqJzzMs, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: "", udp: true}
+  - {name: HK-18.167.42.112-4980, server: v22.gaowosiquanjia.top, port: 80, type: vmess, uuid: 6f96a2e9-daf3-41d4-a159-2bfe0d86dfac, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: v22.gaowosiquanjia.top}}, udp: true}
+  - {name: HK-18.163.210.30-5029, server: v21.gaowosiquanjia.top, port: 80, type: vmess, uuid: 6f96a2e9-daf3-41d4-a159-2bfe0d86dfac, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: v21.gaowosiquanjia.top}}, udp: true}
+  - {name: US-77.83.254.18-0142, server: 77.83.254.18, port: 57691, type: vmess, uuid: 168d3f41-a9a6-4056-dc8f-dd31c34b48de, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: RELAY-172.67.161.104-0612, server: icook.hk, port: 80, type: vmess, uuid: 3eb05cb6-d2e1-4a31-9f82-514cfa98fe15, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ray?ed=2048", headers: {Host: 2woid.weigogogo.cf}}, udp: true}
+  - {name: RELAY-172.64.80.1-3106, server: v125.toddns.tk, port: 80, type: vmess, uuid: a25881f3-967f-3265-bc7f-9e66857b016b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /usv125N93nz, headers: {Host: v125.toddns.tk}}, udp: true}
+  - {name: AU-3.26.164.136-0270, server: z0113.security-cloudfront-cdn.com, port: 42833, type: ssr, cipher: aes-256-cfb, password: YpX2opBbrfqJzzMs, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: "www.microsoft.com#User-Agent:Mozilla/5.0(iPhone;CPUiPhoneOS11_4_1likeMacOSX)AppleWebKit/602.4.6(KHTML,likeGecko)Version/10.0Mobile/14D27MicroMessenger/6.5.13Accept:/Connection:keep-alive", udp: true}
+  - {name: IN-65.0.72.194-20451, server: z0114.security-cloudfront-cdn.com, port: 42833, type: ssr, cipher: aes-256-cfb, password: YpX2opBbrfqJzzMs, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: "www.microsoft.com#User-Agent:Mozilla/5.0(iPhone;CPUiPhoneOS11_4_1likeMacOSX)AppleWebKit/602.4.6(KHTML,likeGecko)Version/10.0Mobile/14D27MicroMessenger/6.5.13Accept:/Connection:keep-alive", udp: true}
+  - {name: IN-13.234.162.10-0288, server: z0114.security-cloudfront-cdn.com, port: 42833, type: ssr, cipher: aes-256-cfb, password: YpX2opBbrfqJzzMs, protocol: origin, obfs: http_simple, protocol-param: ===%%�, obfs-param: JHd3dy5taWNyb3NvZnQuY29tI1VzZXItQWdlbnQ6TW96aWxsYS81LjAoaVBob25lO0NQVWlQaG9uZU9TMTFfNF8xbGlrZU1hY09TWClBcHBsZVdlYktpdC82MDIuNC42KEtIVE1MLGxpa2VHZWNrbylWZXJzaW9uLzEwLjBNb2JpbGUvMTREMjdNaWNyb01lc3Nlbmdlci82LjUuMTNBY2NlcHQ6L0Nvbm5lY3Rpb246a2VlcC1hbGl2ZQ==, udp: true}
+  - {name: GR-192.71.166.102-10345, server: 192.71.166.102, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: SG-18.142.239.12-0156, server: sg-am3.eqsunshine.com, port: 32001, type: ssr, cipher: aes-256-cfb, password: 3g0dHlKME, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: ====, obfs-param: ====, udp: true}
+  - {name: MK-46.183.185.15-16156, server: 46.183.185.15, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: RU-213.183.53.177-20082, server: 213.183.53.177, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ, udp: true}
+  - {name: SG-217.197.161.138-0498, server: 217.197.161.138, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: CN-124.222.189.225-0546, server: 124.222.189.225, port: 80, type: vmess, uuid: a8c9ad5b-1f58-4234-b5fe-a895bee9a047, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, udp: true}
+  - {name: CN-123.249.101.15-0545, server: 123.249.101.15, port: 19709, type: vmess, uuid: 2f278a45-940a-46c1-c886-77f3b2d33987, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: CN-106.12.168.13-0543, server: 106.12.168.13, port: 13156, type: vmess, uuid: 9bf4cba4-9e9e-4da4-8e65-f7c487c539df, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.189.cn}}, udp: true}
+  - {name: SG-217.197.161.136-0485, server: 217.197.161.136, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: SG-217.197.161.138-0469, server: 217.197.161.138, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: SG-217.197.161.138-0456, server: 217.197.161.138, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: JP-43.207.166.104-3419, server: 43.207.166.104, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: SG-217.197.161.138-0446, server: 217.197.161.138, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: US-170.178.168.203-3562, server: hk-server-02.selfupay.com, port: 443, type: trojan, password: 08d178d4-ec8b-11eb-a8bf-f236ebef7d1b1d6205fd0c55f28800e674, skip-cert-verify: true, udp: true}
+  - {name: US-170.178.168.203-3564, server: hk-server-02.selfupay.com, port: 443, type: trojan, password: 94aa3fa58b581353bb375d2ddad0f327938, skip-cert-verify: true, udp: true}
+  - {name: US-199.115.116.43-3565, server: jp-server-02.selfupay.com, port: 443, type: trojan, password: m36ebef7d1b1d6205fd0c55f28800e674, skip-cert-verify: true, udp: true}
+  - {name: US-199.115.116.43-3568, server: ned-server-01.selfupay.com, port: 443, type: trojan, password: a3a3fa58b581353bb375d2ddad0f327938, skip-cert-verify: true, udp: true}
+  - {name: US-170.178.168.203-3575, server: usa-server-02.selfupay.com, port: 443, type: trojan, password: e5d4636ebef7d1b1d6205fd0c55f28800e674, skip-cert-verify: true, udp: true}
+  - {name: US-199.115.116.43-3580, server: jp-server-02.selfupay.com, port: 443, type: trojan, password: ccf1ee40-a3fa58b581353bb375d2ddad0f327938, skip-cert-verify: true, udp: true}
+  - {name: US-170.178.168.203-3582, server: hk-server-01.selfupay.com, port: 443, type: trojan, password: 48ac743a-2d49-4191-b804-0c7fa7ea3fa58b581353bb375d2ddad0f327938, skip-cert-verify: true, udp: true}
+  - {name: US-199.115.116.43-3586, server: sg-server-01.selfupay.com, port: 443, type: trojan, password: YWVzLT36ebef7d1b1d6205fd0c55f28800e674, skip-cert-verify: true, udp: true}
+  - {name: US-170.178.168.203-3596, server: hk-server-02.selfupay.com, port: 443, type: trojan, password: a3fa58b581353bb375d2ddad0f3a3fa58b581353bb375d2ddad0f327938, skip-cert-verify: true, udp: true}
+  - {name: US-170.178.168.203-3598, server: usa-server-02.selfupay.com, port: 443, type: trojan, password: 036ebef7d1b1d6205fd0c55f28800e674, skip-cert-verify: true, udp: true}
+  - {name: US-170.178.168.203-3606, server: hk-server-01.selfupay.com, port: 443, type: trojan, password: a3fa58b581353bb375d2ddad0f327938, skip-cert-verify: true, udp: true}
+  - {name: US-199.115.116.43-3617, server: sg-server-01.selfupay.com, port: 443, type: trojan, password: 36ebef7d1b1d6205fd0c55f28800e674, skip-cert-verify: true, udp: true}
+  - {name: US-170.178.168.203-3620, server: ver-02.selfupay.com, port: 443, type: trojan, password: bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY2ac5a3ef0-lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26, skip-cert-verify: true, udp: true}
+  - {name: US-170.178.168.203-3634, server: k-server-02.selfupay.com, port: 443, type: trojan, password: -40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26, skip-cert-verify: true, udp: true}
+  - {name: US-199.115.116.43-3636, server: rver-01.selfupay.com, port: 443, type: trojan, password: -40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26, skip-cert-verify: true, udp: true}
+  - {name: US-199.115.116.43-3638, server: erver-02.selfupay.com, port: 443, type: trojan, password: -40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26, skip-cert-verify: true, udp: true}
+  - {name: CN-123.159.205.114-3878, server: zz6.91js.pw, port: 10051, type: trojan, password: a13820c547fa34c5c45515c12f0cd576, skip-cert-verify: true, udp: true}
+  - {name: CN-223.111.157.35-3879, server: jp2.91js.pw, port: 10051, type: trojan, password: a13820c547fa34c5c45515c12f0cd576, skip-cert-verify: true, udp: true}
+  - {name: CN-120.232.179.207-3970, server: js04.balala2016.xyz, port: 20261, type: trojan, password: ED177480-E516-11EA-8B44-BBC4E882BA0B, skip-cert-verify: true, udp: true}
+  - {name: HK-20.187.74.236-4177, server: de.stablize.top, port: 443, type: trojan, password: 1bf16b43-0ad5-4512-a0e8-34bb8966278e, skip-cert-verify: true, udp: true}
+  - {name: HK-20.187.74.236-4185, server: ap.stablize.top, port: 443, type: trojan, password: 1bf16b43-0ad5-4512-a0e8-34bb8966278e, skip-cert-verify: true, udp: true}
+  - {name: HK-20.187.96.163-4220, server: usa.stablize.top, port: 443, type: trojan, password: 7d0f1f83-0f2f-4b90-930e-de44ac233fef, skip-cert-verify: true, udp: true}
+  - {name: HK-20.187.96.163-4246, server: sg.stablize.top, port: 443, type: trojan, password: 7d0f1f83-0f2f-4b90-930e-de44ac233fef, skip-cert-verify: true, udp: true}
+  - {name: TW-114.37.210.134-4293, server: tw01.balala2016.xyz, port: 20261, type: trojan, password: ED177480-E516-11EA-8B44-BBC4E882BA0B, skip-cert-verify: true, udp: true}
+  - {name: JP-185.212.56.168-4312, server: tw.softbank.mjj-home.com, port: 443, type: trojan, password: share.mjj-home.com, skip-cert-verify: true, udp: true}
+  - {name: JP-185.212.56.168-4317, server: share.softbank.mjj-home.com, port: 443, type: trojan, password: share.mjj-home.com, skip-cert-verify: true, udp: true}
+  - {name: HK-20.239.84.194-4321, server: nsaghhfhitw.559xp5.cn, port: 443, type: trojan, password: f3389204-7adb-45d8-906c-c17792336574, skip-cert-verify: true, udp: true}
+  - {name: HK-20.187.74.236-4323, server: jp.stablize.top, port: 443, type: trojan, password: 7d0f1f83-0f2f-4b90-930e-de44ac233fef, skip-cert-verify: true, udp: true}
+  - {name: HK-20.239.84.194-4325, server: li1faiubsvdnasjp2.559xp5.cn, port: 443, type: trojan, password: dbc97910-5265-488e-b2e5-62e533f97326, skip-cert-verify: true, udp: true}
+  - {name: HK-20.187.74.236-4326, server: in.stablize.top, port: 443, type: trojan, password: 7d0f1f83-0f2f-4b90-930e-de44ac233fef, skip-cert-verify: true, udp: true}
+  - {name: HK-104.208.96.92-4328, server: hinet.mjt001.com, port: 443, type: trojan, password: 38a5fd20-ce5c-4342-9c86-c331602ccb39, skip-cert-verify: true, udp: true}
+  - {name: SG-13.250.63.205-4348, server: singapore.anthoncloud.com, port: 3306, type: trojan, password: 6589ce99-9ff7-3c1b-a744-ca3f4abfe386, skip-cert-verify: true, udp: true}
+  - {name: HK-20.187.111.163-4368, server: hk03.trojanyyds.xyz, port: 443, type: trojan, password: 3e9d239a-9d5f-4446-8b02-a6027a9da48a, skip-cert-verify: true, udp: true}
+  - {name: HK-20.187.74.236-4371, server: ca.stablize.top, port: 443, type: trojan, password: 1bf16b43-0ad5-4512-a0e8-34bb8966278e, skip-cert-verify: true, udp: true}
+  - {name: HK-20.2.40.223-4375, server: uk.stablize.top, port: 443, type: trojan, password: 1bf16b43-0ad5-4512-a0e8-34bb8966278e, skip-cert-verify: true, udp: true}
+  - {name: CN-103.170.72.179-4398, server: cc.755657.xyz, port: 443, type: trojan, password: ea635091-5d17-42b9-ad81-d26572a9eea8, skip-cert-verify: true, udp: true}
+  - {name: CN-103.170.72.179-4406, server: cc.755657.xyz, port: 443, type: trojan, password: fb19aac3-b532-4f60-a97f-ec5de0fbbf6b, skip-cert-verify: true, udp: true}
+  - {name: CN-106.12.168.13-5142, server: 106.12.168.13, port: 13156, type: vmess, uuid: 9bf4cba4-9e9e-4da4-8e65-f7c487c539df, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: TW-36.228.224.136-5605, server: gkifo-8-tr-0.tw-tpe-hinet-0-0.o-two.xyz, port: 889, type: trojan, password: HjFvTHArRtFScVNJQIBrjCejelvHATUk, sni: o-two.bond, skip-cert-verify: true, udp: true}
+  - {name: HK-219.78.81.165-5772, server: api-a-asia-1.mcqqn.com, port: 61007, type: ss, cipher: chacha20-ietf-poly1305, password: 3e836edc-e738-4e63-964d-ad61d9e3f27b, udp: true}
+  - {name: HK-104.208.96.92-8334, server: vn.mjt001.com, port: 443, type: trojan, password: 8204cc78-ee91-4fa5-a547-b8988d44f93e, skip-cert-verify: true, udp: true}
+  - {name: HK-104.208.96.92-8373, server: kh.mjt001.com, port: 443, type: trojan, password: d6eb1026-91a9-453d-aefe-5048303dd951, skip-cert-verify: true, udp: true}
+  - {name: HK-104.208.96.92-8504, server: kz.mjt001.com, port: 443, type: trojan, password: 8204cc78-ee91-4fa5-a547-b8988d44f93e, skip-cert-verify: true, udp: true}
+  - {name: JP-140.227.54.4-9136, server: trs09.bolab.net, port: 443, type: trojan, password: 7a566d21dfcd0f12490275fd3dd3cfc4, skip-cert-verify: true, udp: true}
+  - {name: JP-153.127.203.108-9214, server: trs17.bolab.net, port: 22, type: trojan, password: 40c89b10235c40321e7a3cef82b53a03, skip-cert-verify: true, udp: true}
+  - {name: JP-54.64.198.193-20084, server: 54.64.198.193, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: _04, server: 52.78.137.254, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: _05, server: 54.64.198.193, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: _06, server: 213.183.53.177, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ, udp: true}
+  - {name: _68, server: 3.36.51.105, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: _138, server: 46.183.185.15, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: Relay_-🇳🇴NO_204, server: 135.125.244.103, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: LT_1204, server: 213.183.53.222, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
+  - {name: Pool_🇸🇬SG_1360, server: 217.197.161.136, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: KR-13.124.96.86-20205, server: agroup.node2.t.nodelist-gfwairport1.download, port: 50001, type: trojan, password: 26188b3e-c28e-4230-8bee-53d77ff5ff49, skip-cert-verify: true, udp: true}
+proxy-groups:
+  - name: 🔰 节点选择
+    type: select
+    proxies:
+      - ♻️ 自动选择
+      - 🎯 全球直连
+      - RELAY-45.85.118.88-0135
+      - JP-3.112.246.87-3145
+      - KR-3.36.51.105-21628
+      - KR-52.78.137.254-20087
+      - IN-172.105.42.111-3227
+      - US-52.203.115.64-2978
+      - RELAY-104.16.176.44-7268
+      - CN-42.225.20.24-0162
+      - SE-13.50.133.227-0152
+      - GB-212.38.189.174-2459
+      - CA-15.223.68.151-4621
+      - US-185.199.224.150-5732
+      - US-185.199.224.156-0189
+      - AU-3.26.164.136-20111
+      - CA-15.223.68.151-20105
+      - HK-18.167.42.112-4980
+      - HK-18.163.210.30-5029
+      - US-77.83.254.18-0142
+      - RELAY-172.67.161.104-0612
+      - RELAY-172.64.80.1-3106
+      - AU-3.26.164.136-0270
+      - IN-65.0.72.194-20451
+      - IN-13.234.162.10-0288
+      - GR-192.71.166.102-10345
+      - SG-18.142.239.12-0156
+      - MK-46.183.185.15-16156
+      - RU-213.183.53.177-20082
+      - SG-217.197.161.138-0498
+      - CN-124.222.189.225-0546
+      - CN-123.249.101.15-0545
+      - CN-106.12.168.13-0543
+      - SG-217.197.161.136-0485
+      - SG-217.197.161.138-0469
+      - SG-217.197.161.138-0456
+      - JP-43.207.166.104-3419
+      - SG-217.197.161.138-0446
+      - US-170.178.168.203-3562
+      - US-170.178.168.203-3564
+      - US-199.115.116.43-3565
+      - US-199.115.116.43-3568
+      - US-170.178.168.203-3575
+      - US-199.115.116.43-3580
+      - US-170.178.168.203-3582
+      - US-199.115.116.43-3586
+      - US-170.178.168.203-3596
+      - US-170.178.168.203-3598
+      - US-170.178.168.203-3606
+      - US-199.115.116.43-3617
+      - US-170.178.168.203-3620
+      - US-170.178.168.203-3634
+      - US-199.115.116.43-3636
+      - US-199.115.116.43-3638
+      - CN-123.159.205.114-3878
+      - CN-223.111.157.35-3879
+      - CN-120.232.179.207-3970
+      - HK-20.187.74.236-4177
+      - HK-20.187.74.236-4185
+      - HK-20.187.96.163-4220
+      - HK-20.187.96.163-4246
+      - TW-114.37.210.134-4293
+      - JP-185.212.56.168-4312
+      - JP-185.212.56.168-4317
+      - HK-20.239.84.194-4321
+      - HK-20.187.74.236-4323
+      - HK-20.239.84.194-4325
+      - HK-20.187.74.236-4326
+      - HK-104.208.96.92-4328
+      - SG-13.250.63.205-4348
+      - HK-20.187.111.163-4368
+      - HK-20.187.74.236-4371
+      - HK-20.2.40.223-4375
+      - CN-103.170.72.179-4398
+      - CN-103.170.72.179-4406
+      - CN-106.12.168.13-5142
+      - TW-36.228.224.136-5605
+      - HK-219.78.81.165-5772
+      - HK-104.208.96.92-8334
+      - HK-104.208.96.92-8373
+      - HK-104.208.96.92-8504
+      - JP-140.227.54.4-9136
+      - JP-153.127.203.108-9214
+      - JP-54.64.198.193-20084
+      - _04
+      - _05
+      - _06
+      - _68
+      - _138
+      - Relay_-🇳🇴NO_204
+      - LT_1204
+      - Pool_🇸🇬SG_1360
+      - KR-13.124.96.86-20205
+  - name: ♻️ 自动选择
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    proxies:
+      - RELAY-45.85.118.88-0135
+      - JP-3.112.246.87-3145
+      - KR-3.36.51.105-21628
+      - KR-52.78.137.254-20087
+      - IN-172.105.42.111-3227
+      - US-52.203.115.64-2978
+      - RELAY-104.16.176.44-7268
+      - CN-42.225.20.24-0162
+      - SE-13.50.133.227-0152
+      - GB-212.38.189.174-2459
+      - CA-15.223.68.151-4621
+      - US-185.199.224.150-5732
+      - US-185.199.224.156-0189
+      - AU-3.26.164.136-20111
+      - CA-15.223.68.151-20105
+      - HK-18.167.42.112-4980
+      - HK-18.163.210.30-5029
+      - US-77.83.254.18-0142
+      - RELAY-172.67.161.104-0612
+      - RELAY-172.64.80.1-3106
+      - AU-3.26.164.136-0270
+      - IN-65.0.72.194-20451
+      - IN-13.234.162.10-0288
+      - GR-192.71.166.102-10345
+      - SG-18.142.239.12-0156
+      - MK-46.183.185.15-16156
+      - RU-213.183.53.177-20082
+      - SG-217.197.161.138-0498
+      - CN-124.222.189.225-0546
+      - CN-123.249.101.15-0545
+      - CN-106.12.168.13-0543
+      - SG-217.197.161.136-0485
+      - SG-217.197.161.138-0469
+      - SG-217.197.161.138-0456
+      - JP-43.207.166.104-3419
+      - SG-217.197.161.138-0446
+      - US-170.178.168.203-3562
+      - US-170.178.168.203-3564
+      - US-199.115.116.43-3565
+      - US-199.115.116.43-3568
+      - US-170.178.168.203-3575
+      - US-199.115.116.43-3580
+      - US-170.178.168.203-3582
+      - US-199.115.116.43-3586
+      - US-170.178.168.203-3596
+      - US-170.178.168.203-3598
+      - US-170.178.168.203-3606
+      - US-199.115.116.43-3617
+      - US-170.178.168.203-3620
+      - US-170.178.168.203-3634
+      - US-199.115.116.43-3636
+      - US-199.115.116.43-3638
+      - CN-123.159.205.114-3878
+      - CN-223.111.157.35-3879
+      - CN-120.232.179.207-3970
+      - HK-20.187.74.236-4177
+      - HK-20.187.74.236-4185
+      - HK-20.187.96.163-4220
+      - HK-20.187.96.163-4246
+      - TW-114.37.210.134-4293
+      - JP-185.212.56.168-4312
+      - JP-185.212.56.168-4317
+      - HK-20.239.84.194-4321
+      - HK-20.187.74.236-4323
+      - HK-20.239.84.194-4325
+      - HK-20.187.74.236-4326
+      - HK-104.208.96.92-4328
+      - SG-13.250.63.205-4348
+      - HK-20.187.111.163-4368
+      - HK-20.187.74.236-4371
+      - HK-20.2.40.223-4375
+      - CN-103.170.72.179-4398
+      - CN-103.170.72.179-4406
+      - CN-106.12.168.13-5142
+      - TW-36.228.224.136-5605
+      - HK-219.78.81.165-5772
+      - HK-104.208.96.92-8334
+      - HK-104.208.96.92-8373
+      - HK-104.208.96.92-8504
+      - JP-140.227.54.4-9136
+      - JP-153.127.203.108-9214
+      - JP-54.64.198.193-20084
+      - _04
+      - _05
+      - _06
+      - _68
+      - _138
+      - Relay_-🇳🇴NO_204
+      - LT_1204
+      - Pool_🇸🇬SG_1360
+      - KR-13.124.96.86-20205
+  - name: 🎥 NETFLIX
+    type: select
+    proxies:
+      - 🔰 节点选择
+      - ♻️ 自动选择
+      - 🎯 全球直连
+      - RELAY-45.85.118.88-0135
+      - JP-3.112.246.87-3145
+      - KR-3.36.51.105-21628
+      - KR-52.78.137.254-20087
+      - IN-172.105.42.111-3227
+      - US-52.203.115.64-2978
+      - RELAY-104.16.176.44-7268
+      - CN-42.225.20.24-0162
+      - SE-13.50.133.227-0152
+      - GB-212.38.189.174-2459
+      - CA-15.223.68.151-4621
+      - US-185.199.224.150-5732
+      - US-185.199.224.156-0189
+      - AU-3.26.164.136-20111
+      - CA-15.223.68.151-20105
+      - HK-18.167.42.112-4980
+      - HK-18.163.210.30-5029
+      - US-77.83.254.18-0142
+      - RELAY-172.67.161.104-0612
+      - RELAY-172.64.80.1-3106
+      - AU-3.26.164.136-0270
+      - IN-65.0.72.194-20451
+      - IN-13.234.162.10-0288
+      - GR-192.71.166.102-10345
+      - SG-18.142.239.12-0156
+      - MK-46.183.185.15-16156
+      - RU-213.183.53.177-20082
+      - SG-217.197.161.138-0498
+      - CN-124.222.189.225-0546
+      - CN-123.249.101.15-0545
+      - CN-106.12.168.13-0543
+      - SG-217.197.161.136-0485
+      - SG-217.197.161.138-0469
+      - SG-217.197.161.138-0456
+      - JP-43.207.166.104-3419
+      - SG-217.197.161.138-0446
+      - US-170.178.168.203-3562
+      - US-170.178.168.203-3564
+      - US-199.115.116.43-3565
+      - US-199.115.116.43-3568
+      - US-170.178.168.203-3575
+      - US-199.115.116.43-3580
+      - US-170.178.168.203-3582
+      - US-199.115.116.43-3586
+      - US-170.178.168.203-3596
+      - US-170.178.168.203-3598
+      - US-170.178.168.203-3606
+      - US-199.115.116.43-3617
+      - US-170.178.168.203-3620
+      - US-170.178.168.203-3634
+      - US-199.115.116.43-3636
+      - US-199.115.116.43-3638
+      - CN-123.159.205.114-3878
+      - CN-223.111.157.35-3879
+      - CN-120.232.179.207-3970
+      - HK-20.187.74.236-4177
+      - HK-20.187.74.236-4185
+      - HK-20.187.96.163-4220
+      - HK-20.187.96.163-4246
+      - TW-114.37.210.134-4293
+      - JP-185.212.56.168-4312
+      - JP-185.212.56.168-4317
+      - HK-20.239.84.194-4321
+      - HK-20.187.74.236-4323
+      - HK-20.239.84.194-4325
+      - HK-20.187.74.236-4326
+      - HK-104.208.96.92-4328
+      - SG-13.250.63.205-4348
+      - HK-20.187.111.163-4368
+      - HK-20.187.74.236-4371
+      - HK-20.2.40.223-4375
+      - CN-103.170.72.179-4398
+      - CN-103.170.72.179-4406
+      - CN-106.12.168.13-5142
+      - TW-36.228.224.136-5605
+      - HK-219.78.81.165-5772
+      - HK-104.208.96.92-8334
+      - HK-104.208.96.92-8373
+      - HK-104.208.96.92-8504
+      - JP-140.227.54.4-9136
+      - JP-153.127.203.108-9214
+      - JP-54.64.198.193-20084
+      - _04
+      - _05
+      - _06
+      - _68
+      - _138
+      - Relay_-🇳🇴NO_204
+      - LT_1204
+      - Pool_🇸🇬SG_1360
+      - KR-13.124.96.86-20205
+  - name: ⛔️ 广告拦截
+    type: select
+    proxies:
+      - 🛑 全球拦截
+      - 🎯 全球直连
+      - 🔰 节点选择
+  - name: 🚫 运营劫持
+    type: select
+    proxies:
+      - 🛑 全球拦截
+      - 🎯 全球直连
+      - 🔰 节点选择
+  - name: 🌍 国外媒体
+    type: select
+    proxies:
+      - 🔰 节点选择
+      - ♻️ 自动选择
+      - 🎯 全球直连
+      - RELAY-45.85.118.88-0135
+      - JP-3.112.246.87-3145
+      - KR-3.36.51.105-21628
+      - KR-52.78.137.254-20087
+      - IN-172.105.42.111-3227
+      - US-52.203.115.64-2978
+      - RELAY-104.16.176.44-7268
+      - CN-42.225.20.24-0162
+      - SE-13.50.133.227-0152
+      - GB-212.38.189.174-2459
+      - CA-15.223.68.151-4621
+      - US-185.199.224.150-5732
+      - US-185.199.224.156-0189
+      - AU-3.26.164.136-20111
+      - CA-15.223.68.151-20105
+      - HK-18.167.42.112-4980
+      - HK-18.163.210.30-5029
+      - US-77.83.254.18-0142
+      - RELAY-172.67.161.104-0612
+      - RELAY-172.64.80.1-3106
+      - AU-3.26.164.136-0270
+      - IN-65.0.72.194-20451
+      - IN-13.234.162.10-0288
+      - GR-192.71.166.102-10345
+      - SG-18.142.239.12-0156
+      - MK-46.183.185.15-16156
+      - RU-213.183.53.177-20082
+      - SG-217.197.161.138-0498
+      - CN-124.222.189.225-0546
+      - CN-123.249.101.15-0545
+      - CN-106.12.168.13-0543
+      - SG-217.197.161.136-0485
+      - SG-217.197.161.138-0469
+      - SG-217.197.161.138-0456
+      - JP-43.207.166.104-3419
+      - SG-217.197.161.138-0446
+      - US-170.178.168.203-3562
+      - US-170.178.168.203-3564
+      - US-199.115.116.43-3565
+      - US-199.115.116.43-3568
+      - US-170.178.168.203-3575
+      - US-199.115.116.43-3580
+      - US-170.178.168.203-3582
+      - US-199.115.116.43-3586
+      - US-170.178.168.203-3596
+      - US-170.178.168.203-3598
+      - US-170.178.168.203-3606
+      - US-199.115.116.43-3617
+      - US-170.178.168.203-3620
+      - US-170.178.168.203-3634
+      - US-199.115.116.43-3636
+      - US-199.115.116.43-3638
+      - CN-123.159.205.114-3878
+      - CN-223.111.157.35-3879
+      - CN-120.232.179.207-3970
+      - HK-20.187.74.236-4177
+      - HK-20.187.74.236-4185
+      - HK-20.187.96.163-4220
+      - HK-20.187.96.163-4246
+      - TW-114.37.210.134-4293
+      - JP-185.212.56.168-4312
+      - JP-185.212.56.168-4317
+      - HK-20.239.84.194-4321
+      - HK-20.187.74.236-4323
+      - HK-20.239.84.194-4325
+      - HK-20.187.74.236-4326
+      - HK-104.208.96.92-4328
+      - SG-13.250.63.205-4348
+      - HK-20.187.111.163-4368
+      - HK-20.187.74.236-4371
+      - HK-20.2.40.223-4375
+      - CN-103.170.72.179-4398
+      - CN-103.170.72.179-4406
+      - CN-106.12.168.13-5142
+      - TW-36.228.224.136-5605
+      - HK-219.78.81.165-5772
+      - HK-104.208.96.92-8334
+      - HK-104.208.96.92-8373
+      - HK-104.208.96.92-8504
+      - JP-140.227.54.4-9136
+      - JP-153.127.203.108-9214
+      - JP-54.64.198.193-20084
+      - _04
+      - _05
+      - _06
+      - _68
+      - _138
+      - Relay_-🇳🇴NO_204
+      - LT_1204
+      - Pool_🇸🇬SG_1360
+      - KR-13.124.96.86-20205
+  - name: 🌏 国内媒体
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🔰 节点选择
+  - name: Ⓜ️ 微软服务
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🔰 节点选择
+      - RELAY-45.85.118.88-0135
+      - JP-3.112.246.87-3145
+      - KR-3.36.51.105-21628
+      - KR-52.78.137.254-20087
+      - IN-172.105.42.111-3227
+      - US-52.203.115.64-2978
+      - RELAY-104.16.176.44-7268
+      - CN-42.225.20.24-0162
+      - SE-13.50.133.227-0152
+      - GB-212.38.189.174-2459
+      - CA-15.223.68.151-4621
+      - US-185.199.224.150-5732
+      - US-185.199.224.156-0189
+      - AU-3.26.164.136-20111
+      - CA-15.223.68.151-20105
+      - HK-18.167.42.112-4980
+      - HK-18.163.210.30-5029
+      - US-77.83.254.18-0142
+      - RELAY-172.67.161.104-0612
+      - RELAY-172.64.80.1-3106
+      - AU-3.26.164.136-0270
+      - IN-65.0.72.194-20451
+      - IN-13.234.162.10-0288
+      - GR-192.71.166.102-10345
+      - SG-18.142.239.12-0156
+      - MK-46.183.185.15-16156
+      - RU-213.183.53.177-20082
+      - SG-217.197.161.138-0498
+      - CN-124.222.189.225-0546
+      - CN-123.249.101.15-0545
+      - CN-106.12.168.13-0543
+      - SG-217.197.161.136-0485
+      - SG-217.197.161.138-0469
+      - SG-217.197.161.138-0456
+      - JP-43.207.166.104-3419
+      - SG-217.197.161.138-0446
+      - US-170.178.168.203-3562
+      - US-170.178.168.203-3564
+      - US-199.115.116.43-3565
+      - US-199.115.116.43-3568
+      - US-170.178.168.203-3575
+      - US-199.115.116.43-3580
+      - US-170.178.168.203-3582
+      - US-199.115.116.43-3586
+      - US-170.178.168.203-3596
+      - US-170.178.168.203-3598
+      - US-170.178.168.203-3606
+      - US-199.115.116.43-3617
+      - US-170.178.168.203-3620
+      - US-170.178.168.203-3634
+      - US-199.115.116.43-3636
+      - US-199.115.116.43-3638
+      - CN-123.159.205.114-3878
+      - CN-223.111.157.35-3879
+      - CN-120.232.179.207-3970
+      - HK-20.187.74.236-4177
+      - HK-20.187.74.236-4185
+      - HK-20.187.96.163-4220
+      - HK-20.187.96.163-4246
+      - TW-114.37.210.134-4293
+      - JP-185.212.56.168-4312
+      - JP-185.212.56.168-4317
+      - HK-20.239.84.194-4321
+      - HK-20.187.74.236-4323
+      - HK-20.239.84.194-4325
+      - HK-20.187.74.236-4326
+      - HK-104.208.96.92-4328
+      - SG-13.250.63.205-4348
+      - HK-20.187.111.163-4368
+      - HK-20.187.74.236-4371
+      - HK-20.2.40.223-4375
+      - CN-103.170.72.179-4398
+      - CN-103.170.72.179-4406
+      - CN-106.12.168.13-5142
+      - TW-36.228.224.136-5605
+      - HK-219.78.81.165-5772
+      - HK-104.208.96.92-8334
+      - HK-104.208.96.92-8373
+      - HK-104.208.96.92-8504
+      - JP-140.227.54.4-9136
+      - JP-153.127.203.108-9214
+      - JP-54.64.198.193-20084
+      - _04
+      - _05
+      - _06
+      - _68
+      - _138
+      - Relay_-🇳🇴NO_204
+      - LT_1204
+      - Pool_🇸🇬SG_1360
+      - KR-13.124.96.86-20205
+  - name: 📲 电报信息
+    type: select
+    proxies:
+      - 🔰 节点选择
+      - 🎯 全球直连
+      - RELAY-45.85.118.88-0135
+      - JP-3.112.246.87-3145
+      - KR-3.36.51.105-21628
+      - KR-52.78.137.254-20087
+      - IN-172.105.42.111-3227
+      - US-52.203.115.64-2978
+      - RELAY-104.16.176.44-7268
+      - CN-42.225.20.24-0162
+      - SE-13.50.133.227-0152
+      - GB-212.38.189.174-2459
+      - CA-15.223.68.151-4621
+      - US-185.199.224.150-5732
+      - US-185.199.224.156-0189
+      - AU-3.26.164.136-20111
+      - CA-15.223.68.151-20105
+      - HK-18.167.42.112-4980
+      - HK-18.163.210.30-5029
+      - US-77.83.254.18-0142
+      - RELAY-172.67.161.104-0612
+      - RELAY-172.64.80.1-3106
+      - AU-3.26.164.136-0270
+      - IN-65.0.72.194-20451
+      - IN-13.234.162.10-0288
+      - GR-192.71.166.102-10345
+      - SG-18.142.239.12-0156
+      - MK-46.183.185.15-16156
+      - RU-213.183.53.177-20082
+      - SG-217.197.161.138-0498
+      - CN-124.222.189.225-0546
+      - CN-123.249.101.15-0545
+      - CN-106.12.168.13-0543
+      - SG-217.197.161.136-0485
+      - SG-217.197.161.138-0469
+      - SG-217.197.161.138-0456
+      - JP-43.207.166.104-3419
+      - SG-217.197.161.138-0446
+      - US-170.178.168.203-3562
+      - US-170.178.168.203-3564
+      - US-199.115.116.43-3565
+      - US-199.115.116.43-3568
+      - US-170.178.168.203-3575
+      - US-199.115.116.43-3580
+      - US-170.178.168.203-3582
+      - US-199.115.116.43-3586
+      - US-170.178.168.203-3596
+      - US-170.178.168.203-3598
+      - US-170.178.168.203-3606
+      - US-199.115.116.43-3617
+      - US-170.178.168.203-3620
+      - US-170.178.168.203-3634
+      - US-199.115.116.43-3636
+      - US-199.115.116.43-3638
+      - CN-123.159.205.114-3878
+      - CN-223.111.157.35-3879
+      - CN-120.232.179.207-3970
+      - HK-20.187.74.236-4177
+      - HK-20.187.74.236-4185
+      - HK-20.187.96.163-4220
+      - HK-20.187.96.163-4246
+      - TW-114.37.210.134-4293
+      - JP-185.212.56.168-4312
+      - JP-185.212.56.168-4317
+      - HK-20.239.84.194-4321
+      - HK-20.187.74.236-4323
+      - HK-20.239.84.194-4325
+      - HK-20.187.74.236-4326
+      - HK-104.208.96.92-4328
+      - SG-13.250.63.205-4348
+      - HK-20.187.111.163-4368
+      - HK-20.187.74.236-4371
+      - HK-20.2.40.223-4375
+      - CN-103.170.72.179-4398
+      - CN-103.170.72.179-4406
+      - CN-106.12.168.13-5142
+      - TW-36.228.224.136-5605
+      - HK-219.78.81.165-5772
+      - HK-104.208.96.92-8334
+      - HK-104.208.96.92-8373
+      - HK-104.208.96.92-8504
+      - JP-140.227.54.4-9136
+      - JP-153.127.203.108-9214
+      - JP-54.64.198.193-20084
+      - _04
+      - _05
+      - _06
+      - _68
+      - _138
+      - Relay_-🇳🇴NO_204
+      - LT_1204
+      - Pool_🇸🇬SG_1360
+      - KR-13.124.96.86-20205
+  - name: 🍎 苹果服务
+    type: select
+    proxies:
+      - 🔰 节点选择
+      - 🎯 全球直连
+      - ♻️ 自动选择
+      - RELAY-45.85.118.88-0135
+      - JP-3.112.246.87-3145
+      - KR-3.36.51.105-21628
+      - KR-52.78.137.254-20087
+      - IN-172.105.42.111-3227
+      - US-52.203.115.64-2978
+      - RELAY-104.16.176.44-7268
+      - CN-42.225.20.24-0162
+      - SE-13.50.133.227-0152
+      - GB-212.38.189.174-2459
+      - CA-15.223.68.151-4621
+      - US-185.199.224.150-5732
+      - US-185.199.224.156-0189
+      - AU-3.26.164.136-20111
+      - CA-15.223.68.151-20105
+      - HK-18.167.42.112-4980
+      - HK-18.163.210.30-5029
+      - US-77.83.254.18-0142
+      - RELAY-172.67.161.104-0612
+      - RELAY-172.64.80.1-3106
+      - AU-3.26.164.136-0270
+      - IN-65.0.72.194-20451
+      - IN-13.234.162.10-0288
+      - GR-192.71.166.102-10345
+      - SG-18.142.239.12-0156
+      - MK-46.183.185.15-16156
+      - RU-213.183.53.177-20082
+      - SG-217.197.161.138-0498
+      - CN-124.222.189.225-0546
+      - CN-123.249.101.15-0545
+      - CN-106.12.168.13-0543
+      - SG-217.197.161.136-0485
+      - SG-217.197.161.138-0469
+      - SG-217.197.161.138-0456
+      - JP-43.207.166.104-3419
+      - SG-217.197.161.138-0446
+      - US-170.178.168.203-3562
+      - US-170.178.168.203-3564
+      - US-199.115.116.43-3565
+      - US-199.115.116.43-3568
+      - US-170.178.168.203-3575
+      - US-199.115.116.43-3580
+      - US-170.178.168.203-3582
+      - US-199.115.116.43-3586
+      - US-170.178.168.203-3596
+      - US-170.178.168.203-3598
+      - US-170.178.168.203-3606
+      - US-199.115.116.43-3617
+      - US-170.178.168.203-3620
+      - US-170.178.168.203-3634
+      - US-199.115.116.43-3636
+      - US-199.115.116.43-3638
+      - CN-123.159.205.114-3878
+      - CN-223.111.157.35-3879
+      - CN-120.232.179.207-3970
+      - HK-20.187.74.236-4177
+      - HK-20.187.74.236-4185
+      - HK-20.187.96.163-4220
+      - HK-20.187.96.163-4246
+      - TW-114.37.210.134-4293
+      - JP-185.212.56.168-4312
+      - JP-185.212.56.168-4317
+      - HK-20.239.84.194-4321
+      - HK-20.187.74.236-4323
+      - HK-20.239.84.194-4325
+      - HK-20.187.74.236-4326
+      - HK-104.208.96.92-4328
+      - SG-13.250.63.205-4348
+      - HK-20.187.111.163-4368
+      - HK-20.187.74.236-4371
+      - HK-20.2.40.223-4375
+      - CN-103.170.72.179-4398
+      - CN-103.170.72.179-4406
+      - CN-106.12.168.13-5142
+      - TW-36.228.224.136-5605
+      - HK-219.78.81.165-5772
+      - HK-104.208.96.92-8334
+      - HK-104.208.96.92-8373
+      - HK-104.208.96.92-8504
+      - JP-140.227.54.4-9136
+      - JP-153.127.203.108-9214
+      - JP-54.64.198.193-20084
+      - _04
+      - _05
+      - _06
+      - _68
+      - _138
+      - Relay_-🇳🇴NO_204
+      - LT_1204
+      - Pool_🇸🇬SG_1360
+      - KR-13.124.96.86-20205
+  - name: 🎯 全球直连
+    type: select
+    proxies:
+      - DIRECT
+  - name: 🛑 全球拦截
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+  - name: 🐟 漏网之鱼
+    type: select
+    proxies:
+      - 🔰 节点选择
+      - 🎯 全球直连
+      - ♻️ 自动选择
+      - RELAY-45.85.118.88-0135
+      - JP-3.112.246.87-3145
+      - KR-3.36.51.105-21628
+      - KR-52.78.137.254-20087
+      - IN-172.105.42.111-3227
+      - US-52.203.115.64-2978
+      - RELAY-104.16.176.44-7268
+      - CN-42.225.20.24-0162
+      - SE-13.50.133.227-0152
+      - GB-212.38.189.174-2459
+      - CA-15.223.68.151-4621
+      - US-185.199.224.150-5732
+      - US-185.199.224.156-0189
+      - AU-3.26.164.136-20111
+      - CA-15.223.68.151-20105
+      - HK-18.167.42.112-4980
+      - HK-18.163.210.30-5029
+      - US-77.83.254.18-0142
+      - RELAY-172.67.161.104-0612
+      - RELAY-172.64.80.1-3106
+      - AU-3.26.164.136-0270
+      - IN-65.0.72.194-20451
+      - IN-13.234.162.10-0288
+      - GR-192.71.166.102-10345
+      - SG-18.142.239.12-0156
+      - MK-46.183.185.15-16156
+      - RU-213.183.53.177-20082
+      - SG-217.197.161.138-0498
+      - CN-124.222.189.225-0546
+      - CN-123.249.101.15-0545
+      - CN-106.12.168.13-0543
+      - SG-217.197.161.136-0485
+      - SG-217.197.161.138-0469
+      - SG-217.197.161.138-0456
+      - JP-43.207.166.104-3419
+      - SG-217.197.161.138-0446
+      - US-170.178.168.203-3562
+      - US-170.178.168.203-3564
+      - US-199.115.116.43-3565
+      - US-199.115.116.43-3568
+      - US-170.178.168.203-3575
+      - US-199.115.116.43-3580
+      - US-170.178.168.203-3582
+      - US-199.115.116.43-3586
+      - US-170.178.168.203-3596
+      - US-170.178.168.203-3598
+      - US-170.178.168.203-3606
+      - US-199.115.116.43-3617
+      - US-170.178.168.203-3620
+      - US-170.178.168.203-3634
+      - US-199.115.116.43-3636
+      - US-199.115.116.43-3638
+      - CN-123.159.205.114-3878
+      - CN-223.111.157.35-3879
+      - CN-120.232.179.207-3970
+      - HK-20.187.74.236-4177
+      - HK-20.187.74.236-4185
+      - HK-20.187.96.163-4220
+      - HK-20.187.96.163-4246
+      - TW-114.37.210.134-4293
+      - JP-185.212.56.168-4312
+      - JP-185.212.56.168-4317
+      - HK-20.239.84.194-4321
+      - HK-20.187.74.236-4323
+      - HK-20.239.84.194-4325
+      - HK-20.187.74.236-4326
+      - HK-104.208.96.92-4328
+      - SG-13.250.63.205-4348
+      - HK-20.187.111.163-4368
+      - HK-20.187.74.236-4371
+      - HK-20.2.40.223-4375
+      - CN-103.170.72.179-4398
+      - CN-103.170.72.179-4406
+      - CN-106.12.168.13-5142
+      - TW-36.228.224.136-5605
+      - HK-219.78.81.165-5772
+      - HK-104.208.96.92-8334
+      - HK-104.208.96.92-8373
+      - HK-104.208.96.92-8504
+      - JP-140.227.54.4-9136
+      - JP-153.127.203.108-9214
+      - JP-54.64.198.193-20084
+      - _04
+      - _05
+      - _06
+      - _68
+      - _138
+      - Relay_-🇳🇴NO_204
+      - LT_1204
+      - Pool_🇸🇬SG_1360
+      - KR-13.124.96.86-20205
+rules:
+ - DOMAIN-SUFFIX,local,🎯 全球直连
+ - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
+ - IP-CIDR,10.0.0.0/8,🎯 全球直连,no-resolve
+ - IP-CIDR,172.16.0.0/12,🎯 全球直连,no-resolve
+ - IP-CIDR,127.0.0.0/8,🎯 全球直连,no-resolve
+ - IP-CIDR,100.64.0.0/10,🎯 全球直连,no-resolve
+ - IP-CIDR6,::1/128,🎯 全球直连,no-resolve
+ - IP-CIDR6,fc00::/7,🎯 全球直连,no-resolve
+ - IP-CIDR6,fe80::/10,🎯 全球直连,no-resolve
+ - IP-CIDR6,fd00::/8,🎯 全球直连,no-resolve
+ - DOMAIN-KEYWORD,1drv,Ⓜ️ 微软服务
+ - DOMAIN-KEYWORD,microsoft,Ⓜ️ 微软服务
+ - GEOIP,CN,🎯 全球直连
+ - MATCH,🐟 漏网之鱼
