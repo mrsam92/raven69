@@ -5,387 +5,647 @@ mode: Global
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: RELAY-45.85.118.88-0135, server: 45.85.118.88, port: 2096, type: vmess, uuid: a1e97dd4-b1ad-49b8-ae60-59e3ca3804bb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: wg1.anothervmess.link, network: ws, ws-opts: {path: /, headers: {Host: wg1.anothervmess.link}}, udp: true}
-  - {name: JP-3.112.246.87-3145, server: 3.112.246.87, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: KR-3.36.51.105-21628, server: 3.36.51.105, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: KR-52.78.137.254-20087, server: 52.78.137.254, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: IN-172.105.42.111-3227, server: vin1.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: vin1.0bad.com, network: ws, ws-opts: {path: /chat, headers: {Host: vin1.0bad.com}}, udp: true}
-  - {name: US-52.203.115.64-2978, server: cooing-luxuriant-blue.glitch.me, port: 443, type: vmess, uuid: 80e7dd59-b1fc-45a0-98be-1478a9af89f2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: cooing-luxuriant-blue.glitch.me, network: ws, ws-opts: {path: /api, headers: {Host: cooing-luxuriant-blue.glitch.me}}, udp: true}
-  - {name: RELAY-104.16.176.44-7268, server: www.codepen.io, port: 443, type: vmess, uuid: c002de50-e64e-4328-b98a-fae82bdcafa4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: de-v.sshmax.xyz, network: ws, ws-opts: {path: /vmess, headers: {Host: de-v.sshmax.xyz}}, udp: true}
-  - {name: CN-42.225.20.24-0162, server: z00031.security-cloudfront-cdn.com, port: 42833, type: ssr, cipher: aes-256-cfb, password: YpX2opBbrfqJzzMs, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: "", udp: true}
-  - {name: SE-13.50.133.227-0152, server: z0117.security-cloudfront-cdn.com, port: 42833, type: ssr, cipher: aes-256-cfb, password: YpX2opBbrfqJzzMs, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: "", udp: true}
-  - {name: GB-212.38.189.174-2459, server: 212.38.189.174, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: CA-15.223.68.151-4621, server: z0115.security-cloudfront-cdn.com, port: 42833, type: ssr, cipher: aes-256-cfb, password: YpX2opBbrfqJzzMs, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: "", udp: true}
-  - {name: US-185.199.224.150-5732, server: ssr1.ssrfree8.xyz, port: 12345, type: ssr, cipher: aes-256-cfb, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: US-185.199.224.156-0189, server: 185.199.224.156, port: 12345, type: ssr, cipher: aes-256-cfb, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: AU-3.26.164.136-20111, server: z0113.security-cloudfront-cdn.com, port: 42833, type: ssr, cipher: aes-256-cfb, password: YpX2opBbrfqJzzMs, protocol: origin, obfs: http_simple, protocol-param: ====, obfs-param: ====, udp: true}
-  - {name: CA-15.223.68.151-20105, server: z0115.security-cloudfront-cdn.com, port: 42833, type: ssr, cipher: aes-256-cfb, password: YpX2opBbrfqJzzMs, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: "", udp: true}
-  - {name: HK-18.167.42.112-4980, server: v22.gaowosiquanjia.top, port: 80, type: vmess, uuid: 6f96a2e9-daf3-41d4-a159-2bfe0d86dfac, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: v22.gaowosiquanjia.top}}, udp: true}
-  - {name: HK-18.163.210.30-5029, server: v21.gaowosiquanjia.top, port: 80, type: vmess, uuid: 6f96a2e9-daf3-41d4-a159-2bfe0d86dfac, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: v21.gaowosiquanjia.top}}, udp: true}
-  - {name: US-77.83.254.18-0142, server: 77.83.254.18, port: 57691, type: vmess, uuid: 168d3f41-a9a6-4056-dc8f-dd31c34b48de, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: RELAY-172.67.161.104-0612, server: icook.hk, port: 80, type: vmess, uuid: 3eb05cb6-d2e1-4a31-9f82-514cfa98fe15, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ray?ed=2048", headers: {Host: 2woid.weigogogo.cf}}, udp: true}
-  - {name: RELAY-172.64.80.1-3106, server: v125.toddns.tk, port: 80, type: vmess, uuid: a25881f3-967f-3265-bc7f-9e66857b016b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /usv125N93nz, headers: {Host: v125.toddns.tk}}, udp: true}
-  - {name: AU-3.26.164.136-0270, server: z0113.security-cloudfront-cdn.com, port: 42833, type: ssr, cipher: aes-256-cfb, password: YpX2opBbrfqJzzMs, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: "www.microsoft.com#User-Agent:Mozilla/5.0(iPhone;CPUiPhoneOS11_4_1likeMacOSX)AppleWebKit/602.4.6(KHTML,likeGecko)Version/10.0Mobile/14D27MicroMessenger/6.5.13Accept:/Connection:keep-alive", udp: true}
-  - {name: IN-65.0.72.194-20451, server: z0114.security-cloudfront-cdn.com, port: 42833, type: ssr, cipher: aes-256-cfb, password: YpX2opBbrfqJzzMs, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: "www.microsoft.com#User-Agent:Mozilla/5.0(iPhone;CPUiPhoneOS11_4_1likeMacOSX)AppleWebKit/602.4.6(KHTML,likeGecko)Version/10.0Mobile/14D27MicroMessenger/6.5.13Accept:/Connection:keep-alive", udp: true}
-  - {name: IN-13.234.162.10-0288, server: z0114.security-cloudfront-cdn.com, port: 42833, type: ssr, cipher: aes-256-cfb, password: YpX2opBbrfqJzzMs, protocol: origin, obfs: http_simple, protocol-param: ===%%�, obfs-param: JHd3dy5taWNyb3NvZnQuY29tI1VzZXItQWdlbnQ6TW96aWxsYS81LjAoaVBob25lO0NQVWlQaG9uZU9TMTFfNF8xbGlrZU1hY09TWClBcHBsZVdlYktpdC82MDIuNC42KEtIVE1MLGxpa2VHZWNrbylWZXJzaW9uLzEwLjBNb2JpbGUvMTREMjdNaWNyb01lc3Nlbmdlci82LjUuMTNBY2NlcHQ6L0Nvbm5lY3Rpb246a2VlcC1hbGl2ZQ==, udp: true}
-  - {name: GR-192.71.166.102-10345, server: 192.71.166.102, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: SG-18.142.239.12-0156, server: sg-am3.eqsunshine.com, port: 32001, type: ssr, cipher: aes-256-cfb, password: 3g0dHlKME, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: ====, obfs-param: ====, udp: true}
-  - {name: MK-46.183.185.15-16156, server: 46.183.185.15, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: RU-213.183.53.177-20082, server: 213.183.53.177, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ, udp: true}
-  - {name: SG-217.197.161.138-0498, server: 217.197.161.138, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: CN-124.222.189.225-0546, server: 124.222.189.225, port: 80, type: vmess, uuid: a8c9ad5b-1f58-4234-b5fe-a895bee9a047, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, udp: true}
-  - {name: CN-123.249.101.15-0545, server: 123.249.101.15, port: 19709, type: vmess, uuid: 2f278a45-940a-46c1-c886-77f3b2d33987, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: CN-106.12.168.13-0543, server: 106.12.168.13, port: 13156, type: vmess, uuid: 9bf4cba4-9e9e-4da4-8e65-f7c487c539df, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.189.cn}}, udp: true}
-  - {name: SG-217.197.161.136-0485, server: 217.197.161.136, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: SG-217.197.161.138-0469, server: 217.197.161.138, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: SG-217.197.161.138-0456, server: 217.197.161.138, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: JP-43.207.166.104-3419, server: 43.207.166.104, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: SG-217.197.161.138-0446, server: 217.197.161.138, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: US-170.178.168.203-3562, server: hk-server-02.selfupay.com, port: 443, type: trojan, password: 08d178d4-ec8b-11eb-a8bf-f236ebef7d1b1d6205fd0c55f28800e674, skip-cert-verify: true, udp: true}
-  - {name: US-170.178.168.203-3564, server: hk-server-02.selfupay.com, port: 443, type: trojan, password: 94aa3fa58b581353bb375d2ddad0f327938, skip-cert-verify: true, udp: true}
-  - {name: US-199.115.116.43-3565, server: jp-server-02.selfupay.com, port: 443, type: trojan, password: m36ebef7d1b1d6205fd0c55f28800e674, skip-cert-verify: true, udp: true}
-  - {name: US-199.115.116.43-3568, server: ned-server-01.selfupay.com, port: 443, type: trojan, password: a3a3fa58b581353bb375d2ddad0f327938, skip-cert-verify: true, udp: true}
-  - {name: US-170.178.168.203-3575, server: usa-server-02.selfupay.com, port: 443, type: trojan, password: e5d4636ebef7d1b1d6205fd0c55f28800e674, skip-cert-verify: true, udp: true}
-  - {name: US-199.115.116.43-3580, server: jp-server-02.selfupay.com, port: 443, type: trojan, password: ccf1ee40-a3fa58b581353bb375d2ddad0f327938, skip-cert-verify: true, udp: true}
-  - {name: US-170.178.168.203-3582, server: hk-server-01.selfupay.com, port: 443, type: trojan, password: 48ac743a-2d49-4191-b804-0c7fa7ea3fa58b581353bb375d2ddad0f327938, skip-cert-verify: true, udp: true}
-  - {name: US-199.115.116.43-3586, server: sg-server-01.selfupay.com, port: 443, type: trojan, password: YWVzLT36ebef7d1b1d6205fd0c55f28800e674, skip-cert-verify: true, udp: true}
-  - {name: US-170.178.168.203-3596, server: hk-server-02.selfupay.com, port: 443, type: trojan, password: a3fa58b581353bb375d2ddad0f3a3fa58b581353bb375d2ddad0f327938, skip-cert-verify: true, udp: true}
-  - {name: US-170.178.168.203-3598, server: usa-server-02.selfupay.com, port: 443, type: trojan, password: 036ebef7d1b1d6205fd0c55f28800e674, skip-cert-verify: true, udp: true}
-  - {name: US-170.178.168.203-3606, server: hk-server-01.selfupay.com, port: 443, type: trojan, password: a3fa58b581353bb375d2ddad0f327938, skip-cert-verify: true, udp: true}
-  - {name: US-199.115.116.43-3617, server: sg-server-01.selfupay.com, port: 443, type: trojan, password: 36ebef7d1b1d6205fd0c55f28800e674, skip-cert-verify: true, udp: true}
-  - {name: US-170.178.168.203-3620, server: ver-02.selfupay.com, port: 443, type: trojan, password: bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY2ac5a3ef0-lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26, skip-cert-verify: true, udp: true}
-  - {name: US-170.178.168.203-3634, server: k-server-02.selfupay.com, port: 443, type: trojan, password: -40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26, skip-cert-verify: true, udp: true}
-  - {name: US-199.115.116.43-3636, server: rver-01.selfupay.com, port: 443, type: trojan, password: -40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26, skip-cert-verify: true, udp: true}
-  - {name: US-199.115.116.43-3638, server: erver-02.selfupay.com, port: 443, type: trojan, password: -40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26, skip-cert-verify: true, udp: true}
-  - {name: CN-123.159.205.114-3878, server: zz6.91js.pw, port: 10051, type: trojan, password: a13820c547fa34c5c45515c12f0cd576, skip-cert-verify: true, udp: true}
-  - {name: CN-223.111.157.35-3879, server: jp2.91js.pw, port: 10051, type: trojan, password: a13820c547fa34c5c45515c12f0cd576, skip-cert-verify: true, udp: true}
-  - {name: CN-120.232.179.207-3970, server: js04.balala2016.xyz, port: 20261, type: trojan, password: ED177480-E516-11EA-8B44-BBC4E882BA0B, skip-cert-verify: true, udp: true}
-  - {name: HK-20.187.74.236-4177, server: de.stablize.top, port: 443, type: trojan, password: 1bf16b43-0ad5-4512-a0e8-34bb8966278e, skip-cert-verify: true, udp: true}
-  - {name: HK-20.187.74.236-4185, server: ap.stablize.top, port: 443, type: trojan, password: 1bf16b43-0ad5-4512-a0e8-34bb8966278e, skip-cert-verify: true, udp: true}
-  - {name: HK-20.187.96.163-4220, server: usa.stablize.top, port: 443, type: trojan, password: 7d0f1f83-0f2f-4b90-930e-de44ac233fef, skip-cert-verify: true, udp: true}
-  - {name: HK-20.187.96.163-4246, server: sg.stablize.top, port: 443, type: trojan, password: 7d0f1f83-0f2f-4b90-930e-de44ac233fef, skip-cert-verify: true, udp: true}
-  - {name: TW-114.37.210.134-4293, server: tw01.balala2016.xyz, port: 20261, type: trojan, password: ED177480-E516-11EA-8B44-BBC4E882BA0B, skip-cert-verify: true, udp: true}
-  - {name: JP-185.212.56.168-4312, server: tw.softbank.mjj-home.com, port: 443, type: trojan, password: share.mjj-home.com, skip-cert-verify: true, udp: true}
-  - {name: JP-185.212.56.168-4317, server: share.softbank.mjj-home.com, port: 443, type: trojan, password: share.mjj-home.com, skip-cert-verify: true, udp: true}
-  - {name: HK-20.239.84.194-4321, server: nsaghhfhitw.559xp5.cn, port: 443, type: trojan, password: f3389204-7adb-45d8-906c-c17792336574, skip-cert-verify: true, udp: true}
-  - {name: HK-20.187.74.236-4323, server: jp.stablize.top, port: 443, type: trojan, password: 7d0f1f83-0f2f-4b90-930e-de44ac233fef, skip-cert-verify: true, udp: true}
-  - {name: HK-20.239.84.194-4325, server: li1faiubsvdnasjp2.559xp5.cn, port: 443, type: trojan, password: dbc97910-5265-488e-b2e5-62e533f97326, skip-cert-verify: true, udp: true}
-  - {name: HK-20.187.74.236-4326, server: in.stablize.top, port: 443, type: trojan, password: 7d0f1f83-0f2f-4b90-930e-de44ac233fef, skip-cert-verify: true, udp: true}
-  - {name: HK-104.208.96.92-4328, server: hinet.mjt001.com, port: 443, type: trojan, password: 38a5fd20-ce5c-4342-9c86-c331602ccb39, skip-cert-verify: true, udp: true}
-  - {name: SG-13.250.63.205-4348, server: singapore.anthoncloud.com, port: 3306, type: trojan, password: 6589ce99-9ff7-3c1b-a744-ca3f4abfe386, skip-cert-verify: true, udp: true}
-  - {name: HK-20.187.111.163-4368, server: hk03.trojanyyds.xyz, port: 443, type: trojan, password: 3e9d239a-9d5f-4446-8b02-a6027a9da48a, skip-cert-verify: true, udp: true}
-  - {name: HK-20.187.74.236-4371, server: ca.stablize.top, port: 443, type: trojan, password: 1bf16b43-0ad5-4512-a0e8-34bb8966278e, skip-cert-verify: true, udp: true}
-  - {name: HK-20.2.40.223-4375, server: uk.stablize.top, port: 443, type: trojan, password: 1bf16b43-0ad5-4512-a0e8-34bb8966278e, skip-cert-verify: true, udp: true}
-  - {name: CN-103.170.72.179-4398, server: cc.755657.xyz, port: 443, type: trojan, password: ea635091-5d17-42b9-ad81-d26572a9eea8, skip-cert-verify: true, udp: true}
-  - {name: CN-103.170.72.179-4406, server: cc.755657.xyz, port: 443, type: trojan, password: fb19aac3-b532-4f60-a97f-ec5de0fbbf6b, skip-cert-verify: true, udp: true}
-  - {name: CN-106.12.168.13-5142, server: 106.12.168.13, port: 13156, type: vmess, uuid: 9bf4cba4-9e9e-4da4-8e65-f7c487c539df, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: TW-36.228.224.136-5605, server: gkifo-8-tr-0.tw-tpe-hinet-0-0.o-two.xyz, port: 889, type: trojan, password: HjFvTHArRtFScVNJQIBrjCejelvHATUk, sni: o-two.bond, skip-cert-verify: true, udp: true}
-  - {name: HK-219.78.81.165-5772, server: api-a-asia-1.mcqqn.com, port: 61007, type: ss, cipher: chacha20-ietf-poly1305, password: 3e836edc-e738-4e63-964d-ad61d9e3f27b, udp: true}
-  - {name: HK-104.208.96.92-8334, server: vn.mjt001.com, port: 443, type: trojan, password: 8204cc78-ee91-4fa5-a547-b8988d44f93e, skip-cert-verify: true, udp: true}
-  - {name: HK-104.208.96.92-8373, server: kh.mjt001.com, port: 443, type: trojan, password: d6eb1026-91a9-453d-aefe-5048303dd951, skip-cert-verify: true, udp: true}
-  - {name: HK-104.208.96.92-8504, server: kz.mjt001.com, port: 443, type: trojan, password: 8204cc78-ee91-4fa5-a547-b8988d44f93e, skip-cert-verify: true, udp: true}
-  - {name: JP-140.227.54.4-9136, server: trs09.bolab.net, port: 443, type: trojan, password: 7a566d21dfcd0f12490275fd3dd3cfc4, skip-cert-verify: true, udp: true}
-  - {name: JP-153.127.203.108-9214, server: trs17.bolab.net, port: 22, type: trojan, password: 40c89b10235c40321e7a3cef82b53a03, skip-cert-verify: true, udp: true}
-  - {name: JP-54.64.198.193-20084, server: 54.64.198.193, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: _04, server: 52.78.137.254, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: _05, server: 54.64.198.193, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: _06, server: 213.183.53.177, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ, udp: true}
-  - {name: _68, server: 3.36.51.105, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: _138, server: 46.183.185.15, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: Relay_-🇳🇴NO_204, server: 135.125.244.103, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: LT_1204, server: 213.183.53.222, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
-  - {name: Pool_🇸🇬SG_1360, server: 217.197.161.136, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: KR-13.124.96.86-20205, server: agroup.node2.t.nodelist-gfwairport1.download, port: 50001, type: trojan, password: 26188b3e-c28e-4230-8bee-53d77ff5ff49, skip-cert-verify: true, udp: true}
+  - {name: _211, server: 38.111.114.246, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _363, server: 213.183.59.211, port: 9030, type: ss, cipher: aes-256-cfb, password: GeregetR8cvQHzYr, udp: true}
+  - {name: _569, server: 213.183.59.211, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX, udp: true}
+  - {name: _590, server: 213.183.59.211, port: 9059, type: ss, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, udp: true}
+  - {name: _679, server: 37.252.5.234, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: _715, server: 213.183.59.211, port: 9006, type: ss, cipher: aes-256-cfb, password: FAdUvMJUq5vDgKEq, udp: true}
+  - {name: _732, server: 213.183.59.211, port: 9026, type: ss, cipher: aes-256-cfb, password: QWDDvVE9npNurQfA, udp: true}
+  - {name: Pool__742, server: 217.197.161.138, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: Pool__745, server: 217.197.161.136, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: _752, server: 192.36.27.94, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: _754, server: 190.103.179.23, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: _762, server: 54.169.113.143, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: _782, server: 194.71.126.31, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: _785, server: 192.71.166.102, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: _793, server: 34.209.215.97, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: _805, server: 213.183.59.211, port: 9008, type: ss, cipher: aes-256-cfb, password: y9VURyNzJWNRYEGQ, udp: true}
+  - {name: _814, server: 213.183.59.211, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
+  - {name: _862, server: 43.201.86.41, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: _864, server: 13.213.38.103, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: _865, server: 13.213.70.80, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: CA_1053, server: 38.111.114.246, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: CA_1055, server: 38.111.114.246, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: LT_1228, server: 213.183.53.177, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, udp: true}
+  - {name: NL_1335, server: 213.183.59.211, port: 9070, type: ss, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH, udp: true}
+  - {name: NL_1337, server: 213.183.59.211, port: 9010, type: ss, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4, udp: true}
+  - {name: US_1586, server: 54.186.216.67, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 澳大利亚-0-0-ss-43.200.244.234:443, server: 43.200.244.234, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 澳大利亚-0-0-ss-43.207.166.104:443, server: 43.207.166.104, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 美国-加利福尼亚-旧金山-v2ray-s245.rpscloud3.cloud:80, server: s245.rpscloud3.cloud, port: 80, type: vmess, uuid: d65ca664-72d3-4a14-a836-00eadd0df46e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /graphql, headers: {Host: s245.rpscloud3.cloud}}, udp: true}
+  - {name: 美国-加利福尼亚-旧金山-v2ray-v125.toddns.tk:80, server: v125.toddns.tk, port: 80, type: vmess, uuid: a25881f3-967f-3265-bc7f-9e66857b016b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /usv125N93nz, headers: {Host: v125.toddns.tk}}, udp: true}
+  - {name: 法国(欢迎订阅Youtube破解资源君) 4, server: 26.earths.team, port: 443, type: trojan, password: 6593b778-e45e-4f94-b5ae-641d4b7b02ae, sni: 26.earths.team, skip-cert-verify: true, udp: true}
+  - {name: _SG_新加坡, server: sg-am3.eqsunshine.com, port: 32001, type: ssr, cipher: aes-256-cfb, password: 3g0dHlKME, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: _IN_印度, server: z0114.security-cloudfront-cdn.com, port: 42833, type: ssr, cipher: aes-256-cfb, password: YpX2opBbrfqJzzMs, protocol: origin, obfs: http_simple, protocol-param: ====, obfs-param: ====, udp: true}
+  - {name: "[01-03]|openrunner|斯洛伐克(SK)Slovakia/Bratislava_1", server: 141.164.39.146, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: "[01-03]|openrunner|中国台湾(TW)Taiwan/CityOffice_2", server: 61.222.202.140, port: 33792, type: vmess, uuid: e55cd182-01b0-4fb7-a510-363701a491c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: "[01-03]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_3", server: V104.bgpnet.top, port: 26104, type: vmess, uuid: ef361c83-8b89-3950-9c9b-6ccc177e6285, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /admin, headers: {Host: V104.bgpnet.top}}, udp: true}
+  - {name: "[01-03]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_4", server: x.gotout.work, port: 30031, type: ss, cipher: aes-256-gcm, password: e0uyakendg7, udp: true}
+  - {name: "[01-03]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_5", server: x.gotout.work, port: 30012, type: ss, cipher: aes-256-gcm, password: e0uyakendg7, udp: true}
+  - {name: "[01-03]|openrunner|美国(US)USA/LosAngeles_6", server: us1.lolvps.xyz, port: 60060, type: vmess, uuid: 95886c76-9207-48bd-9e64-d1422e75ad89, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /AY920UMR, headers: {Host: us1.lolvps.xyz}}, udp: true}
+  - {name: "[01-03]|openrunner|新加坡(SG)Singapore/Singapore_7", server: v2-2.godlight.xyz, port: 30526, type: vmess, uuid: 43308d27-94ec-408e-a8f6-d682cfb99ca9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /54f634fs, headers: {Host: v2-2.godlight.xyz}}, udp: true}
+  - {name: "[01-03]|openrunner|新加坡(SG)Singapore/Singapore_8", server: cp-asus.ml, port: 50275, type: trojan, password: 7Z29DRr1ts, skip-cert-verify: true, udp: true}
+  - {name: "[01-03]|openrunner|日本(JP)Japan/Osaka_9", server: jgwdb2.gaox.ml, port: 443, type: trojan, password: c19d1432-8b3e-4818-8837-3d160cf65908, skip-cert-verify: true, udp: true}
+  - {name: "[01-03]|openrunner|中国香港/中国台湾(CN)China/Beijing/(可能是中转节点)_10", server: shcu.forgebukkit.com, port: 47389, type: vmess, uuid: f680dfd8-3b59-48af-aea8-1d4bc09a1705, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[01-03]|openrunner|美国(US)USA/LosAngeles_11", server: 45.76.71.233, port: 46983, type: vmess, uuid: 69099258-1476-46dd-a51b-84e915e941be, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /1tGK82lU/}, udp: true}
+  - {name: "[01-03]|openrunner|美国(US)USA/Scottsdale_12", server: usa-sr-105.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, skip-cert-verify: true, udp: true}
+  - {name: "[01-03]|openrunner|美国(US)USA/SanJose_13", server: 155.248.202.203, port: 14564, type: vmess, uuid: 4a0da379-a7cc-4389-88d7-45514b896883, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[01-03]|openrunner|美国(US)USA/PiscatawayTownship_14", server: 207.246.94.28, port: 42383, type: vmess, uuid: 4773dfdc-9c85-4873-8720-ce8cf5f74f7c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[01-03]|openrunner|美国(US)USA/LosAngeles_15", server: 45.76.71.233, port: 46983, type: vmess, uuid: 69099258-1476-46dd-a51b-84e915e941be, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /1tGK82lU/}, udp: true}
+  - {name: "[01-03]|openrunner|日本(JP)Japan/Tokyo_16", server: jgwdj3.gaox.ml, port: 443, type: trojan, password: da777aae-defb-41d0-a183-2c27da2b4677, skip-cert-verify: true, udp: true}
+  - {name: "[01-03]|openrunner|中国香港/中国台湾(CN)China/Beijing/(可能是中转节点)_17", server: shcu.forgebukkit.com, port: 47389, type: vmess, uuid: f680dfd8-3b59-48af-aea8-1d4bc09a1705, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[01-03]|openrunner|美国(US)USA/Clifton_18", server: us3.31vpn.com, port: 443, type: vmess, uuid: 2ef64dc8-ca3c-45b8-ad5f-20871452143b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /fastssh/3102637493qqcom/626cf7d8bd49b/, headers: {Host: us3.31vpn.com}}, udp: true}
+  - {name: "[01-03]|openrunner|中国香港特别行政区(HK)HongkongSARChina/HongKong_19", server: 426hk.fans8.xyz, port: 443, type: vmess, uuid: 93bdaed5-13c5-3927-93d7-a6877c5ac8d2, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 426hk.fans8.xyz}}, udp: true}
+  - {name: "[01-03]|openrunner|中国香港/中国台湾(CN)China/Beijing/(可能是中转节点)_20", server: V309.bgpnet.top, port: 26309, type: vmess, uuid: ef361c83-8b89-3950-9c9b-6ccc177e6285, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[01-03]|openrunner|美国(US)USA/SanJose_21", server: 155.248.202.203, port: 14564, type: vmess, uuid: 4a0da379-a7cc-4389-88d7-45514b896883, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[01-03]|openrunner|中国台湾(TW)Taiwan/CityOffice_22", server: 61.222.202.140, port: 33792, type: vmess, uuid: e55cd182-01b0-4fb7-a510-363701a491c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: "[01-03]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_23", server: V203.bgpnet.top, port: 26203, type: vmess, uuid: ef361c83-8b89-3950-9c9b-6ccc177e6285, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[01-03]|openrunner|美国(US)USA/SanJose_24", server: 155.248.202.203, port: 14564, type: vmess, uuid: 4a0da379-a7cc-4389-88d7-45514b896883, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[01-03]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_25", server: cn.speedabc.xyz, port: 32002, type: trojan, password: cfbabf31-2cf6-40ca-9688-abbb682370aa, sni: jp-bgp.speedaccelerate.com, skip-cert-verify: true, udp: true}
+  - {name: "[01-03]|openrunner|印度(IN)India/Hyderabad_26", server: jgwhdlb3.gaox.ml, port: 443, type: trojan, password: 006baa3f-4bc3-4915-b60d-c8c5dae11a11, skip-cert-verify: true, udp: true}
+  - {name: "[01-03]|openrunner|英国(GB)United+Kiongdom/Slough_27", server: jgwld3.gaox.ml, port: 443, type: trojan, password: 71b55a84-3fac-4458-abff-eaad79219c91, skip-cert-verify: true, udp: true}
+  - {name: "[01-03]|openrunner|新加坡(SG)Singapore/Singapore_28", server: sg-sr-116.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, skip-cert-verify: true, udp: true}
+  - {name: "[01-03]|openrunner|日本(JP)Japan/Tokyo_29", server: 140.238.48.194, port: 8888, type: vmess, uuid: 24f1dfad-1267-4297-8e88-0e9b8ef47e47, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[01-03]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_30", server: V203.bgpnet.top, port: 26203, type: vmess, uuid: ef361c83-8b89-3950-9c9b-6ccc177e6285, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[01-03]|openrunner|美国(US)USA/Los+Angeles_31", server: 169.197.142.99, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: "[01-03]|openrunner|美国(US)USA/SanFrancisco_32", server: 104.16.23.3, port: 443, type: vmess, uuid: 248f4f6f-270c-47f7-bea8-ed9d89440054, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: "[01-03]|openrunner|美国(US)USA/Los+Angeles_33", server: 169.197.142.99, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: "[01-03]|openrunner|美国(US)USA/Washington_34", server: 1.ezydfdd.com, port: 443, type: vmess, uuid: 4ee48ad8-178c-40a2-9c52-a14e90a06e49, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /nmsl, headers: {Host: 1.ezydfdd.com}}, udp: true}
+  - {name: "[01-03]|openrunner|美国(US)USA/Los+Angeles_35", server: 169.197.142.99, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: "[01-03]|openrunner|美国(US)USA/PiscatawayTownship_36", server: 207.246.94.28, port: 42383, type: vmess, uuid: 4773dfdc-9c85-4873-8720-ce8cf5f74f7c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[01-03]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_37", server: x.gotout.work, port: 30041, type: ss, cipher: aes-256-gcm, password: e0uyakendg7, udp: true}
+  - {name: "[01-03]|openrunner|日本(JP)Japan/Tokyo_38", server: 140.238.48.194, port: 8888, type: vmess, uuid: 24f1dfad-1267-4297-8e88-0e9b8ef47e47, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[01-03]|openrunner|美国(US)USA/Dallas_39", server: 38.68.135.19, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: "[01-03]|openrunner|日本(JP)Japan/Osaka_40", server: 158.247.205.87, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: "[01-03]|openrunner|日本(JP)Japan/Osaka_41", server: 158.247.205.87, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: "[01-03]|openrunner|中国香港特别行政区(HK)Hongkong+SAR+China/Hong+Kong_42", server: ssl.tcpbbr.net, port: 443, type: trojan, password: 7b4066ae-accc-11eb-a8bf-f23c91cfbbc9, skip-cert-verify: true, udp: true}
+  - {name: 新加坡 001, server: 18.141.181.186, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 日本 001, server: 146.56.133.223, port: 8080, type: vmess, uuid: 5c559a77-2a68-4a09-d966-c61f57c2a5f6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 日本 003, server: jp1.lianpi.xyz, port: 45127, type: trojan, password: 0e84ec99-7f8e-48a0-9c5b-f546f505e550, sni: jp1.lianpi.xyz, skip-cert-verify: true, udp: true}
+  - {name: 欧洲 001, server: tls.admin.tlz.lol, port: 8848, type: vmess, uuid: 53816397-f39d-4d64-cf0d-9f7e3a852184, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tls.admin.tlz.lol}}, udp: true}
+  - {name: 澳大利亚 003, server: 43.200.244.234, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 美国 007, server: 34.217.90.62, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 美国 017, server: cooing-luxuriant-blue.glitch.me, port: 443, type: vmess, uuid: 80e7dd59-b1fc-45a0-98be-1478a9af89f2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /api, headers: {Host: cooing-luxuriant-blue.glitch.me}}, udp: true}
+  - {name: 美国 027, server: mga9.6bbt.tk, port: 443, type: vmess, uuid: 6e41c22a-2794-4504-a05a-4f8def6d0bf5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /6bbt.tk, headers: {Host: mga9.6bbt.tk}}, udp: true}
+  - {name: 美国 032, server: 176.122.189.216, port: 10934, type: vmess, uuid: a965f000-a2e2-4098-d081-99ba432fff91, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 荷兰 001, server: sra2.6bbt.tk, port: 443, type: vmess, uuid: 6e41c22a-2794-4504-a05a-4f8def6d0bf5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /6bbt.tk, headers: {Host: sra2.6bbt.tk}}, udp: true}
+  - {name: 荷兰 004, server: 213.183.59.211, port: 9008, type: ss, cipher: aes-256-cfb, password: y9VURyNzJWNRYEGQ, udp: true}
+  - {name: Pool_🇨🇳CN_18, server: 202.79.172.53, port: 443, type: vmess, uuid: 30216206-14b7-40e7-995d-61c1219ba584, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/220128071100}, udp: true}
+  - {name: Pool_🇰🇷KR_149, server: 27.124.8.141, port: 443, type: vmess, uuid: c7e645be-1704-4f0a-afe9-8b21f9c711d6, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/220128071100}, udp: true}
+  - {name: Pool_🇰🇷KR_67, server: 27.124.8.141, port: 443, type: vmess, uuid: c7e645be-1704-4f0a-afe9-8b21f9c711d6, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/220128071100}, udp: true}
+  - {name: Pool_🇸🇬SG_213, server: 27.124.2.38, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/031730091420}, udp: true}
+  - {name: Relay_🇯🇵JP-🇯🇵JP_140, server: vjp2.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: vjp2.0bad.com, network: ws, ws-opts: {path: /chat, headers: {Host: vjp2.0bad.com}}, udp: true}
+  - {name: Relay_🇯🇵JP-🇯🇵JP_147, server: jp1.lianpi.xyz, port: 45127, type: trojan, password: 0e84ec99-7f8e-48a0-9c5b-f546f505e550, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇯🇵JP-🇯🇵JP_66, server: vjp2.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: vjp2.0bad.com, network: ws, ws-opts: {path: /chat, headers: {Host: vjp2.0bad.com}}, udp: true}
+  - {name: Relay_🇳🇱NL-🇳🇱NL_182, server: sra2.6bbt.tk, port: 443, type: vmess, uuid: 6e41c22a-2794-4504-a05a-4f8def6d0bf5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /6bbt.tk, headers: {Host: tms.dingtalk.com}}, udp: true}
+  - {name: Relay_🇷🇺RU-🇷🇺RU_198, server: insaneguo2333.top, port: 443, type: trojan, password: 1d0a80ca-0f96-4016-ac51-c284dedd28a1, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇷🇺RU-🇺🇸US_196, server: ru.wyhkaa0.ga, port: 80, type: vmess, uuid: d194f947-2c28-49b1-b3ec-1255c164ecc0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: ru.wyhkaa0.ga}}, udp: true}
+  - {name: Relay_🇺🇸US-🇩🇪DE_511, server: s245.rpscloud3.cloud, port: 80, type: vmess, uuid: d65ca664-72d3-4a14-a836-00eadd0df46e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /graphql, headers: {Host: s245.rpscloud3.cloud}}, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_407, server: vuk2.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /chat, headers: {Host: vuk2.0bad.com}}, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_504, server: 104.17.212.197, port: 8080, type: vmess, uuid: 06d3d7a6-bc43-46f2-be8e-ad46c4416a27, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /run, headers: {Host: cf.wwcloud.tk}}, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_526, server: v125.toddns.tk, port: 80, type: vmess, uuid: a25881f3-967f-3265-bc7f-9e66857b016b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /usv125N93nz, headers: {Host: v125.toddns.tk}}, udp: true}
+  - {name: 俄罗斯 003, server: insaneguo2333.top, port: 443, type: trojan, password: 1d0a80ca-0f96-4016-ac51-c284dedd28a1, skip-cert-verify: true, udp: true}
+  - {name: 新加坡 001 2, server: 18.141.181.186, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 澳大利亚 001, server: 43.201.86.41, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: AU_02 | 3.28Mb, server: 43.201.37.176, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: AU_04 | 5.65Mb, server: 43.207.66.114, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: AU_05 | 2.86Mb, server: 43.200.244.234, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: SG_85 |10.11Mb, server: 139.162.41.174, port: 8099, type: ss, cipher: aes-256-cfb, password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D, udp: true}
+  - {name: _CN_中国->🇸🇬_SG_新加坡_0@2, server: zzcm10.cacbce.com, port: 2670, type: trojan, password: 99252428-a8f3-37ba-8c73-3ba8f18a196e, sni: sg04.thecndate.com, skip-cert-verify: true, udp: true}
+  - {name: _DE_德国_0@23, server: vde1.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: vde1.0bad.com, network: ws, ws-opts: {path: /chat, headers: {Host: vde1.0bad.com}}, udp: true}
+  - {name: _DE_德国_1_1@26, server: z0110.security-cloudfront-cdn.com, port: 42833, type: ssr, cipher: aes-256-cfb, password: YpX2opBbrfqJzzMs, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: "www.microsoft.com#User-Agent:Mozilla/5.0(iPhone;CPUiPhoneOS11_4_1likeMacOSX)AppleWebKit/602.4.6(KHTML,likeGecko)Version/10.0Mobile/14D27MicroMessenger/6.5.13Accept:/Connection:keep-alive", udp: true}
+  - {name: _FR_法国_1@40, server: z0111.security-cloudfront-cdn.com, port: 42833, type: ssr, cipher: aes-256-cfb, password: YpX2opBbrfqJzzMs, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: "", udp: true}
+  - {name: _CA_加拿大_2_1@41, server: z0115.security-cloudfront-cdn.com, port: 42833, type: ssr, cipher: aes-256-cfb, password: YpX2opBbrfqJzzMs, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: "", udp: true}
+  - {name: _CN_中国_8_1@42, server: 47.104.237.32, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _KR_韩国_1@45, server: 27.124.8.141, port: 443, type: vmess, uuid: c7e645be-1704-4f0a-afe9-8b21f9c711d6, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/220128071100}, udp: true}
+  - {name: _GB_英国_1_3@8, server: vuk1.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /chat, headers: {Host: vuk1.0bad.com}}, udp: true}
+  - {name: _AU_澳大利亚_3@22, server: z0113.security-cloudfront-cdn.com, port: 42833, type: ssr, cipher: aes-256-cfb, password: YpX2opBbrfqJzzMs, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: "", udp: true}
+  - {name: _IE_爱尔兰_4@9, server: z0116.security-cloudfront-cdn.com, port: 42833, type: ssr, cipher: aes-256-cfb, password: YpX2opBbrfqJzzMs, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: "www.microsoft.com#User-Agent:Mozilla/5.0(iPhone;CPUiPhoneOS11_4_1likeMacOSX)AppleWebKit/602.4.6(KHTML,likeGecko)Version/10.0Mobile/14D27MicroMessenger/6.5.13Accept:/Connection:keep-alive", udp: true}
+  - {name: _US_美国_8_4@36, server: cooing-luxuriant-blue.glitch.me, port: 443, type: vmess, uuid: 80e7dd59-b1fc-45a0-98be-1478a9af89f2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /api, headers: {Host: cooing-luxuriant-blue.glitch.me}}, udp: true}
+  - {name: _SG_新加坡_1_5@20, server: vsg1.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: vsg1.0bad.com, network: ws, ws-opts: {path: /chat, headers: {Host: vsg1.0bad.com}}, udp: true}
+  - {name: _US_美国_4_6@35, server: v125.toddns.tk, port: 80, type: vmess, uuid: a25881f3-967f-3265-bc7f-9e66857b016b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /usv125N93nz, headers: {Host: v125.toddns.tk}}, udp: true}
+  - {name: _SG_新加坡_6_7@37, server: sg-am3.eqsunshine.com, port: 32001, type: ssr, cipher: aes-256-cfb, password: 3g0dHlKME, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: _IN_印度_2_9@21, server: z0114.security-cloudfront-cdn.com, port: 42833, type: ssr, cipher: aes-256-cfb, password: YpX2opBbrfqJzzMs, protocol: origin, obfs: http_simple, protocol-param: ====, obfs-param: ====, udp: true}
+  - {name: _JP_日本_4_11@29, server: vjp3.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /chat, headers: {Host: vjp3.0bad.com}}, udp: true}
+  - {name: _JP_日本_2_14@8, server: vjp2.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /chat, headers: {Host: vjp2.0bad.com}}, udp: true}
+  - {name: 澳大利亚 007, server: 43.207.66.114, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 澳大利亚 011, server: 43.201.70.114, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 澳大利亚 012, server: 43.200.244.234, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 罗马尼亚 001, server: hk-6.2tt.org, port: 10100, type: vmess, uuid: 6d03167b-6aee-3f75-bd0c-27776c9fef28, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /v2, headers: {Host: hk-6.2tt.org}}, udp: true}
+  - {name: 美国 006, server: 34.217.90.62, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 美国 027 2, server: mga9.6bbt.tk, port: 443, type: vmess, uuid: 6e41c22a-2794-4504-a05a-4f8def6d0bf5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /6bbt.tk, headers: {Host: mga9.6bbt.tk}}, udp: true}
+  - {name: 美国 030, server: kr.x898989.xyz, port: 38887, type: vmess, uuid: f2e0193b-3a7b-48d3-90dc-e49b019876dc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /aricke.com, headers: {Host: kr.x898989.xyz}}, udp: true}
+  - {name: 美国 036, server: 13.215.154.95, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 美国 037, server: hk-iv.somnode.top, port: 80, type: vmess, uuid: d41c193f-52ca-3ef9-9cf5-e7d50330f26e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: hk-iv.somnode.top}}, udp: true}
+  - {name: 荷兰 004 2, server: sra2.6bbt.tk, port: 443, type: vmess, uuid: 6e41c22a-2794-4504-a05a-4f8def6d0bf5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /6bbt.tk, headers: {Host: sra2.6bbt.tk}}, udp: true}
+  - {name: AU_14, server: 43.154.90.134, port: 38906, type: vmess, uuid: 6b6dd11a-798c-401e-ba46-d6272e29aca3, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, servername: hk4.verichains.co, network: ws, ws-opts: {path: /hk4/getData, headers: {Host: hk4.verichains.co}}, udp: true}
+  - {name: CN_55, server: 124.222.189.225, port: 80, type: vmess, uuid: a8c9ad5b-1f58-4234-b5fe-a895bee9a047, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, udp: true}
+  - {name: Germany 03 TG:@nodpai, server: vde1.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /chat, headers: {Host: vde1.0bad.com}}, udp: true}
+  - {name: HK-104.208.112.99-19347 | 12.896MB, server: moslb-x-az-cnhk.eastasia.cloudapp.azure.com, port: 8880, type: vmess, uuid: 2b58911b-3a8f-4902-bbcc-c43eec432779, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: moslb-x-az-cnhk.eastasia.cloudapp.azure.com}}, udp: true}
+  - {name: Japan 25 TG:@nodpai, server: vjp2.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /chat, headers: {Host: vjp2.0bad.com}}, udp: true}
+  - {name: Japan 26 TG:@nodpai, server: vjp1.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /chat, headers: {Host: vjp1.0bad.com}}, udp: true}
+  - {name: Japan(ChatGPT) 03 TG:@nodpai, server: tls.admin.tlz.lol, port: 8848, type: vmess, uuid: 53816397-f39d-4d64-cf0d-9f7e3a852184, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tls.admin.tlz.lol}}, udp: true}
+  - {name: Japan(ChatGPT) 19 TG:@nodpai, server: jp1.lianpi.xyz, port: 45127, type: trojan, password: 0e84ec99-7f8e-48a0-9c5b-f546f505e550, sni: jp1.lianpi.xyz, skip-cert-verify: true, udp: true}
+  - {name: South Korea 04 TG:@nodpai, server: 146.56.133.223, port: 8080, type: vmess, uuid: 5c559a77-2a68-4a09-d966-c61f57c2a5f6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: South Korea 06 TG:@nodpai, server: sra2.6bbt.tk, port: 443, type: vmess, uuid: 6e41c22a-2794-4504-a05a-4f8def6d0bf5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /6bbt.tk, headers: {Host: sra2.6bbt.tk}}, udp: true}
+  - {name: Netherlands 03 TG:@nodpai, server: 213.183.59.211, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
+  - {name: NO_189, server: 138.124.183.216, port: 443, type: trojan, password: xxoo, skip-cert-verify: true, udp: true}
+  - {name: NO_190, server: 138.124.183.222, port: 443, type: trojan, password: xxoo, skip-cert-verify: true, udp: true}
+  - {name: Singapore 34 TG:@nodpai, server: hk-iv.somnode.top, port: 80, type: vmess, uuid: d41c193f-52ca-3ef9-9cf5-e7d50330f26e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: hk-iv.somnode.top}}, udp: true}
+  - {name: SG-13.213.70.80-0093 | 10.942MB, server: 13.213.70.80, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: United States 19 TG:@nodpai, server: mga9.6bbt.tk, port: 443, type: vmess, uuid: 6e41c22a-2794-4504-a05a-4f8def6d0bf5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /6bbt.tk, headers: {Host: mga9.6bbt.tk}}, udp: true}
+  - {name: United States 28 TG:@nodpai, server: d1k8bewjynktzm.cloudfront.net, port: 443, type: vmess, uuid: f77f973c-44eb-4d1e-fbf0-0fac66dfcc43, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /fire, headers: {Host: d1k8bewjynktzm.cloudfront.net}}, udp: true}
+  - {name: United States 32 TG:@nodpai, server: 176.122.189.216, port: 10934, type: vmess, uuid: a965f000-a2e2-4098-d081-99ba432fff91, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: United States 33 TG:@nodpai, server: 34.209.215.97, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: US_547, server: 150.230.96.103, port: 443, type: trojan, password: da777aae-defb-41d0-a183-2c27da2b4677, skip-cert-verify: true, udp: true}
+  - {name: Viet Nam 01 TG:@nodpai, server: 103.74.104.59, port: 443, type: trojan, password: a2d57e25-3af9-4d40-b195-454958312d2c, skip-cert-verify: true, udp: true}
+  - {name: 越南 002, server: 103.74.104.59, port: 443, type: trojan, password: a2d57e25-3af9-4d40-b195-454958312d2c, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - RELAY-45.85.118.88-0135
-      - JP-3.112.246.87-3145
-      - KR-3.36.51.105-21628
-      - KR-52.78.137.254-20087
-      - IN-172.105.42.111-3227
-      - US-52.203.115.64-2978
-      - RELAY-104.16.176.44-7268
-      - CN-42.225.20.24-0162
-      - SE-13.50.133.227-0152
-      - GB-212.38.189.174-2459
-      - CA-15.223.68.151-4621
-      - US-185.199.224.150-5732
-      - US-185.199.224.156-0189
-      - AU-3.26.164.136-20111
-      - CA-15.223.68.151-20105
-      - HK-18.167.42.112-4980
-      - HK-18.163.210.30-5029
-      - US-77.83.254.18-0142
-      - RELAY-172.67.161.104-0612
-      - RELAY-172.64.80.1-3106
-      - AU-3.26.164.136-0270
-      - IN-65.0.72.194-20451
-      - IN-13.234.162.10-0288
-      - GR-192.71.166.102-10345
-      - SG-18.142.239.12-0156
-      - MK-46.183.185.15-16156
-      - RU-213.183.53.177-20082
-      - SG-217.197.161.138-0498
-      - CN-124.222.189.225-0546
-      - CN-123.249.101.15-0545
-      - CN-106.12.168.13-0543
-      - SG-217.197.161.136-0485
-      - SG-217.197.161.138-0469
-      - SG-217.197.161.138-0456
-      - JP-43.207.166.104-3419
-      - SG-217.197.161.138-0446
-      - US-170.178.168.203-3562
-      - US-170.178.168.203-3564
-      - US-199.115.116.43-3565
-      - US-199.115.116.43-3568
-      - US-170.178.168.203-3575
-      - US-199.115.116.43-3580
-      - US-170.178.168.203-3582
-      - US-199.115.116.43-3586
-      - US-170.178.168.203-3596
-      - US-170.178.168.203-3598
-      - US-170.178.168.203-3606
-      - US-199.115.116.43-3617
-      - US-170.178.168.203-3620
-      - US-170.178.168.203-3634
-      - US-199.115.116.43-3636
-      - US-199.115.116.43-3638
-      - CN-123.159.205.114-3878
-      - CN-223.111.157.35-3879
-      - CN-120.232.179.207-3970
-      - HK-20.187.74.236-4177
-      - HK-20.187.74.236-4185
-      - HK-20.187.96.163-4220
-      - HK-20.187.96.163-4246
-      - TW-114.37.210.134-4293
-      - JP-185.212.56.168-4312
-      - JP-185.212.56.168-4317
-      - HK-20.239.84.194-4321
-      - HK-20.187.74.236-4323
-      - HK-20.239.84.194-4325
-      - HK-20.187.74.236-4326
-      - HK-104.208.96.92-4328
-      - SG-13.250.63.205-4348
-      - HK-20.187.111.163-4368
-      - HK-20.187.74.236-4371
-      - HK-20.2.40.223-4375
-      - CN-103.170.72.179-4398
-      - CN-103.170.72.179-4406
-      - CN-106.12.168.13-5142
-      - TW-36.228.224.136-5605
-      - HK-219.78.81.165-5772
-      - HK-104.208.96.92-8334
-      - HK-104.208.96.92-8373
-      - HK-104.208.96.92-8504
-      - JP-140.227.54.4-9136
-      - JP-153.127.203.108-9214
-      - JP-54.64.198.193-20084
-      - _04
-      - _05
-      - _06
-      - _68
-      - _138
-      - Relay_-🇳🇴NO_204
-      - LT_1204
-      - Pool_🇸🇬SG_1360
-      - KR-13.124.96.86-20205
+      - _211
+      - _363
+      - _569
+      - _590
+      - _679
+      - _715
+      - _732
+      - Pool__742
+      - Pool__745
+      - _752
+      - _754
+      - _762
+      - _782
+      - _785
+      - _793
+      - _805
+      - _814
+      - _862
+      - _864
+      - _865
+      - CA_1053
+      - CA_1055
+      - LT_1228
+      - NL_1335
+      - NL_1337
+      - US_1586
+      - 澳大利亚-0-0-ss-43.200.244.234:443
+      - 澳大利亚-0-0-ss-43.207.166.104:443
+      - 美国-加利福尼亚-旧金山-v2ray-s245.rpscloud3.cloud:80
+      - 美国-加利福尼亚-旧金山-v2ray-v125.toddns.tk:80
+      - 法国(欢迎订阅Youtube破解资源君) 4
+      - _SG_新加坡
+      - _IN_印度
+      - "[01-03]|openrunner|斯洛伐克(SK)Slovakia/Bratislava_1"
+      - "[01-03]|openrunner|中国台湾(TW)Taiwan/CityOffice_2"
+      - "[01-03]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_3"
+      - "[01-03]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_4"
+      - "[01-03]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_5"
+      - "[01-03]|openrunner|美国(US)USA/LosAngeles_6"
+      - "[01-03]|openrunner|新加坡(SG)Singapore/Singapore_7"
+      - "[01-03]|openrunner|新加坡(SG)Singapore/Singapore_8"
+      - "[01-03]|openrunner|日本(JP)Japan/Osaka_9"
+      - "[01-03]|openrunner|中国香港/中国台湾(CN)China/Beijing/(可能是中转节点)_10"
+      - "[01-03]|openrunner|美国(US)USA/LosAngeles_11"
+      - "[01-03]|openrunner|美国(US)USA/Scottsdale_12"
+      - "[01-03]|openrunner|美国(US)USA/SanJose_13"
+      - "[01-03]|openrunner|美国(US)USA/PiscatawayTownship_14"
+      - "[01-03]|openrunner|美国(US)USA/LosAngeles_15"
+      - "[01-03]|openrunner|日本(JP)Japan/Tokyo_16"
+      - "[01-03]|openrunner|中国香港/中国台湾(CN)China/Beijing/(可能是中转节点)_17"
+      - "[01-03]|openrunner|美国(US)USA/Clifton_18"
+      - "[01-03]|openrunner|中国香港特别行政区(HK)HongkongSARChina/HongKong_19"
+      - "[01-03]|openrunner|中国香港/中国台湾(CN)China/Beijing/(可能是中转节点)_20"
+      - "[01-03]|openrunner|美国(US)USA/SanJose_21"
+      - "[01-03]|openrunner|中国台湾(TW)Taiwan/CityOffice_22"
+      - "[01-03]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_23"
+      - "[01-03]|openrunner|美国(US)USA/SanJose_24"
+      - "[01-03]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_25"
+      - "[01-03]|openrunner|印度(IN)India/Hyderabad_26"
+      - "[01-03]|openrunner|英国(GB)United+Kiongdom/Slough_27"
+      - "[01-03]|openrunner|新加坡(SG)Singapore/Singapore_28"
+      - "[01-03]|openrunner|日本(JP)Japan/Tokyo_29"
+      - "[01-03]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_30"
+      - "[01-03]|openrunner|美国(US)USA/Los+Angeles_31"
+      - "[01-03]|openrunner|美国(US)USA/SanFrancisco_32"
+      - "[01-03]|openrunner|美国(US)USA/Los+Angeles_33"
+      - "[01-03]|openrunner|美国(US)USA/Washington_34"
+      - "[01-03]|openrunner|美国(US)USA/Los+Angeles_35"
+      - "[01-03]|openrunner|美国(US)USA/PiscatawayTownship_36"
+      - "[01-03]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_37"
+      - "[01-03]|openrunner|日本(JP)Japan/Tokyo_38"
+      - "[01-03]|openrunner|美国(US)USA/Dallas_39"
+      - "[01-03]|openrunner|日本(JP)Japan/Osaka_40"
+      - "[01-03]|openrunner|日本(JP)Japan/Osaka_41"
+      - "[01-03]|openrunner|中国香港特别行政区(HK)Hongkong+SAR+China/Hong+Kong_42"
+      - 新加坡 001
+      - 日本 001
+      - 日本 003
+      - 欧洲 001
+      - 澳大利亚 003
+      - 美国 007
+      - 美国 017
+      - 美国 027
+      - 美国 032
+      - 荷兰 001
+      - 荷兰 004
+      - Pool_🇨🇳CN_18
+      - Pool_🇰🇷KR_149
+      - Pool_🇰🇷KR_67
+      - Pool_🇸🇬SG_213
+      - Relay_🇯🇵JP-🇯🇵JP_140
+      - Relay_🇯🇵JP-🇯🇵JP_147
+      - Relay_🇯🇵JP-🇯🇵JP_66
+      - Relay_🇳🇱NL-🇳🇱NL_182
+      - Relay_🇷🇺RU-🇷🇺RU_198
+      - Relay_🇷🇺RU-🇺🇸US_196
+      - Relay_🇺🇸US-🇩🇪DE_511
+      - Relay_🇺🇸US-🇺🇸US_407
+      - Relay_🇺🇸US-🇺🇸US_504
+      - Relay_🇺🇸US-🇺🇸US_526
+      - 俄罗斯 003
+      - 新加坡 001 2
+      - 澳大利亚 001
+      - AU_02 | 3.28Mb
+      - AU_04 | 5.65Mb
+      - AU_05 | 2.86Mb
+      - SG_85 |10.11Mb
+      - _CN_中国->🇸🇬_SG_新加坡_0@2
+      - _DE_德国_0@23
+      - _DE_德国_1_1@26
+      - _FR_法国_1@40
+      - _CA_加拿大_2_1@41
+      - _CN_中国_8_1@42
+      - _KR_韩国_1@45
+      - _GB_英国_1_3@8
+      - _AU_澳大利亚_3@22
+      - _IE_爱尔兰_4@9
+      - _US_美国_8_4@36
+      - _SG_新加坡_1_5@20
+      - _US_美国_4_6@35
+      - _SG_新加坡_6_7@37
+      - _IN_印度_2_9@21
+      - _JP_日本_4_11@29
+      - _JP_日本_2_14@8
+      - 澳大利亚 007
+      - 澳大利亚 011
+      - 澳大利亚 012
+      - 罗马尼亚 001
+      - 美国 006
+      - 美国 027 2
+      - 美国 030
+      - 美国 036
+      - 美国 037
+      - 荷兰 004 2
+      - AU_14
+      - CN_55
+      - Germany 03 TG:@nodpai
+      - HK-104.208.112.99-19347 | 12.896MB
+      - Japan 25 TG:@nodpai
+      - Japan 26 TG:@nodpai
+      - Japan(ChatGPT) 03 TG:@nodpai
+      - Japan(ChatGPT) 19 TG:@nodpai
+      - South Korea 04 TG:@nodpai
+      - South Korea 06 TG:@nodpai
+      - Netherlands 03 TG:@nodpai
+      - NO_189
+      - NO_190
+      - Singapore 34 TG:@nodpai
+      - SG-13.213.70.80-0093 | 10.942MB
+      - United States 19 TG:@nodpai
+      - United States 28 TG:@nodpai
+      - United States 32 TG:@nodpai
+      - United States 33 TG:@nodpai
+      - US_547
+      - Viet Nam 01 TG:@nodpai
+      - 越南 002
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - RELAY-45.85.118.88-0135
-      - JP-3.112.246.87-3145
-      - KR-3.36.51.105-21628
-      - KR-52.78.137.254-20087
-      - IN-172.105.42.111-3227
-      - US-52.203.115.64-2978
-      - RELAY-104.16.176.44-7268
-      - CN-42.225.20.24-0162
-      - SE-13.50.133.227-0152
-      - GB-212.38.189.174-2459
-      - CA-15.223.68.151-4621
-      - US-185.199.224.150-5732
-      - US-185.199.224.156-0189
-      - AU-3.26.164.136-20111
-      - CA-15.223.68.151-20105
-      - HK-18.167.42.112-4980
-      - HK-18.163.210.30-5029
-      - US-77.83.254.18-0142
-      - RELAY-172.67.161.104-0612
-      - RELAY-172.64.80.1-3106
-      - AU-3.26.164.136-0270
-      - IN-65.0.72.194-20451
-      - IN-13.234.162.10-0288
-      - GR-192.71.166.102-10345
-      - SG-18.142.239.12-0156
-      - MK-46.183.185.15-16156
-      - RU-213.183.53.177-20082
-      - SG-217.197.161.138-0498
-      - CN-124.222.189.225-0546
-      - CN-123.249.101.15-0545
-      - CN-106.12.168.13-0543
-      - SG-217.197.161.136-0485
-      - SG-217.197.161.138-0469
-      - SG-217.197.161.138-0456
-      - JP-43.207.166.104-3419
-      - SG-217.197.161.138-0446
-      - US-170.178.168.203-3562
-      - US-170.178.168.203-3564
-      - US-199.115.116.43-3565
-      - US-199.115.116.43-3568
-      - US-170.178.168.203-3575
-      - US-199.115.116.43-3580
-      - US-170.178.168.203-3582
-      - US-199.115.116.43-3586
-      - US-170.178.168.203-3596
-      - US-170.178.168.203-3598
-      - US-170.178.168.203-3606
-      - US-199.115.116.43-3617
-      - US-170.178.168.203-3620
-      - US-170.178.168.203-3634
-      - US-199.115.116.43-3636
-      - US-199.115.116.43-3638
-      - CN-123.159.205.114-3878
-      - CN-223.111.157.35-3879
-      - CN-120.232.179.207-3970
-      - HK-20.187.74.236-4177
-      - HK-20.187.74.236-4185
-      - HK-20.187.96.163-4220
-      - HK-20.187.96.163-4246
-      - TW-114.37.210.134-4293
-      - JP-185.212.56.168-4312
-      - JP-185.212.56.168-4317
-      - HK-20.239.84.194-4321
-      - HK-20.187.74.236-4323
-      - HK-20.239.84.194-4325
-      - HK-20.187.74.236-4326
-      - HK-104.208.96.92-4328
-      - SG-13.250.63.205-4348
-      - HK-20.187.111.163-4368
-      - HK-20.187.74.236-4371
-      - HK-20.2.40.223-4375
-      - CN-103.170.72.179-4398
-      - CN-103.170.72.179-4406
-      - CN-106.12.168.13-5142
-      - TW-36.228.224.136-5605
-      - HK-219.78.81.165-5772
-      - HK-104.208.96.92-8334
-      - HK-104.208.96.92-8373
-      - HK-104.208.96.92-8504
-      - JP-140.227.54.4-9136
-      - JP-153.127.203.108-9214
-      - JP-54.64.198.193-20084
-      - _04
-      - _05
-      - _06
-      - _68
-      - _138
-      - Relay_-🇳🇴NO_204
-      - LT_1204
-      - Pool_🇸🇬SG_1360
-      - KR-13.124.96.86-20205
+      - _211
+      - _363
+      - _569
+      - _590
+      - _679
+      - _715
+      - _732
+      - Pool__742
+      - Pool__745
+      - _752
+      - _754
+      - _762
+      - _782
+      - _785
+      - _793
+      - _805
+      - _814
+      - _862
+      - _864
+      - _865
+      - CA_1053
+      - CA_1055
+      - LT_1228
+      - NL_1335
+      - NL_1337
+      - US_1586
+      - 澳大利亚-0-0-ss-43.200.244.234:443
+      - 澳大利亚-0-0-ss-43.207.166.104:443
+      - 美国-加利福尼亚-旧金山-v2ray-s245.rpscloud3.cloud:80
+      - 美国-加利福尼亚-旧金山-v2ray-v125.toddns.tk:80
+      - 法国(欢迎订阅Youtube破解资源君) 4
+      - _SG_新加坡
+      - _IN_印度
+      - "[01-03]|openrunner|斯洛伐克(SK)Slovakia/Bratislava_1"
+      - "[01-03]|openrunner|中国台湾(TW)Taiwan/CityOffice_2"
+      - "[01-03]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_3"
+      - "[01-03]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_4"
+      - "[01-03]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_5"
+      - "[01-03]|openrunner|美国(US)USA/LosAngeles_6"
+      - "[01-03]|openrunner|新加坡(SG)Singapore/Singapore_7"
+      - "[01-03]|openrunner|新加坡(SG)Singapore/Singapore_8"
+      - "[01-03]|openrunner|日本(JP)Japan/Osaka_9"
+      - "[01-03]|openrunner|中国香港/中国台湾(CN)China/Beijing/(可能是中转节点)_10"
+      - "[01-03]|openrunner|美国(US)USA/LosAngeles_11"
+      - "[01-03]|openrunner|美国(US)USA/Scottsdale_12"
+      - "[01-03]|openrunner|美国(US)USA/SanJose_13"
+      - "[01-03]|openrunner|美国(US)USA/PiscatawayTownship_14"
+      - "[01-03]|openrunner|美国(US)USA/LosAngeles_15"
+      - "[01-03]|openrunner|日本(JP)Japan/Tokyo_16"
+      - "[01-03]|openrunner|中国香港/中国台湾(CN)China/Beijing/(可能是中转节点)_17"
+      - "[01-03]|openrunner|美国(US)USA/Clifton_18"
+      - "[01-03]|openrunner|中国香港特别行政区(HK)HongkongSARChina/HongKong_19"
+      - "[01-03]|openrunner|中国香港/中国台湾(CN)China/Beijing/(可能是中转节点)_20"
+      - "[01-03]|openrunner|美国(US)USA/SanJose_21"
+      - "[01-03]|openrunner|中国台湾(TW)Taiwan/CityOffice_22"
+      - "[01-03]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_23"
+      - "[01-03]|openrunner|美国(US)USA/SanJose_24"
+      - "[01-03]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_25"
+      - "[01-03]|openrunner|印度(IN)India/Hyderabad_26"
+      - "[01-03]|openrunner|英国(GB)United+Kiongdom/Slough_27"
+      - "[01-03]|openrunner|新加坡(SG)Singapore/Singapore_28"
+      - "[01-03]|openrunner|日本(JP)Japan/Tokyo_29"
+      - "[01-03]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_30"
+      - "[01-03]|openrunner|美国(US)USA/Los+Angeles_31"
+      - "[01-03]|openrunner|美国(US)USA/SanFrancisco_32"
+      - "[01-03]|openrunner|美国(US)USA/Los+Angeles_33"
+      - "[01-03]|openrunner|美国(US)USA/Washington_34"
+      - "[01-03]|openrunner|美国(US)USA/Los+Angeles_35"
+      - "[01-03]|openrunner|美国(US)USA/PiscatawayTownship_36"
+      - "[01-03]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_37"
+      - "[01-03]|openrunner|日本(JP)Japan/Tokyo_38"
+      - "[01-03]|openrunner|美国(US)USA/Dallas_39"
+      - "[01-03]|openrunner|日本(JP)Japan/Osaka_40"
+      - "[01-03]|openrunner|日本(JP)Japan/Osaka_41"
+      - "[01-03]|openrunner|中国香港特别行政区(HK)Hongkong+SAR+China/Hong+Kong_42"
+      - 新加坡 001
+      - 日本 001
+      - 日本 003
+      - 欧洲 001
+      - 澳大利亚 003
+      - 美国 007
+      - 美国 017
+      - 美国 027
+      - 美国 032
+      - 荷兰 001
+      - 荷兰 004
+      - Pool_🇨🇳CN_18
+      - Pool_🇰🇷KR_149
+      - Pool_🇰🇷KR_67
+      - Pool_🇸🇬SG_213
+      - Relay_🇯🇵JP-🇯🇵JP_140
+      - Relay_🇯🇵JP-🇯🇵JP_147
+      - Relay_🇯🇵JP-🇯🇵JP_66
+      - Relay_🇳🇱NL-🇳🇱NL_182
+      - Relay_🇷🇺RU-🇷🇺RU_198
+      - Relay_🇷🇺RU-🇺🇸US_196
+      - Relay_🇺🇸US-🇩🇪DE_511
+      - Relay_🇺🇸US-🇺🇸US_407
+      - Relay_🇺🇸US-🇺🇸US_504
+      - Relay_🇺🇸US-🇺🇸US_526
+      - 俄罗斯 003
+      - 新加坡 001 2
+      - 澳大利亚 001
+      - AU_02 | 3.28Mb
+      - AU_04 | 5.65Mb
+      - AU_05 | 2.86Mb
+      - SG_85 |10.11Mb
+      - _CN_中国->🇸🇬_SG_新加坡_0@2
+      - _DE_德国_0@23
+      - _DE_德国_1_1@26
+      - _FR_法国_1@40
+      - _CA_加拿大_2_1@41
+      - _CN_中国_8_1@42
+      - _KR_韩国_1@45
+      - _GB_英国_1_3@8
+      - _AU_澳大利亚_3@22
+      - _IE_爱尔兰_4@9
+      - _US_美国_8_4@36
+      - _SG_新加坡_1_5@20
+      - _US_美国_4_6@35
+      - _SG_新加坡_6_7@37
+      - _IN_印度_2_9@21
+      - _JP_日本_4_11@29
+      - _JP_日本_2_14@8
+      - 澳大利亚 007
+      - 澳大利亚 011
+      - 澳大利亚 012
+      - 罗马尼亚 001
+      - 美国 006
+      - 美国 027 2
+      - 美国 030
+      - 美国 036
+      - 美国 037
+      - 荷兰 004 2
+      - AU_14
+      - CN_55
+      - Germany 03 TG:@nodpai
+      - HK-104.208.112.99-19347 | 12.896MB
+      - Japan 25 TG:@nodpai
+      - Japan 26 TG:@nodpai
+      - Japan(ChatGPT) 03 TG:@nodpai
+      - Japan(ChatGPT) 19 TG:@nodpai
+      - South Korea 04 TG:@nodpai
+      - South Korea 06 TG:@nodpai
+      - Netherlands 03 TG:@nodpai
+      - NO_189
+      - NO_190
+      - Singapore 34 TG:@nodpai
+      - SG-13.213.70.80-0093 | 10.942MB
+      - United States 19 TG:@nodpai
+      - United States 28 TG:@nodpai
+      - United States 32 TG:@nodpai
+      - United States 33 TG:@nodpai
+      - US_547
+      - Viet Nam 01 TG:@nodpai
+      - 越南 002
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - RELAY-45.85.118.88-0135
-      - JP-3.112.246.87-3145
-      - KR-3.36.51.105-21628
-      - KR-52.78.137.254-20087
-      - IN-172.105.42.111-3227
-      - US-52.203.115.64-2978
-      - RELAY-104.16.176.44-7268
-      - CN-42.225.20.24-0162
-      - SE-13.50.133.227-0152
-      - GB-212.38.189.174-2459
-      - CA-15.223.68.151-4621
-      - US-185.199.224.150-5732
-      - US-185.199.224.156-0189
-      - AU-3.26.164.136-20111
-      - CA-15.223.68.151-20105
-      - HK-18.167.42.112-4980
-      - HK-18.163.210.30-5029
-      - US-77.83.254.18-0142
-      - RELAY-172.67.161.104-0612
-      - RELAY-172.64.80.1-3106
-      - AU-3.26.164.136-0270
-      - IN-65.0.72.194-20451
-      - IN-13.234.162.10-0288
-      - GR-192.71.166.102-10345
-      - SG-18.142.239.12-0156
-      - MK-46.183.185.15-16156
-      - RU-213.183.53.177-20082
-      - SG-217.197.161.138-0498
-      - CN-124.222.189.225-0546
-      - CN-123.249.101.15-0545
-      - CN-106.12.168.13-0543
-      - SG-217.197.161.136-0485
-      - SG-217.197.161.138-0469
-      - SG-217.197.161.138-0456
-      - JP-43.207.166.104-3419
-      - SG-217.197.161.138-0446
-      - US-170.178.168.203-3562
-      - US-170.178.168.203-3564
-      - US-199.115.116.43-3565
-      - US-199.115.116.43-3568
-      - US-170.178.168.203-3575
-      - US-199.115.116.43-3580
-      - US-170.178.168.203-3582
-      - US-199.115.116.43-3586
-      - US-170.178.168.203-3596
-      - US-170.178.168.203-3598
-      - US-170.178.168.203-3606
-      - US-199.115.116.43-3617
-      - US-170.178.168.203-3620
-      - US-170.178.168.203-3634
-      - US-199.115.116.43-3636
-      - US-199.115.116.43-3638
-      - CN-123.159.205.114-3878
-      - CN-223.111.157.35-3879
-      - CN-120.232.179.207-3970
-      - HK-20.187.74.236-4177
-      - HK-20.187.74.236-4185
-      - HK-20.187.96.163-4220
-      - HK-20.187.96.163-4246
-      - TW-114.37.210.134-4293
-      - JP-185.212.56.168-4312
-      - JP-185.212.56.168-4317
-      - HK-20.239.84.194-4321
-      - HK-20.187.74.236-4323
-      - HK-20.239.84.194-4325
-      - HK-20.187.74.236-4326
-      - HK-104.208.96.92-4328
-      - SG-13.250.63.205-4348
-      - HK-20.187.111.163-4368
-      - HK-20.187.74.236-4371
-      - HK-20.2.40.223-4375
-      - CN-103.170.72.179-4398
-      - CN-103.170.72.179-4406
-      - CN-106.12.168.13-5142
-      - TW-36.228.224.136-5605
-      - HK-219.78.81.165-5772
-      - HK-104.208.96.92-8334
-      - HK-104.208.96.92-8373
-      - HK-104.208.96.92-8504
-      - JP-140.227.54.4-9136
-      - JP-153.127.203.108-9214
-      - JP-54.64.198.193-20084
-      - _04
-      - _05
-      - _06
-      - _68
-      - _138
-      - Relay_-🇳🇴NO_204
-      - LT_1204
-      - Pool_🇸🇬SG_1360
-      - KR-13.124.96.86-20205
+      - _211
+      - _363
+      - _569
+      - _590
+      - _679
+      - _715
+      - _732
+      - Pool__742
+      - Pool__745
+      - _752
+      - _754
+      - _762
+      - _782
+      - _785
+      - _793
+      - _805
+      - _814
+      - _862
+      - _864
+      - _865
+      - CA_1053
+      - CA_1055
+      - LT_1228
+      - NL_1335
+      - NL_1337
+      - US_1586
+      - 澳大利亚-0-0-ss-43.200.244.234:443
+      - 澳大利亚-0-0-ss-43.207.166.104:443
+      - 美国-加利福尼亚-旧金山-v2ray-s245.rpscloud3.cloud:80
+      - 美国-加利福尼亚-旧金山-v2ray-v125.toddns.tk:80
+      - 法国(欢迎订阅Youtube破解资源君) 4
+      - _SG_新加坡
+      - _IN_印度
+      - "[01-03]|openrunner|斯洛伐克(SK)Slovakia/Bratislava_1"
+      - "[01-03]|openrunner|中国台湾(TW)Taiwan/CityOffice_2"
+      - "[01-03]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_3"
+      - "[01-03]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_4"
+      - "[01-03]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_5"
+      - "[01-03]|openrunner|美国(US)USA/LosAngeles_6"
+      - "[01-03]|openrunner|新加坡(SG)Singapore/Singapore_7"
+      - "[01-03]|openrunner|新加坡(SG)Singapore/Singapore_8"
+      - "[01-03]|openrunner|日本(JP)Japan/Osaka_9"
+      - "[01-03]|openrunner|中国香港/中国台湾(CN)China/Beijing/(可能是中转节点)_10"
+      - "[01-03]|openrunner|美国(US)USA/LosAngeles_11"
+      - "[01-03]|openrunner|美国(US)USA/Scottsdale_12"
+      - "[01-03]|openrunner|美国(US)USA/SanJose_13"
+      - "[01-03]|openrunner|美国(US)USA/PiscatawayTownship_14"
+      - "[01-03]|openrunner|美国(US)USA/LosAngeles_15"
+      - "[01-03]|openrunner|日本(JP)Japan/Tokyo_16"
+      - "[01-03]|openrunner|中国香港/中国台湾(CN)China/Beijing/(可能是中转节点)_17"
+      - "[01-03]|openrunner|美国(US)USA/Clifton_18"
+      - "[01-03]|openrunner|中国香港特别行政区(HK)HongkongSARChina/HongKong_19"
+      - "[01-03]|openrunner|中国香港/中国台湾(CN)China/Beijing/(可能是中转节点)_20"
+      - "[01-03]|openrunner|美国(US)USA/SanJose_21"
+      - "[01-03]|openrunner|中国台湾(TW)Taiwan/CityOffice_22"
+      - "[01-03]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_23"
+      - "[01-03]|openrunner|美国(US)USA/SanJose_24"
+      - "[01-03]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_25"
+      - "[01-03]|openrunner|印度(IN)India/Hyderabad_26"
+      - "[01-03]|openrunner|英国(GB)United+Kiongdom/Slough_27"
+      - "[01-03]|openrunner|新加坡(SG)Singapore/Singapore_28"
+      - "[01-03]|openrunner|日本(JP)Japan/Tokyo_29"
+      - "[01-03]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_30"
+      - "[01-03]|openrunner|美国(US)USA/Los+Angeles_31"
+      - "[01-03]|openrunner|美国(US)USA/SanFrancisco_32"
+      - "[01-03]|openrunner|美国(US)USA/Los+Angeles_33"
+      - "[01-03]|openrunner|美国(US)USA/Washington_34"
+      - "[01-03]|openrunner|美国(US)USA/Los+Angeles_35"
+      - "[01-03]|openrunner|美国(US)USA/PiscatawayTownship_36"
+      - "[01-03]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_37"
+      - "[01-03]|openrunner|日本(JP)Japan/Tokyo_38"
+      - "[01-03]|openrunner|美国(US)USA/Dallas_39"
+      - "[01-03]|openrunner|日本(JP)Japan/Osaka_40"
+      - "[01-03]|openrunner|日本(JP)Japan/Osaka_41"
+      - "[01-03]|openrunner|中国香港特别行政区(HK)Hongkong+SAR+China/Hong+Kong_42"
+      - 新加坡 001
+      - 日本 001
+      - 日本 003
+      - 欧洲 001
+      - 澳大利亚 003
+      - 美国 007
+      - 美国 017
+      - 美国 027
+      - 美国 032
+      - 荷兰 001
+      - 荷兰 004
+      - Pool_🇨🇳CN_18
+      - Pool_🇰🇷KR_149
+      - Pool_🇰🇷KR_67
+      - Pool_🇸🇬SG_213
+      - Relay_🇯🇵JP-🇯🇵JP_140
+      - Relay_🇯🇵JP-🇯🇵JP_147
+      - Relay_🇯🇵JP-🇯🇵JP_66
+      - Relay_🇳🇱NL-🇳🇱NL_182
+      - Relay_🇷🇺RU-🇷🇺RU_198
+      - Relay_🇷🇺RU-🇺🇸US_196
+      - Relay_🇺🇸US-🇩🇪DE_511
+      - Relay_🇺🇸US-🇺🇸US_407
+      - Relay_🇺🇸US-🇺🇸US_504
+      - Relay_🇺🇸US-🇺🇸US_526
+      - 俄罗斯 003
+      - 新加坡 001 2
+      - 澳大利亚 001
+      - AU_02 | 3.28Mb
+      - AU_04 | 5.65Mb
+      - AU_05 | 2.86Mb
+      - SG_85 |10.11Mb
+      - _CN_中国->🇸🇬_SG_新加坡_0@2
+      - _DE_德国_0@23
+      - _DE_德国_1_1@26
+      - _FR_法国_1@40
+      - _CA_加拿大_2_1@41
+      - _CN_中国_8_1@42
+      - _KR_韩国_1@45
+      - _GB_英国_1_3@8
+      - _AU_澳大利亚_3@22
+      - _IE_爱尔兰_4@9
+      - _US_美国_8_4@36
+      - _SG_新加坡_1_5@20
+      - _US_美国_4_6@35
+      - _SG_新加坡_6_7@37
+      - _IN_印度_2_9@21
+      - _JP_日本_4_11@29
+      - _JP_日本_2_14@8
+      - 澳大利亚 007
+      - 澳大利亚 011
+      - 澳大利亚 012
+      - 罗马尼亚 001
+      - 美国 006
+      - 美国 027 2
+      - 美国 030
+      - 美国 036
+      - 美国 037
+      - 荷兰 004 2
+      - AU_14
+      - CN_55
+      - Germany 03 TG:@nodpai
+      - HK-104.208.112.99-19347 | 12.896MB
+      - Japan 25 TG:@nodpai
+      - Japan 26 TG:@nodpai
+      - Japan(ChatGPT) 03 TG:@nodpai
+      - Japan(ChatGPT) 19 TG:@nodpai
+      - South Korea 04 TG:@nodpai
+      - South Korea 06 TG:@nodpai
+      - Netherlands 03 TG:@nodpai
+      - NO_189
+      - NO_190
+      - Singapore 34 TG:@nodpai
+      - SG-13.213.70.80-0093 | 10.942MB
+      - United States 19 TG:@nodpai
+      - United States 28 TG:@nodpai
+      - United States 32 TG:@nodpai
+      - United States 33 TG:@nodpai
+      - US_547
+      - Viet Nam 01 TG:@nodpai
+      - 越南 002
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -404,391 +664,665 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - RELAY-45.85.118.88-0135
-      - JP-3.112.246.87-3145
-      - KR-3.36.51.105-21628
-      - KR-52.78.137.254-20087
-      - IN-172.105.42.111-3227
-      - US-52.203.115.64-2978
-      - RELAY-104.16.176.44-7268
-      - CN-42.225.20.24-0162
-      - SE-13.50.133.227-0152
-      - GB-212.38.189.174-2459
-      - CA-15.223.68.151-4621
-      - US-185.199.224.150-5732
-      - US-185.199.224.156-0189
-      - AU-3.26.164.136-20111
-      - CA-15.223.68.151-20105
-      - HK-18.167.42.112-4980
-      - HK-18.163.210.30-5029
-      - US-77.83.254.18-0142
-      - RELAY-172.67.161.104-0612
-      - RELAY-172.64.80.1-3106
-      - AU-3.26.164.136-0270
-      - IN-65.0.72.194-20451
-      - IN-13.234.162.10-0288
-      - GR-192.71.166.102-10345
-      - SG-18.142.239.12-0156
-      - MK-46.183.185.15-16156
-      - RU-213.183.53.177-20082
-      - SG-217.197.161.138-0498
-      - CN-124.222.189.225-0546
-      - CN-123.249.101.15-0545
-      - CN-106.12.168.13-0543
-      - SG-217.197.161.136-0485
-      - SG-217.197.161.138-0469
-      - SG-217.197.161.138-0456
-      - JP-43.207.166.104-3419
-      - SG-217.197.161.138-0446
-      - US-170.178.168.203-3562
-      - US-170.178.168.203-3564
-      - US-199.115.116.43-3565
-      - US-199.115.116.43-3568
-      - US-170.178.168.203-3575
-      - US-199.115.116.43-3580
-      - US-170.178.168.203-3582
-      - US-199.115.116.43-3586
-      - US-170.178.168.203-3596
-      - US-170.178.168.203-3598
-      - US-170.178.168.203-3606
-      - US-199.115.116.43-3617
-      - US-170.178.168.203-3620
-      - US-170.178.168.203-3634
-      - US-199.115.116.43-3636
-      - US-199.115.116.43-3638
-      - CN-123.159.205.114-3878
-      - CN-223.111.157.35-3879
-      - CN-120.232.179.207-3970
-      - HK-20.187.74.236-4177
-      - HK-20.187.74.236-4185
-      - HK-20.187.96.163-4220
-      - HK-20.187.96.163-4246
-      - TW-114.37.210.134-4293
-      - JP-185.212.56.168-4312
-      - JP-185.212.56.168-4317
-      - HK-20.239.84.194-4321
-      - HK-20.187.74.236-4323
-      - HK-20.239.84.194-4325
-      - HK-20.187.74.236-4326
-      - HK-104.208.96.92-4328
-      - SG-13.250.63.205-4348
-      - HK-20.187.111.163-4368
-      - HK-20.187.74.236-4371
-      - HK-20.2.40.223-4375
-      - CN-103.170.72.179-4398
-      - CN-103.170.72.179-4406
-      - CN-106.12.168.13-5142
-      - TW-36.228.224.136-5605
-      - HK-219.78.81.165-5772
-      - HK-104.208.96.92-8334
-      - HK-104.208.96.92-8373
-      - HK-104.208.96.92-8504
-      - JP-140.227.54.4-9136
-      - JP-153.127.203.108-9214
-      - JP-54.64.198.193-20084
-      - _04
-      - _05
-      - _06
-      - _68
-      - _138
-      - Relay_-🇳🇴NO_204
-      - LT_1204
-      - Pool_🇸🇬SG_1360
-      - KR-13.124.96.86-20205
+      - _211
+      - _363
+      - _569
+      - _590
+      - _679
+      - _715
+      - _732
+      - Pool__742
+      - Pool__745
+      - _752
+      - _754
+      - _762
+      - _782
+      - _785
+      - _793
+      - _805
+      - _814
+      - _862
+      - _864
+      - _865
+      - CA_1053
+      - CA_1055
+      - LT_1228
+      - NL_1335
+      - NL_1337
+      - US_1586
+      - 澳大利亚-0-0-ss-43.200.244.234:443
+      - 澳大利亚-0-0-ss-43.207.166.104:443
+      - 美国-加利福尼亚-旧金山-v2ray-s245.rpscloud3.cloud:80
+      - 美国-加利福尼亚-旧金山-v2ray-v125.toddns.tk:80
+      - 法国(欢迎订阅Youtube破解资源君) 4
+      - _SG_新加坡
+      - _IN_印度
+      - "[01-03]|openrunner|斯洛伐克(SK)Slovakia/Bratislava_1"
+      - "[01-03]|openrunner|中国台湾(TW)Taiwan/CityOffice_2"
+      - "[01-03]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_3"
+      - "[01-03]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_4"
+      - "[01-03]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_5"
+      - "[01-03]|openrunner|美国(US)USA/LosAngeles_6"
+      - "[01-03]|openrunner|新加坡(SG)Singapore/Singapore_7"
+      - "[01-03]|openrunner|新加坡(SG)Singapore/Singapore_8"
+      - "[01-03]|openrunner|日本(JP)Japan/Osaka_9"
+      - "[01-03]|openrunner|中国香港/中国台湾(CN)China/Beijing/(可能是中转节点)_10"
+      - "[01-03]|openrunner|美国(US)USA/LosAngeles_11"
+      - "[01-03]|openrunner|美国(US)USA/Scottsdale_12"
+      - "[01-03]|openrunner|美国(US)USA/SanJose_13"
+      - "[01-03]|openrunner|美国(US)USA/PiscatawayTownship_14"
+      - "[01-03]|openrunner|美国(US)USA/LosAngeles_15"
+      - "[01-03]|openrunner|日本(JP)Japan/Tokyo_16"
+      - "[01-03]|openrunner|中国香港/中国台湾(CN)China/Beijing/(可能是中转节点)_17"
+      - "[01-03]|openrunner|美国(US)USA/Clifton_18"
+      - "[01-03]|openrunner|中国香港特别行政区(HK)HongkongSARChina/HongKong_19"
+      - "[01-03]|openrunner|中国香港/中国台湾(CN)China/Beijing/(可能是中转节点)_20"
+      - "[01-03]|openrunner|美国(US)USA/SanJose_21"
+      - "[01-03]|openrunner|中国台湾(TW)Taiwan/CityOffice_22"
+      - "[01-03]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_23"
+      - "[01-03]|openrunner|美国(US)USA/SanJose_24"
+      - "[01-03]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_25"
+      - "[01-03]|openrunner|印度(IN)India/Hyderabad_26"
+      - "[01-03]|openrunner|英国(GB)United+Kiongdom/Slough_27"
+      - "[01-03]|openrunner|新加坡(SG)Singapore/Singapore_28"
+      - "[01-03]|openrunner|日本(JP)Japan/Tokyo_29"
+      - "[01-03]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_30"
+      - "[01-03]|openrunner|美国(US)USA/Los+Angeles_31"
+      - "[01-03]|openrunner|美国(US)USA/SanFrancisco_32"
+      - "[01-03]|openrunner|美国(US)USA/Los+Angeles_33"
+      - "[01-03]|openrunner|美国(US)USA/Washington_34"
+      - "[01-03]|openrunner|美国(US)USA/Los+Angeles_35"
+      - "[01-03]|openrunner|美国(US)USA/PiscatawayTownship_36"
+      - "[01-03]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_37"
+      - "[01-03]|openrunner|日本(JP)Japan/Tokyo_38"
+      - "[01-03]|openrunner|美国(US)USA/Dallas_39"
+      - "[01-03]|openrunner|日本(JP)Japan/Osaka_40"
+      - "[01-03]|openrunner|日本(JP)Japan/Osaka_41"
+      - "[01-03]|openrunner|中国香港特别行政区(HK)Hongkong+SAR+China/Hong+Kong_42"
+      - 新加坡 001
+      - 日本 001
+      - 日本 003
+      - 欧洲 001
+      - 澳大利亚 003
+      - 美国 007
+      - 美国 017
+      - 美国 027
+      - 美国 032
+      - 荷兰 001
+      - 荷兰 004
+      - Pool_🇨🇳CN_18
+      - Pool_🇰🇷KR_149
+      - Pool_🇰🇷KR_67
+      - Pool_🇸🇬SG_213
+      - Relay_🇯🇵JP-🇯🇵JP_140
+      - Relay_🇯🇵JP-🇯🇵JP_147
+      - Relay_🇯🇵JP-🇯🇵JP_66
+      - Relay_🇳🇱NL-🇳🇱NL_182
+      - Relay_🇷🇺RU-🇷🇺RU_198
+      - Relay_🇷🇺RU-🇺🇸US_196
+      - Relay_🇺🇸US-🇩🇪DE_511
+      - Relay_🇺🇸US-🇺🇸US_407
+      - Relay_🇺🇸US-🇺🇸US_504
+      - Relay_🇺🇸US-🇺🇸US_526
+      - 俄罗斯 003
+      - 新加坡 001 2
+      - 澳大利亚 001
+      - AU_02 | 3.28Mb
+      - AU_04 | 5.65Mb
+      - AU_05 | 2.86Mb
+      - SG_85 |10.11Mb
+      - _CN_中国->🇸🇬_SG_新加坡_0@2
+      - _DE_德国_0@23
+      - _DE_德国_1_1@26
+      - _FR_法国_1@40
+      - _CA_加拿大_2_1@41
+      - _CN_中国_8_1@42
+      - _KR_韩国_1@45
+      - _GB_英国_1_3@8
+      - _AU_澳大利亚_3@22
+      - _IE_爱尔兰_4@9
+      - _US_美国_8_4@36
+      - _SG_新加坡_1_5@20
+      - _US_美国_4_6@35
+      - _SG_新加坡_6_7@37
+      - _IN_印度_2_9@21
+      - _JP_日本_4_11@29
+      - _JP_日本_2_14@8
+      - 澳大利亚 007
+      - 澳大利亚 011
+      - 澳大利亚 012
+      - 罗马尼亚 001
+      - 美国 006
+      - 美国 027 2
+      - 美国 030
+      - 美国 036
+      - 美国 037
+      - 荷兰 004 2
+      - AU_14
+      - CN_55
+      - Germany 03 TG:@nodpai
+      - HK-104.208.112.99-19347 | 12.896MB
+      - Japan 25 TG:@nodpai
+      - Japan 26 TG:@nodpai
+      - Japan(ChatGPT) 03 TG:@nodpai
+      - Japan(ChatGPT) 19 TG:@nodpai
+      - South Korea 04 TG:@nodpai
+      - South Korea 06 TG:@nodpai
+      - Netherlands 03 TG:@nodpai
+      - NO_189
+      - NO_190
+      - Singapore 34 TG:@nodpai
+      - SG-13.213.70.80-0093 | 10.942MB
+      - United States 19 TG:@nodpai
+      - United States 28 TG:@nodpai
+      - United States 32 TG:@nodpai
+      - United States 33 TG:@nodpai
+      - US_547
+      - Viet Nam 01 TG:@nodpai
+      - 越南 002
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - "[01-03]|openrunner|中国台湾(TW)Taiwan/CityOffice_2"
+      - "[01-03]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_3"
+      - "[01-03]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_4"
+      - "[01-03]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_5"
+      - "[01-03]|openrunner|中国香港/中国台湾(CN)China/Beijing/(可能是中转节点)_10"
+      - "[01-03]|openrunner|中国香港/中国台湾(CN)China/Beijing/(可能是中转节点)_17"
+      - "[01-03]|openrunner|中国香港特别行政区(HK)HongkongSARChina/HongKong_19"
+      - "[01-03]|openrunner|中国香港/中国台湾(CN)China/Beijing/(可能是中转节点)_20"
+      - "[01-03]|openrunner|中国台湾(TW)Taiwan/CityOffice_22"
+      - "[01-03]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_23"
+      - "[01-03]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_25"
+      - "[01-03]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_30"
+      - "[01-03]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_37"
+      - "[01-03]|openrunner|中国香港特别行政区(HK)Hongkong+SAR+China/Hong+Kong_42"
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - RELAY-45.85.118.88-0135
-      - JP-3.112.246.87-3145
-      - KR-3.36.51.105-21628
-      - KR-52.78.137.254-20087
-      - IN-172.105.42.111-3227
-      - US-52.203.115.64-2978
-      - RELAY-104.16.176.44-7268
-      - CN-42.225.20.24-0162
-      - SE-13.50.133.227-0152
-      - GB-212.38.189.174-2459
-      - CA-15.223.68.151-4621
-      - US-185.199.224.150-5732
-      - US-185.199.224.156-0189
-      - AU-3.26.164.136-20111
-      - CA-15.223.68.151-20105
-      - HK-18.167.42.112-4980
-      - HK-18.163.210.30-5029
-      - US-77.83.254.18-0142
-      - RELAY-172.67.161.104-0612
-      - RELAY-172.64.80.1-3106
-      - AU-3.26.164.136-0270
-      - IN-65.0.72.194-20451
-      - IN-13.234.162.10-0288
-      - GR-192.71.166.102-10345
-      - SG-18.142.239.12-0156
-      - MK-46.183.185.15-16156
-      - RU-213.183.53.177-20082
-      - SG-217.197.161.138-0498
-      - CN-124.222.189.225-0546
-      - CN-123.249.101.15-0545
-      - CN-106.12.168.13-0543
-      - SG-217.197.161.136-0485
-      - SG-217.197.161.138-0469
-      - SG-217.197.161.138-0456
-      - JP-43.207.166.104-3419
-      - SG-217.197.161.138-0446
-      - US-170.178.168.203-3562
-      - US-170.178.168.203-3564
-      - US-199.115.116.43-3565
-      - US-199.115.116.43-3568
-      - US-170.178.168.203-3575
-      - US-199.115.116.43-3580
-      - US-170.178.168.203-3582
-      - US-199.115.116.43-3586
-      - US-170.178.168.203-3596
-      - US-170.178.168.203-3598
-      - US-170.178.168.203-3606
-      - US-199.115.116.43-3617
-      - US-170.178.168.203-3620
-      - US-170.178.168.203-3634
-      - US-199.115.116.43-3636
-      - US-199.115.116.43-3638
-      - CN-123.159.205.114-3878
-      - CN-223.111.157.35-3879
-      - CN-120.232.179.207-3970
-      - HK-20.187.74.236-4177
-      - HK-20.187.74.236-4185
-      - HK-20.187.96.163-4220
-      - HK-20.187.96.163-4246
-      - TW-114.37.210.134-4293
-      - JP-185.212.56.168-4312
-      - JP-185.212.56.168-4317
-      - HK-20.239.84.194-4321
-      - HK-20.187.74.236-4323
-      - HK-20.239.84.194-4325
-      - HK-20.187.74.236-4326
-      - HK-104.208.96.92-4328
-      - SG-13.250.63.205-4348
-      - HK-20.187.111.163-4368
-      - HK-20.187.74.236-4371
-      - HK-20.2.40.223-4375
-      - CN-103.170.72.179-4398
-      - CN-103.170.72.179-4406
-      - CN-106.12.168.13-5142
-      - TW-36.228.224.136-5605
-      - HK-219.78.81.165-5772
-      - HK-104.208.96.92-8334
-      - HK-104.208.96.92-8373
-      - HK-104.208.96.92-8504
-      - JP-140.227.54.4-9136
-      - JP-153.127.203.108-9214
-      - JP-54.64.198.193-20084
-      - _04
-      - _05
-      - _06
-      - _68
-      - _138
-      - Relay_-🇳🇴NO_204
-      - LT_1204
-      - Pool_🇸🇬SG_1360
-      - KR-13.124.96.86-20205
+      - _211
+      - _363
+      - _569
+      - _590
+      - _679
+      - _715
+      - _732
+      - Pool__742
+      - Pool__745
+      - _752
+      - _754
+      - _762
+      - _782
+      - _785
+      - _793
+      - _805
+      - _814
+      - _862
+      - _864
+      - _865
+      - CA_1053
+      - CA_1055
+      - LT_1228
+      - NL_1335
+      - NL_1337
+      - US_1586
+      - 澳大利亚-0-0-ss-43.200.244.234:443
+      - 澳大利亚-0-0-ss-43.207.166.104:443
+      - 美国-加利福尼亚-旧金山-v2ray-s245.rpscloud3.cloud:80
+      - 美国-加利福尼亚-旧金山-v2ray-v125.toddns.tk:80
+      - 法国(欢迎订阅Youtube破解资源君) 4
+      - _SG_新加坡
+      - _IN_印度
+      - "[01-03]|openrunner|斯洛伐克(SK)Slovakia/Bratislava_1"
+      - "[01-03]|openrunner|中国台湾(TW)Taiwan/CityOffice_2"
+      - "[01-03]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_3"
+      - "[01-03]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_4"
+      - "[01-03]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_5"
+      - "[01-03]|openrunner|美国(US)USA/LosAngeles_6"
+      - "[01-03]|openrunner|新加坡(SG)Singapore/Singapore_7"
+      - "[01-03]|openrunner|新加坡(SG)Singapore/Singapore_8"
+      - "[01-03]|openrunner|日本(JP)Japan/Osaka_9"
+      - "[01-03]|openrunner|中国香港/中国台湾(CN)China/Beijing/(可能是中转节点)_10"
+      - "[01-03]|openrunner|美国(US)USA/LosAngeles_11"
+      - "[01-03]|openrunner|美国(US)USA/Scottsdale_12"
+      - "[01-03]|openrunner|美国(US)USA/SanJose_13"
+      - "[01-03]|openrunner|美国(US)USA/PiscatawayTownship_14"
+      - "[01-03]|openrunner|美国(US)USA/LosAngeles_15"
+      - "[01-03]|openrunner|日本(JP)Japan/Tokyo_16"
+      - "[01-03]|openrunner|中国香港/中国台湾(CN)China/Beijing/(可能是中转节点)_17"
+      - "[01-03]|openrunner|美国(US)USA/Clifton_18"
+      - "[01-03]|openrunner|中国香港特别行政区(HK)HongkongSARChina/HongKong_19"
+      - "[01-03]|openrunner|中国香港/中国台湾(CN)China/Beijing/(可能是中转节点)_20"
+      - "[01-03]|openrunner|美国(US)USA/SanJose_21"
+      - "[01-03]|openrunner|中国台湾(TW)Taiwan/CityOffice_22"
+      - "[01-03]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_23"
+      - "[01-03]|openrunner|美国(US)USA/SanJose_24"
+      - "[01-03]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_25"
+      - "[01-03]|openrunner|印度(IN)India/Hyderabad_26"
+      - "[01-03]|openrunner|英国(GB)United+Kiongdom/Slough_27"
+      - "[01-03]|openrunner|新加坡(SG)Singapore/Singapore_28"
+      - "[01-03]|openrunner|日本(JP)Japan/Tokyo_29"
+      - "[01-03]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_30"
+      - "[01-03]|openrunner|美国(US)USA/Los+Angeles_31"
+      - "[01-03]|openrunner|美国(US)USA/SanFrancisco_32"
+      - "[01-03]|openrunner|美国(US)USA/Los+Angeles_33"
+      - "[01-03]|openrunner|美国(US)USA/Washington_34"
+      - "[01-03]|openrunner|美国(US)USA/Los+Angeles_35"
+      - "[01-03]|openrunner|美国(US)USA/PiscatawayTownship_36"
+      - "[01-03]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_37"
+      - "[01-03]|openrunner|日本(JP)Japan/Tokyo_38"
+      - "[01-03]|openrunner|美国(US)USA/Dallas_39"
+      - "[01-03]|openrunner|日本(JP)Japan/Osaka_40"
+      - "[01-03]|openrunner|日本(JP)Japan/Osaka_41"
+      - "[01-03]|openrunner|中国香港特别行政区(HK)Hongkong+SAR+China/Hong+Kong_42"
+      - 新加坡 001
+      - 日本 001
+      - 日本 003
+      - 欧洲 001
+      - 澳大利亚 003
+      - 美国 007
+      - 美国 017
+      - 美国 027
+      - 美国 032
+      - 荷兰 001
+      - 荷兰 004
+      - Pool_🇨🇳CN_18
+      - Pool_🇰🇷KR_149
+      - Pool_🇰🇷KR_67
+      - Pool_🇸🇬SG_213
+      - Relay_🇯🇵JP-🇯🇵JP_140
+      - Relay_🇯🇵JP-🇯🇵JP_147
+      - Relay_🇯🇵JP-🇯🇵JP_66
+      - Relay_🇳🇱NL-🇳🇱NL_182
+      - Relay_🇷🇺RU-🇷🇺RU_198
+      - Relay_🇷🇺RU-🇺🇸US_196
+      - Relay_🇺🇸US-🇩🇪DE_511
+      - Relay_🇺🇸US-🇺🇸US_407
+      - Relay_🇺🇸US-🇺🇸US_504
+      - Relay_🇺🇸US-🇺🇸US_526
+      - 俄罗斯 003
+      - 新加坡 001 2
+      - 澳大利亚 001
+      - AU_02 | 3.28Mb
+      - AU_04 | 5.65Mb
+      - AU_05 | 2.86Mb
+      - SG_85 |10.11Mb
+      - _CN_中国->🇸🇬_SG_新加坡_0@2
+      - _DE_德国_0@23
+      - _DE_德国_1_1@26
+      - _FR_法国_1@40
+      - _CA_加拿大_2_1@41
+      - _CN_中国_8_1@42
+      - _KR_韩国_1@45
+      - _GB_英国_1_3@8
+      - _AU_澳大利亚_3@22
+      - _IE_爱尔兰_4@9
+      - _US_美国_8_4@36
+      - _SG_新加坡_1_5@20
+      - _US_美国_4_6@35
+      - _SG_新加坡_6_7@37
+      - _IN_印度_2_9@21
+      - _JP_日本_4_11@29
+      - _JP_日本_2_14@8
+      - 澳大利亚 007
+      - 澳大利亚 011
+      - 澳大利亚 012
+      - 罗马尼亚 001
+      - 美国 006
+      - 美国 027 2
+      - 美国 030
+      - 美国 036
+      - 美国 037
+      - 荷兰 004 2
+      - AU_14
+      - CN_55
+      - Germany 03 TG:@nodpai
+      - HK-104.208.112.99-19347 | 12.896MB
+      - Japan 25 TG:@nodpai
+      - Japan 26 TG:@nodpai
+      - Japan(ChatGPT) 03 TG:@nodpai
+      - Japan(ChatGPT) 19 TG:@nodpai
+      - South Korea 04 TG:@nodpai
+      - South Korea 06 TG:@nodpai
+      - Netherlands 03 TG:@nodpai
+      - NO_189
+      - NO_190
+      - Singapore 34 TG:@nodpai
+      - SG-13.213.70.80-0093 | 10.942MB
+      - United States 19 TG:@nodpai
+      - United States 28 TG:@nodpai
+      - United States 32 TG:@nodpai
+      - United States 33 TG:@nodpai
+      - US_547
+      - Viet Nam 01 TG:@nodpai
+      - 越南 002
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - RELAY-45.85.118.88-0135
-      - JP-3.112.246.87-3145
-      - KR-3.36.51.105-21628
-      - KR-52.78.137.254-20087
-      - IN-172.105.42.111-3227
-      - US-52.203.115.64-2978
-      - RELAY-104.16.176.44-7268
-      - CN-42.225.20.24-0162
-      - SE-13.50.133.227-0152
-      - GB-212.38.189.174-2459
-      - CA-15.223.68.151-4621
-      - US-185.199.224.150-5732
-      - US-185.199.224.156-0189
-      - AU-3.26.164.136-20111
-      - CA-15.223.68.151-20105
-      - HK-18.167.42.112-4980
-      - HK-18.163.210.30-5029
-      - US-77.83.254.18-0142
-      - RELAY-172.67.161.104-0612
-      - RELAY-172.64.80.1-3106
-      - AU-3.26.164.136-0270
-      - IN-65.0.72.194-20451
-      - IN-13.234.162.10-0288
-      - GR-192.71.166.102-10345
-      - SG-18.142.239.12-0156
-      - MK-46.183.185.15-16156
-      - RU-213.183.53.177-20082
-      - SG-217.197.161.138-0498
-      - CN-124.222.189.225-0546
-      - CN-123.249.101.15-0545
-      - CN-106.12.168.13-0543
-      - SG-217.197.161.136-0485
-      - SG-217.197.161.138-0469
-      - SG-217.197.161.138-0456
-      - JP-43.207.166.104-3419
-      - SG-217.197.161.138-0446
-      - US-170.178.168.203-3562
-      - US-170.178.168.203-3564
-      - US-199.115.116.43-3565
-      - US-199.115.116.43-3568
-      - US-170.178.168.203-3575
-      - US-199.115.116.43-3580
-      - US-170.178.168.203-3582
-      - US-199.115.116.43-3586
-      - US-170.178.168.203-3596
-      - US-170.178.168.203-3598
-      - US-170.178.168.203-3606
-      - US-199.115.116.43-3617
-      - US-170.178.168.203-3620
-      - US-170.178.168.203-3634
-      - US-199.115.116.43-3636
-      - US-199.115.116.43-3638
-      - CN-123.159.205.114-3878
-      - CN-223.111.157.35-3879
-      - CN-120.232.179.207-3970
-      - HK-20.187.74.236-4177
-      - HK-20.187.74.236-4185
-      - HK-20.187.96.163-4220
-      - HK-20.187.96.163-4246
-      - TW-114.37.210.134-4293
-      - JP-185.212.56.168-4312
-      - JP-185.212.56.168-4317
-      - HK-20.239.84.194-4321
-      - HK-20.187.74.236-4323
-      - HK-20.239.84.194-4325
-      - HK-20.187.74.236-4326
-      - HK-104.208.96.92-4328
-      - SG-13.250.63.205-4348
-      - HK-20.187.111.163-4368
-      - HK-20.187.74.236-4371
-      - HK-20.2.40.223-4375
-      - CN-103.170.72.179-4398
-      - CN-103.170.72.179-4406
-      - CN-106.12.168.13-5142
-      - TW-36.228.224.136-5605
-      - HK-219.78.81.165-5772
-      - HK-104.208.96.92-8334
-      - HK-104.208.96.92-8373
-      - HK-104.208.96.92-8504
-      - JP-140.227.54.4-9136
-      - JP-153.127.203.108-9214
-      - JP-54.64.198.193-20084
-      - _04
-      - _05
-      - _06
-      - _68
-      - _138
-      - Relay_-🇳🇴NO_204
-      - LT_1204
-      - Pool_🇸🇬SG_1360
-      - KR-13.124.96.86-20205
+      - _211
+      - _363
+      - _569
+      - _590
+      - _679
+      - _715
+      - _732
+      - Pool__742
+      - Pool__745
+      - _752
+      - _754
+      - _762
+      - _782
+      - _785
+      - _793
+      - _805
+      - _814
+      - _862
+      - _864
+      - _865
+      - CA_1053
+      - CA_1055
+      - LT_1228
+      - NL_1335
+      - NL_1337
+      - US_1586
+      - 澳大利亚-0-0-ss-43.200.244.234:443
+      - 澳大利亚-0-0-ss-43.207.166.104:443
+      - 美国-加利福尼亚-旧金山-v2ray-s245.rpscloud3.cloud:80
+      - 美国-加利福尼亚-旧金山-v2ray-v125.toddns.tk:80
+      - 法国(欢迎订阅Youtube破解资源君) 4
+      - _SG_新加坡
+      - _IN_印度
+      - "[01-03]|openrunner|斯洛伐克(SK)Slovakia/Bratislava_1"
+      - "[01-03]|openrunner|中国台湾(TW)Taiwan/CityOffice_2"
+      - "[01-03]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_3"
+      - "[01-03]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_4"
+      - "[01-03]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_5"
+      - "[01-03]|openrunner|美国(US)USA/LosAngeles_6"
+      - "[01-03]|openrunner|新加坡(SG)Singapore/Singapore_7"
+      - "[01-03]|openrunner|新加坡(SG)Singapore/Singapore_8"
+      - "[01-03]|openrunner|日本(JP)Japan/Osaka_9"
+      - "[01-03]|openrunner|中国香港/中国台湾(CN)China/Beijing/(可能是中转节点)_10"
+      - "[01-03]|openrunner|美国(US)USA/LosAngeles_11"
+      - "[01-03]|openrunner|美国(US)USA/Scottsdale_12"
+      - "[01-03]|openrunner|美国(US)USA/SanJose_13"
+      - "[01-03]|openrunner|美国(US)USA/PiscatawayTownship_14"
+      - "[01-03]|openrunner|美国(US)USA/LosAngeles_15"
+      - "[01-03]|openrunner|日本(JP)Japan/Tokyo_16"
+      - "[01-03]|openrunner|中国香港/中国台湾(CN)China/Beijing/(可能是中转节点)_17"
+      - "[01-03]|openrunner|美国(US)USA/Clifton_18"
+      - "[01-03]|openrunner|中国香港特别行政区(HK)HongkongSARChina/HongKong_19"
+      - "[01-03]|openrunner|中国香港/中国台湾(CN)China/Beijing/(可能是中转节点)_20"
+      - "[01-03]|openrunner|美国(US)USA/SanJose_21"
+      - "[01-03]|openrunner|中国台湾(TW)Taiwan/CityOffice_22"
+      - "[01-03]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_23"
+      - "[01-03]|openrunner|美国(US)USA/SanJose_24"
+      - "[01-03]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_25"
+      - "[01-03]|openrunner|印度(IN)India/Hyderabad_26"
+      - "[01-03]|openrunner|英国(GB)United+Kiongdom/Slough_27"
+      - "[01-03]|openrunner|新加坡(SG)Singapore/Singapore_28"
+      - "[01-03]|openrunner|日本(JP)Japan/Tokyo_29"
+      - "[01-03]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_30"
+      - "[01-03]|openrunner|美国(US)USA/Los+Angeles_31"
+      - "[01-03]|openrunner|美国(US)USA/SanFrancisco_32"
+      - "[01-03]|openrunner|美国(US)USA/Los+Angeles_33"
+      - "[01-03]|openrunner|美国(US)USA/Washington_34"
+      - "[01-03]|openrunner|美国(US)USA/Los+Angeles_35"
+      - "[01-03]|openrunner|美国(US)USA/PiscatawayTownship_36"
+      - "[01-03]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_37"
+      - "[01-03]|openrunner|日本(JP)Japan/Tokyo_38"
+      - "[01-03]|openrunner|美国(US)USA/Dallas_39"
+      - "[01-03]|openrunner|日本(JP)Japan/Osaka_40"
+      - "[01-03]|openrunner|日本(JP)Japan/Osaka_41"
+      - "[01-03]|openrunner|中国香港特别行政区(HK)Hongkong+SAR+China/Hong+Kong_42"
+      - 新加坡 001
+      - 日本 001
+      - 日本 003
+      - 欧洲 001
+      - 澳大利亚 003
+      - 美国 007
+      - 美国 017
+      - 美国 027
+      - 美国 032
+      - 荷兰 001
+      - 荷兰 004
+      - Pool_🇨🇳CN_18
+      - Pool_🇰🇷KR_149
+      - Pool_🇰🇷KR_67
+      - Pool_🇸🇬SG_213
+      - Relay_🇯🇵JP-🇯🇵JP_140
+      - Relay_🇯🇵JP-🇯🇵JP_147
+      - Relay_🇯🇵JP-🇯🇵JP_66
+      - Relay_🇳🇱NL-🇳🇱NL_182
+      - Relay_🇷🇺RU-🇷🇺RU_198
+      - Relay_🇷🇺RU-🇺🇸US_196
+      - Relay_🇺🇸US-🇩🇪DE_511
+      - Relay_🇺🇸US-🇺🇸US_407
+      - Relay_🇺🇸US-🇺🇸US_504
+      - Relay_🇺🇸US-🇺🇸US_526
+      - 俄罗斯 003
+      - 新加坡 001 2
+      - 澳大利亚 001
+      - AU_02 | 3.28Mb
+      - AU_04 | 5.65Mb
+      - AU_05 | 2.86Mb
+      - SG_85 |10.11Mb
+      - _CN_中国->🇸🇬_SG_新加坡_0@2
+      - _DE_德国_0@23
+      - _DE_德国_1_1@26
+      - _FR_法国_1@40
+      - _CA_加拿大_2_1@41
+      - _CN_中国_8_1@42
+      - _KR_韩国_1@45
+      - _GB_英国_1_3@8
+      - _AU_澳大利亚_3@22
+      - _IE_爱尔兰_4@9
+      - _US_美国_8_4@36
+      - _SG_新加坡_1_5@20
+      - _US_美国_4_6@35
+      - _SG_新加坡_6_7@37
+      - _IN_印度_2_9@21
+      - _JP_日本_4_11@29
+      - _JP_日本_2_14@8
+      - 澳大利亚 007
+      - 澳大利亚 011
+      - 澳大利亚 012
+      - 罗马尼亚 001
+      - 美国 006
+      - 美国 027 2
+      - 美国 030
+      - 美国 036
+      - 美国 037
+      - 荷兰 004 2
+      - AU_14
+      - CN_55
+      - Germany 03 TG:@nodpai
+      - HK-104.208.112.99-19347 | 12.896MB
+      - Japan 25 TG:@nodpai
+      - Japan 26 TG:@nodpai
+      - Japan(ChatGPT) 03 TG:@nodpai
+      - Japan(ChatGPT) 19 TG:@nodpai
+      - South Korea 04 TG:@nodpai
+      - South Korea 06 TG:@nodpai
+      - Netherlands 03 TG:@nodpai
+      - NO_189
+      - NO_190
+      - Singapore 34 TG:@nodpai
+      - SG-13.213.70.80-0093 | 10.942MB
+      - United States 19 TG:@nodpai
+      - United States 28 TG:@nodpai
+      - United States 32 TG:@nodpai
+      - United States 33 TG:@nodpai
+      - US_547
+      - Viet Nam 01 TG:@nodpai
+      - 越南 002
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - RELAY-45.85.118.88-0135
-      - JP-3.112.246.87-3145
-      - KR-3.36.51.105-21628
-      - KR-52.78.137.254-20087
-      - IN-172.105.42.111-3227
-      - US-52.203.115.64-2978
-      - RELAY-104.16.176.44-7268
-      - CN-42.225.20.24-0162
-      - SE-13.50.133.227-0152
-      - GB-212.38.189.174-2459
-      - CA-15.223.68.151-4621
-      - US-185.199.224.150-5732
-      - US-185.199.224.156-0189
-      - AU-3.26.164.136-20111
-      - CA-15.223.68.151-20105
-      - HK-18.167.42.112-4980
-      - HK-18.163.210.30-5029
-      - US-77.83.254.18-0142
-      - RELAY-172.67.161.104-0612
-      - RELAY-172.64.80.1-3106
-      - AU-3.26.164.136-0270
-      - IN-65.0.72.194-20451
-      - IN-13.234.162.10-0288
-      - GR-192.71.166.102-10345
-      - SG-18.142.239.12-0156
-      - MK-46.183.185.15-16156
-      - RU-213.183.53.177-20082
-      - SG-217.197.161.138-0498
-      - CN-124.222.189.225-0546
-      - CN-123.249.101.15-0545
-      - CN-106.12.168.13-0543
-      - SG-217.197.161.136-0485
-      - SG-217.197.161.138-0469
-      - SG-217.197.161.138-0456
-      - JP-43.207.166.104-3419
-      - SG-217.197.161.138-0446
-      - US-170.178.168.203-3562
-      - US-170.178.168.203-3564
-      - US-199.115.116.43-3565
-      - US-199.115.116.43-3568
-      - US-170.178.168.203-3575
-      - US-199.115.116.43-3580
-      - US-170.178.168.203-3582
-      - US-199.115.116.43-3586
-      - US-170.178.168.203-3596
-      - US-170.178.168.203-3598
-      - US-170.178.168.203-3606
-      - US-199.115.116.43-3617
-      - US-170.178.168.203-3620
-      - US-170.178.168.203-3634
-      - US-199.115.116.43-3636
-      - US-199.115.116.43-3638
-      - CN-123.159.205.114-3878
-      - CN-223.111.157.35-3879
-      - CN-120.232.179.207-3970
-      - HK-20.187.74.236-4177
-      - HK-20.187.74.236-4185
-      - HK-20.187.96.163-4220
-      - HK-20.187.96.163-4246
-      - TW-114.37.210.134-4293
-      - JP-185.212.56.168-4312
-      - JP-185.212.56.168-4317
-      - HK-20.239.84.194-4321
-      - HK-20.187.74.236-4323
-      - HK-20.239.84.194-4325
-      - HK-20.187.74.236-4326
-      - HK-104.208.96.92-4328
-      - SG-13.250.63.205-4348
-      - HK-20.187.111.163-4368
-      - HK-20.187.74.236-4371
-      - HK-20.2.40.223-4375
-      - CN-103.170.72.179-4398
-      - CN-103.170.72.179-4406
-      - CN-106.12.168.13-5142
-      - TW-36.228.224.136-5605
-      - HK-219.78.81.165-5772
-      - HK-104.208.96.92-8334
-      - HK-104.208.96.92-8373
-      - HK-104.208.96.92-8504
-      - JP-140.227.54.4-9136
-      - JP-153.127.203.108-9214
-      - JP-54.64.198.193-20084
-      - _04
-      - _05
-      - _06
-      - _68
-      - _138
-      - Relay_-🇳🇴NO_204
-      - LT_1204
-      - Pool_🇸🇬SG_1360
-      - KR-13.124.96.86-20205
+      - _211
+      - _363
+      - _569
+      - _590
+      - _679
+      - _715
+      - _732
+      - Pool__742
+      - Pool__745
+      - _752
+      - _754
+      - _762
+      - _782
+      - _785
+      - _793
+      - _805
+      - _814
+      - _862
+      - _864
+      - _865
+      - CA_1053
+      - CA_1055
+      - LT_1228
+      - NL_1335
+      - NL_1337
+      - US_1586
+      - 澳大利亚-0-0-ss-43.200.244.234:443
+      - 澳大利亚-0-0-ss-43.207.166.104:443
+      - 美国-加利福尼亚-旧金山-v2ray-s245.rpscloud3.cloud:80
+      - 美国-加利福尼亚-旧金山-v2ray-v125.toddns.tk:80
+      - 法国(欢迎订阅Youtube破解资源君) 4
+      - _SG_新加坡
+      - _IN_印度
+      - "[01-03]|openrunner|斯洛伐克(SK)Slovakia/Bratislava_1"
+      - "[01-03]|openrunner|中国台湾(TW)Taiwan/CityOffice_2"
+      - "[01-03]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_3"
+      - "[01-03]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_4"
+      - "[01-03]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_5"
+      - "[01-03]|openrunner|美国(US)USA/LosAngeles_6"
+      - "[01-03]|openrunner|新加坡(SG)Singapore/Singapore_7"
+      - "[01-03]|openrunner|新加坡(SG)Singapore/Singapore_8"
+      - "[01-03]|openrunner|日本(JP)Japan/Osaka_9"
+      - "[01-03]|openrunner|中国香港/中国台湾(CN)China/Beijing/(可能是中转节点)_10"
+      - "[01-03]|openrunner|美国(US)USA/LosAngeles_11"
+      - "[01-03]|openrunner|美国(US)USA/Scottsdale_12"
+      - "[01-03]|openrunner|美国(US)USA/SanJose_13"
+      - "[01-03]|openrunner|美国(US)USA/PiscatawayTownship_14"
+      - "[01-03]|openrunner|美国(US)USA/LosAngeles_15"
+      - "[01-03]|openrunner|日本(JP)Japan/Tokyo_16"
+      - "[01-03]|openrunner|中国香港/中国台湾(CN)China/Beijing/(可能是中转节点)_17"
+      - "[01-03]|openrunner|美国(US)USA/Clifton_18"
+      - "[01-03]|openrunner|中国香港特别行政区(HK)HongkongSARChina/HongKong_19"
+      - "[01-03]|openrunner|中国香港/中国台湾(CN)China/Beijing/(可能是中转节点)_20"
+      - "[01-03]|openrunner|美国(US)USA/SanJose_21"
+      - "[01-03]|openrunner|中国台湾(TW)Taiwan/CityOffice_22"
+      - "[01-03]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_23"
+      - "[01-03]|openrunner|美国(US)USA/SanJose_24"
+      - "[01-03]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_25"
+      - "[01-03]|openrunner|印度(IN)India/Hyderabad_26"
+      - "[01-03]|openrunner|英国(GB)United+Kiongdom/Slough_27"
+      - "[01-03]|openrunner|新加坡(SG)Singapore/Singapore_28"
+      - "[01-03]|openrunner|日本(JP)Japan/Tokyo_29"
+      - "[01-03]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_30"
+      - "[01-03]|openrunner|美国(US)USA/Los+Angeles_31"
+      - "[01-03]|openrunner|美国(US)USA/SanFrancisco_32"
+      - "[01-03]|openrunner|美国(US)USA/Los+Angeles_33"
+      - "[01-03]|openrunner|美国(US)USA/Washington_34"
+      - "[01-03]|openrunner|美国(US)USA/Los+Angeles_35"
+      - "[01-03]|openrunner|美国(US)USA/PiscatawayTownship_36"
+      - "[01-03]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_37"
+      - "[01-03]|openrunner|日本(JP)Japan/Tokyo_38"
+      - "[01-03]|openrunner|美国(US)USA/Dallas_39"
+      - "[01-03]|openrunner|日本(JP)Japan/Osaka_40"
+      - "[01-03]|openrunner|日本(JP)Japan/Osaka_41"
+      - "[01-03]|openrunner|中国香港特别行政区(HK)Hongkong+SAR+China/Hong+Kong_42"
+      - 新加坡 001
+      - 日本 001
+      - 日本 003
+      - 欧洲 001
+      - 澳大利亚 003
+      - 美国 007
+      - 美国 017
+      - 美国 027
+      - 美国 032
+      - 荷兰 001
+      - 荷兰 004
+      - Pool_🇨🇳CN_18
+      - Pool_🇰🇷KR_149
+      - Pool_🇰🇷KR_67
+      - Pool_🇸🇬SG_213
+      - Relay_🇯🇵JP-🇯🇵JP_140
+      - Relay_🇯🇵JP-🇯🇵JP_147
+      - Relay_🇯🇵JP-🇯🇵JP_66
+      - Relay_🇳🇱NL-🇳🇱NL_182
+      - Relay_🇷🇺RU-🇷🇺RU_198
+      - Relay_🇷🇺RU-🇺🇸US_196
+      - Relay_🇺🇸US-🇩🇪DE_511
+      - Relay_🇺🇸US-🇺🇸US_407
+      - Relay_🇺🇸US-🇺🇸US_504
+      - Relay_🇺🇸US-🇺🇸US_526
+      - 俄罗斯 003
+      - 新加坡 001 2
+      - 澳大利亚 001
+      - AU_02 | 3.28Mb
+      - AU_04 | 5.65Mb
+      - AU_05 | 2.86Mb
+      - SG_85 |10.11Mb
+      - _CN_中国->🇸🇬_SG_新加坡_0@2
+      - _DE_德国_0@23
+      - _DE_德国_1_1@26
+      - _FR_法国_1@40
+      - _CA_加拿大_2_1@41
+      - _CN_中国_8_1@42
+      - _KR_韩国_1@45
+      - _GB_英国_1_3@8
+      - _AU_澳大利亚_3@22
+      - _IE_爱尔兰_4@9
+      - _US_美国_8_4@36
+      - _SG_新加坡_1_5@20
+      - _US_美国_4_6@35
+      - _SG_新加坡_6_7@37
+      - _IN_印度_2_9@21
+      - _JP_日本_4_11@29
+      - _JP_日本_2_14@8
+      - 澳大利亚 007
+      - 澳大利亚 011
+      - 澳大利亚 012
+      - 罗马尼亚 001
+      - 美国 006
+      - 美国 027 2
+      - 美国 030
+      - 美国 036
+      - 美国 037
+      - 荷兰 004 2
+      - AU_14
+      - CN_55
+      - Germany 03 TG:@nodpai
+      - HK-104.208.112.99-19347 | 12.896MB
+      - Japan 25 TG:@nodpai
+      - Japan 26 TG:@nodpai
+      - Japan(ChatGPT) 03 TG:@nodpai
+      - Japan(ChatGPT) 19 TG:@nodpai
+      - South Korea 04 TG:@nodpai
+      - South Korea 06 TG:@nodpai
+      - Netherlands 03 TG:@nodpai
+      - NO_189
+      - NO_190
+      - Singapore 34 TG:@nodpai
+      - SG-13.213.70.80-0093 | 10.942MB
+      - United States 19 TG:@nodpai
+      - United States 28 TG:@nodpai
+      - United States 32 TG:@nodpai
+      - United States 33 TG:@nodpai
+      - US_547
+      - Viet Nam 01 TG:@nodpai
+      - 越南 002
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -804,97 +1338,162 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - RELAY-45.85.118.88-0135
-      - JP-3.112.246.87-3145
-      - KR-3.36.51.105-21628
-      - KR-52.78.137.254-20087
-      - IN-172.105.42.111-3227
-      - US-52.203.115.64-2978
-      - RELAY-104.16.176.44-7268
-      - CN-42.225.20.24-0162
-      - SE-13.50.133.227-0152
-      - GB-212.38.189.174-2459
-      - CA-15.223.68.151-4621
-      - US-185.199.224.150-5732
-      - US-185.199.224.156-0189
-      - AU-3.26.164.136-20111
-      - CA-15.223.68.151-20105
-      - HK-18.167.42.112-4980
-      - HK-18.163.210.30-5029
-      - US-77.83.254.18-0142
-      - RELAY-172.67.161.104-0612
-      - RELAY-172.64.80.1-3106
-      - AU-3.26.164.136-0270
-      - IN-65.0.72.194-20451
-      - IN-13.234.162.10-0288
-      - GR-192.71.166.102-10345
-      - SG-18.142.239.12-0156
-      - MK-46.183.185.15-16156
-      - RU-213.183.53.177-20082
-      - SG-217.197.161.138-0498
-      - CN-124.222.189.225-0546
-      - CN-123.249.101.15-0545
-      - CN-106.12.168.13-0543
-      - SG-217.197.161.136-0485
-      - SG-217.197.161.138-0469
-      - SG-217.197.161.138-0456
-      - JP-43.207.166.104-3419
-      - SG-217.197.161.138-0446
-      - US-170.178.168.203-3562
-      - US-170.178.168.203-3564
-      - US-199.115.116.43-3565
-      - US-199.115.116.43-3568
-      - US-170.178.168.203-3575
-      - US-199.115.116.43-3580
-      - US-170.178.168.203-3582
-      - US-199.115.116.43-3586
-      - US-170.178.168.203-3596
-      - US-170.178.168.203-3598
-      - US-170.178.168.203-3606
-      - US-199.115.116.43-3617
-      - US-170.178.168.203-3620
-      - US-170.178.168.203-3634
-      - US-199.115.116.43-3636
-      - US-199.115.116.43-3638
-      - CN-123.159.205.114-3878
-      - CN-223.111.157.35-3879
-      - CN-120.232.179.207-3970
-      - HK-20.187.74.236-4177
-      - HK-20.187.74.236-4185
-      - HK-20.187.96.163-4220
-      - HK-20.187.96.163-4246
-      - TW-114.37.210.134-4293
-      - JP-185.212.56.168-4312
-      - JP-185.212.56.168-4317
-      - HK-20.239.84.194-4321
-      - HK-20.187.74.236-4323
-      - HK-20.239.84.194-4325
-      - HK-20.187.74.236-4326
-      - HK-104.208.96.92-4328
-      - SG-13.250.63.205-4348
-      - HK-20.187.111.163-4368
-      - HK-20.187.74.236-4371
-      - HK-20.2.40.223-4375
-      - CN-103.170.72.179-4398
-      - CN-103.170.72.179-4406
-      - CN-106.12.168.13-5142
-      - TW-36.228.224.136-5605
-      - HK-219.78.81.165-5772
-      - HK-104.208.96.92-8334
-      - HK-104.208.96.92-8373
-      - HK-104.208.96.92-8504
-      - JP-140.227.54.4-9136
-      - JP-153.127.203.108-9214
-      - JP-54.64.198.193-20084
-      - _04
-      - _05
-      - _06
-      - _68
-      - _138
-      - Relay_-🇳🇴NO_204
-      - LT_1204
-      - Pool_🇸🇬SG_1360
-      - KR-13.124.96.86-20205
+      - _211
+      - _363
+      - _569
+      - _590
+      - _679
+      - _715
+      - _732
+      - Pool__742
+      - Pool__745
+      - _752
+      - _754
+      - _762
+      - _782
+      - _785
+      - _793
+      - _805
+      - _814
+      - _862
+      - _864
+      - _865
+      - CA_1053
+      - CA_1055
+      - LT_1228
+      - NL_1335
+      - NL_1337
+      - US_1586
+      - 澳大利亚-0-0-ss-43.200.244.234:443
+      - 澳大利亚-0-0-ss-43.207.166.104:443
+      - 美国-加利福尼亚-旧金山-v2ray-s245.rpscloud3.cloud:80
+      - 美国-加利福尼亚-旧金山-v2ray-v125.toddns.tk:80
+      - 法国(欢迎订阅Youtube破解资源君) 4
+      - _SG_新加坡
+      - _IN_印度
+      - "[01-03]|openrunner|斯洛伐克(SK)Slovakia/Bratislava_1"
+      - "[01-03]|openrunner|中国台湾(TW)Taiwan/CityOffice_2"
+      - "[01-03]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_3"
+      - "[01-03]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_4"
+      - "[01-03]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_5"
+      - "[01-03]|openrunner|美国(US)USA/LosAngeles_6"
+      - "[01-03]|openrunner|新加坡(SG)Singapore/Singapore_7"
+      - "[01-03]|openrunner|新加坡(SG)Singapore/Singapore_8"
+      - "[01-03]|openrunner|日本(JP)Japan/Osaka_9"
+      - "[01-03]|openrunner|中国香港/中国台湾(CN)China/Beijing/(可能是中转节点)_10"
+      - "[01-03]|openrunner|美国(US)USA/LosAngeles_11"
+      - "[01-03]|openrunner|美国(US)USA/Scottsdale_12"
+      - "[01-03]|openrunner|美国(US)USA/SanJose_13"
+      - "[01-03]|openrunner|美国(US)USA/PiscatawayTownship_14"
+      - "[01-03]|openrunner|美国(US)USA/LosAngeles_15"
+      - "[01-03]|openrunner|日本(JP)Japan/Tokyo_16"
+      - "[01-03]|openrunner|中国香港/中国台湾(CN)China/Beijing/(可能是中转节点)_17"
+      - "[01-03]|openrunner|美国(US)USA/Clifton_18"
+      - "[01-03]|openrunner|中国香港特别行政区(HK)HongkongSARChina/HongKong_19"
+      - "[01-03]|openrunner|中国香港/中国台湾(CN)China/Beijing/(可能是中转节点)_20"
+      - "[01-03]|openrunner|美国(US)USA/SanJose_21"
+      - "[01-03]|openrunner|中国台湾(TW)Taiwan/CityOffice_22"
+      - "[01-03]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_23"
+      - "[01-03]|openrunner|美国(US)USA/SanJose_24"
+      - "[01-03]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_25"
+      - "[01-03]|openrunner|印度(IN)India/Hyderabad_26"
+      - "[01-03]|openrunner|英国(GB)United+Kiongdom/Slough_27"
+      - "[01-03]|openrunner|新加坡(SG)Singapore/Singapore_28"
+      - "[01-03]|openrunner|日本(JP)Japan/Tokyo_29"
+      - "[01-03]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_30"
+      - "[01-03]|openrunner|美国(US)USA/Los+Angeles_31"
+      - "[01-03]|openrunner|美国(US)USA/SanFrancisco_32"
+      - "[01-03]|openrunner|美国(US)USA/Los+Angeles_33"
+      - "[01-03]|openrunner|美国(US)USA/Washington_34"
+      - "[01-03]|openrunner|美国(US)USA/Los+Angeles_35"
+      - "[01-03]|openrunner|美国(US)USA/PiscatawayTownship_36"
+      - "[01-03]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_37"
+      - "[01-03]|openrunner|日本(JP)Japan/Tokyo_38"
+      - "[01-03]|openrunner|美国(US)USA/Dallas_39"
+      - "[01-03]|openrunner|日本(JP)Japan/Osaka_40"
+      - "[01-03]|openrunner|日本(JP)Japan/Osaka_41"
+      - "[01-03]|openrunner|中国香港特别行政区(HK)Hongkong+SAR+China/Hong+Kong_42"
+      - 新加坡 001
+      - 日本 001
+      - 日本 003
+      - 欧洲 001
+      - 澳大利亚 003
+      - 美国 007
+      - 美国 017
+      - 美国 027
+      - 美国 032
+      - 荷兰 001
+      - 荷兰 004
+      - Pool_🇨🇳CN_18
+      - Pool_🇰🇷KR_149
+      - Pool_🇰🇷KR_67
+      - Pool_🇸🇬SG_213
+      - Relay_🇯🇵JP-🇯🇵JP_140
+      - Relay_🇯🇵JP-🇯🇵JP_147
+      - Relay_🇯🇵JP-🇯🇵JP_66
+      - Relay_🇳🇱NL-🇳🇱NL_182
+      - Relay_🇷🇺RU-🇷🇺RU_198
+      - Relay_🇷🇺RU-🇺🇸US_196
+      - Relay_🇺🇸US-🇩🇪DE_511
+      - Relay_🇺🇸US-🇺🇸US_407
+      - Relay_🇺🇸US-🇺🇸US_504
+      - Relay_🇺🇸US-🇺🇸US_526
+      - 俄罗斯 003
+      - 新加坡 001 2
+      - 澳大利亚 001
+      - AU_02 | 3.28Mb
+      - AU_04 | 5.65Mb
+      - AU_05 | 2.86Mb
+      - SG_85 |10.11Mb
+      - _CN_中国->🇸🇬_SG_新加坡_0@2
+      - _DE_德国_0@23
+      - _DE_德国_1_1@26
+      - _FR_法国_1@40
+      - _CA_加拿大_2_1@41
+      - _CN_中国_8_1@42
+      - _KR_韩国_1@45
+      - _GB_英国_1_3@8
+      - _AU_澳大利亚_3@22
+      - _IE_爱尔兰_4@9
+      - _US_美国_8_4@36
+      - _SG_新加坡_1_5@20
+      - _US_美国_4_6@35
+      - _SG_新加坡_6_7@37
+      - _IN_印度_2_9@21
+      - _JP_日本_4_11@29
+      - _JP_日本_2_14@8
+      - 澳大利亚 007
+      - 澳大利亚 011
+      - 澳大利亚 012
+      - 罗马尼亚 001
+      - 美国 006
+      - 美国 027 2
+      - 美国 030
+      - 美国 036
+      - 美国 037
+      - 荷兰 004 2
+      - AU_14
+      - CN_55
+      - Germany 03 TG:@nodpai
+      - HK-104.208.112.99-19347 | 12.896MB
+      - Japan 25 TG:@nodpai
+      - Japan 26 TG:@nodpai
+      - Japan(ChatGPT) 03 TG:@nodpai
+      - Japan(ChatGPT) 19 TG:@nodpai
+      - South Korea 04 TG:@nodpai
+      - South Korea 06 TG:@nodpai
+      - Netherlands 03 TG:@nodpai
+      - NO_189
+      - NO_190
+      - Singapore 34 TG:@nodpai
+      - SG-13.213.70.80-0093 | 10.942MB
+      - United States 19 TG:@nodpai
+      - United States 28 TG:@nodpai
+      - United States 32 TG:@nodpai
+      - United States 33 TG:@nodpai
+      - US_547
+      - Viet Nam 01 TG:@nodpai
+      - 越南 002
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
