@@ -1,0 +1,181 @@
+####################################
+# 创建者：v2rayse.com
+# 客户端：Clash
+# 创建时间：16-04-2023 07:50:55
+# 使用模版：V2RaySE 默认模版
+# 节点数量：81
+####################################
+mixed-port: 7890
+allow-lan: true
+mode: Global
+log-level: info
+external-controller: :9090
+proxies:
+  - {"name":"🇺🇸US-198.148.111.112-19825","type":"vmess","server":"198.148.111.112","port":443,"cipher":"auto","uuid":"17c6c64e-eb3c-44ae-98f8-d469713f91f1","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"rnrn3g.555456.xyz","network":"ws","ws-opts":{"path":"/lpkuvws","headers":{"host":"rnrn3g.555456.xyz"}}}
+  - {"name":"🇺🇸US-173.249.199.27-2549","type":"vmess","server":"173.249.199.27","port":443,"cipher":"auto","uuid":"e5543efd-5400-3760-9bb6-02767728e888","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/video"}}
+  - {"name":"🇰🇷KR-152.67.218.38-16223","type":"vmess","server":"152.67.218.38","port":443,"cipher":"auto","uuid":"b5e9480a-b7aa-40a4-f9a7-5299b5e363b4","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"152.67.218.38"}}}
+  - {"name":"🇳🇱NL-45.63.40.225-1258","type":"vmess","server":"45.63.40.225","port":80,"cipher":"auto","uuid":"2e435089-1084-4491-97ef-f42954c797bd","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/jSK9giWy0EzboIGfto"}}
+  - {"name":"🇫🇷FR-188.165.170.83-0115","type":"vmess","server":"188.165.170.83","port":80,"cipher":"auto","uuid":"860a862a-2798-4037-8513-b060e310e7fc","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"🇰🇷KR-140.238.1.117-1274","type":"vmess","server":"140.238.1.117","port":80,"cipher":"auto","uuid":"c4a6952e-138a-3fe9-803b-8f2d2dd0254b","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/4gmp"}}
+  - {"name":"🏁RELAY-104.21.46.139-1312","type":"vmess","server":"2a06:98c1:3120::","port":8880,"cipher":"auto","uuid":"51ba5a9a-4b7c-4c62-b4ae-0e53ec8d3024","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ArsalanTauBot","headers":{"host":"4.mamadcucu.com"}}}
+  - {"name":"🏁RELAY-172.67.139.51-0109","type":"vmess","server":"2a06:98c1:3121::","port":2086,"cipher":"auto","uuid":"929344e1-473c-4feb-b86b-fde3ee1ccd16","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ArsalanTauBot","headers":{"host":"3.mamadcucu.com"}}}
+  - {"name":"🇭🇰HK-182.16.1.194-9507","type":"vmess","server":"182.16.1.194","port":80,"cipher":"auto","uuid":"00a1da14-d55f-5f75-e346-79b985e1a723","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/opt/video/images"}}
+  - {"name":"🏁RELAY-173.245.58.61-5524","type":"vmess","server":"173.245.58.61","port":443,"cipher":"auto","uuid":"DCE76061-EE65-49DB-997C-A6A880DADE3A","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"twilight-limit-d663.bangolan052488.workers.dev","network":"ws","ws-opts":{"path":"/speedtest/Lille.kotick.site","headers":{"host":"twilight-limit-d663.bangolan052488.workers.dev"}}}
+  - {"name":"🇸🇬SG-18.143.123.35-0827","type":"vmess","server":"18.143.123.35","port":80,"cipher":"auto","uuid":"68df4838-46d0-4b5b-c3f0-a40ec7063245","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"🏁RELAY-172.67.128.39-0126","type":"vmess","server":"172.67.128.39","port":8080,"cipher":"auto","uuid":"88b17347-96d2-4bc8-b739-5ecd3538640a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"po-59.f-sub.xyz"}}}
+  - {"name":"🏁RELAY-104.18.22.93-5745","type":"vmess","server":"104.18.22.93","port":443,"cipher":"auto","uuid":"DCE76061-EE65-49DB-997C-A6A880DADE3A","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"cool-unit-3fc6.bangolan041078.workers.dev","network":"ws","ws-opts":{"path":"/speedtest/Dusseldorf.kotick.site","headers":{"host":"cool-unit-3fc6.bangolan041078.workers.dev"}}}
+  - {"name":"🏁RELAY-104.21.93.44-0065","type":"vmess","server":"2a06:98c1:3120::","port":80,"cipher":"auto","uuid":"97ea79a6-615c-4ad7-8083-4f3b49cbe8a2","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"germany1.unlimiteddev.co"}}}
+  - {"name":"🏁RELAY-104.17.234.87-5948","type":"vmess","server":"104.17.234.87","port":443,"cipher":"auto","uuid":"DCE76061-EE65-49DB-997C-A6A880DADE3A","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"cold-night-9009.walidfree21.workers.dev","network":"ws","ws-opts":{"path":"/speedtest/Amsterdam.kotick.site","headers":{"host":"cold-night-9009.walidfree21.workers.dev"}}}
+  - {"name":"🇻🇳VN-103.197.184.39-12046","type":"vmess","server":"103.197.184.39","port":80,"cipher":"auto","uuid":"7bea35a3-d29c-4a33-b471-1eb63b3ecf70","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/hahuutung"}}
+  - {"name":"🇭🇰HK-8.218.245.25-0382","type":"vmess","server":"8.218.245.25","port":443,"cipher":"auto","uuid":"d08ce731-78b8-462d-a98f-d22255f6c483","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"n1680936781.sxhucjg.cn","network":"ws","ws-opts":{"path":"/","headers":{"host":"n1680936781.sxhucjg.cn"}}}
+  - {"name":"🏁RELAY-172.67.128.39-0092","type":"vmess","server":"2606:4700:3030::6815:af","port":8080,"cipher":"auto","uuid":"88b17347-96d2-4bc8-b739-5ecd3538640a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"po-59.f-sub.xyz"}}}
+  - {"name":"🏁RELAY-104.17.124.55-1190","type":"vmess","server":"104.17.123.55","port":443,"cipher":"auto","uuid":"545c636f-4c88-41b4-bfc0-149b5a6848f4","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"medieval-distribute-failed-arrivals.trycloudflare.com","network":"ws","ws-opts":{"path":"/vmess?ed=2048","headers":{"host":"medieval-distribute-failed-arrivals.trycloudflare.com"}}}
+  - {"name":"🇺🇸US-69.84.182.248-4867","type":"vmess","server":"69.84.182.247","port":443,"cipher":"auto","uuid":"DCE76061-EE65-49DB-997C-A6A880DADE3A","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"falling-moon-de11.walidfree11.workers.dev","network":"ws","ws-opts":{"path":"/speedtest/Amsterdam.kotick.site","headers":{"host":"falling-moon-de11.walidfree11.workers.dev"}}}
+  - {"name":"🇦🇺AU-168.138.102.89-5682","type":"vmess","server":"168.138.102.89","port":80,"cipher":"auto","uuid":"0792ca95-a0ba-4510-eab3-8ea03239c532","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"🏁RELAY-162.159.255.205-0110","type":"vmess","server":"162.159.255.205","port":80,"cipher":"auto","uuid":"52466dc2-3550-4310-910c-74b7bf8a020e","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"us-1.acyun.eu.org"}}}
+  - {"name":"🏁RELAY-162.159.255.210-0107","type":"vmess","server":"162.159.255.210","port":80,"cipher":"auto","uuid":"52466dc2-3550-4310-910c-74b7bf8a020e","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"us-1.acyun.eu.org"}}}
+  - {"name":"🏁RELAY-172.64.128.255-1327","type":"vmess","server":"2606:4700:85c1:2b:4c00:9c38:e160:5652","port":2082,"cipher":"auto","uuid":"314c1387-618c-4689-97fc-4bc9a1ae5e05","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"ir2.nmsl.ninja"}}}
+  - {"name":"🏁RELAY-104.21.94.37-19821","type":"vmess","server":"2606:4700:3036::ac43:db05","port":443,"cipher":"auto","uuid":"A59E320C-BAC6-45E3-8A27-1518610708D0","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"Amsterdam.v2ray.online","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"amsterdam.v2ray.online"}}}
+  - {"name":"🏁RELAY-104.21.42.189-4941","type":"vmess","server":"2a06:98c1:3121::","port":80,"cipher":"auto","uuid":"cb1402b7-2a15-4978-ec7d-dc19d9b5586d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/hax2","headers":{"host":"hax2.freeair.eu.org"}}}
+  - {"name":"🏁RELAY-162.159.135.233-3063","type":"vmess","server":"162.159.135.233","port":443,"cipher":"auto","uuid":"fb938bf0-db02-11ed-b936-205c6d5f5d78","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"us-3.0rd.net","network":"ws","ws-opts":{"path":"/zonrigyb","headers":{"host":"us-3.0rd.net"}}}
+  - {"name":"🏁RELAY-162.159.135.233-0111","type":"vmess","server":"162.159.135.233","port":443,"cipher":"auto","uuid":"fb938bf0-db02-11ed-b936-205c6d5f5d78","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"us-3.0rd.net","network":"ws","ws-opts":{"path":"/","headers":{"host":"us-3.0rd.net"}}}
+  - {"name":"🏁RELAY-104.21.73.96-19837","type":"vmess","server":"2a06:98c1:3120::","port":80,"cipher":"auto","uuid":"58340bf3-d51d-45e2-87a8-effa78e4bca6","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/hax02","headers":{"host":"hax.smely.eu.org"}}}
+  - {"name":"🏁RELAY-104.21.94.37-2843","type":"vmess","server":"2606:4700:3036::ac43:db05","port":443,"cipher":"auto","uuid":"A59E320C-BAC6-45E3-8A27-1518610708D0","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"Amsterdam.v2ray.online","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Amsterdam.v2ray.online"}}}
+  - {"name":"🏁RELAY-104.17.185.2-22305","type":"vmess","server":"188.114.96.3","port":2053,"cipher":"auto","uuid":"72f76c36-3e3c-45b3-a61f-d8f017345958","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"iraniancp.autos","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"b5.iraniancp.autos"}}}
+  - {"name":"us-4.0rd.net","type":"vmess","server":"66.235.200.167","port":443,"cipher":"auto","uuid":"fd5ddc10-dd35-11ed-b136-205c6d5f5d78","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"newfreenods.mrsam92.workers.dev","network":"ws","ws-opts":{"path":"/us-4.0rd.net/47ixpnsj","headers":{"host":"newfreenods.mrsam92.workers.dev"}}}
+  - {"name":"us-2.0rd.net","type":"vmess","server":"66.235.200.167","port":443,"cipher":"auto","uuid":"c7cd1c90-dd35-11ed-b332-205c6d5f5d78","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"newfreenods.mrsam92.workers.dev","network":"ws","ws-opts":{"path":"/us-2.0rd.net/8ox2gy04","headers":{"host":"newfreenods.mrsam92.workers.dev"}}}
+  - {"name":"rnrn3g.555456.xyz","type":"vmess","server":"66.235.200.167","port":443,"cipher":"auto","uuid":"17c6c64e-eb3c-44ae-98f8-d469713f91f1","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"newfreenods.mrsam92.workers.dev","network":"ws","ws-opts":{"path":"/rnrn3g.555456.xyz/lpkuvws","headers":{"host":"newfreenods.mrsam92.workers.dev"}}}
+  - {"name":"vuk2.0bad.com","type":"vmess","server":"66.235.200.167","port":443,"cipher":"auto","uuid":"927094d3-d678-4763-8591-e240d0bcae87","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"newfreenods.mrsam92.workers.dev","network":"ws","ws-opts":{"path":"/vuk2.0bad.com/chat","headers":{"host":"newfreenods.mrsam92.workers.dev"}}}
+  - {"name":"vuk1.0bad.com","type":"vmess","server":"66.235.200.167","port":443,"cipher":"auto","uuid":"927094d3-d678-4763-8591-e240d0bcae87","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"newfreenods.mrsam92.workers.dev","network":"ws","ws-opts":{"path":"/vuk1.0bad.com/chat","headers":{"host":"newfreenods.mrsam92.workers.dev"}}}
+  - {"name":"v2test.mark20web.pw","type":"vmess","server":"66.235.200.167","port":443,"cipher":"auto","uuid":"f9285a7d-34fb-4723-9ab0-9a70f735b146","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"newfreenods.mrsam92.workers.dev","network":"ws","ws-opts":{"path":"/v2test.mark20web.pw/","headers":{"host":"newfreenods.mrsam92.workers.dev"}}}
+  - {"name":"d14vj4cf6hvk3w.cloudfront.net","type":"vmess","server":"66.235.200.167","port":443,"cipher":"auto","uuid":"c18de4fe-7972-4e7a-e3fe-b111bd4ac7c1","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"newfreenods.mrsam92.workers.dev","network":"ws","ws-opts":{"path":"/d14vj4cf6hvk3w.cloudfront.net/zhangzc","headers":{"host":"newfreenods.mrsam92.workers.dev"}}}
+  - {"name":"vjp1.0bad.com","type":"vmess","server":"66.235.200.167","port":443,"cipher":"auto","uuid":"927094d3-d678-4763-8591-e240d0bcae87","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"newfreenods.mrsam92.workers.dev","network":"ws","ws-opts":{"path":"/vjp1.0bad.com/chat","headers":{"host":"newfreenods.mrsam92.workers.dev"}}}
+  - {"name":"vus5.0bad.com","type":"vmess","server":"66.235.200.167","port":443,"cipher":"auto","uuid":"927094d3-d678-4763-8591-e240d0bcae87","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"newfreenods.mrsam92.workers.dev","network":"ws","ws-opts":{"path":"/vus5.0bad.com/chat","headers":{"host":"newfreenods.mrsam92.workers.dev"}}}
+  - {"name":"pl2-vmess.greenssh.xyz","type":"vmess","server":"66.235.200.167","port":443,"cipher":"auto","uuid":"2e68015f-a8b2-4893-a7a3-4edb19b178d9","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"newfreenods.mrsam92.workers.dev","network":"ws","ws-opts":{"path":"/pl2-vmess.greenssh.xyz/vmess","headers":{"host":"newfreenods.mrsam92.workers.dev"}}}
+  - {"name":"k1.cangyun.ltd","type":"vmess","server":"66.235.200.167","port":443,"cipher":"auto","uuid":"d0e08a50-b2b2-4090-843d-a597895b08a1","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"newfreenods.mrsam92.workers.dev","network":"ws","ws-opts":{"path":"/k1.cangyun.ltd/cangyun.ltd","headers":{"host":"newfreenods.mrsam92.workers.dev"}}}
+  - {"name":"susuku.putrastores.xyz","type":"vmess","server":"66.235.200.167","port":443,"cipher":"auto","uuid":"b04942a1-44f6-4365-a072-b86c0affe6b5","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"newfreenods.mrsam92.workers.dev","network":"ws","ws-opts":{"path":"/susuku.putrastores.xyz/vmess","headers":{"host":"newfreenods.mrsam92.workers.dev"}}}
+  - {"name":"vsg1.0bad.com","type":"vmess","server":"66.235.200.167","port":443,"cipher":"auto","uuid":"927094d3-d678-4763-8591-e240d0bcae87","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"newfreenods.mrsam92.workers.dev","network":"ws","ws-opts":{"path":"/vsg1.0bad.com/chat","headers":{"host":"newfreenods.mrsam92.workers.dev"}}}
+  - {"name":"hongbozeng.ml","type":"vmess","server":"66.235.200.167","port":443,"cipher":"auto","uuid":"860b543f-5039-473b-96ec-4494aebe4416","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"newfreenods.mrsam92.workers.dev","network":"ws","ws-opts":{"path":"/hongbozeng.ml/xuexi","headers":{"host":"newfreenods.mrsam92.workers.dev"}}}
+  - {"name":"n1680936781.sxhucjg.cn","type":"vmess","server":"66.235.200.167","port":443,"cipher":"auto","uuid":"d08ce731-78b8-462d-a98f-d22255f6c483","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"newfreenods.mrsam92.workers.dev","network":"ws","ws-opts":{"path":"/n1680936781.sxhucjg.cn/","headers":{"host":"newfreenods.mrsam92.workers.dev"}}}
+  - {"name":"n1680936928.aqdisrv.cn","type":"vmess","server":"66.235.200.167","port":443,"cipher":"auto","uuid":"f64fd522-b638-409b-93d6-1c90c23d0c3b","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"newfreenods.mrsam92.workers.dev","network":"ws","ws-opts":{"path":"/n1680936928.aqdisrv.cn/","headers":{"host":"newfreenods.mrsam92.workers.dev"}}}
+  - {"name":"pl2-vmess.greenssh.xyz (1)","type":"vmess","server":"66.235.200.167","port":443,"cipher":"auto","uuid":"2e68015f-a8b2-4893-a7a3-4edb19b178d9","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"newfreenods.mrsam92.workers.dev","network":"ws","ws-opts":{"path":"/pl2-vmess.greenssh.xyz/","headers":{"host":"newfreenods.mrsam92.workers.dev"}}}
+  - {"name":"ming2.kiwireich.com","type":"vmess","server":"66.235.200.167","port":443,"cipher":"auto","uuid":"18e5f40f-bda6-4c15-9334-e87cda6047af","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"newfreenods.mrsam92.workers.dev","network":"ws","ws-opts":{"path":"/ming2.kiwireich.com/ray","headers":{"host":"newfreenods.mrsam92.workers.dev"}}}
+  - {"name":"ming2.kiwireich.com (1)","type":"vmess","server":"66.235.200.167","port":443,"cipher":"auto","uuid":"18e5f40f-bda6-4c15-9334-e87cda6047af","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"newfreenods.mrsam92.workers.dev","network":"ws","ws-opts":{"path":"/ming2.kiwireich.com/ray","headers":{"host":"newfreenods.mrsam92.workers.dev"}}}
+  - {"name":"lond.inbarayeman.xyz","type":"vmess","server":"66.235.200.167","port":443,"cipher":"auto","uuid":"fd3677a5-b5ba-4991-b346-b5887b879d84","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"newfreenods.mrsam92.workers.dev","network":"ws","ws-opts":{"path":"/lond.inbarayeman.xyz/tukovws","headers":{"host":"newfreenods.mrsam92.workers.dev"}}}
+  - {"name":"Amsterdam.v2ray.online","type":"vmess","server":"66.235.200.167","port":443,"cipher":"auto","uuid":"A59E320C-BAC6-45E3-8A27-1518610708D0","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"newfreenods.mrsam92.workers.dev","network":"ws","ws-opts":{"path":"/Amsterdam.v2ray.online/speedtest","headers":{"host":"newfreenods.mrsam92.workers.dev"}}}
+  - {"name":"Amsterdam.v2ray.online (1)","type":"vmess","server":"66.235.200.167","port":443,"cipher":"auto","uuid":"A59E320C-BAC6-45E3-8A27-1518610708D0","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"newfreenods.mrsam92.workers.dev","network":"ws","ws-opts":{"path":"/Amsterdam.v2ray.online/speedtest","headers":{"host":"newfreenods.mrsam92.workers.dev"}}}
+  - {"name":"n1680937012.lyqrdde.cn","type":"vmess","server":"66.235.200.167","port":443,"cipher":"auto","uuid":"a8a6acb9-cee4-4db6-ab9b-923097548e18","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"newfreenods.mrsam92.workers.dev","network":"ws","ws-opts":{"path":"/n1680937012.lyqrdde.cn/","headers":{"host":"newfreenods.mrsam92.workers.dev"}}}
+  - {"name":"us-3.0rd.net","type":"vmess","server":"66.235.200.167","port":443,"cipher":"auto","uuid":"fb938bf0-db02-11ed-b936-205c6d5f5d78","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"newfreenods.mrsam92.workers.dev","network":"ws","ws-opts":{"path":"/us-3.0rd.net/zonrigyb","headers":{"host":"newfreenods.mrsam92.workers.dev"}}}
+  - {"name":"Kansas.v2ray.online","type":"vmess","server":"66.235.200.167","port":443,"cipher":"auto","uuid":"00BBF5B8-173E-6818-9927-5AD1AA073C7D","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"newfreenods.mrsam92.workers.dev","network":"ws","ws-opts":{"path":"/Kansas.v2ray.online/speedtest","headers":{"host":"newfreenods.mrsam92.workers.dev"}}}
+  - {"name":"fragrant-sun-6653.walidfree6.workers.dev","type":"vmess","server":"66.235.200.167","port":443,"cipher":"auto","uuid":"DCE76061-EE65-49DB-997C-A6A880DADE3A","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"newfreenods.mrsam92.workers.dev","network":"ws","ws-opts":{"path":"/fragrant-sun-6653.walidfree6.workers.dev/speedtest/Lille.kotick.site","headers":{"host":"newfreenods.mrsam92.workers.dev"}}}
+  - {"name":"nameless-breeze-df9a.walidfree2.workers.dev","type":"vmess","server":"66.235.200.167","port":443,"cipher":"auto","uuid":"DCE76061-EE65-49DB-997C-A6A880DADE3A","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"newfreenods.mrsam92.workers.dev","network":"ws","ws-opts":{"path":"/nameless-breeze-df9a.walidfree2.workers.dev/speedtest/Kansas.kotick.site","headers":{"host":"newfreenods.mrsam92.workers.dev"}}}
+  - {"name":"raspy-leaf-a6f0.lille7737.workers.dev (2)","type":"vmess","server":"66.235.200.167","port":443,"cipher":"auto","uuid":"DCE76061-EE65-49DB-997C-A6A880DADE3A","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"newfreenods.mrsam92.workers.dev","network":"ws","ws-opts":{"path":"/raspy-leaf-a6f0.lille7737.workers.dev/speedtest/Amsterdam.kotick.site","headers":{"host":"newfreenods.mrsam92.workers.dev"}}}
+  - {"name":"raspy-leaf-a6f0.lille7737.workers.dev (3)","type":"vmess","server":"66.235.200.167","port":443,"cipher":"auto","uuid":"DCE76061-EE65-49DB-997C-A6A880DADE3A","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"newfreenods.mrsam92.workers.dev","network":"ws","ws-opts":{"path":"/raspy-leaf-a6f0.lille7737.workers.dev/speedtest/Amsterdam.kotick.site","headers":{"host":"newfreenods.mrsam92.workers.dev"}}}
+  - {"name":"falling-moon-de11.walidfree11.workers.dev","type":"vmess","server":"66.235.200.167","port":443,"cipher":"auto","uuid":"DCE76061-EE65-49DB-997C-A6A880DADE3A","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"newfreenods.mrsam92.workers.dev","network":"ws","ws-opts":{"path":"/falling-moon-de11.walidfree11.workers.dev/speedtest/Amsterdam.kotick.site","headers":{"host":"newfreenods.mrsam92.workers.dev"}}}
+  - {"name":"still-bonus-0cb7.walidfree1.workers.dev","type":"vmess","server":"66.235.200.167","port":443,"cipher":"auto","uuid":"DCE76061-EE65-49DB-997C-A6A880DADE3A","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"newfreenods.mrsam92.workers.dev","network":"ws","ws-opts":{"path":"/still-bonus-0cb7.walidfree1.workers.dev/speedtest/Lille.kotick.site","headers":{"host":"newfreenods.mrsam92.workers.dev"}}}
+  - {"name":"little-sound-292f.walidfree22.workers.dev","type":"vmess","server":"66.235.200.167","port":443,"cipher":"auto","uuid":"DCE76061-EE65-49DB-997C-A6A880DADE3A","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"newfreenods.mrsam92.workers.dev","network":"ws","ws-opts":{"path":"/little-sound-292f.walidfree22.workers.dev/speedtest/Amsterdam.kotick.site","headers":{"host":"newfreenods.mrsam92.workers.dev"}}}
+  - {"name":"raspy-leaf-a6f0.lille7737.workers.dev (4)","type":"vmess","server":"66.235.200.167","port":443,"cipher":"auto","uuid":"DCE76061-EE65-49DB-997C-A6A880DADE3A","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"newfreenods.mrsam92.workers.dev","network":"ws","ws-opts":{"path":"/raspy-leaf-a6f0.lille7737.workers.dev/speedtest/Amsterdam.kotick.site","headers":{"host":"newfreenods.mrsam92.workers.dev"}}}
+  - {"name":"blue-fog-7594.walidfree3.workers.dev","type":"vmess","server":"66.235.200.167","port":443,"cipher":"auto","uuid":"DCE76061-EE65-49DB-997C-A6A880DADE3A","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"newfreenods.mrsam92.workers.dev","network":"ws","ws-opts":{"path":"/blue-fog-7594.walidfree3.workers.dev/speedtest/Dusseldorf.kotick.site","headers":{"host":"newfreenods.mrsam92.workers.dev"}}}
+  - {"name":"yellow-cherry-92c0.walidfree12.workers.dev","type":"vmess","server":"66.235.200.167","port":443,"cipher":"auto","uuid":"DCE76061-EE65-49DB-997C-A6A880DADE3A","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"newfreenods.mrsam92.workers.dev","network":"ws","ws-opts":{"path":"/yellow-cherry-92c0.walidfree12.workers.dev/speedtest/Kansas.kotick.site","headers":{"host":"newfreenods.mrsam92.workers.dev"}}}
+  - {"name":"raspy-leaf-a6f0.lille7737.workers.dev (5)","type":"vmess","server":"66.235.200.167","port":443,"cipher":"auto","uuid":"DCE76061-EE65-49DB-997C-A6A880DADE3A","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"newfreenods.mrsam92.workers.dev","network":"ws","ws-opts":{"path":"/raspy-leaf-a6f0.lille7737.workers.dev/speedtest/Kansas.kotick.site","headers":{"host":"newfreenods.mrsam92.workers.dev"}}}
+  - {"name":"n1681621061.edpmvga.cn","type":"vmess","server":"66.235.200.167","port":443,"cipher":"auto","uuid":"97179dd2-0e99-4df0-8e32-a0c346fb6123","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"newfreenods.mrsam92.workers.dev","network":"ws","ws-opts":{"path":"/n1681621061.edpmvga.cn/","headers":{"host":"newfreenods.mrsam92.workers.dev"}}}
+  - {"name":"lucky-fire-4924.walidfree10.workers.dev","type":"vmess","server":"66.235.200.167","port":443,"cipher":"auto","uuid":"DCE76061-EE65-49DB-997C-A6A880DADE3A","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"newfreenods.mrsam92.workers.dev","network":"ws","ws-opts":{"path":"/lucky-fire-4924.walidfree10.workers.dev/speedtest/Amsterdam.kotick.site","headers":{"host":"newfreenods.mrsam92.workers.dev"}}}
+  - {"name":"morning-wood-bcd1.walidfree16.workers.dev","type":"vmess","server":"66.235.200.167","port":443,"cipher":"auto","uuid":"DCE76061-EE65-49DB-997C-A6A880DADE3A","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"newfreenods.mrsam92.workers.dev","network":"ws","ws-opts":{"path":"/morning-wood-bcd1.walidfree16.workers.dev/speedtest/Amsterdam.kotick.site","headers":{"host":"newfreenods.mrsam92.workers.dev"}}}
+  - {"name":"raspy-leaf-a6f0.lille7737.workers.dev (6)","type":"vmess","server":"66.235.200.167","port":443,"cipher":"auto","uuid":"DCE76061-EE65-49DB-997C-A6A880DADE3A","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"newfreenods.mrsam92.workers.dev","network":"ws","ws-opts":{"path":"/raspy-leaf-a6f0.lille7737.workers.dev/speedtest/Amsterdam.kotick.site","headers":{"host":"newfreenods.mrsam92.workers.dev"}}}
+  - {"name":"raspy-leaf-a6f0.lille7737.workers.dev (7)","type":"vmess","server":"66.235.200.167","port":443,"cipher":"auto","uuid":"DCE76061-EE65-49DB-997C-A6A880DADE3A","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"newfreenods.mrsam92.workers.dev","network":"ws","ws-opts":{"path":"/raspy-leaf-a6f0.lille7737.workers.dev/speedtest/Amsterdam.kotick.site","headers":{"host":"newfreenods.mrsam92.workers.dev"}}}
+  - {"name":"cold-night-9009.walidfree21.workers.dev","type":"vmess","server":"66.235.200.167","port":443,"cipher":"auto","uuid":"DCE76061-EE65-49DB-997C-A6A880DADE3A","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"newfreenods.mrsam92.workers.dev","network":"ws","ws-opts":{"path":"/cold-night-9009.walidfree21.workers.dev/speedtest/Amsterdam.kotick.site","headers":{"host":"newfreenods.mrsam92.workers.dev"}}}
+  - {"name":"raspy-leaf-a6f0.lille7737.workers.dev (8)","type":"vmess","server":"66.235.200.167","port":443,"cipher":"auto","uuid":"DCE76061-EE65-49DB-997C-A6A880DADE3A","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"newfreenods.mrsam92.workers.dev","network":"ws","ws-opts":{"path":"/raspy-leaf-a6f0.lille7737.workers.dev/speedtest/Amsterdam.kotick.site","headers":{"host":"newfreenods.mrsam92.workers.dev"}}}
+  - {"name":"cool-unit-3fc6.bangolan041078.workers.dev","type":"vmess","server":"66.235.200.167","port":443,"cipher":"auto","uuid":"DCE76061-EE65-49DB-997C-A6A880DADE3A","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"newfreenods.mrsam92.workers.dev","network":"ws","ws-opts":{"path":"/cool-unit-3fc6.bangolan041078.workers.dev/speedtest/Dusseldorf.kotick.site","headers":{"host":"newfreenods.mrsam92.workers.dev"}}}
+  - {"name":"raspy-leaf-a6f0.lille7737.workers.dev (9)","type":"vmess","server":"66.235.200.167","port":443,"cipher":"auto","uuid":"DCE76061-EE65-49DB-997C-A6A880DADE3A","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"newfreenods.mrsam92.workers.dev","network":"ws","ws-opts":{"path":"/raspy-leaf-a6f0.lille7737.workers.dev/speedtest/Amsterdam.kotick.site","headers":{"host":"newfreenods.mrsam92.workers.dev"}}}
+  - {"name":"white-dawn-4be8.walidfree5.workers.dev","type":"vmess","server":"66.235.200.167","port":443,"cipher":"auto","uuid":"DCE76061-EE65-49DB-997C-A6A880DADE3A","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"newfreenods.mrsam92.workers.dev","network":"ws","ws-opts":{"path":"/white-dawn-4be8.walidfree5.workers.dev/speedtest/Dusseldorf.kotick.site","headers":{"host":"newfreenods.mrsam92.workers.dev"}}}
+  - {"name":"vde1.0bad.com (1)","type":"vmess","server":"66.235.200.167","port":443,"cipher":"auto","uuid":"927094d3-d678-4763-8591-e240d0bcae87","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"newfreenods.mrsam92.workers.dev","network":"ws","ws-opts":{"path":"/vde1.0bad.com/chat","headers":{"host":"newfreenods.mrsam92.workers.dev"}}}
+  - {"name":"Kansas.v2ray.online (1)","type":"vmess","server":"66.235.200.167","port":443,"cipher":"auto","uuid":"00BBF5B8-173E-6818-9927-5AD1AA073C7D","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"newfreenods.mrsam92.workers.dev","network":"ws","ws-opts":{"path":"/Kansas.v2ray.online/speedtest","headers":{"host":"newfreenods.mrsam92.workers.dev"}}}
+  - {"name":"Lille.kotick.site","type":"vmess","server":"66.235.200.167","port":443,"cipher":"auto","uuid":"2F094845-E2BD-EBF7-DEB7-995992436FAF","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"newfreenods.mrsam92.workers.dev","network":"ws","ws-opts":{"path":"/Lille.kotick.site/speedtest","headers":{"host":"newfreenods.mrsam92.workers.dev"}}}
+  - {"name":"amsterdam.v2ray.online","type":"vmess","server":"66.235.200.167","port":443,"cipher":"auto","uuid":"A59E320C-BAC6-45E3-8A27-1518610708D0","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"newfreenods.mrsam92.workers.dev","network":"ws","ws-opts":{"path":"/amsterdam.v2ray.online/speedtest","headers":{"host":"newfreenods.mrsam92.workers.dev"}}}  
+proxy-groups:
+  - name: 🐟 Proxies
+    type: select
+    proxies:
+      - 🇺🇸US-198.148.111.112-19825
+      - 🇺🇸US-173.249.199.27-2549
+      - 🇰🇷KR-152.67.218.38-16223
+      - 🇳🇱NL-45.63.40.225-1258
+      - 🇫🇷FR-188.165.170.83-0115
+      - 🇰🇷KR-140.238.1.117-1274
+      - 🏁RELAY-104.21.46.139-1312
+      - 🏁RELAY-172.67.139.51-0109
+      - 🇭🇰HK-182.16.1.194-9507
+      - 🏁RELAY-173.245.58.61-5524
+      - 🇸🇬SG-18.143.123.35-0827
+      - 🏁RELAY-172.67.128.39-0126
+      - 🏁RELAY-104.18.22.93-5745
+      - 🏁RELAY-104.21.93.44-0065
+      - 🏁RELAY-104.17.234.87-5948
+      - 🇻🇳VN-103.197.184.39-12046
+      - 🇭🇰HK-8.218.245.25-0382
+      - 🏁RELAY-172.67.128.39-0092
+      - 🏁RELAY-104.17.124.55-1190
+      - 🇺🇸US-69.84.182.248-4867
+      - 🇦🇺AU-168.138.102.89-5682
+      - 🏁RELAY-162.159.255.205-0110
+      - 🏁RELAY-162.159.255.210-0107
+      - 🏁RELAY-172.64.128.255-1327
+      - 🏁RELAY-104.21.94.37-19821
+      - 🏁RELAY-104.21.42.189-4941
+      - 🏁RELAY-162.159.135.233-3063
+      - 🏁RELAY-162.159.135.233-0111
+      - 🏁RELAY-104.21.73.96-19837
+      - 🏁RELAY-104.21.94.37-2843
+      - 🏁RELAY-104.17.185.2-22305
+      - us-4.0rd.net
+      - us-2.0rd.net
+      - rnrn3g.555456.xyz
+      - vuk2.0bad.com
+      - vuk1.0bad.com
+      - v2test.mark20web.pw
+      - d14vj4cf6hvk3w.cloudfront.net
+      - vjp1.0bad.com
+      - vus5.0bad.com
+      - pl2-vmess.greenssh.xyz
+      - k1.cangyun.ltd
+      - susuku.putrastores.xyz
+      - vsg1.0bad.com
+      - hongbozeng.ml
+      - n1680936781.sxhucjg.cn
+      - n1680936928.aqdisrv.cn
+      - pl2-vmess.greenssh.xyz (1)
+      - ming2.kiwireich.com
+      - ming2.kiwireich.com (1)
+      - lond.inbarayeman.xyz
+      - Amsterdam.v2ray.online
+      - Amsterdam.v2ray.online (1)
+      - n1680937012.lyqrdde.cn
+      - us-3.0rd.net
+      - Kansas.v2ray.online
+      - fragrant-sun-6653.walidfree6.workers.dev
+      - nameless-breeze-df9a.walidfree2.workers.dev
+      - raspy-leaf-a6f0.lille7737.workers.dev (2)
+      - raspy-leaf-a6f0.lille7737.workers.dev (3)
+      - falling-moon-de11.walidfree11.workers.dev
+      - still-bonus-0cb7.walidfree1.workers.dev
+      - little-sound-292f.walidfree22.workers.dev
+      - raspy-leaf-a6f0.lille7737.workers.dev (4)
+      - blue-fog-7594.walidfree3.workers.dev
+      - yellow-cherry-92c0.walidfree12.workers.dev
+      - raspy-leaf-a6f0.lille7737.workers.dev (5)
+      - n1681621061.edpmvga.cn
+      - lucky-fire-4924.walidfree10.workers.dev
+      - morning-wood-bcd1.walidfree16.workers.dev
+      - raspy-leaf-a6f0.lille7737.workers.dev (6)
+      - raspy-leaf-a6f0.lille7737.workers.dev (7)
+      - cold-night-9009.walidfree21.workers.dev
+      - raspy-leaf-a6f0.lille7737.workers.dev (8)
+      - cool-unit-3fc6.bangolan041078.workers.dev
+      - raspy-leaf-a6f0.lille7737.workers.dev (9)
+      - white-dawn-4be8.walidfree5.workers.dev
+      - vde1.0bad.com (1)
+      - Kansas.v2ray.online (1)
+      - Lille.kotick.site
+      - amsterdam.v2ray.online 
+rules:
+  - MATCH,🐟 Proxies
