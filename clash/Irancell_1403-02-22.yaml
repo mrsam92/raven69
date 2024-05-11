@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：11-05-2024 15:35:05
+# 创建时间：11-05-2024 15:41:59
 # 使用模版：V2RaySE 默认模版
-# 节点数量：427
+# 节点数量：426
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -235,7 +235,6 @@ proxies:
   - {"name":"🇬🇧GB | 🟢 | ss | @ROMAX_VPN | 0","type":"ss","server":"series-a2-mec.samanehha.co","port":443,"password":"u17T3BvpYaaiuW2c","cipher":"chacha20-ietf-poly1305"}
   - {"name":"❔XX | 🟢 | vmess | @ROMAX_VPN | 1","type":"vmess","server":"f42.maryam1500.top","port":2098,"cipher":"auto","uuid":"83876222-64a4-4912-aa18-b7d9d34959de","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
   - {"name":"%F0%9F%87%A8%F0%9F%87%A6%20Canada%20Vmess%20@V2rayStore (21)","type":"vmess","server":"hms182.glweidf.sbs","port":443,"cipher":"auto","uuid":"76221bfb-e92f-4e80-81c5-6fe48f50ac0b","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"glweidf.sbs","network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"glweidf.sbs"}}}
-  - {"name":"🪯39@oneclickvpnkeys","type":"vmess","server":"104.21.44.106","port":443,"cipher":"auto","uuid":"93ea486a-bada-42a4-ac38-d088b320fa1e","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"xmivideo.cfd","network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"xmivideo.cfd"}}}
   - {"name":"@Hope_Net-join-us-on-Telegram (1)","type":"vmess","server":"172.67.170.103","port":443,"cipher":"auto","uuid":"76221bfb-e92f-4e80-81c5-6fe48f50ac0b","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"glweidf.sbs","network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"glweidf.sbs"}}}
   - {"name":"@Hope_Net-join-us-on-Telegram (3)","type":"vmess","server":"128.199.161.230","port":99,"cipher":"auto","uuid":"befd085a-91f7-4608-bc45-f40c1ac2f4b7","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/v2ray"}}
   - {"name":"🌙سرور های رایگان پرسرعت در کانال @serversiran11","type":"vmess","server":"104.21.15.36","port":443,"cipher":"auto","uuid":"edbb1059-1633-4271-b66e-ed4fba47a1bf","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"linde06.indiavideo.sbs","network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"linde06.indiavideo.sbs"}}}
@@ -668,7 +667,6 @@ proxy-groups:
       - 🇬🇧GB | 🟢 | ss | @ROMAX_VPN | 0
       - ❔XX | 🟢 | vmess | @ROMAX_VPN | 1
       - '%F0%9F%87%A8%F0%9F%87%A6%20Canada%20Vmess%20@V2rayStore (21)'
-      - 🪯39@oneclickvpnkeys
       - '@Hope_Net-join-us-on-Telegram (1)'
       - '@Hope_Net-join-us-on-Telegram (3)'
       - 🌙سرور های رایگان پرسرعت در کانال @serversiran11
@@ -1101,7 +1099,6 @@ proxy-groups:
       - 🇬🇧GB | 🟢 | ss | @ROMAX_VPN | 0
       - ❔XX | 🟢 | vmess | @ROMAX_VPN | 1
       - '%F0%9F%87%A8%F0%9F%87%A6%20Canada%20Vmess%20@V2rayStore (21)'
-      - 🪯39@oneclickvpnkeys
       - '@Hope_Net-join-us-on-Telegram (1)'
       - '@Hope_Net-join-us-on-Telegram (3)'
       - 🌙سرور های رایگان پرسرعت در کانال @serversiran11
@@ -1534,7 +1531,6 @@ proxy-groups:
       - 🇬🇧GB | 🟢 | ss | @ROMAX_VPN | 0
       - ❔XX | 🟢 | vmess | @ROMAX_VPN | 1
       - '%F0%9F%87%A8%F0%9F%87%A6%20Canada%20Vmess%20@V2rayStore (21)'
-      - 🪯39@oneclickvpnkeys
       - '@Hope_Net-join-us-on-Telegram (1)'
       - '@Hope_Net-join-us-on-Telegram (3)'
       - 🌙سرور های رایگان پرسرعت در کانال @serversiran11
@@ -1966,7 +1962,6 @@ proxy-groups:
       - 🇬🇧GB | 🟢 | ss | @ROMAX_VPN | 0
       - ❔XX | 🟢 | vmess | @ROMAX_VPN | 1
       - '%F0%9F%87%A8%F0%9F%87%A6%20Canada%20Vmess%20@V2rayStore (21)'
-      - 🪯39@oneclickvpnkeys
       - '@Hope_Net-join-us-on-Telegram (1)'
       - '@Hope_Net-join-us-on-Telegram (3)'
       - 🌙سرور های رایگان پرسرعت در کانال @serversiran11
@@ -2398,7 +2393,6 @@ proxy-groups:
       - 🇬🇧GB | 🟢 | ss | @ROMAX_VPN | 0
       - ❔XX | 🟢 | vmess | @ROMAX_VPN | 1
       - '%F0%9F%87%A8%F0%9F%87%A6%20Canada%20Vmess%20@V2rayStore (21)'
-      - 🪯39@oneclickvpnkeys
       - '@Hope_Net-join-us-on-Telegram (1)'
       - '@Hope_Net-join-us-on-Telegram (3)'
       - 🌙سرور های رایگان پرسرعت در کانال @serversiran11
@@ -2830,7 +2824,6 @@ proxy-groups:
       - 🇬🇧GB | 🟢 | ss | @ROMAX_VPN | 0
       - ❔XX | 🟢 | vmess | @ROMAX_VPN | 1
       - '%F0%9F%87%A8%F0%9F%87%A6%20Canada%20Vmess%20@V2rayStore (21)'
-      - 🪯39@oneclickvpnkeys
       - '@Hope_Net-join-us-on-Telegram (1)'
       - '@Hope_Net-join-us-on-Telegram (3)'
       - 🌙سرور های رایگان پرسرعت در کانال @serversiran11
@@ -3279,7 +3272,6 @@ proxy-groups:
       - 🇬🇧GB | 🟢 | ss | @ROMAX_VPN | 0
       - ❔XX | 🟢 | vmess | @ROMAX_VPN | 1
       - '%F0%9F%87%A8%F0%9F%87%A6%20Canada%20Vmess%20@V2rayStore (21)'
-      - 🪯39@oneclickvpnkeys
       - '@Hope_Net-join-us-on-Telegram (1)'
       - '@Hope_Net-join-us-on-Telegram (3)'
       - 🌙سرور های رایگان پرسرعت در کانال @serversiran11
