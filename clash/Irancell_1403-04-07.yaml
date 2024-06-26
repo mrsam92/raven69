@@ -1,0 +1,552 @@
+####################################
+# 创建者：v2rayse.com
+# 客户端：Clash
+# 创建时间：16-04-2023 07:50:55
+# 使用模版：V2RaySE 默认模版
+# 节点数量：81
+####################################
+mixed-port: 7890
+allow-lan: true
+mode: Global
+log-level: info
+external-controller: :9090
+proxies:
+  - {"name":"🚫🇦🇱 AL 31.171.153.178 ◈ tcp:989 ◈ Keminet Ltd. ◈ dba4e","type":"ss","server":"31.171.153.180","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🇦🇹 AT 95.164.9.144 ◈ tcp:2927 ◈ Stark Industries ◈ 24a34","type":"ss","server":"shadowsocks.ctsubvpn.ggff.net","port":2927,"password":"ug4Fu79SEREdFGlt2sUyT4","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇦🇹 AT 95.164.9.144 ◈ tcp:2927 ◈ Stark Industries ◈ d1022","type":"ss","server":"ss1.ctsubvpn.ggff.net","port":2927,"password":"ug4Fu79SEREdFGlt2sUyT4","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔒🇦🇺 AU 170.64.188.248 ◈ tcp:443 ◈ DigitalOcean ◈ f88c9","type":"vless","server":"170.64.188.248","port":443,"uuid":"6f7b5bb2-b333-49a0-90a9-05eaa50d5cf3","tls":true,"servername":"syd.jarviskit.com","flow":"xtls-rprx-vision","network":"tcp"}
+  - {"name":"🇧🇷 BR 191.96.70.53 ◈ tcp:51348 ◈ Hivelocity Inc / Private Customer ◈ 11f1e","type":"ss","server":"191.96.70.53","port":51348,"password":"UPUN2pvO9z5e1I1kFfyO6HJYyoK4Ca5hgHbspqiNg3rJkInT","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔒🇨🇦 CA 103.98.215.248 ◈ tcp:443 ◈ Kamatera / Cloud Web Manage ◈ 71340","type":"vless","server":"103.98.215.248","port":443,"uuid":"c54dd620-fa5f-46de-82c2-9d1492ee74e4","tls":true,"servername":"tor2.jarviskit.com","flow":"xtls-rprx-vision","network":"tcp"}
+  - {"name":"🔒🇨🇦 CA 103.98.215.248 ◈ tcp:443 ◈ Kamatera / Cloud Web Manage ◈ cd781","type":"vless","server":"tor2.jarviskit.com","port":443,"uuid":"c54dd620-fa5f-46de-82c2-9d1492ee74e4","tls":true,"flow":"xtls-rprx-vision","network":"tcp"}
+  - {"name":"🇨🇦 CA 148.113.175.147 ◈ ws:80 ◈ OVH, Inc ◈ 14249","type":"vless","server":"speed.cloudflare.com","port":80,"uuid":"378ac207-38d3-4401-ba96-3a7931968bc5","tls":true,"servername":"ca.vpnbase.net","network":"ws","ws-opts":{"path":"/http","headers":{"host":"ca.vpnbase.net"}}}
+  - {"name":"🚫🇨🇦 CA 198.245.49.22 ◈ tcp:989 ◈ OVH, Inc. ◈ c35c6","type":"ss","server":"198.245.49.22","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🇨🇭 CH 94.131.12.203 ◈ ws:2052 ◈ Stark Industries ◈ aaff3","type":"vless","server":"speed.cloudflare.com","port":2052,"uuid":"50d0ecb0-cd77-4969-a9c5-0395b0c1e2ed","tls":true,"servername":"50.v.v.v.v-_-_-vless-_-_-v.v.v.v.check-host.net.www.zula.ir.telegram.wyvernvpn.odinallfather.us.kg.","network":"ws","ws-opts":{"path":"/vless?ed=2048","headers":{"host":"50.v.v.v.v-_-_-vless-_-_-v.v.v.v.check-host.net.www.zula.ir.telegram.wyvernvpn.odinallfather.us.kg."}}}
+  - {"name":"🇨🇭 CH 94.131.12.203 ◈ ws:2082 ◈ Stark Industries ◈ eda63","type":"vless","server":"speed.cloudflare.com","port":2082,"uuid":"50d0ecb0-cd77-4969-a9c5-0395b0c1e2ed","tls":true,"servername":"50.v.v.v.v-_-_-vless-_-_-v.v.v.v.check-host.net.www.zula.ir.telegram.wyvernvpn.odinallfather.us.kg.","network":"ws","ws-opts":{"path":"/vless?ed=2048","headers":{"host":"50.v.v.v.v-_-_-vless-_-_-v.v.v.v.check-host.net.www.zula.ir.telegram.wyvernvpn.odinallfather.us.kg."}}}
+  - {"name":"🇨🇭 CH 94.131.12.203 ◈ ws:2086 ◈ Stark Industries ◈ fd3ee","type":"vless","server":"speed.cloudflare.com","port":2086,"uuid":"50d0ecb0-cd77-4969-a9c5-0395b0c1e2ed","tls":true,"servername":"50.v.v.v.v-_-_-vless-_-_-v.v.v.v.check-host.net.www.zula.ir.telegram.wyvernvpn.odinallfather.us.kg.","network":"ws","ws-opts":{"path":"/vless?ed=2048","headers":{"host":"50.v.v.v.v-_-_-vless-_-_-v.v.v.v.check-host.net.www.zula.ir.telegram.wyvernvpn.odinallfather.us.kg."}}}
+  - {"name":"🇨🇭 CH 94.131.12.203 ◈ ws:2095 ◈ Stark Industries ◈ b08a5","type":"vless","server":"speed.cloudflare.com","port":2095,"uuid":"50d0ecb0-cd77-4969-a9c5-0395b0c1e2ed","tls":true,"servername":"50.v.v.v.v-_-_-vless-_-_-v.v.v.v.check-host.net.www.zula.ir.telegram.wyvernvpn.odinallfather.us.kg.","network":"ws","ws-opts":{"path":"/vless?ed=2048","headers":{"host":"50.v.v.v.v-_-_-vless-_-_-v.v.v.v.check-host.net.www.zula.ir.telegram.wyvernvpn.odinallfather.us.kg."}}}
+  - {"name":"🇨🇭 CH 94.131.12.203 ◈ ws:8080 ◈ Stark Industries ◈ b1497","type":"vless","server":"speed.cloudflare.com","port":8080,"uuid":"50d0ecb0-cd77-4969-a9c5-0395b0c1e2ed","tls":true,"servername":"50.v.v.v.v-_-_-vless-_-_-v.v.v.v.check-host.net.www.zula.ir.telegram.wyvernvpn.odinallfather.us.kg.","network":"ws","ws-opts":{"path":"/vless?ed=2048","headers":{"host":"50.v.v.v.v-_-_-vless-_-_-v.v.v.v.check-host.net.www.zula.ir.telegram.wyvernvpn.odinallfather.us.kg."}}}
+  - {"name":"🇨🇭 CH 94.131.12.203 ◈ ws:8880 ◈ Stark Industries ◈ cd8af","type":"vless","server":"speed.cloudflare.com","port":8880,"uuid":"50d0ecb0-cd77-4969-a9c5-0395b0c1e2ed","tls":true,"servername":"50.v.v.v.v-_-_-vless-_-_-v.v.v.v.check-host.net.www.zula.ir.telegram.wyvernvpn.odinallfather.us.kg.","network":"ws","ws-opts":{"path":"/vless?ed=2048","headers":{"host":"50.v.v.v.v-_-_-vless-_-_-v.v.v.v.check-host.net.www.zula.ir.telegram.wyvernvpn.odinallfather.us.kg."}}}
+  - {"name":"🔒🇩🇪 DE 185.56.150.200 ◈ ws:443 ◈ 1&1 IONOS SE / Strato ◈ 93fde","type":"vless","server":"speed.cloudflare.com","port":443,"uuid":"f69d4594-2d18-4266-abc4-eeb9c5604ca5","tls":true,"servername":"vless-sub.n7p8ri7j.workers.dev","network":"ws","ws-opts":{"path":"/www.12reddddddd.bf/975e3406-9ac4-45fc-a12b-30fbe810c75f","headers":{"host":"vless-sub.n7p8ri7j.workers.dev"}}}
+  - {"name":"🔒🇩🇪 DE 185.56.150.200 ◈ ws:2053 ◈ 1&1 IONOS SE / Strato ◈ 9f1ef","type":"vless","server":"speed.cloudflare.com","port":2053,"uuid":"f69d4594-2d18-4266-abc4-eeb9c5604ca5","tls":true,"servername":"vless-sub.n7p8ri7j.workers.dev","network":"ws","ws-opts":{"path":"/www.12reddddddd.bf/975e3406-9ac4-45fc-a12b-30fbe810c75f","headers":{"host":"vless-sub.n7p8ri7j.workers.dev"}}}
+  - {"name":"🔒🇩🇪 DE 185.56.150.200 ◈ ws:2083 ◈ 1&1 IONOS SE / Strato ◈ 3d819","type":"vless","server":"speed.cloudflare.com","port":2083,"uuid":"f69d4594-2d18-4266-abc4-eeb9c5604ca5","tls":true,"servername":"vless-sub.n7p8ri7j.workers.dev","network":"ws","ws-opts":{"path":"/www.12reddddddd.bf/975e3406-9ac4-45fc-a12b-30fbe810c75f","headers":{"host":"vless-sub.n7p8ri7j.workers.dev"}}}
+  - {"name":"🔒🇩🇪 DE 185.56.150.200 ◈ ws:2087 ◈ 1&1 IONOS SE / Strato ◈ 9c300","type":"vless","server":"speed.cloudflare.com","port":2087,"uuid":"f69d4594-2d18-4266-abc4-eeb9c5604ca5","tls":true,"servername":"vless-sub.n7p8ri7j.workers.dev","network":"ws","ws-opts":{"path":"/www.12reddddddd.bf/975e3406-9ac4-45fc-a12b-30fbe810c75f","headers":{"host":"vless-sub.n7p8ri7j.workers.dev"}}}
+  - {"name":"🔒🇩🇪 DE 185.56.150.200 ◈ ws:2096 ◈ 1&1 IONOS SE / Strato ◈ a5282","type":"vless","server":"speed.cloudflare.com","port":2096,"uuid":"f69d4594-2d18-4266-abc4-eeb9c5604ca5","tls":true,"servername":"vless-sub.n7p8ri7j.workers.dev","network":"ws","ws-opts":{"path":"/www.12reddddddd.bf/975e3406-9ac4-45fc-a12b-30fbe810c75f","headers":{"host":"vless-sub.n7p8ri7j.workers.dev"}}}
+  - {"name":"🔒🇩🇪 DE 185.56.150.200 ◈ ws:8443 ◈ 1&1 IONOS SE / Strato ◈ cca7b","type":"vless","server":"speed.cloudflare.com","port":8443,"uuid":"f69d4594-2d18-4266-abc4-eeb9c5604ca5","tls":true,"servername":"vless-sub.n7p8ri7j.workers.dev","network":"ws","ws-opts":{"path":"/www.12reddddddd.bf/975e3406-9ac4-45fc-a12b-30fbe810c75f","headers":{"host":"vless-sub.n7p8ri7j.workers.dev"}}}
+  - {"name":"🔒🇩🇪 DE 45.63.117.50 ◈ ws:443 ◈ Choopa / Vultr Holdings ◈ a87ee","type":"vless","server":"45.63.117.50","port":443,"uuid":"fcf99985-147b-4c71-c3f2-f448e5a379f1","tls":true,"servername":"cpanel3.sassanidempire.com","network":"ws","ws-opts":{"path":"/ws","headers":{"host":"cpanel3.sassanidempire.com"}}}
+  - {"name":"🔒🇩🇪 DE 45.63.117.50 ◈ ws:2053 ◈ Choopa / Vultr Holdings ◈ bd1ea","type":"vless","server":"45.63.117.50","port":2053,"uuid":"683efd82-00f9-45f9-a43d-c1ba3f902e90","tls":true,"servername":"cpanel3.sassanidempire.com","network":"ws","ws-opts":{"path":"/ws","headers":{"host":"cpanel3.sassanidempire.com"}}}
+  - {"name":"🔒🇩🇪 DE 45.63.117.50 ◈ ws:2083 ◈ Choopa / Vultr Holdings ◈ 911de","type":"vless","server":"45.63.117.50","port":2083,"uuid":"c46a54bf-b220-4c22-cd6e-fb1fcabda0af","tls":true,"servername":"cpanel3.sassanidempire.com","network":"ws","ws-opts":{"path":"/ws","headers":{"host":"cpanel3.sassanidempire.com"}}}
+  - {"name":"🔒🇩🇪 DE 45.63.117.50 ◈ ws:2087 ◈ Choopa / Vultr Holdings ◈ 20d7b","type":"vless","server":"45.63.117.50","port":2087,"uuid":"85e741b8-8233-4b38-e89a-2d2658119f27","tls":true,"servername":"cpanel3.sassanidempire.com","network":"ws","ws-opts":{"path":"/ws","headers":{"host":"cpanel3.sassanidempire.com"}}}
+  - {"name":"🔒🇩🇪 DE 138.68.93.60 ◈ tcp:29360 ◈ DigitalOcean ◈ 7de32","type":"vless","server":"2a03:b0c0:3:d0::10ad:7001","port":29360,"udp":true,"uuid":"9e890db0-905d-41d2-8a69-0a35ff7d8ce3","tls":true,"servername":"ftp.debian.org","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"WeBcvXnjj4LbVsAT2lTbZ3JbvoqE4S_rON9h-7DjrHo","short-id":"fcfbab34"},"client-fingerprint":"chrome"}
+  - {"name":"🔒🇩🇪 DE 91.107.181.159 ◈ grpc:2087 ◈ Hetzner ◈ 2e2b6","type":"vless","server":"om72.hopeserver.xyz","port":2087,"uuid":"9f07ce1b-4585-43d2-a69b-197826583b12","tls":true,"network":"grpc"}
+  - {"name":"🔒🇩🇪 DE 91.107.131.92 ◈ tcp:8443 ◈ Hetzner ◈ 03f53","type":"vless","server":"2a01:4f8:c010:a40:ef0b:c533:df09:460c","port":8443,"udp":true,"uuid":"f137cf75-6804-409d-8abd-fe6add2287a1","tls":true,"servername":"gsmarena.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"I2Q2Q5FUtO60337dakaiLKhC6oDobp5DXiXzvEGAkw8","short-id":"32d7a82d"},"client-fingerprint":"chrome"}
+  - {"name":"🔒🇩🇪 DE 5.75.197.8 ◈ ws:443 ◈ Hetzner ◈ 77e44","type":"vless","server":"5.75.197.8","port":443,"uuid":"5d4fb4ee-cc86-4bdf-9777-ff6e759a8700","tls":true,"servername":"slatdrres45rewrubikaeitasalam.dr-salam.com","network":"ws","ws-opts":{"path":"/48608/Down","headers":{"host":"slatdrres45rewrubikaeitasalam.dr-salam.com"}}}
+  - {"name":"🔒🇩🇪 DE 5.75.236.28 ◈ ws:443 ◈ Hetzner ◈ 470b4","type":"vless","server":"5.75.236.28","port":443,"uuid":"a25e8ff9-8650-4098-86af-b524e4ec72d8","tls":true,"servername":"admin2.pythonic-ai.com","network":"ws","ws-opts":{"path":"/vYoLL0j3yXajA2rNVYyVkeSUkkM","headers":{"host":"admin2.pythonic-ai.com"}}}
+  - {"name":"🔒🇩🇪 DE 128.140.97.183 ◈ ws:443 ◈ Hetzner ◈ 54c3b","type":"vless","server":"128.140.97.183","port":443,"uuid":"172bffdb-6cfd-420b-9c81-48bca134a32a","tls":true,"servername":"dashboard-user.github-land-pro-world-wiki-ped-discord-digikala-bale-meeting.com","network":"ws","ws-opts":{"path":"33489/Unique","headers":{"host":"dashboard-user.github-land-pro-world-wiki-ped-discord-digikala-bale-meeting.com"}}}
+  - {"name":"🔒🇩🇪 DE 5.75.236.28 ◈ ws:443 ◈ Hetzner ◈ 78bf6","type":"vless","server":"admin2.pythonic-ai.com","port":443,"uuid":"a25e8ff9-8650-4098-86af-b524e4ec72d8","tls":true,"network":"ws","ws-opts":{"path":"/vYoLL0j3yXajA2rNVYyVkeSUkkM"}}
+  - {"name":"🔒🇩🇪 DE 5.75.197.8 ◈ ws:443 ◈ Hetzner ◈ 0bd9d","type":"vless","server":"slatdrres45rewrubikaeitasalam.dr-salam.com","port":443,"uuid":"5d4fb4ee-cc86-4bdf-9777-ff6e759a8700","tls":true,"network":"ws","ws-opts":{"path":"/48608/Down"}}
+  - {"name":"🔒🇩🇪 DE 51.116.121.38 ◈ grpc:2086 ◈ Microsoft Azure Cloud (germanywestcentral) ◈ 3857f","type":"vless","server":"5111612138-direct.samanehrasmi.co","port":2086,"uuid":"compassvpn-IVzubd93N9","tls":true,"network":"grpc"}
+  - {"name":"🔒🇩🇪 DE 57.129.22.33 ◈ grpc:443 ◈ OVH ◈ faa75","type":"vless","server":"2606:4700:3032::6815:7a4","port":443,"uuid":"5da27733-3527-479e-bb81-4c5a9c75d83f","tls":true,"servername":"viphamester.wolfmoon.ir","network":"grpc","grpc-opts":{"grpc-service-name":"okala.com"}}
+  - {"name":"🔒🇩🇪 DE 57.129.22.33 ◈ grpc:443 ◈ OVH ◈ 17cff","type":"vless","server":"2606:4700:3037::ac43:88f6","port":443,"uuid":"5da27733-3527-479e-bb81-4c5a9c75d83f","tls":true,"servername":"viphamester.wolfmoon.ir","network":"grpc","grpc-opts":{"grpc-service-name":"okala.com"}}
+  - {"name":"🔒🇩🇪 DE 57.129.44.34 ◈ ws:443 ◈ OVH ◈ fa5d5","type":"vless","server":"crackthecode.ftp.sh","port":443,"uuid":"1b30d453-d604-11ee-aaa8-00505603e70d","tls":true,"servername":"vcp3.surfboardv2ray-221.workers.dev","network":"ws","ws-opts":{"path":"/st-fr-1.brocdn.com:443/websocket","headers":{"host":"vcp3.surfboardv2ray-221.workers.dev"}}}
+  - {"name":"🔒🇩🇪 DE 45.76.90.170 ◈ grpc:443 ◈ The Constant Company / Vultr Holdings ◈ e9a6f","type":"trojan","server":"[2606","port":4700,"udp":true,"password":"e16e9768-240f-4ff2-8c29-36d220ed2aa4","sni":"msnghdfy4c2.cpiforpersia.uk","skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"4xLDSO3FrWl2DhrWGqHh74mj"}}
+  - {"name":"🔒🇩🇪 DE 45.76.90.170 ◈ grpc:443 ◈ The Constant Company / Vultr Holdings ◈ 5498f","type":"vless","server":"2606:4700:20::681a:ac2","port":443,"uuid":"e16e9768-240f-4ff2-8c29-36d220ed2aa4","tls":true,"servername":"msnghdfy4c2.cpiforpersia.uk","network":"grpc","grpc-opts":{"grpc-service-name":"BLsNlVjvcrWGqHh74mj"}}
+  - {"name":"🔒🇩🇪 DE 45.76.90.170 ◈ grpc:443 ◈ The Constant Company / Vultr Holdings ◈ c71bf","type":"trojan","server":"[2606","port":4700,"udp":true,"password":"e16e9768-240f-4ff2-8c29-36d220ed2aa4","sni":"msnghdfy4c1.iraniancpi.uk","skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"4xLDSO3FrWl2DhrWGqHh74mj"}}
+  - {"name":"🔒🇩🇪 DE 45.76.90.170 ◈ grpc:443 ◈ The Constant Company / Vultr Holdings ◈ 81292","type":"trojan","server":"[2606","port":4700,"udp":true,"password":"e16e9768-240f-4ff2-8c29-36d220ed2aa4","sni":"msnghdfy4c2.cpiforpersia.uk","skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"4xLDSO3FrWl2DhrWGqHh74mj"}}
+  - {"name":"🔒🇩🇪 DE 45.76.90.170 ◈ grpc:443 ◈ The Constant Company / Vultr Holdings ◈ d6684","type":"trojan","server":"[2606","port":4700,"udp":true,"password":"e16e9768-240f-4ff2-8c29-36d220ed2aa4","sni":"msnghdfy4c2.cpiforpersia.uk","skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"4xLDSO3FrWl2DhrWGqHh74mj"}}
+  - {"name":"🇩🇪 DE 92.118.190.131 ◈ ws:80 ◈ 365 Group ◈ 1166b","type":"vless","server":"2a0c:b840:1:13f:1111:1111:1111:1111","port":80,"uuid":"49699004-a1ba-4621-9744-3d41e98040a9","tls":true,"servername":"2a0c:b840:1:13f:1111:1111:1111:1111","network":"ws","ws-opts":{"path":"/tf3gqdlcz4d9ATYNtIiFQxNPNVWGh","headers":{"host":"2a0c:b840:1:13f:1111:1111:1111:1111"}}}
+  - {"name":"🇩🇪 DE 78.46.233.197 ◈ ws:80 ◈ Hetzner / NewCoTec ◈ 303ac","type":"vless","server":"78.46.233.197","port":80,"uuid":"Telegram-ipV2Ray-zew","tls":true,"servername":"ch.1.v2rayv2ray-_-_-v2ray.zemestanil.ir.","network":"ws","ws-opts":{"path":"/Telegram-ipV2Ray?ed=2048","headers":{"host":"ch.1.v2rayv2ray-_-_-v2ray.zemestanil.ir."}}}
+  - {"name":"🇩🇪 DE 91.107.150.234 ◈ ws:2095 ◈ Hetzner ◈ c022c","type":"vless","server":"91.107.150.234","port":2095,"uuid":"f8ae1d19-44c5-4cc3-ab1c-24e452ed15a0","tls":true,"servername":"main-news-day-rubikairanjahan.fars-news.org","network":"ws","ws-opts":{"path":"/","headers":{"host":"main-news-day-rubikairanjahan.fars-news.org"}}}
+  - {"name":"🇩🇪 DE 91.107.131.92 ◈ tcp:8881 ◈ Hetzner ◈ e0207","type":"ss","server":"[2a01","port":8881,"password":"4W3v4PyBiU1QAbp4pV8QAC4Bam9I0Ial","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇩🇪 DE 5.75.140.142 ◈ ws:80 ◈ Hetzner ◈ 0726f","type":"vless","server":"5.75.140.142","port":80,"uuid":"fa12a543-ffc8-4816-a97f-bdc035178967","tls":true,"servername":"a.b.c.d.e.f.g.h.i.j.k.l.m.n.o.p.q.r.s.t.u.v.w.x.y.z.soft-co.ir","network":"ws","ws-opts":{"path":"@vpn_proxy_channel","headers":{"host":"a.b.c.d.e.f.g.h.i.j.k.l.m.n.o.p.q.r.s.t.u.v.w.x.y.z.soft-co.ir"}}}
+  - {"name":"🇩🇪 DE 5.75.197.8 ◈ ws:80 ◈ Hetzner ◈ 92e3d","type":"vless","server":"5.75.197.8","port":80,"uuid":"5d4fb4ee-cc86-4bdf-9777-ff6e759a8700","tls":true,"servername":"slatdrres45rewrubikaeitasalam.dr-salam.com","network":"ws","ws-opts":{"path":"/48608/Down","headers":{"host":"slatdrres45rewrubikaeitasalam.dr-salam.com"}}}
+  - {"name":"🇩🇪 DE 5.75.200.178 ◈ ws:80 ◈ Hetzner ◈ e21cf","type":"vless","server":"5.75.200.178","port":80,"uuid":"bd2914ed-69b1-4533-a7f0-929527541c35","tls":true,"servername":"dl5.heykakenakhshanemvaberanakhshanemkhadijeomanigakobraoaminfatema.com","network":"ws","ws-opts":{"path":"Mmdv2rayng-V2rayngmmd-telegram-mmd_v2rayng?ed=80","headers":{"host":"dl5.heykakenakhshanemvaberanakhshanemkhadijeomanigakobraoaminfatema.com"}}}
+  - {"name":"🇩🇪 DE 5.75.202.205 ◈ ws:80 ◈ Hetzner ◈ aee0f","type":"vless","server":"5.75.202.205","port":80,"uuid":"a35017af-d228-44bd-885c-e5951ce09df6","tls":true,"servername":"dl6.heykakenakhshanemvaberanakhshanemkhadijeomanigakobraoaminfatema.com","network":"ws","ws-opts":{"path":"Mmdv2rayng-V2rayngmmd-telegram-mmd_v2rayng?ed=80","headers":{"host":"dl6.heykakenakhshanemvaberanakhshanemkhadijeomanigakobraoaminfatema.com"}}}
+  - {"name":"🇩🇪 DE 5.75.236.28 ◈ ws:80 ◈ Hetzner ◈ 4adcd","type":"vless","server":"5.75.236.28","port":80,"uuid":"a25e8ff9-8650-4098-86af-b524e4ec72d8","tls":true,"servername":"zvuk.com","network":"ws","ws-opts":{"path":"/vYoLL0j3yXajA2rNVYyVkeSUkkM","headers":{"host":"zvuk.com"}}}
+  - {"name":"🇩🇪 DE 23.88.39.83 ◈ ws:80 ◈ Hetzner ◈ 3c3f2","type":"vless","server":"23.88.39.83","port":80,"uuid":"Telegram-ipV2Ray-iop","tls":true,"servername":"ch.2.v2rayv2ray-_-_-v2ray.zemestanil.ir.","network":"ws","ws-opts":{"path":"/Telegram-ipV2Ray?ed=2048","headers":{"host":"ch.2.v2rayv2ray-_-_-v2ray.zemestanil.ir."}}}
+  - {"name":"🇩🇪 DE 128.140.97.183 ◈ ws:80 ◈ Hetzner ◈ 2863b","type":"vless","server":"128.140.97.183","port":80,"uuid":"172bffdb-6cfd-420b-9c81-48bca134a32a","tls":true,"servername":"dashboard-user.github-land-pro-world-wiki-ped-discord-digikala-bale-meeting.com","network":"ws","ws-opts":{"path":"33489/Unique","headers":{"host":"dashboard-user.github-land-pro-world-wiki-ped-discord-digikala-bale-meeting.com"}}}
+  - {"name":"🇩🇪 DE 142.132.230.4 ◈ ws:80 ◈ Hetzner ◈ 708e1","type":"vless","server":"142.132.230.4","port":80,"uuid":"20dd8360-d485-4c1a-96c9-661c2de553e9","tls":true,"servername":"gcore.com","network":"ws","ws-opts":{"path":"Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-","headers":{"host":"gcore.com"}}}
+  - {"name":"🇩🇪 DE 5.75.236.28 ◈ ws:80 ◈ Hetzner ◈ e427e","type":"vless","server":"admin2.pythonic-ai.com","port":80,"uuid":"a25e8ff9-8650-4098-86af-b524e4ec72d8","tls":true,"servername":"zvuk.com","network":"ws","ws-opts":{"path":"/vYoLL0j3yXajA2rNVYyVkeSUkkM","headers":{"host":"zvuk.com"}}}
+  - {"name":"🇩🇪 DE 5.75.140.142 ◈ ws:80 ◈ Hetzner ◈ 8bc09","type":"vless","server":"vpn_proxy_channel.soft-co.ir","port":80,"uuid":"fa12a543-ffc8-4816-a97f-bdc035178967","tls":true,"servername":"a.b.c.d.e.f.g.h.i.j.k.l.m.n.o.p.q.r.s.t.u.v.w.x.y.z.soft-co.ir","network":"ws","ws-opts":{"path":"@vpn_proxy_channel","headers":{"host":"a.b.c.d.e.f.g.h.i.j.k.l.m.n.o.p.q.r.s.t.u.v.w.x.y.z.soft-co.ir"}}}
+  - {"name":"🇩🇪 DE 49.13.49.127 ◈ tcp:442 ◈ Hetzner ◈ 19fea","type":"vless","server":"49.13.49.127","port":442,"uuid":"55fc4207-e693-4324-efde-0aa98550580c","tls":true,"network":"tcp"}
+  - {"name":"🇩🇪 DE 49.13.49.127 ◈ tcp:442 ◈ Hetzner ◈ c909a","type":"vless","server":"65.108.244.90","port":442,"uuid":"55fc4207-e693-4324-efde-0aa98550580c","tls":true,"network":"tcp"}
+  - {"name":"🇩🇪 DE 49.13.146.185 ◈ tcp:48942 ◈ Hetzner ◈ 0b1d4","type":"vless","server":"49.13.146.185","port":48942,"uuid":"121452fd-4984-4950-870a-405eb6c09c82","tls":true,"servername":"xbox.com","network":"tcp"}
+  - {"name":"🇩🇪 DE 49.13.146.185 ◈ tcp:48942 ◈ Hetzner ◈ fe7fc","type":"vless","server":"dark1.abolii.com","port":48942,"uuid":"121452fd-4984-4950-870a-405eb6c09c82","tls":true,"servername":"xbox.com","network":"tcp"}
+  - {"name":"🇩🇪 DE 49.13.222.15 ◈ tcp:50001 ◈ Hetzner ◈ 61a16","type":"vless","server":"49.13.222.15","port":50001,"uuid":"473a9c6b-f0f6-428e-9120-e14d52b2d2de","tls":true,"servername":"2a01:4f8:c012:61b5::1","network":"tcp"}
+  - {"name":"🇩🇪 DE 49.13.222.15 ◈ tcp:50001 ◈ Hetzner ◈ ba4f2","type":"vless","server":"2a01:4f8:c012:61b5::1","port":50001,"uuid":"473a9c6b-f0f6-428e-9120-e14d52b2d2de","tls":true,"servername":"www.speedtest.net","network":"tcp"}
+  - {"name":"🇩🇪 DE 168.119.57.171 ◈ tcp:51348 ◈ Hetzner ◈ afe8a","type":"ss","server":"168.119.57.171","port":51348,"password":"I53uJsZc6dzTBYDEqg1a30Bh1hAd4HQzgpwCVdpzKwfF2ZUh","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇩🇪 DE 128.140.98.255 ◈ grpc:56562 ◈ Hetzner ◈ 24335","type":"vless","server":"2a01:4f8:1c1e:d3db::1","port":56562,"uuid":"Mahanvpn-mci","tls":true,"network":"grpc","grpc-opts":{"grpc-service-name":"mtttttn.mahanmrz.top"}}
+  - {"name":"🇩🇪 DE 81.28.6.186 ◈ tcp:51348 ◈ Kamatera Inc / Cloudwebmanage EU FR ◈ 28db2","type":"ss","server":"81.28.6.186","port":51348,"password":"LXWbFNINrtmm1T0QNuInNZlZTimv6crLcAKtmFDUGxB55Tp0","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇩🇪 DE 89.107.10.65 ◈ tcp:51348 ◈ Miglovets Egor Andreevich / Tehpostavka ◈ d8c10","type":"ss","server":"89.107.10.65","port":51348,"password":"WM5adrXijpwApm1wLsEB3WFSCrG9aQ6QAJjVc2btj73FvBnw","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇩🇪 DE 93.183.70.126 ◈ ws:80 ◈ ZTV CORP ◈ b3c36","type":"vless","server":"151.101.2.187","port":80,"uuid":"bbe9ef72-a93b-4ee6-918d-2d42b9836f9b","tls":true,"servername":"aklisvpn.com","network":"ws","ws-opts":{"path":"/@aklisvpn@aklisvpn@aklisvpn","headers":{"host":"aklisvpn.com"}}}
+  - {"name":"🇩🇪 DE 93.183.70.126 ◈ ws:80 ◈ ZTV CORP ◈ d54c4","type":"vless","server":"151.101.66.187","port":80,"uuid":"bbe9ef72-a93b-4ee6-918d-2d42b9836f9b","tls":true,"servername":"aklisvpn.com","network":"ws","ws-opts":{"path":"/@aklisvpn@aklisvpn@aklisvpn","headers":{"host":"aklisvpn.com"}}}
+  - {"name":"🇩🇪 DE 93.183.70.126 ◈ ws:80 ◈ ZTV CORP ◈ 7bd25","type":"vless","server":"151.101.130.187","port":80,"uuid":"bbe9ef72-a93b-4ee6-918d-2d42b9836f9b","tls":true,"servername":"aklisvpn.com","network":"ws","ws-opts":{"path":"/@aklisvpn@aklisvpn@aklisvpn","headers":{"host":"aklisvpn.com"}}}
+  - {"name":"🇩🇪 DE 93.183.70.126 ◈ ws:80 ◈ ZTV CORP ◈ 46fb7","type":"vless","server":"151.101.194.187","port":80,"uuid":"bbe9ef72-a93b-4ee6-918d-2d42b9836f9b","tls":true,"servername":"aklisvpn.com","network":"ws","ws-opts":{"path":"/@aklisvpn@aklisvpn@aklisvpn","headers":{"host":"aklisvpn.com"}}}
+  - {"name":"🇩🇪 DE 93.183.70.126 ◈ ws:80 ◈ ZTV CORP ◈ d5ed4","type":"vless","server":"target.com","port":80,"uuid":"bbe9ef72-a93b-4ee6-918d-2d42b9836f9b","tls":true,"servername":"aklisvpn.com","network":"ws","ws-opts":{"path":"/@aklisvpn@aklisvpn@aklisvpn","headers":{"host":"aklisvpn.com"}}}
+  - {"name":"🇩🇪 DE 79.133.46.219 ◈ ws:2095 ◈ firstcolo ◈ bb645","type":"vless","server":"79.133.46.219","port":2095,"uuid":"eb2eb93c-9652-43a7-96e4-9c3cd9be814b","tls":true,"servername":"github-_-_-_-_-_-vpn_proxy66_marg_bar_khamenei.proxy66.shop.","network":"ws","ws-opts":{"path":"/VPN_PROXY66.VPN_PROXY66","headers":{"host":"github-_-_-_-_-_-vpn_proxy66_marg_bar_khamenei.proxy66.shop."}}}
+  - {"name":"🇩🇪 DE 79.133.46.219 ◈ ws:8880 ◈ firstcolo ◈ 59e76","type":"vless","server":"79.133.46.219","port":8880,"uuid":"6dd0972b-208d-42fb-8d46-0b6e2844f773","tls":true,"servername":"aksjbebqoqoshhw.debian.org.fxp.debian.org.speedtest.net.xn--48jyb6ec1ad.shahprokh.shop.","network":"ws","ws-opts":{"path":"/ShadowProxy66.ShadowProxy66.ShadowProxy66.ShadowProxy66.ShadowProxy66.ShadowProxy66.ShadowProxy66.ShadowProxy66.ShadowProxy66.?ed=2048","headers":{"host":"aksjbebqoqoshhw.debian.org.fxp.debian.org.speedtest.net.xn--48jyb6ec1ad.shahprokh.shop."}}}
+  - {"name":"🔒🇩🇰 DK 46.29.235.165 ◈ grpc:443 ◈ Global Internet ◈ a42d0","type":"trojan","server":"[2606","port":4700,"udp":true,"password":"pWLQleVxjJLMHkJHCVnNPQ","sni":"cdn-19.gsmxreality.com","skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"443trojan"}}
+  - {"name":"🔒🇩🇰 DK 46.29.235.165 ◈ grpc:443 ◈ Global Internet ◈ 4c661","type":"trojan","server":"[2606","port":4700,"udp":true,"password":"pWLQleVxjJLMHkJHCVnNPQ","sni":"cdn-19.gsmxreality.com","skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"443trojan"}}
+  - {"name":"🔒🇩🇰 DK 46.29.235.165 ◈ grpc:443 ◈ Global Internet ◈ c8102","type":"trojan","server":"speed.cloudflare.com","port":443,"udp":true,"password":"pWLQleVxjJLMHkJHCVnNPQ","sni":"cdn-19.gsmxreality.com","skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"443trojan"}}
+  - {"name":"🔒🇫🇮 FI 65.109.206.218 ◈ ws:443 ◈ Hetzner ◈ 5acda","type":"vless","server":"65.109.206.218","port":443,"uuid":"edade224-ab25-46e0-a41b-b415b182a59d","tls":true,"servername":"qwerdgy47892drvseddsesswdownload.namava.network","network":"ws","ws-opts":{"path":"/54051/download","headers":{"host":"qwerdgy47892drvseddsesswdownload.namava.network"}}}
+  - {"name":"🔒🇫🇮 FI 65.109.208.214 ◈ ws:443 ◈ Hetzner ◈ 990f4","type":"vless","server":"65.109.208.214","port":443,"uuid":"e13f3bc0-1885-43b3-8980-7367449732ae","tls":true,"servername":"vip.hackers855.sbs","network":"ws","ws-opts":{"path":"/","headers":{"host":"vip.hackers855.sbs"}}}
+  - {"name":"🔒🇫🇮 FI 95.216.162.17 ◈ grpc:443 ◈ Hetzner ◈ 5b898","type":"vless","server":"95.216.162.17","port":443,"uuid":"ParsVip0-ParsVip0-Parsvip000","tls":true,"servername":"1-telegram-parsvip0-parsvip0-parsvip0-parsvip0-parsvip0.pars-vip.sbs","network":"grpc","grpc-opts":{"grpc-service-name":"@ParsVip0@ParsVip0@ParsVip0@ParsVip0@ParsVip0@ParsVip0@ParsVip0@ParsVip0@ParsVip0@ParsVip0@ParsVip0@ParsVip0@ParsVip0@ParsVip0@ParsVip0"}}
+  - {"name":"🔒🇫🇮 FI 65.109.208.214 ◈ ws:443 ◈ Hetzner ◈ 26719","type":"vless","server":"vip.hackers855.sbs","port":443,"uuid":"e13f3bc0-1885-43b3-8980-7367449732ae","tls":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"🔒🇫🇮 FI 37.27.181.182 ◈ tcp:10559 ◈ Hetzner ◈ 58582","type":"vless","server":"free.best-antiaging-reviews.com","port":10559,"udp":true,"uuid":"10134b77-1b38-41fe-98e9-de7b54246b04","tls":true,"servername":"yahoo.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"JTt7Au4cLeKLnQfD8O-yO19nS5u2CgP3fIO1DHlej1c","short-id":"c5f1f156"},"client-fingerprint":"chrome"}
+  - {"name":"🇫🇮 FI 65.109.204.75 ◈ ws:80 ◈ Hetzner ◈ 6709f","type":"vless","server":"65.109.204.75","port":80,"uuid":"75769ab7-ebd9-49b7-af04-e542a45638b7","tls":true,"servername":"getdata.nigc-ar.com","network":"ws","ws-opts":{"path":"/20650/download","headers":{"host":"getdata.nigc-ar.com"}}}
+  - {"name":"🇫🇮 FI 65.109.206.218 ◈ ws:80 ◈ Hetzner ◈ 89c0d","type":"vless","server":"65.109.206.218","port":80,"uuid":"edade224-ab25-46e0-a41b-b415b182a59d","tls":true,"servername":"qwerdgy47892drvseddsesswdownload.namava.network","network":"ws","ws-opts":{"path":"/54051/download","headers":{"host":"qwerdgy47892drvseddsesswdownload.namava.network"}}}
+  - {"name":"🇫🇮 FI 65.109.9.5 ◈ tcp:20000 ◈ Hetzner ◈ b582a","type":"vless","server":"2a01:4f9:c012:e4f2::1","port":20000,"uuid":"220b6d1b-3de8-4d14-9471-432d0e08ed64","tls":true,"servername":"discord.com","network":"tcp"}
+  - {"name":"🇫🇮 FI 95.217.17.242 ◈ tcp:22555 ◈ Hetzner ◈ 85e92","type":"vless","server":"newhakevpn4.khondokartechnology.net","port":22555,"uuid":"711454ef-ee37-47ab-db7f-9133610c9e0d","tls":true,"network":"tcp"}
+  - {"name":"🇫🇮 FI 65.109.236.202 ◈ tcp:30188 ◈ Hetzner ◈ 4993e","type":"vless","server":"65.109.236.202","port":30188,"uuid":"afa7388f-c942-4834-b8bb-886c38f566b2","tls":true,"network":"tcp"}
+  - {"name":"🇫🇮 FI 65.109.236.202 ◈ tcp:30188 ◈ Hetzner ◈ c9a0e","type":"vless","server":"newhakevpnbdfastserver.khondokartechnology.net","port":30188,"uuid":"afa7388f-c942-4834-b8bb-886c38f566b2","tls":true,"network":"tcp"}
+  - {"name":"🇫🇮 FI 65.21.2.49 ◈ tcp:46928 ◈ Hetzner ◈ 3c0a5","type":"vless","server":"65.21.2.49","port":46928,"uuid":"69e25d5b-309f-429e-ba38-212465c534b0","tls":true,"network":"tcp"}
+  - {"name":"🇫🇮 FI 65.21.2.49 ◈ tcp:46928 ◈ Hetzner ◈ ce7d1","type":"vless","server":"codevip.ctsubvpn.ggff.net","port":46928,"uuid":"69e25d5b-309f-429e-ba38-212465c534b0","tls":true,"network":"tcp"}
+  - {"name":"🇫🇮 FI 65.21.2.49 ◈ tcp:46928 ◈ Hetzner ◈ 1c4c9","type":"vless","server":"hakevpnbd4.khondokartechnology.net","port":46928,"uuid":"69e25d5b-309f-429e-ba38-212465c534b0","tls":true,"network":"tcp"}
+  - {"name":"🇫🇮 FI 65.109.207.202 ◈ tcp:55375 ◈ Hetzner ◈ 13a1f","type":"vless","server":"65.109.207.202","port":55375,"uuid":"5f9fc2af-5e32-4e06-9f46-bbdb8a9d306d","tls":true,"servername":"speedtest.net","network":"tcp"}
+  - {"name":"🇫🇮 FI 65.109.207.202 ◈ tcp:55375 ◈ Hetzner ◈ 3d004","type":"vless","server":"telegram2.mozzfing.shop","port":55375,"uuid":"5f9fc2af-5e32-4e06-9f46-bbdb8a9d306d","tls":true,"servername":"speedtest.net","network":"tcp"}
+  - {"name":"🇫🇮 FI 95.217.216.45 ◈ ws:80 ◈ Hetzner ◈ 0c592","type":"vless","server":"95.217.216.45","port":80,"uuid":"edde0111-9ba9-402e-9c74-e16a9d0186bf","tls":true,"servername":"ifi1.kaghazacharrangi.sbs","network":"ws","ws-opts":{"path":"/","headers":{"host":"ifi1.kaghazacharrangi.sbs"}}}
+  - {"name":"🇫🇮 FI 95.217.216.45 ◈ ws:80 ◈ Hetzner ◈ 4cc6e","type":"vless","server":"ifi1.kaghazacharrangi.sbs","port":80,"uuid":"9e1af199-2c2e-4af5-f6aa-cfe106feaa38","tls":true,"servername":"95.217.216.45","network":"ws","ws-opts":{"path":"/","headers":{"host":"95.217.216.45"}}}
+  - {"name":"🇫🇮 FI 166.1.218.132 ◈ tcp:28327 ◈ Hostkey B.V. / Ace Data Centers, Inc. ◈ 7a8c7","type":"ss","server":"45.67.32.147","port":28327,"password":"URTS/i2SIStnwOq1o/p0HkVPeisXQ2f2b+TvTR2E7QM=","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇫🇮 FI 95.164.113.34 ◈ ws:2052 ◈ Stark Industries ◈ faac0","type":"vless","server":"95.164.113.34","port":2052,"uuid":"a1272241-3074-4945-b9ea-2bd3578bdfe1","tls":true,"servername":"fi3.vless.site.","network":"ws","ws-opts":{"path":"/vless","headers":{"host":"fi3.vless.site."}}}
+  - {"name":"🇫🇮 FI 95.164.113.34 ◈ ws:2086 ◈ Stark Industries ◈ 2a6c1","type":"vless","server":"95.164.113.34","port":2086,"uuid":"a1272241-3074-4945-b9ea-2bd3578bdfe1","tls":true,"servername":"fi3.vless.site.","network":"ws","ws-opts":{"path":"/vless","headers":{"host":"fi3.vless.site."}}}
+  - {"name":"🇫🇮 FI 95.164.113.34 ◈ ws:2095 ◈ Stark Industries ◈ 887f5","type":"vless","server":"95.164.113.34","port":2095,"uuid":"a1272241-3074-4945-b9ea-2bd3578bdfe1","tls":true,"servername":"fi3.vless.site.","network":"ws","ws-opts":{"path":"/vless","headers":{"host":"fi3.vless.site."}}}
+  - {"name":"🇫🇮 FI 95.164.113.34 ◈ ws:8080 ◈ Stark Industries ◈ 2fa69","type":"vless","server":"95.164.113.34","port":8080,"uuid":"a1272241-3074-4945-b9ea-2bd3578bdfe1","tls":true,"servername":"fi3.vless.site.","network":"ws","ws-opts":{"path":"/vless","headers":{"host":"fi3.vless.site."}}}
+  - {"name":"🇫🇮 FI 95.164.113.34 ◈ ws:8880 ◈ Stark Industries ◈ 2581a","type":"vless","server":"95.164.113.34","port":8880,"uuid":"a1272241-3074-4945-b9ea-2bd3578bdfe1","tls":true,"servername":"fi3.vless.site.","network":"ws","ws-opts":{"path":"/vless","headers":{"host":"fi3.vless.site."}}}
+  - {"name":"💥🇫🇷 FR warpPlus ◈ grpc:443 ◈ 78314","type":"vmess","server":"2a06:98c1:3120::1","port":443,"cipher":"chacha20-poly1305","uuid":"4804f14b-c1f8-452d-a6ec-eff1490aeac9","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"hdfy6c6.cpionline.co","network":"grpc","grpc-opts":{"grpc-service-name":"lRkGCkYS9X5GFzoZoavn2kmJ","grpc-mode":"gun"}}
+  - {"name":"🔒🇫🇷 FR warpPlus ◈ grpc:443 ◈ 8e224","type":"vmess","server":"2a06:98c1:3120::3","port":443,"cipher":"chacha20-poly1305","uuid":"4804f14b-c1f8-452d-a6ec-eff1490aeac9","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"hdfy6c1.cpionline.cc","network":"grpc","grpc-opts":{"grpc-service-name":"lRkGCkYS9X5GFzoZoavn2kmJ","grpc-mode":"gun"}}
+  - {"name":"💥🇫🇷 FR warpPlus ◈ grpc:443 ◈ b6b79","type":"vmess","server":"2a06:98c1:3121::1","port":443,"cipher":"chacha20-poly1305","uuid":"4804f14b-c1f8-452d-a6ec-eff1490aeac9","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"hdfy6c6.cpionline.co","network":"grpc","grpc-opts":{"grpc-service-name":"lRkGCkYS9X5GFzoZoavn2kmJ","grpc-mode":"gun"}}
+  - {"name":"🔒🇫🇷 FR warpPlus ◈ grpc:443 ◈ 899a9","type":"vmess","server":"2a06:98c1:3121::3","port":443,"cipher":"chacha20-poly1305","uuid":"4804f14b-c1f8-452d-a6ec-eff1490aeac9","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"hdfy6c1.cpionline.cc","network":"grpc","grpc-opts":{"grpc-service-name":"lRkGCkYS9X5GFzoZoavn2kmJ","grpc-mode":"gun"}}
+  - {"name":"🔒🇫🇷 FR warpPlus ◈ grpc:443 ◈ a8ddb","type":"vmess","server":"2606:4700:10::6814:172e","port":443,"cipher":"auto","uuid":"4804f14b-c1f8-452d-a6ec-eff1490aeac9","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"hdfy6c1.freeairlaines.com","network":"grpc","grpc-opts":{"grpc-service-name":"lRkGCkYS9X5GFzoZoavn2kmJ","grpc-mode":"gun"}}
+  - {"name":"💥🇫🇷 FR warpPlus ◈ grpc:443 ◈ 9e1bb","type":"vmess","server":"2606:4700:3032::ac43:b705","port":443,"cipher":"chacha20-poly1305","uuid":"4804f14b-c1f8-452d-a6ec-eff1490aeac9","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"hdfy6c5.cpionline.co","network":"grpc","grpc-opts":{"grpc-service-name":"lRkGCkYS9X5GFzoZoavn2kmJ","grpc-mode":"gun"}}
+  - {"name":"🔒🇫🇷 FR warpPlus ◈ grpc:443 ◈ 03c08","type":"vmess","server":"2606:4700:3034::ac43:d990","port":443,"cipher":"chacha20-poly1305","uuid":"4804f14b-c1f8-452d-a6ec-eff1490aeac9","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"hdfy6c1.cpionline.cc","network":"grpc","grpc-opts":{"grpc-service-name":"lRkGCkYS9X5GFzoZoavn2kmJ","grpc-mode":"gun"}}
+  - {"name":"🔒🇫🇷 FR warpPlus ◈ grpc:443 ◈ 2b054","type":"vmess","server":"2606:4700:3036::6815:4b4f","port":443,"cipher":"chacha20-poly1305","uuid":"4804f14b-c1f8-452d-a6ec-eff1490aeac9","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"hdfy6c1.cpionline.cc","network":"grpc","grpc-opts":{"grpc-service-name":"lRkGCkYS9X5GFzoZoavn2kmJ","grpc-mode":"gun"}}
+  - {"name":"💥🇫🇷 FR warpPlus ◈ grpc:443 ◈ 85fb4","type":"vmess","server":"2606:4700:3037::6815:3054","port":443,"cipher":"chacha20-poly1305","uuid":"4804f14b-c1f8-452d-a6ec-eff1490aeac9","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"hdfy6c6.cpionline.co","network":"grpc","grpc-opts":{"grpc-service-name":"lRkGCkYS9X5GFzoZoavn2kmJ","grpc-mode":"gun"}}
+  - {"name":"🔒🇫🇷 FR warpPlus ◈ grpc:443 ◈ 98d2b","type":"vmess","server":"2606:4700::6810:4326","port":443,"cipher":"chacha20-poly1305","uuid":"4804f14b-c1f8-452d-a6ec-eff1490aeac9","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"hdfy6c4.foriran.trade","network":"grpc","grpc-opts":{"grpc-service-name":"lRkGCkYS9X5GFzoZoavn2kmJ","grpc-mode":"gun"}}
+  - {"name":"🔒🇫🇷 FR warpPlus ◈ grpc:443 ◈ 4aafe","type":"vmess","server":"2606:4700::6810:4426","port":443,"cipher":"chacha20-poly1305","uuid":"4804f14b-c1f8-452d-a6ec-eff1490aeac9","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"hdfy6c3.foriran.trade","network":"grpc","grpc-opts":{"grpc-service-name":"lRkGCkYS9X5GFzoZoavn2kmJ","grpc-mode":"gun"}}
+  - {"name":"🔒🇫🇷 FR warpPlus ◈ grpc:443 ◈ 4d46d","type":"vless","server":"2a06:98c1:3120::1","port":443,"uuid":"4804f14b-c1f8-452d-a6ec-eff1490aeac9","tls":true,"servername":"hdfy6c6.cpionline.co","network":"grpc","grpc-opts":{"grpc-service-name":"Bc5xLs413y7FzoZoavn2kmJ"}}
+  - {"name":"🔒🇫🇷 FR warpPlus ◈ grpc:443 ◈ 6d715","type":"trojan","server":"[2a06","port":98,"udp":true,"password":"4804f14b-c1f8-452d-a6ec-eff1490aeac9","sni":"hdfy6c1.cpionline.cc","skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"Mf0ozB1t4KFzoZoavn2kmJ"}}
+  - {"name":"🔒🇫🇷 FR warpPlus ◈ grpc:443 ◈ 4c54f","type":"trojan","server":"[2a06","port":98,"udp":true,"password":"4804f14b-c1f8-452d-a6ec-eff1490aeac9","sni":"hdfy6c1.cpionline.cc","skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"Mf0ozB1t4KFzoZoavn2kmJ"}}
+  - {"name":"🔒🇫🇷 FR warpPlus ◈ grpc:443 ◈ 82d09","type":"vless","server":"2a06:98c1:3120::3","port":443,"uuid":"4804f14b-c1f8-452d-a6ec-eff1490aeac9","tls":true,"servername":"hdfy6c1.cpionline.cc","network":"grpc","grpc-opts":{"grpc-service-name":"Bc5xLs413y7FzoZoavn2kmJ"}}
+  - {"name":"🔒🇫🇷 FR warpPlus ◈ grpc:443 ◈ 8bc4c","type":"vless","server":"2a06:98c1:3121::1","port":443,"uuid":"4804f14b-c1f8-452d-a6ec-eff1490aeac9","tls":true,"servername":"hdfy6c5.cpionline.co","network":"grpc","grpc-opts":{"grpc-service-name":"Bc5xLs413y7FzoZoavn2kmJ"}}
+  - {"name":"🔒🇫🇷 FR warpPlus ◈ grpc:443 ◈ 559e1","type":"trojan","server":"[2a06","port":98,"udp":true,"password":"4804f14b-c1f8-452d-a6ec-eff1490aeac9","sni":"hdfy6c1.cpionline.cc","skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"Mf0ozB1t4KFzoZoavn2kmJ"}}
+  - {"name":"🔒🇫🇷 FR warpPlus ◈ grpc:443 ◈ 01c8f","type":"vless","server":"2a06:98c1:3121::3","port":443,"uuid":"4804f14b-c1f8-452d-a6ec-eff1490aeac9","tls":true,"servername":"hdfy6c1.cpionline.cc","network":"grpc","grpc-opts":{"grpc-service-name":"Bc5xLs413y7FzoZoavn2kmJ"}}
+  - {"name":"🔒🇫🇷 FR warpPlus ◈ grpc:443 ◈ 1c43c","type":"trojan","server":"[2a06","port":98,"udp":true,"password":"4804f14b-c1f8-452d-a6ec-eff1490aeac9","sni":"hdfy6c1.cpionline.cc","skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"Mf0ozB1t4KFzoZoavn2kmJ"}}
+  - {"name":"🔒🇫🇷 FR warpPlus ◈ grpc:443 ◈ 50ce2","type":"vless","server":"2606:4700:3032::ac43:b705","port":443,"uuid":"4804f14b-c1f8-452d-a6ec-eff1490aeac9","tls":true,"servername":"hdfy6c1.cpionline.cc","network":"grpc","grpc-opts":{"grpc-service-name":"Bc5xLs413y7FzoZoavn2kmJ"}}
+  - {"name":"🔒🇫🇷 FR warpPlus ◈ grpc:443 ◈ 65bc6","type":"trojan","server":"[2606","port":4700,"udp":true,"password":"4804f14b-c1f8-452d-a6ec-eff1490aeac9","sni":"hdfy6c1.cpionline.cc","skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"Mf0ozB1t4KFzoZoavn2kmJ"}}
+  - {"name":"🔒🇫🇷 FR warpPlus ◈ grpc:443 ◈ 05cde","type":"trojan","server":"[2606","port":4700,"udp":true,"password":"4804f14b-c1f8-452d-a6ec-eff1490aeac9","sni":"hdfy6c4.foriran.trade","skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"Mf0ozB1t4KFzoZoavn2kmJ"}}
+  - {"name":"🔒🇫🇷 FR warpPlus ◈ grpc:443 ◈ b730c","type":"vless","server":"2606:4700:3034::ac43:d990","port":443,"uuid":"4804f14b-c1f8-452d-a6ec-eff1490aeac9","tls":true,"servername":"hdfy6c1.cpionline.cc","network":"grpc","grpc-opts":{"grpc-service-name":"Bc5xLs413y7FzoZoavn2kmJ"}}
+  - {"name":"🔒🇫🇷 FR warpPlus ◈ grpc:443 ◈ 4f7aa","type":"vless","server":"2606:4700:3036::6815:4b4f","port":443,"uuid":"4804f14b-c1f8-452d-a6ec-eff1490aeac9","tls":true,"servername":"hdfy6c4.foriran.trade","network":"grpc","grpc-opts":{"grpc-service-name":"Bc5xLs413y7FzoZoavn2kmJ"}}
+  - {"name":"🔒🇫🇷 FR warpPlus ◈ grpc:443 ◈ 5acb8","type":"trojan","server":"[2606","port":4700,"udp":true,"password":"4804f14b-c1f8-452d-a6ec-eff1490aeac9","sni":"hdfy6c4.foriran.trade","skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"Mf0ozB1t4KFzoZoavn2kmJ"}}
+  - {"name":"🔒🇫🇷 FR warpPlus ◈ grpc:443 ◈ 5b11a","type":"trojan","server":"[2606","port":4700,"udp":true,"password":"4804f14b-c1f8-452d-a6ec-eff1490aeac9","sni":"hdfy6c1.cpionline.cc","skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"Mf0ozB1t4KFzoZoavn2kmJ"}}
+  - {"name":"🔒🇫🇷 FR warpPlus ◈ grpc:443 ◈ 8b1e1","type":"vless","server":"2606:4700:3037::6815:3054","port":443,"uuid":"4804f14b-c1f8-452d-a6ec-eff1490aeac9","tls":true,"servername":"hdfy6c5.cpionline.co","network":"grpc","grpc-opts":{"grpc-service-name":"Bc5xLs413y7FzoZoavn2kmJ"}}
+  - {"name":"🔒🇫🇷 FR warpPlus ◈ grpc:443 ◈ 0357f","type":"vless","server":"2606:4700::6810:4326","port":443,"uuid":"4804f14b-c1f8-452d-a6ec-eff1490aeac9","tls":true,"servername":"hdfy6c1.cpionline.cc","network":"grpc","grpc-opts":{"grpc-service-name":"Bc5xLs413y7FzoZoavn2kmJ"}}
+  - {"name":"🔒🇫🇷 FR warpPlus ◈ grpc:443 ◈ a0322","type":"vless","server":"2606:4700::6810:4426","port":443,"uuid":"4804f14b-c1f8-452d-a6ec-eff1490aeac9","tls":true,"servername":"hdfy6c3.foriran.trade","network":"grpc","grpc-opts":{"grpc-service-name":"Bc5xLs413y7FzoZoavn2kmJ"}}
+  - {"name":"🔒🇫🇷 FR warpPlus ◈ grpc:443 ◈ 4f82d","type":"vmess","server":"speed.cloudflare.com","port":443,"cipher":"chacha20-poly1305","uuid":"4804f14b-c1f8-452d-a6ec-eff1490aeac9","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"hdfy6c2.freeairlaines.com","network":"grpc","grpc-opts":{"grpc-service-name":"lRkGCkYS9X5GFzoZoavn2kmJ","grpc-mode":"gun"}}
+  - {"name":"🔒🇫🇷 FR 62.133.62.105 ◈ grpc:443 ◈ Global ConnectivityLLP / Global Internet ◈ 53709","type":"trojan","server":"[2606","port":4700,"udp":true,"password":"qj1Dz1CJmFQRhWr1SP80aA","sni":"cdn-21.gsmxreality.com","skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"443trojan"}}
+  - {"name":"🔒🇫🇷 FR 62.133.62.105 ◈ grpc:443 ◈ Global ConnectivityLLP / Global Internet ◈ e290b","type":"trojan","server":"[2606","port":4700,"udp":true,"password":"qj1Dz1CJmFQRhWr1SP80aA","sni":"cdn-21.gsmxreality.com","skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"443trojan"}}
+  - {"name":"🔒🇫🇷 FR 213.32.90.17 ◈ tcp:2083 ◈ OVH ◈ d2e79","type":"vless","server":"2001:41d0:401:3000::3be1","port":2083,"udp":true,"uuid":"05ec2e61-efe9-4d5b-be47-5ba45a7890f8","tls":true,"servername":"streaming.androidcentral.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"xTiUMLzUYkQ0tZFxQhQfnljI76_QtUIGrfcdyo1vGnA","short-id":"239F3F26"},"client-fingerprint":"chrome"}
+  - {"name":"🔒🇫🇷 FR 188.165.123.40 ◈ grpc:443 ◈ OVH / Yong Brian ◈ dfca9","type":"vless","server":"188.165.123.40","port":443,"uuid":"7f113923-9429-48b8-d5dd-b2906a583dfe","tls":true,"servername":"frr.kanal-tel-nufilter.site","network":"grpc","grpc-opts":{"grpc-service-name":"Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER"}}
+  - {"name":"🔒🇫🇷 FR 185.234.64.146 ◈ grpc:2083 ◈ Stark Industries ◈ 9ff97","type":"trojan","server":"speed.cloudflare.com","port":2083,"udp":true,"password":"02fe1acd-7094-460b-998b-abac9a3bef4d","sni":"fr1.trojanvpn.de","skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"grpc"}}
+  - {"name":"🔒🇫🇷 FR 185.234.64.146 ◈ grpc:2087 ◈ Stark Industries ◈ f0f77","type":"trojan","server":"speed.cloudflare.com","port":2087,"udp":true,"password":"02fe1acd-7094-460b-998b-abac9a3bef4d","sni":"fr1.trojanvpn.de","skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"grpc"}}
+  - {"name":"🔒🇫🇷 FR 185.234.64.146 ◈ grpc:2096 ◈ Stark Industries ◈ 262a2","type":"trojan","server":"speed.cloudflare.com","port":2096,"udp":true,"password":"02fe1acd-7094-460b-998b-abac9a3bef4d","sni":"fr1.trojanvpn.de","skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"grpc"}}
+  - {"name":"🔒🇫🇷 FR 185.234.64.146 ◈ grpc:8443 ◈ Stark Industries ◈ e4d6c","type":"trojan","server":"speed.cloudflare.com","port":8443,"udp":true,"password":"02fe1acd-7094-460b-998b-abac9a3bef4d","sni":"fr1.trojanvpn.de","skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"grpc"}}
+  - {"name":"🇫🇷 FR 92.243.27.51 ◈ tcp:9802 ◈ GANDI is an ICANN accredited registrar ◈ 0f1cb","type":"ss","server":"92.243.27.51","port":9802,"password":"hFSW6cNWiFEkLtJUScfMqA","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇫🇷 FR 92.243.27.51 ◈ tcp:9802 ◈ GANDI is an ICANN accredited registrar ◈ 1d246","type":"ss","server":"paris.telegavpn.com","port":9802,"password":"U4D84cy6AL3DaC54iwDToP","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇫🇷 FR 51.75.30.8 ◈ ws:80 ◈ OVH ◈ 94423","type":"vless","server":"51.75.30.8","port":80,"uuid":"1949f066-bcb0-49be-88e9-74abd940f80e","tls":true,"servername":"google.com","network":"ws","ws-opts":{"path":"/http","headers":{"host":"google.com"}}}
+  - {"name":"🇫🇷 FR 51.75.30.8 ◈ ws:80 ◈ OVH ◈ 530ed","type":"vless","server":"fr.vpnbase.net","port":80,"uuid":"1949f066-bcb0-49be-88e9-74abd940f80e","tls":true,"servername":"google.com","network":"ws","ws-opts":{"path":"/http","headers":{"host":"google.com"}}}
+  - {"name":"🇫🇷 FR 137.74.66.90 ◈ tcp:57254 ◈ OVH / Yong Brian ◈ d1d91","type":"vless","server":"137.74.66.90","port":57254,"uuid":"097ab42d-c4dd-4a69-9b4b-92f0da96299e","tls":true,"servername":"speedtest.net","network":"tcp"}
+  - {"name":"🇫🇷 FR 137.74.66.90 ◈ tcp:57254 ◈ OVH / Yong Brian ◈ 1086c","type":"vless","server":"windypowerprojeckt.v2speedy.com","port":57254,"uuid":"097ab42d-c4dd-4a69-9b4b-92f0da96299e","tls":true,"servername":"speedtest.net","network":"tcp"}
+  - {"name":"🇫🇷 FR 94.131.9.36 ◈ ws:80 ◈ Stark Industries ◈ 15964","type":"vless","server":"94.131.9.36","port":80,"uuid":"daf22012-a4b6-4690-8e8f-90a8f320c77f","tls":true,"servername":"fr1.vless.site.","network":"ws","ws-opts":{"path":"/vless","headers":{"host":"fr1.vless.site."}}}
+  - {"name":"🇫🇷 FR 94.131.9.36 ◈ ws:2052 ◈ Stark Industries ◈ 87cbc","type":"vless","server":"94.131.9.36","port":2052,"uuid":"daf22012-a4b6-4690-8e8f-90a8f320c77f","tls":true,"servername":"fr1.vless.site.","network":"ws","ws-opts":{"path":"/vless","headers":{"host":"fr1.vless.site."}}}
+  - {"name":"🇫🇷 FR 94.131.9.36 ◈ ws:2086 ◈ Stark Industries ◈ 71bdc","type":"vless","server":"94.131.9.36","port":2086,"uuid":"daf22012-a4b6-4690-8e8f-90a8f320c77f","tls":true,"servername":"fr1.vless.site.","network":"ws","ws-opts":{"path":"/vless","headers":{"host":"fr1.vless.site."}}}
+  - {"name":"🇫🇷 FR 94.131.9.36 ◈ ws:2095 ◈ Stark Industries ◈ e18f7","type":"vless","server":"94.131.9.36","port":2095,"uuid":"daf22012-a4b6-4690-8e8f-90a8f320c77f","tls":true,"servername":"fr1.vless.site.","network":"ws","ws-opts":{"path":"/vless","headers":{"host":"fr1.vless.site."}}}
+  - {"name":"🇫🇷 FR 94.131.9.36 ◈ ws:8080 ◈ Stark Industries ◈ b0856","type":"vless","server":"94.131.9.36","port":8080,"uuid":"daf22012-a4b6-4690-8e8f-90a8f320c77f","tls":true,"servername":"fr1.vless.site.","network":"ws","ws-opts":{"path":"/vless","headers":{"host":"fr1.vless.site."}}}
+  - {"name":"🇫🇷 FR 94.131.9.36 ◈ ws:8880 ◈ Stark Industries ◈ 6405f","type":"vless","server":"94.131.9.36","port":8880,"uuid":"daf22012-a4b6-4690-8e8f-90a8f320c77f","tls":true,"servername":"fr1.vless.site.","network":"ws","ws-opts":{"path":"/vless","headers":{"host":"fr1.vless.site."}}}
+  - {"name":"🔒🇬🇧 GB 57.128.164.150 ◈ ws:443 ◈ OVH Ltd ◈ ac00f","type":"vless","server":"57.128.164.150","port":443,"uuid":"03728bdd-745c-4ef6-a01f-70b006d3bbae","tls":true,"servername":"thorianite.toptechnonews.com","network":"ws","ws-opts":{"path":"/nimws?ed=2560@V2ray_Alpha","headers":{"host":"thorianite.toptechnonews.com"}}}
+  - {"name":"💡🇬🇧 GB 78.141.226.231 ◈ tcp:6623 ◈ The Constant Company / Vultr Holdings London ◈ b334e","type":"ss","server":"[2001","port":6623}
+  - {"name":"🇬🇧 GB 51.143.169.160 ◈ tcp:443 ◈ ? ◈ 2ef43","type":"ss","server":"account.emofid.co","port":443,"password":"W74XFALLLuw6m5IA","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇬🇧 GB 20.254.111.200 ◈ tcp:443 ◈ ? ◈ 3ef91","type":"ss","server":"admin.c3.webramz.co","port":443,"password":"XVxbOWjgd4doE9Nu","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇬🇧 GB 51.143.169.160 ◈ tcp:443 ◈ ? ◈ 69551","type":"ss","server":"azclusterc1in.uksouth.cloudapp.azure.com.","port":443,"password":"W74XFALLLuw6m5IA","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇬🇧 GB 20.254.111.200 ◈ tcp:443 ◈ ? ◈ 4b68c","type":"ss","server":"series-a2-me.samanehha.co","port":443,"password":"Bog0ELmMM9DSxDdQ","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇬🇧 GB 51.143.168.24 ◈ tcp:443 ◈ ? ◈ 9a622","type":"ss","server":"series-a2-me.varzesh360.co","port":443,"password":"Bog0ELmMM9DSxDdQ","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇬🇧 GB 51.143.169.160 ◈ tcp:443 ◈ ? ◈ 80c05","type":"ss","server":"series-a2.samanehha.co","port":443,"password":"mps3FwmDjLrWaOVg","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇬🇧 GB 20.254.52.226 ◈ tcp:443 ◈ ? ◈ 6a22b","type":"ss","server":"series-a2.varzesh360.co","port":443,"password":"mps3FwmDjLrWaOVg","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇬🇧 GB 89.185.84.34 ◈ tcp:51348 ◈ Global ConnectivityLLP / Global Internet ◈ 41586","type":"ss","server":"89.185.84.34","port":51348,"password":"yeKtZW31qXeZbAz8HsH4zFui7aseIogssEK7X9XZsLZcUjw6","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇬🇧 GB 20.254.52.224 ◈ tcp:443 ◈ Microsoft Azure Cloud (uksouth) ◈ 06756","type":"ss","server":"series-a1.samanehha.co","port":443,"password":"W74XFALLLuw6m5IA","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🚫🇬🇹 GT 170.80.111.6 ◈ tcp:989 ◈ SONDATECH / IPXON Networks Guatemala [GT-GUA] ◈ 49239","type":"ss","server":"170.80.111.6","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🇭🇰 HK 38.150.15.119 ◈ ws:8080 ◈ Hytron Network Services Limited ◈ b9896","type":"vless","server":"38.150.15.119","port":8080,"uuid":"f32a99e8-05dd-478a-82c0-7688848121bd","tls":true,"servername":"mkhy.daozhang.link","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"mkhy.daozhang.link"}}}
+  - {"name":"🚫🇭🇰 HK 203.23.128.33 ◈ tcp:989 ◈ Leaseweb Asia Pacific pte. ltd. / Oneprovider.com ◈ e1e47","type":"ss","server":"203.23.128.33","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇭🇷 HR 46.183.184.63 ◈ tcp:989 ◈ Akton d.o.o. / EDIS ◈ 8ef0c","type":"ss","server":"46.183.184.63","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"💥🇮🇪 IE 85.159.229.8 ◈ grpc:2083 ◈ Stark Industries/ Global Internet ◈ 52255","type":"vless","server":"85.159.229.8","port":2083,"uuid":"e2ed91fe-808a-4d63-bcd9-1487769bfaaa","tls":true,"servername":"f2.maryam1900.com","network":"grpc"}
+  - {"name":"🔒🇮🇪 IE 85.159.229.8 ◈ grpc:2083 ◈ Stark Industries/ Global Internet ◈ 61a62","type":"vless","server":"2606:4700::6810:4326","port":2083,"uuid":"e2ed91fe-808a-4d63-bcd9-1487769bfaaa","tls":true,"servername":"f2.maryam1900.com","network":"grpc"}
+  - {"name":"🔒🇮🇪 IE 85.159.229.8 ◈ grpc:2083 ◈ Stark Industries/ Global Internet ◈ 43cd1","type":"vless","server":"2606:4700::6810:4426","port":2083,"uuid":"e2ed91fe-808a-4d63-bcd9-1487769bfaaa","tls":true,"servername":"f2.maryam1900.com","network":"grpc"}
+  - {"name":"💥🇮🇪 IE 85.159.229.8 ◈ grpc:2083 ◈ Stark Industries/ Global Internet ◈ 58fdc","type":"vless","server":"f2.maryam1900.com","port":2083,"uuid":"e2ed91fe-808a-4d63-bcd9-1487769bfaaa","tls":true,"network":"grpc"}
+  - {"name":"🇮🇪 IE 137.135.179.2 ◈ tcp:443 ◈ ? ◈ 2d1db","type":"ss","server":"account-mec.emofid.co","port":443,"password":"u17T3BvpYaaiuW2c","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇮🇪 IE 137.135.179.2 ◈ tcp:443 ◈ ? ◈ dc675","type":"ss","server":"series-a2-mec.samanehha.co","port":443,"password":"u17T3BvpYaaiuW2c","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇮🇪 IE 137.135.179.0 ◈ tcp:443 ◈ Microsoft Azure Cloud (northeurope) ◈ 54bad","type":"ss","server":"series-a2-mec.varzesh360.co","port":443,"password":"u17T3BvpYaaiuW2c","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇮🇪 IE 85.159.229.8 ◈ grpc:8443 ◈ Stark Industries/ Global Internet ◈ 4f8a1","type":"vmess","server":"2a05:541:127:12::1","port":8443,"cipher":"auto","uuid":"afe57557-df24-43e5-9cea-5d2acc2cad08","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"grpc","grpc-opts":{"grpc-service-name":"/","grpc-mode":"gun"}}
+  - {"name":"🇮🇪 IE 85.159.229.8 ◈ grpc:8443 ◈ Stark Industries/ Global Internet ◈ d4689","type":"vmess","server":"85.159.229.8","port":8443,"cipher":"auto","uuid":"afe57557-df24-43e5-9cea-5d2acc2cad08","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"grpc","grpc-opts":{"grpc-service-name":"/","grpc-mode":"gun"}}
+  - {"name":"🇮🇱 IL 77.91.69.236 ◈ tcp:51348 ◈ CLOUD LEASE Ltd / Foton Telecom CJSC ◈ 87dff","type":"ss","server":"77.91.69.236","port":51348,"password":"FkRnw4U23GukH0D83NqNT7yszV4h4xlJ0t43SlBDN6iuZhBv","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🚫🇮🇱 IL 193.182.144.65 ◈ tcp:989 ◈ EDIS Infrastructure in Israel / EDIS ◈ 26e78","type":"ss","server":"193.182.144.65","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇮🇱 IL 193.182.144.183 ◈ tcp:989 ◈ EDIS Infrastructure in Israel / EDIS ◈ b2dc2","type":"ss","server":"193.182.144.183","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇮🇱 IL 193.182.144.238 ◈ tcp:989 ◈ EDIS Infrastructure in Israel / EDIS ◈ 83549","type":"ss","server":"193.182.144.238","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🇮🇳 IN 103.120.178.193 ◈ tcp:51348 ◈ Selvakumar Selvapandi / Dhina Technologies ◈ 67e89","type":"ss","server":"103.120.178.193","port":51348,"password":"pULZkJUnl5FB4mOQUngUKFtPfohf0cUCpOxqyRD52hy9WuHe","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔒🇮🇹 IT 185.247.184.147 ◈ grpc:2060 ◈ Global ConnectivityLLP / Global Internet ◈ be3e0","type":"vless","server":"2a05:541:110:58::1","port":2060,"udp":true,"uuid":"4a60a8e0-b51d-41ae-8500-1b0b6724c6e6","tls":true,"servername":"dash.cloudflare.com","flow":"xtls-rprx-vision","network":"grpc","reality-opts":{"public-key":"1k5jM49Bx5DEAfS5Vpqz93t2XOXk-kwXl0V5Q9jn_WY","short-id":"f77e5398"},"client-fingerprint":"chrome"}
+  - {"name":"🔒🇮🇹 IT 185.247.184.115 ◈ grpc:2082 ◈ Global ConnectivityLLP / Global Internet ◈ d9512","type":"vless","server":"2a05:541:110:43::1","port":2082,"udp":true,"uuid":"2fdb86de-327d-4d2f-b655-5c658ff43342","tls":true,"servername":"dash.cloudflare.com","flow":"xtls-rprx-vision","network":"grpc","reality-opts":{"public-key":"ETr33yeV0IQAg-Yere6E6u5R_OOjK_aoQ90KvvB3MAk","short-id":"b74e2e58"},"client-fingerprint":"chrome"}
+  - {"name":"🚫🇯🇵 JP 35.72.5.88 ◈ tcp:443 ◈ AWS EC2 (ap-northeast-1) ◈ d1d15","type":"ss","server":"35.72.5.88","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇯🇵 JP 57.180.25.130 ◈ tcp:443 ◈ AWS EC2 (ap-northeast-1) ◈ 06c71","type":"ss","server":"57.180.25.130","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇯🇵 JP 3.112.128.40 ◈ tcp:443 ◈ AWS EC2 (ap-northeast-1) ◈ fab17","type":"ss","server":"3.112.128.40","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇯🇵 JP 18.179.23.67 ◈ tcp:443 ◈ AWS EC2 (ap-northeast-1) ◈ b8bf9","type":"ss","server":"18.179.23.67","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇯🇵 JP 18.183.130.46 ◈ tcp:443 ◈ AWS EC2 (ap-northeast-1) ◈ 201cd","type":"ss","server":"18.183.130.46","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇯🇵 JP 54.238.36.211 ◈ tcp:443 ◈ AWS EC2 (ap-northeast-1) ◈ c587d","type":"ss","server":"54.238.36.211","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇯🇵 JP 13.113.204.156 ◈ tcp:443 ◈ AWS EC2 (ap-northeast-1) ◈ b0c0c","type":"ss","server":"13.113.204.156","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇯🇵 JP 13.113.253.68 ◈ tcp:443 ◈ AWS EC2 (ap-northeast-1) ◈ 43108","type":"ss","server":"13.113.253.68","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇰🇷 KR 3.39.251.119 ◈ tcp:443 ◈ AWS EC2 (ap-northeast-2) ◈ bc73b","type":"ss","server":"3.39.251.119","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇰🇷 KR 43.201.254.211 ◈ tcp:443 ◈ AWS EC2 (ap-northeast-2) ◈ d6fae","type":"ss","server":"43.201.254.211","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇰🇷 KR 43.202.43.179 ◈ tcp:443 ◈ AWS EC2 (ap-northeast-2) ◈ 73d82","type":"ss","server":"43.202.43.179","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇰🇷 KR 52.79.247.2 ◈ tcp:443 ◈ AWS EC2 (ap-northeast-2) ◈ 5ab60","type":"ss","server":"52.79.247.2","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇰🇷 KR 54.180.251.250 ◈ tcp:443 ◈ AWS EC2 (ap-northeast-2) ◈ d0a0b","type":"ss","server":"54.180.251.250","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🇰🇿 KZ 89.44.193.112 ◈ tcp:51348 ◈ G-Core Labs S.A. / GCL ◈ 133a6","type":"ss","server":"89.44.193.112","port":51348,"password":"04yG0sOWSRVSlid9mfKUmmj8U4XgVlodu4oSRU90ey2e0CQ2","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇱🇻 LV 188.64.12.69 ◈ ws:80 ◈ Azeronline Information Services ◈ 582b3","type":"vless","server":"188.64.12.69","port":80,"uuid":"cb4fca5f-edf8-415b-aa8f-ac52f415296a","tls":true,"servername":"de.tradex2080.com","network":"ws","ws-opts":{"path":"/gPGhgE3kwHBXqpNptGAxAtI0QM","headers":{"host":"de.tradex2080.com"}}}
+  - {"name":"🇱🇻 LV 188.64.12.69 ◈ ws:80 ◈ Azeronline Information Services ◈ 43917","type":"vless","server":"de.tradex2080.com","port":80,"uuid":"cb4fca5f-edf8-415b-aa8f-ac52f415296a","tls":true,"network":"ws","ws-opts":{"path":"/gPGhgE3kwHBXqpNptGAxAtI0QM"}}
+  - {"name":"🚫🇲🇦 MA 188.214.157.5 ◈ tcp:989 ◈ Oneprovider.com ◈ 2c377","type":"ss","server":"188.214.157.5","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🔒🇳🇱 NL warpPlus ◈ grpc:443 ◈ bfebb","type":"vmess","server":"2606:4700:3030::6815:1646","port":443,"cipher":"chacha20-poly1305","uuid":"a6292090-afe1-4640-97a7-4f1d1d877cf1","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"hdfy8c1.cpionline.co","network":"grpc","grpc-opts":{"grpc-service-name":"Av8czorIlYC5KffvrsN6rqb","grpc-mode":"gun"}}
+  - {"name":"🔒🇳🇱 NL warpPlus ◈ grpc:443 ◈ 012a5","type":"vmess","server":"2606:4700:3030::ac43:cb54","port":443,"cipher":"chacha20-poly1305","uuid":"a6292090-afe1-4640-97a7-4f1d1d877cf1","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"hdfy8c1.cpionline.co","network":"grpc","grpc-opts":{"grpc-service-name":"Av8czorIlYC5KffvrsN6rqb","grpc-mode":"gun"}}
+  - {"name":"🔒🇳🇱 NL warpPlus ◈ grpc:443 ◈ 4f843","type":"trojan","server":"[2606","port":4700,"udp":true,"password":"a6292090-afe1-4640-97a7-4f1d1d877cf1","sni":"hdfy8c1.cpionline.co","skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"8bHUAD5IX0lC5KffvrsN6rqb"}}
+  - {"name":"🔒🇳🇱 NL warpPlus ◈ grpc:443 ◈ d0ec8","type":"vless","server":"2606:4700:3030::6815:1646","port":443,"uuid":"a6292090-afe1-4640-97a7-4f1d1d877cf1","tls":true,"servername":"hdfy8c1.cpionline.co","network":"grpc","grpc-opts":{"grpc-service-name":"PvSPM3IC5KffvrsN6rqb"}}
+  - {"name":"🔒🇳🇱 NL warpPlus ◈ grpc:443 ◈ 645b5","type":"vless","server":"2606:4700:3030::ac43:cb54","port":443,"uuid":"a6292090-afe1-4640-97a7-4f1d1d877cf1","tls":true,"servername":"hdfy8c1.cpionline.co","network":"grpc","grpc-opts":{"grpc-service-name":"PvSPM3IC5KffvrsN6rqb"}}
+  - {"name":"🔒🇳🇱 NL warpPlus ◈ grpc:443 ◈ ece1d","type":"trojan","server":"[2606","port":4700,"udp":true,"password":"a6292090-afe1-4640-97a7-4f1d1d877cf1","sni":"hdfy8c1.cpionline.co","skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"8bHUAD5IX0lC5KffvrsN6rqb"}}
+  - {"name":"🔒🇳🇱 NL 185.81.114.195 ◈ tcp:8080 ◈ HZ Hosting Ltd / HZ Na14 ◈ 9b3e1","type":"vless","server":"2a01:8640:0:7::29e6:61ce","port":8080,"udp":true,"uuid":"0e08ea94-6f77-41f6-fa9b-8e584ff02472","tls":true,"servername":"mdundo.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"6P_NQdJQKG9Z-TC62Lmny1-mgX0ZFJFOWQtkbPBNyDk","short-id":"dc3a9fef8a20"},"client-fingerprint":"chrome"}
+  - {"name":"🔒🇳🇱 NL 185.81.114.195 ◈ tcp:8080 ◈ HZ Hosting Ltd / HZ Na14 ◈ 0cb51","type":"vless","server":"alpha.realsudo.com","port":8080,"udp":true,"uuid":"0e08ea94-6f77-41f6-fa9b-8e584ff02472","tls":true,"servername":"mdundo.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"6P_NQdJQKG9Z-TC62Lmny1-mgX0ZFJFOWQtkbPBNyDk","short-id":"dc3a9fef8a20"},"client-fingerprint":"chrome"}
+  - {"name":"🔒🇳🇱 NL 185.81.114.195 ◈ tcp:8080 ◈ HZ Hosting Ltd / HZ Na14 ◈ d4bce","type":"vless","server":"xeon.realsudo.com","port":8080,"udp":true,"uuid":"0e08ea94-6f77-41f6-fa9b-8e584ff02472","tls":true,"servername":"mdundo.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"6P_NQdJQKG9Z-TC62Lmny1-mgX0ZFJFOWQtkbPBNyDk","short-id":"dc3a9fef8a20"},"client-fingerprint":"chrome"}
+  - {"name":"🇳🇱 NL 193.29.139.182 ◈ tcp:8080 ◈ Greenhost BV ◈ 96bdb","type":"ss","server":"45.158.171.129","port":8080,"password":"a8bt9fY0QsLS6eLnXUe0Ym","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇳🇱 NL 193.29.139.162 ◈ tcp:8080 ◈ Greenhost BV ◈ 590ff","type":"ss","server":"45.158.171.131","port":8080,"password":"a8bt9fY0QsLS6eLnXUe0Ym","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇳🇱 NL 193.29.139.215 ◈ tcp:8080 ◈ Greenhost BV ◈ 8b943","type":"ss","server":"45.158.171.148","port":8080,"password":"a8bt9fY0QsLS6eLnXUe0Ym","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇳🇱 NL 193.29.139.182 ◈ tcp:8080 ◈ Greenhost BV ◈ e6280","type":"ss","server":"193.29.139.182","port":8080,"password":"a8bt9fY0QsLS6eLnXUe0Ym","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇳🇱 NL 193.29.139.237 ◈ tcp:8080 ◈ Greenhost BV ◈ a19dd","type":"ss","server":"beedoost.org","port":8080,"password":"a8bt9fY0QsLS6eLnXUe0Ym","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔒🇳🇴 NO 185.125.171.13 ◈ tcp:443 ◈ TerraHost AS ◈ b2485","type":"vless","server":"2a03:94e0:ffff:185:125:171:0:13","port":443,"udp":true,"uuid":"a09373e2-e120-457d-9ec9-ea7fe8bedb52","tls":true,"servername":"partner.g2.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"},"client-fingerprint":"chrome"}
+  - {"name":"🚫🇳🇴 NO 165.231.120.102 ◈ tcp:989 ◈ Orion Network Limited / Fiber Grid ◈ c5ebd","type":"ss","server":"165.231.120.102","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇵🇹 PT 185.113.140.22 ◈ tcp:989 ◈ I4W - Web Solutions, Lda ◈ 54b04","type":"ss","server":"185.113.140.22","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🇷🇺 RU 87.242.118.69 ◈ ws:7777 ◈ .masterhost / ZAO DOZORY needs the requested IP-addresses for the new media and ◈ 6c532","type":"vless","server":"87.242.118.69","port":7777,"uuid":"b642e82c-b721-43bc-8602-0241cc4a3933","tls":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"🇷🇺 RU 45.144.179.106 ◈ ws:41172 ◈ Baxet ◈ 313bb","type":"vless","server":"45.144.179.106","port":41172,"uuid":"1ad1b334-e4c2-4694-827e-190c251d5ba2","tls":true,"servername":"2a00:b700:4::26d","network":"ws","ws-opts":{"path":"/","headers":{"host":"2a00:b700:4::26d"}}}
+  - {"name":"🇷🇺 RU 45.144.179.106 ◈ ws:41172 ◈ Baxet ◈ 4da95","type":"vless","server":"2a00:b700:4::26d","port":41172,"uuid":"1ad1b334-e4c2-4694-827e-190c251d5ba2","tls":true,"servername":"2a00:b700:4::26d","network":"ws","ws-opts":{"path":"/","headers":{"host":"2a00:b700:4::26d"}}}
+  - {"name":"🇷🇺 RU 45.67.32.147 ◈ tcp:41772 ◈ Sbcloud ◈ 2f3e5","type":"ss","server":"45.67.32.147","port":41772,"password":"h4Ef2XItAa1llkdVvLIlp/vH96KNqIY76Wiwn6eNzWU=","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇷🇺 RU 91.207.183.91 ◈ ws:80 ◈ Stark Industries ◈ 0777b","type":"vless","server":"91.207.183.91","port":80,"uuid":"84441a15-0ebc-4362-9217-606929cd8c5b","tls":true,"servername":"ru2.vless.site.","network":"ws","ws-opts":{"path":"/vless","headers":{"host":"ru2.vless.site."}}}
+  - {"name":"🇷🇺 RU 91.207.183.91 ◈ ws:2082 ◈ Stark Industries ◈ cd74d","type":"vless","server":"91.207.183.91","port":2082,"uuid":"84441a15-0ebc-4362-9217-606929cd8c5b","tls":true,"servername":"ru2.vless.site.","network":"ws","ws-opts":{"path":"/vless","headers":{"host":"ru2.vless.site."}}}
+  - {"name":"🇷🇺 RU 91.207.183.91 ◈ ws:2086 ◈ Stark Industries ◈ 65ba6","type":"vless","server":"91.207.183.91","port":2086,"uuid":"84441a15-0ebc-4362-9217-606929cd8c5b","tls":true,"servername":"ru2.vless.site.","network":"ws","ws-opts":{"path":"/vless","headers":{"host":"ru2.vless.site."}}}
+  - {"name":"🇷🇺 RU 91.207.183.91 ◈ ws:2095 ◈ Stark Industries ◈ bb315","type":"vless","server":"91.207.183.91","port":2095,"uuid":"84441a15-0ebc-4362-9217-606929cd8c5b","tls":true,"servername":"ru2.vless.site.","network":"ws","ws-opts":{"path":"/vless","headers":{"host":"ru2.vless.site."}}}
+  - {"name":"🇷🇺 RU 91.207.183.91 ◈ ws:8080 ◈ Stark Industries ◈ 987c5","type":"vless","server":"91.207.183.91","port":8080,"uuid":"84441a15-0ebc-4362-9217-606929cd8c5b","tls":true,"servername":"ru2.vless.site.","network":"ws","ws-opts":{"path":"/vless","headers":{"host":"ru2.vless.site."}}}
+  - {"name":"🇷🇺 RU 91.207.183.91 ◈ ws:8880 ◈ Stark Industries ◈ 5f519","type":"vless","server":"91.207.183.91","port":8880,"uuid":"84441a15-0ebc-4362-9217-606929cd8c5b","tls":true,"servername":"ru2.vless.site.","network":"ws","ws-opts":{"path":"/vless","headers":{"host":"ru2.vless.site."}}}
+  - {"name":"🔒🇸🇪 SE 77.221.143.183 ◈ grpc:33000 ◈ Aeza International ◈ 8e19b","type":"vless","server":"2a0b:4140:659a:2::2","port":33000,"udp":true,"uuid":"eae21a69-c4bf-4da6-9b7b-916a302ca32b","tls":true,"servername":"www.speedtest.net","flow":"xtls-rprx-vision","network":"grpc","grpc-opts":{"grpc-service-name":"b"},"reality-opts":{"public-key":"JrN7nZEbUeBJFHTAKwtz5Dmd10SGgA8UCHEMLA2xOg0","short-id":"be7f13dd"},"client-fingerprint":"chrome"}
+  - {"name":"🔒🇸🇪 SE 77.221.143.183 ◈ grpc:33000 ◈ Aeza International ◈ 86ea9","type":"vless","server":"2a0b:4140:659a:4::4","port":33000,"udp":true,"uuid":"a60d236d-be21-40f9-8c02-54caa635124d","tls":true,"servername":"www.speedtest.net","flow":"xtls-rprx-vision","network":"grpc","grpc-opts":{"grpc-service-name":"b"},"reality-opts":{"public-key":"JrN7nZEbUeBJFHTAKwtz5Dmd10SGgA8UCHEMLA2xOg0","short-id":"be7f13dd"},"client-fingerprint":"chrome"}
+  - {"name":"🔒🇸🇪 SE warpPlus ◈ grpc:443 ◈ 54fb5","type":"vless","server":"2606:4700:3036::ac43:b17b","port":443,"uuid":"251780c1-1501-43b3-be2a-d144a20d479a","tls":true,"servername":"hdfy5c1.foriran.trade","network":"grpc","grpc-opts":{"grpc-service-name":"Y7aWYIhAUAt2De4KVnk9AHQv"}}
+  - {"name":"🇸🇪 SE 46.226.160.34 ◈ tcp:2096 ◈ Aeza International ◈ 0bdb2","type":"vless","server":"www.ir.mci.irancell254.mtn.iran.fars-mobile.net","port":2096,"uuid":"7d9fab81-bc19-4f21-9d7b-0d51a787e920","tls":true,"network":"tcp"}
+  - {"name":"🇸🇪 SE 5.42.94.121 ◈ ws:8080 ◈ Aeza International ◈ 1b24e","type":"vless","server":"5.42.94.121","port":8080,"uuid":"8e162adc-e254-49f7-8ebb-5b5fed0c157b","tls":true,"servername":"2.v2ray.debian.org.fxp.debian.org.speedtest.net.xn--48jyb6ec1ad.zaynzeedvipaxwellbing.monster.","network":"ws","ws-opts":{"path":"/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray?ed=2048","headers":{"host":"2.v2ray.debian.org.fxp.debian.org.speedtest.net.xn--48jyb6ec1ad.zaynzeedvipaxwellbing.monster."}}}
+  - {"name":"🔒🇸🇬 SG 128.199.72.212 ◈ grpc:443 ◈ DigitalOcean ◈ 34fdd","type":"vmess","server":"128.199.72.212","port":443,"cipher":"auto","uuid":"f4a96d6d-0de4-4fb7-8fcf-e1adcbaa6573","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"dentagemoy.renkgonk.pw","network":"grpc","grpc-opts":{"grpc-service-name":"vmess-grpc","grpc-mode":"gun"}}
+  - {"name":"🇹🇷 TR 5.188.36.54 ◈ tcp:51348 ◈ G-Core Labs S.A. ◈ 0f082","type":"ss","server":"5.188.36.54","port":51348,"password":"xeQxB7sMGptfFct2qk2ESLeCNLLhRRwXrkNZXCdLFYvYwPQD","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇹🇷 TR 85.117.239.250 ◈ tcp:56000 ◈ Markahost Telekomunikasyon VE Ticaret Limited Sirketi / Verimin Bilisim Hizmetleri ◈ a6998","type":"vless","server":"89.235.119.73","port":56000,"uuid":"66749445-1c6a-4ea8-a88b-81e3d0c483d6","tls":true,"servername":"telewebion.com","network":"tcp"}
+  - {"name":"🇺🇦 UA 195.28.182.225 ◈ tcp:51348 ◈ Green Floid / Friendhosting ◈ f2f58","type":"ss","server":"195.28.182.225","port":51348,"password":"Rrc5AmJzLRIAKhmkm56XF41S4XAXpcGP6XiCxXMPQQ5kGzPv","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔒🇺🇸 US 159.223.202.69 ◈ tcp:443 ◈ DigitalOcean ◈ 1fbd6","type":"vless","server":"2604:a880:4:1d0::3b0:a000","port":443,"udp":true,"uuid":"0b992578-08bf-42f2-9c90-2725b299ebd3","tls":true,"servername":"ftp.debian.org","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"llQXEKfWs8NGVxYmXDaZBS-7rapjAwLiKzNeQ9TBrR0","short-id":"a2127ab1"},"client-fingerprint":"chrome"}
+  - {"name":"🔒🇺🇸 US 45.76.253.55 ◈ grpc:2087 ◈ The Constant Company / Vultr Holdings ◈ b21fc","type":"vmess","server":"speed.cloudflare.com","port":2087,"cipher":"auto","uuid":"2a3263e2-891c-4446-b474-a8c63acb6e25","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"dd21146ygfdsna9191281280kdm22kas2123aawdsd1234bb457625355.babettecarissa.net","network":"grpc","grpc-opts":{"grpc-service-name":"/","grpc-mode":"gun"}}
+  - {"name":"🚫🇺🇸 US 52.42.155.81 ◈ tcp:443 ◈ AWS EC2 (us-west-2) ◈ da75a","type":"ss","server":"52.42.155.81","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇺🇸 US 54.218.48.199 ◈ tcp:443 ◈ AWS EC2 (us-west-2) ◈ e27ba","type":"ss","server":"54.218.48.199","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🇺🇸 US 205.134.180.137 ◈ tcp:443 ◈ American Information Network / Vector Data Systems ◈ ca5c4","type":"ss","server":"205.134.180.137","port":443,"password":"g13S7doXar0A","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸 US 205.134.180.137 ◈ tcp:443 ◈ American Information Network / Vector Data Systems ◈ bb0f6","type":"ss","server":"us-ain.yangon.club","port":443,"password":"g13S7doXar0A","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸 US warp ◈ tcp:47529 ◈ a9d37","type":"ss","server":"[2a0d","port":47529,"password":"@GetNetworkBot","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 109.61.86.50 ◈ grpc:8880 ◈ Datacamp Limited / CDN77 Boston ◈ dc1ee","type":"vless","server":"data2v3.direct80ip.shop","port":8880,"uuid":"e4824193-4f54-453b-d037-88368e85ef0e","tls":true,"network":"grpc"}
+  - {"name":"🇺🇸 US 5.161.209.168 ◈ ws:8080 ◈ Hetzner ◈ 00447","type":"vless","server":"5.161.209.168","port":8080,"uuid":"2f3f0e5d-eb14-48a0-a6b7-8a23c2eda7b8","tls":true,"servername":"htamiz7.kaghazacharrangi.sbs","network":"ws","ws-opts":{"path":"/","headers":{"host":"htamiz7.kaghazacharrangi.sbs"}}}
+  - {"name":"🇺🇸 US 5.161.209.168 ◈ ws:8080 ◈ Hetzner ◈ 5ecff","type":"vless","server":"htamiz7.kaghazacharrangi.sbs","port":8080,"uuid":"d78bbf7c-8e5c-493f-888d-9a421e39bc74","tls":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"🇺🇸 US 144.126.145.43 ◈ ws:80 ◈ Nubes / Contabo Inc ◈ 429c9","type":"vless","server":"144.126.145.43","port":80,"uuid":"bded6b7a-efe3-4164-badd-0d9cfab6a072","tls":true,"servername":"us.eaxeg.be","network":"ws","ws-opts":{"path":"/03k3EF1qSBBZ3SSQ9N70H4Y2aW","headers":{"host":"us.eaxeg.be"}}}
+  - {"name":"🇺🇸 US 144.126.145.43 ◈ ws:80 ◈ Nubes / Contabo Inc ◈ 185c5","type":"vless","server":"us.eaxeg.be","port":80,"uuid":"bded6b7a-efe3-4164-badd-0d9cfab6a072","tls":true,"network":"ws","ws-opts":{"path":"/03k3EF1qSBBZ3SSQ9N70H4Y2aW"}}
+proxy-groups:
+  - name: 🐟 Proxies
+    type: select
+    proxies:
+      - 🚫🇦🇱 AL 31.171.153.178 ◈ tcp:989 ◈ Keminet Ltd. ◈ dba4e
+      - 🇦🇹 AT 95.164.9.144 ◈ tcp:2927 ◈ Stark Industries ◈ 24a34
+      - 🇦🇹 AT 95.164.9.144 ◈ tcp:2927 ◈ Stark Industries ◈ d1022
+      - 🔒🇦🇺 AU 170.64.188.248 ◈ tcp:443 ◈ DigitalOcean ◈ f88c9
+      -   🇧🇷 BR 191.96.70.53 ◈ tcp:51348 ◈ Hivelocity Inc / Private Customer ◈
+        11f1e
+      - 🔒🇨🇦 CA 103.98.215.248 ◈ tcp:443 ◈ Kamatera / Cloud Web Manage ◈ 71340
+      - 🔒🇨🇦 CA 103.98.215.248 ◈ tcp:443 ◈ Kamatera / Cloud Web Manage ◈ cd781
+      - 🇨🇦 CA 148.113.175.147 ◈ ws:80 ◈ OVH, Inc ◈ 14249
+      - 🚫🇨🇦 CA 198.245.49.22 ◈ tcp:989 ◈ OVH, Inc. ◈ c35c6
+      - 🇨🇭 CH 94.131.12.203 ◈ ws:2052 ◈ Stark Industries ◈ aaff3
+      - 🇨🇭 CH 94.131.12.203 ◈ ws:2082 ◈ Stark Industries ◈ eda63
+      - 🇨🇭 CH 94.131.12.203 ◈ ws:2086 ◈ Stark Industries ◈ fd3ee
+      - 🇨🇭 CH 94.131.12.203 ◈ ws:2095 ◈ Stark Industries ◈ b08a5
+      - 🇨🇭 CH 94.131.12.203 ◈ ws:8080 ◈ Stark Industries ◈ b1497
+      - 🇨🇭 CH 94.131.12.203 ◈ ws:8880 ◈ Stark Industries ◈ cd8af
+      - 🔒🇩🇪 DE 185.56.150.200 ◈ ws:443 ◈ 1&1 IONOS SE / Strato ◈ 93fde
+      - 🔒🇩🇪 DE 185.56.150.200 ◈ ws:2053 ◈ 1&1 IONOS SE / Strato ◈ 9f1ef
+      - 🔒🇩🇪 DE 185.56.150.200 ◈ ws:2083 ◈ 1&1 IONOS SE / Strato ◈ 3d819
+      - 🔒🇩🇪 DE 185.56.150.200 ◈ ws:2087 ◈ 1&1 IONOS SE / Strato ◈ 9c300
+      - 🔒🇩🇪 DE 185.56.150.200 ◈ ws:2096 ◈ 1&1 IONOS SE / Strato ◈ a5282
+      - 🔒🇩🇪 DE 185.56.150.200 ◈ ws:8443 ◈ 1&1 IONOS SE / Strato ◈ cca7b
+      - 🔒🇩🇪 DE 45.63.117.50 ◈ ws:443 ◈ Choopa / Vultr Holdings ◈ a87ee
+      - 🔒🇩🇪 DE 45.63.117.50 ◈ ws:2053 ◈ Choopa / Vultr Holdings ◈ bd1ea
+      - 🔒🇩🇪 DE 45.63.117.50 ◈ ws:2083 ◈ Choopa / Vultr Holdings ◈ 911de
+      - 🔒🇩🇪 DE 45.63.117.50 ◈ ws:2087 ◈ Choopa / Vultr Holdings ◈ 20d7b
+      - 🔒🇩🇪 DE 138.68.93.60 ◈ tcp:29360 ◈ DigitalOcean ◈ 7de32
+      - 🔒🇩🇪 DE 91.107.181.159 ◈ grpc:2087 ◈ Hetzner ◈ 2e2b6
+      - 🔒🇩🇪 DE 91.107.131.92 ◈ tcp:8443 ◈ Hetzner ◈ 03f53
+      - 🔒🇩🇪 DE 5.75.197.8 ◈ ws:443 ◈ Hetzner ◈ 77e44
+      - 🔒🇩🇪 DE 5.75.236.28 ◈ ws:443 ◈ Hetzner ◈ 470b4
+      - 🔒🇩🇪 DE 128.140.97.183 ◈ ws:443 ◈ Hetzner ◈ 54c3b
+      - 🔒🇩🇪 DE 5.75.236.28 ◈ ws:443 ◈ Hetzner ◈ 78bf6
+      - 🔒🇩🇪 DE 5.75.197.8 ◈ ws:443 ◈ Hetzner ◈ 0bd9d
+      -   🔒🇩🇪 DE 51.116.121.38 ◈ grpc:2086 ◈ Microsoft Azure Cloud
+        (germanywestcentral) ◈ 3857f
+      - 🔒🇩🇪 DE 57.129.22.33 ◈ grpc:443 ◈ OVH ◈ faa75
+      - 🔒🇩🇪 DE 57.129.22.33 ◈ grpc:443 ◈ OVH ◈ 17cff
+      - 🔒🇩🇪 DE 57.129.44.34 ◈ ws:443 ◈ OVH ◈ fa5d5
+      -   🔒🇩🇪 DE 45.76.90.170 ◈ grpc:443 ◈ The Constant Company / Vultr
+        Holdings ◈ e9a6f
+      -   🔒🇩🇪 DE 45.76.90.170 ◈ grpc:443 ◈ The Constant Company / Vultr
+        Holdings ◈ 5498f
+      -   🔒🇩🇪 DE 45.76.90.170 ◈ grpc:443 ◈ The Constant Company / Vultr
+        Holdings ◈ c71bf
+      -   🔒🇩🇪 DE 45.76.90.170 ◈ grpc:443 ◈ The Constant Company / Vultr
+        Holdings ◈ 81292
+      -   🔒🇩🇪 DE 45.76.90.170 ◈ grpc:443 ◈ The Constant Company / Vultr
+        Holdings ◈ d6684
+      - 🇩🇪 DE 92.118.190.131 ◈ ws:80 ◈ 365 Group ◈ 1166b
+      - 🇩🇪 DE 78.46.233.197 ◈ ws:80 ◈ Hetzner / NewCoTec ◈ 303ac
+      - 🇩🇪 DE 91.107.150.234 ◈ ws:2095 ◈ Hetzner ◈ c022c
+      - 🇩🇪 DE 91.107.131.92 ◈ tcp:8881 ◈ Hetzner ◈ e0207
+      - 🇩🇪 DE 5.75.140.142 ◈ ws:80 ◈ Hetzner ◈ 0726f
+      - 🇩🇪 DE 5.75.197.8 ◈ ws:80 ◈ Hetzner ◈ 92e3d
+      - 🇩🇪 DE 5.75.200.178 ◈ ws:80 ◈ Hetzner ◈ e21cf
+      - 🇩🇪 DE 5.75.202.205 ◈ ws:80 ◈ Hetzner ◈ aee0f
+      - 🇩🇪 DE 5.75.236.28 ◈ ws:80 ◈ Hetzner ◈ 4adcd
+      - 🇩🇪 DE 23.88.39.83 ◈ ws:80 ◈ Hetzner ◈ 3c3f2
+      - 🇩🇪 DE 128.140.97.183 ◈ ws:80 ◈ Hetzner ◈ 2863b
+      - 🇩🇪 DE 142.132.230.4 ◈ ws:80 ◈ Hetzner ◈ 708e1
+      - 🇩🇪 DE 5.75.236.28 ◈ ws:80 ◈ Hetzner ◈ e427e
+      - 🇩🇪 DE 5.75.140.142 ◈ ws:80 ◈ Hetzner ◈ 8bc09
+      - 🇩🇪 DE 49.13.49.127 ◈ tcp:442 ◈ Hetzner ◈ 19fea
+      - 🇩🇪 DE 49.13.49.127 ◈ tcp:442 ◈ Hetzner ◈ c909a
+      - 🇩🇪 DE 49.13.146.185 ◈ tcp:48942 ◈ Hetzner ◈ 0b1d4
+      - 🇩🇪 DE 49.13.146.185 ◈ tcp:48942 ◈ Hetzner ◈ fe7fc
+      - 🇩🇪 DE 49.13.222.15 ◈ tcp:50001 ◈ Hetzner ◈ 61a16
+      - 🇩🇪 DE 49.13.222.15 ◈ tcp:50001 ◈ Hetzner ◈ ba4f2
+      - 🇩🇪 DE 168.119.57.171 ◈ tcp:51348 ◈ Hetzner ◈ afe8a
+      - 🇩🇪 DE 128.140.98.255 ◈ grpc:56562 ◈ Hetzner ◈ 24335
+      -   🇩🇪 DE 81.28.6.186 ◈ tcp:51348 ◈ Kamatera Inc / Cloudwebmanage EU FR ◈
+        28db2
+      -   🇩🇪 DE 89.107.10.65 ◈ tcp:51348 ◈ Miglovets Egor Andreevich /
+        Tehpostavka ◈ d8c10
+      - 🇩🇪 DE 93.183.70.126 ◈ ws:80 ◈ ZTV CORP ◈ b3c36
+      - 🇩🇪 DE 93.183.70.126 ◈ ws:80 ◈ ZTV CORP ◈ d54c4
+      - 🇩🇪 DE 93.183.70.126 ◈ ws:80 ◈ ZTV CORP ◈ 7bd25
+      - 🇩🇪 DE 93.183.70.126 ◈ ws:80 ◈ ZTV CORP ◈ 46fb7
+      - 🇩🇪 DE 93.183.70.126 ◈ ws:80 ◈ ZTV CORP ◈ d5ed4
+      - 🇩🇪 DE 79.133.46.219 ◈ ws:2095 ◈ firstcolo ◈ bb645
+      - 🇩🇪 DE 79.133.46.219 ◈ ws:8880 ◈ firstcolo ◈ 59e76
+      - 🔒🇩🇰 DK 46.29.235.165 ◈ grpc:443 ◈ Global Internet ◈ a42d0
+      - 🔒🇩🇰 DK 46.29.235.165 ◈ grpc:443 ◈ Global Internet ◈ 4c661
+      - 🔒🇩🇰 DK 46.29.235.165 ◈ grpc:443 ◈ Global Internet ◈ c8102
+      - 🔒🇫🇮 FI 65.109.206.218 ◈ ws:443 ◈ Hetzner ◈ 5acda
+      - 🔒🇫🇮 FI 65.109.208.214 ◈ ws:443 ◈ Hetzner ◈ 990f4
+      - 🔒🇫🇮 FI 95.216.162.17 ◈ grpc:443 ◈ Hetzner ◈ 5b898
+      - 🔒🇫🇮 FI 65.109.208.214 ◈ ws:443 ◈ Hetzner ◈ 26719
+      - 🔒🇫🇮 FI 37.27.181.182 ◈ tcp:10559 ◈ Hetzner ◈ 58582
+      - 🇫🇮 FI 65.109.204.75 ◈ ws:80 ◈ Hetzner ◈ 6709f
+      - 🇫🇮 FI 65.109.206.218 ◈ ws:80 ◈ Hetzner ◈ 89c0d
+      - 🇫🇮 FI 65.109.9.5 ◈ tcp:20000 ◈ Hetzner ◈ b582a
+      - 🇫🇮 FI 95.217.17.242 ◈ tcp:22555 ◈ Hetzner ◈ 85e92
+      - 🇫🇮 FI 65.109.236.202 ◈ tcp:30188 ◈ Hetzner ◈ 4993e
+      - 🇫🇮 FI 65.109.236.202 ◈ tcp:30188 ◈ Hetzner ◈ c9a0e
+      - 🇫🇮 FI 65.21.2.49 ◈ tcp:46928 ◈ Hetzner ◈ 3c0a5
+      - 🇫🇮 FI 65.21.2.49 ◈ tcp:46928 ◈ Hetzner ◈ ce7d1
+      - 🇫🇮 FI 65.21.2.49 ◈ tcp:46928 ◈ Hetzner ◈ 1c4c9
+      - 🇫🇮 FI 65.109.207.202 ◈ tcp:55375 ◈ Hetzner ◈ 13a1f
+      - 🇫🇮 FI 65.109.207.202 ◈ tcp:55375 ◈ Hetzner ◈ 3d004
+      - 🇫🇮 FI 95.217.216.45 ◈ ws:80 ◈ Hetzner ◈ 0c592
+      - 🇫🇮 FI 95.217.216.45 ◈ ws:80 ◈ Hetzner ◈ 4cc6e
+      -   🇫🇮 FI 166.1.218.132 ◈ tcp:28327 ◈ Hostkey B.V. / Ace Data Centers,
+        Inc. ◈ 7a8c7
+      - 🇫🇮 FI 95.164.113.34 ◈ ws:2052 ◈ Stark Industries ◈ faac0
+      - 🇫🇮 FI 95.164.113.34 ◈ ws:2086 ◈ Stark Industries ◈ 2a6c1
+      - 🇫🇮 FI 95.164.113.34 ◈ ws:2095 ◈ Stark Industries ◈ 887f5
+      - 🇫🇮 FI 95.164.113.34 ◈ ws:8080 ◈ Stark Industries ◈ 2fa69
+      - 🇫🇮 FI 95.164.113.34 ◈ ws:8880 ◈ Stark Industries ◈ 2581a
+      - 💥🇫🇷 FR warpPlus ◈ grpc:443 ◈ 78314
+      - 🔒🇫🇷 FR warpPlus ◈ grpc:443 ◈ 8e224
+      - 💥🇫🇷 FR warpPlus ◈ grpc:443 ◈ b6b79
+      - 🔒🇫🇷 FR warpPlus ◈ grpc:443 ◈ 899a9
+      - 🔒🇫🇷 FR warpPlus ◈ grpc:443 ◈ a8ddb
+      - 💥🇫🇷 FR warpPlus ◈ grpc:443 ◈ 9e1bb
+      - 🔒🇫🇷 FR warpPlus ◈ grpc:443 ◈ 03c08
+      - 🔒🇫🇷 FR warpPlus ◈ grpc:443 ◈ 2b054
+      - 💥🇫🇷 FR warpPlus ◈ grpc:443 ◈ 85fb4
+      - 🔒🇫🇷 FR warpPlus ◈ grpc:443 ◈ 98d2b
+      - 🔒🇫🇷 FR warpPlus ◈ grpc:443 ◈ 4aafe
+      - 🔒🇫🇷 FR warpPlus ◈ grpc:443 ◈ 4d46d
+      - 🔒🇫🇷 FR warpPlus ◈ grpc:443 ◈ 6d715
+      - 🔒🇫🇷 FR warpPlus ◈ grpc:443 ◈ 4c54f
+      - 🔒🇫🇷 FR warpPlus ◈ grpc:443 ◈ 82d09
+      - 🔒🇫🇷 FR warpPlus ◈ grpc:443 ◈ 8bc4c
+      - 🔒🇫🇷 FR warpPlus ◈ grpc:443 ◈ 559e1
+      - 🔒🇫🇷 FR warpPlus ◈ grpc:443 ◈ 01c8f
+      - 🔒🇫🇷 FR warpPlus ◈ grpc:443 ◈ 1c43c
+      - 🔒🇫🇷 FR warpPlus ◈ grpc:443 ◈ 50ce2
+      - 🔒🇫🇷 FR warpPlus ◈ grpc:443 ◈ 65bc6
+      - 🔒🇫🇷 FR warpPlus ◈ grpc:443 ◈ 05cde
+      - 🔒🇫🇷 FR warpPlus ◈ grpc:443 ◈ b730c
+      - 🔒🇫🇷 FR warpPlus ◈ grpc:443 ◈ 4f7aa
+      - 🔒🇫🇷 FR warpPlus ◈ grpc:443 ◈ 5acb8
+      - 🔒🇫🇷 FR warpPlus ◈ grpc:443 ◈ 5b11a
+      - 🔒🇫🇷 FR warpPlus ◈ grpc:443 ◈ 8b1e1
+      - 🔒🇫🇷 FR warpPlus ◈ grpc:443 ◈ 0357f
+      - 🔒🇫🇷 FR warpPlus ◈ grpc:443 ◈ a0322
+      - 🔒🇫🇷 FR warpPlus ◈ grpc:443 ◈ 4f82d
+      -   🔒🇫🇷 FR 62.133.62.105 ◈ grpc:443 ◈ Global ConnectivityLLP / Global
+        Internet ◈ 53709
+      -   🔒🇫🇷 FR 62.133.62.105 ◈ grpc:443 ◈ Global ConnectivityLLP / Global
+        Internet ◈ e290b
+      - 🔒🇫🇷 FR 213.32.90.17 ◈ tcp:2083 ◈ OVH ◈ d2e79
+      - 🔒🇫🇷 FR 188.165.123.40 ◈ grpc:443 ◈ OVH / Yong Brian ◈ dfca9
+      - 🔒🇫🇷 FR 185.234.64.146 ◈ grpc:2083 ◈ Stark Industries ◈ 9ff97
+      - 🔒🇫🇷 FR 185.234.64.146 ◈ grpc:2087 ◈ Stark Industries ◈ f0f77
+      - 🔒🇫🇷 FR 185.234.64.146 ◈ grpc:2096 ◈ Stark Industries ◈ 262a2
+      - 🔒🇫🇷 FR 185.234.64.146 ◈ grpc:8443 ◈ Stark Industries ◈ e4d6c
+      -   🇫🇷 FR 92.243.27.51 ◈ tcp:9802 ◈ GANDI is an ICANN accredited registrar
+        ◈ 0f1cb
+      -   🇫🇷 FR 92.243.27.51 ◈ tcp:9802 ◈ GANDI is an ICANN accredited registrar
+        ◈ 1d246
+      - 🇫🇷 FR 51.75.30.8 ◈ ws:80 ◈ OVH ◈ 94423
+      - 🇫🇷 FR 51.75.30.8 ◈ ws:80 ◈ OVH ◈ 530ed
+      - 🇫🇷 FR 137.74.66.90 ◈ tcp:57254 ◈ OVH / Yong Brian ◈ d1d91
+      - 🇫🇷 FR 137.74.66.90 ◈ tcp:57254 ◈ OVH / Yong Brian ◈ 1086c
+      - 🇫🇷 FR 94.131.9.36 ◈ ws:80 ◈ Stark Industries ◈ 15964
+      - 🇫🇷 FR 94.131.9.36 ◈ ws:2052 ◈ Stark Industries ◈ 87cbc
+      - 🇫🇷 FR 94.131.9.36 ◈ ws:2086 ◈ Stark Industries ◈ 71bdc
+      - 🇫🇷 FR 94.131.9.36 ◈ ws:2095 ◈ Stark Industries ◈ e18f7
+      - 🇫🇷 FR 94.131.9.36 ◈ ws:8080 ◈ Stark Industries ◈ b0856
+      - 🇫🇷 FR 94.131.9.36 ◈ ws:8880 ◈ Stark Industries ◈ 6405f
+      - 🔒🇬🇧 GB 57.128.164.150 ◈ ws:443 ◈ OVH Ltd ◈ ac00f
+      -   💡🇬🇧 GB 78.141.226.231 ◈ tcp:6623 ◈ The Constant Company / Vultr
+        Holdings London ◈ b334e
+      - 🇬🇧 GB 51.143.169.160 ◈ tcp:443 ◈ ? ◈ 2ef43
+      - 🇬🇧 GB 20.254.111.200 ◈ tcp:443 ◈ ? ◈ 3ef91
+      - 🇬🇧 GB 51.143.169.160 ◈ tcp:443 ◈ ? ◈ 69551
+      - 🇬🇧 GB 20.254.111.200 ◈ tcp:443 ◈ ? ◈ 4b68c
+      - 🇬🇧 GB 51.143.168.24 ◈ tcp:443 ◈ ? ◈ 9a622
+      - 🇬🇧 GB 51.143.169.160 ◈ tcp:443 ◈ ? ◈ 80c05
+      - 🇬🇧 GB 20.254.52.226 ◈ tcp:443 ◈ ? ◈ 6a22b
+      -   🇬🇧 GB 89.185.84.34 ◈ tcp:51348 ◈ Global ConnectivityLLP / Global
+        Internet ◈ 41586
+      -   🇬🇧 GB 20.254.52.224 ◈ tcp:443 ◈ Microsoft Azure Cloud (uksouth) ◈
+        06756
+      -   🚫🇬🇹 GT 170.80.111.6 ◈ tcp:989 ◈ SONDATECH / IPXON Networks Guatemala
+        [GT-GUA] ◈ 49239
+      -   🇭🇰 HK 38.150.15.119 ◈ ws:8080 ◈ Hytron Network Services Limited ◈
+        b9896
+      -   🚫🇭🇰 HK 203.23.128.33 ◈ tcp:989 ◈ Leaseweb Asia Pacific pte. ltd. /
+        Oneprovider.com ◈ e1e47
+      - 🚫🇭🇷 HR 46.183.184.63 ◈ tcp:989 ◈ Akton d.o.o. / EDIS ◈ 8ef0c
+      -   💥🇮🇪 IE 85.159.229.8 ◈ grpc:2083 ◈ Stark Industries/ Global Internet ◈
+        52255
+      -   🔒🇮🇪 IE 85.159.229.8 ◈ grpc:2083 ◈ Stark Industries/ Global Internet ◈
+        61a62
+      -   🔒🇮🇪 IE 85.159.229.8 ◈ grpc:2083 ◈ Stark Industries/ Global Internet ◈
+        43cd1
+      -   💥🇮🇪 IE 85.159.229.8 ◈ grpc:2083 ◈ Stark Industries/ Global Internet ◈
+        58fdc
+      - 🇮🇪 IE 137.135.179.2 ◈ tcp:443 ◈ ? ◈ 2d1db
+      - 🇮🇪 IE 137.135.179.2 ◈ tcp:443 ◈ ? ◈ dc675
+      -   🇮🇪 IE 137.135.179.0 ◈ tcp:443 ◈ Microsoft Azure Cloud (northeurope) ◈
+        54bad
+      -   🇮🇪 IE 85.159.229.8 ◈ grpc:8443 ◈ Stark Industries/ Global Internet ◈
+        4f8a1
+      -   🇮🇪 IE 85.159.229.8 ◈ grpc:8443 ◈ Stark Industries/ Global Internet ◈
+        d4689
+      -   🇮🇱 IL 77.91.69.236 ◈ tcp:51348 ◈ CLOUD LEASE Ltd / Foton Telecom CJSC
+        ◈ 87dff
+      -   🚫🇮🇱 IL 193.182.144.65 ◈ tcp:989 ◈ EDIS Infrastructure in Israel /
+        EDIS ◈ 26e78
+      -   🚫🇮🇱 IL 193.182.144.183 ◈ tcp:989 ◈ EDIS Infrastructure in Israel /
+        EDIS ◈ b2dc2
+      -   🚫🇮🇱 IL 193.182.144.238 ◈ tcp:989 ◈ EDIS Infrastructure in Israel /
+        EDIS ◈ 83549
+      -   🇮🇳 IN 103.120.178.193 ◈ tcp:51348 ◈ Selvakumar Selvapandi / Dhina
+        Technologies ◈ 67e89
+      -   🔒🇮🇹 IT 185.247.184.147 ◈ grpc:2060 ◈ Global ConnectivityLLP / Global
+        Internet ◈ be3e0
+      -   🔒🇮🇹 IT 185.247.184.115 ◈ grpc:2082 ◈ Global ConnectivityLLP / Global
+        Internet ◈ d9512
+      - 🚫🇯🇵 JP 35.72.5.88 ◈ tcp:443 ◈ AWS EC2 (ap-northeast-1) ◈ d1d15
+      - 🚫🇯🇵 JP 57.180.25.130 ◈ tcp:443 ◈ AWS EC2 (ap-northeast-1) ◈ 06c71
+      - 🚫🇯🇵 JP 3.112.128.40 ◈ tcp:443 ◈ AWS EC2 (ap-northeast-1) ◈ fab17
+      - 🚫🇯🇵 JP 18.179.23.67 ◈ tcp:443 ◈ AWS EC2 (ap-northeast-1) ◈ b8bf9
+      - 🚫🇯🇵 JP 18.183.130.46 ◈ tcp:443 ◈ AWS EC2 (ap-northeast-1) ◈ 201cd
+      - 🚫🇯🇵 JP 54.238.36.211 ◈ tcp:443 ◈ AWS EC2 (ap-northeast-1) ◈ c587d
+      - 🚫🇯🇵 JP 13.113.204.156 ◈ tcp:443 ◈ AWS EC2 (ap-northeast-1) ◈ b0c0c
+      - 🚫🇯🇵 JP 13.113.253.68 ◈ tcp:443 ◈ AWS EC2 (ap-northeast-1) ◈ 43108
+      - 🚫🇰🇷 KR 3.39.251.119 ◈ tcp:443 ◈ AWS EC2 (ap-northeast-2) ◈ bc73b
+      - 🚫🇰🇷 KR 43.201.254.211 ◈ tcp:443 ◈ AWS EC2 (ap-northeast-2) ◈ d6fae
+      - 🚫🇰🇷 KR 43.202.43.179 ◈ tcp:443 ◈ AWS EC2 (ap-northeast-2) ◈ 73d82
+      - 🚫🇰🇷 KR 52.79.247.2 ◈ tcp:443 ◈ AWS EC2 (ap-northeast-2) ◈ 5ab60
+      - 🚫🇰🇷 KR 54.180.251.250 ◈ tcp:443 ◈ AWS EC2 (ap-northeast-2) ◈ d0a0b
+      - 🇰🇿 KZ 89.44.193.112 ◈ tcp:51348 ◈ G-Core Labs S.A. / GCL ◈ 133a6
+      - 🇱🇻 LV 188.64.12.69 ◈ ws:80 ◈ Azeronline Information Services ◈ 582b3
+      - 🇱🇻 LV 188.64.12.69 ◈ ws:80 ◈ Azeronline Information Services ◈ 43917
+      - 🚫🇲🇦 MA 188.214.157.5 ◈ tcp:989 ◈ Oneprovider.com ◈ 2c377
+      - 🔒🇳🇱 NL warpPlus ◈ grpc:443 ◈ bfebb
+      - 🔒🇳🇱 NL warpPlus ◈ grpc:443 ◈ 012a5
+      - 🔒🇳🇱 NL warpPlus ◈ grpc:443 ◈ 4f843
+      - 🔒🇳🇱 NL warpPlus ◈ grpc:443 ◈ d0ec8
+      - 🔒🇳🇱 NL warpPlus ◈ grpc:443 ◈ 645b5
+      - 🔒🇳🇱 NL warpPlus ◈ grpc:443 ◈ ece1d
+      - 🔒🇳🇱 NL 185.81.114.195 ◈ tcp:8080 ◈ HZ Hosting Ltd / HZ Na14 ◈ 9b3e1
+      - 🔒🇳🇱 NL 185.81.114.195 ◈ tcp:8080 ◈ HZ Hosting Ltd / HZ Na14 ◈ 0cb51
+      - 🔒🇳🇱 NL 185.81.114.195 ◈ tcp:8080 ◈ HZ Hosting Ltd / HZ Na14 ◈ d4bce
+      - 🇳🇱 NL 193.29.139.182 ◈ tcp:8080 ◈ Greenhost BV ◈ 96bdb
+      - 🇳🇱 NL 193.29.139.162 ◈ tcp:8080 ◈ Greenhost BV ◈ 590ff
+      - 🇳🇱 NL 193.29.139.215 ◈ tcp:8080 ◈ Greenhost BV ◈ 8b943
+      - 🇳🇱 NL 193.29.139.182 ◈ tcp:8080 ◈ Greenhost BV ◈ e6280
+      - 🇳🇱 NL 193.29.139.237 ◈ tcp:8080 ◈ Greenhost BV ◈ a19dd
+      - 🔒🇳🇴 NO 185.125.171.13 ◈ tcp:443 ◈ TerraHost AS ◈ b2485
+      -   🚫🇳🇴 NO 165.231.120.102 ◈ tcp:989 ◈ Orion Network Limited / Fiber Grid
+        ◈ c5ebd
+      - 🚫🇵🇹 PT 185.113.140.22 ◈ tcp:989 ◈ I4W - Web Solutions, Lda ◈ 54b04
+      -   🇷🇺 RU 87.242.118.69 ◈ ws:7777 ◈ .masterhost / ZAO DOZORY needs the
+        requested IP-addresses for the new media and ◈ 6c532
+      - 🇷🇺 RU 45.144.179.106 ◈ ws:41172 ◈ Baxet ◈ 313bb
+      - 🇷🇺 RU 45.144.179.106 ◈ ws:41172 ◈ Baxet ◈ 4da95
+      - 🇷🇺 RU 45.67.32.147 ◈ tcp:41772 ◈ Sbcloud ◈ 2f3e5
+      - 🇷🇺 RU 91.207.183.91 ◈ ws:80 ◈ Stark Industries ◈ 0777b
+      - 🇷🇺 RU 91.207.183.91 ◈ ws:2082 ◈ Stark Industries ◈ cd74d
+      - 🇷🇺 RU 91.207.183.91 ◈ ws:2086 ◈ Stark Industries ◈ 65ba6
+      - 🇷🇺 RU 91.207.183.91 ◈ ws:2095 ◈ Stark Industries ◈ bb315
+      - 🇷🇺 RU 91.207.183.91 ◈ ws:8080 ◈ Stark Industries ◈ 987c5
+      - 🇷🇺 RU 91.207.183.91 ◈ ws:8880 ◈ Stark Industries ◈ 5f519
+      - 🔒🇸🇪 SE 77.221.143.183 ◈ grpc:33000 ◈ Aeza International ◈ 8e19b
+      - 🔒🇸🇪 SE 77.221.143.183 ◈ grpc:33000 ◈ Aeza International ◈ 86ea9
+      - 🔒🇸🇪 SE warpPlus ◈ grpc:443 ◈ 54fb5
+      - 🇸🇪 SE 46.226.160.34 ◈ tcp:2096 ◈ Aeza International ◈ 0bdb2
+      - 🇸🇪 SE 5.42.94.121 ◈ ws:8080 ◈ Aeza International ◈ 1b24e
+      - 🔒🇸🇬 SG 128.199.72.212 ◈ grpc:443 ◈ DigitalOcean ◈ 34fdd
+      - 🇹🇷 TR 5.188.36.54 ◈ tcp:51348 ◈ G-Core Labs S.A. ◈ 0f082
+      -   🇹🇷 TR 85.117.239.250 ◈ tcp:56000 ◈ Markahost Telekomunikasyon VE
+        Ticaret Limited Sirketi / Verimin Bilisim Hizmetleri ◈ a6998
+      - 🇺🇦 UA 195.28.182.225 ◈ tcp:51348 ◈ Green Floid / Friendhosting ◈ f2f58
+      - 🔒🇺🇸 US 159.223.202.69 ◈ tcp:443 ◈ DigitalOcean ◈ 1fbd6
+      -   🔒🇺🇸 US 45.76.253.55 ◈ grpc:2087 ◈ The Constant Company / Vultr
+        Holdings ◈ b21fc
+      - 🚫🇺🇸 US 52.42.155.81 ◈ tcp:443 ◈ AWS EC2 (us-west-2) ◈ da75a
+      - 🚫🇺🇸 US 54.218.48.199 ◈ tcp:443 ◈ AWS EC2 (us-west-2) ◈ e27ba
+      -   🇺🇸 US 205.134.180.137 ◈ tcp:443 ◈ American Information Network /
+        Vector Data Systems ◈ ca5c4
+      -   🇺🇸 US 205.134.180.137 ◈ tcp:443 ◈ American Information Network /
+        Vector Data Systems ◈ bb0f6
+      - 🇺🇸 US warp ◈ tcp:47529 ◈ a9d37
+      -   🇺🇸 US 109.61.86.50 ◈ grpc:8880 ◈ Datacamp Limited / CDN77 Boston ◈
+        dc1ee
+      - 🇺🇸 US 5.161.209.168 ◈ ws:8080 ◈ Hetzner ◈ 00447
+      - 🇺🇸 US 5.161.209.168 ◈ ws:8080 ◈ Hetzner ◈ 5ecff
+      - 🇺🇸 US 144.126.145.43 ◈ ws:80 ◈ Nubes / Contabo Inc ◈ 429c9
+      - 🇺🇸 US 144.126.145.43 ◈ ws:80 ◈ Nubes / Contabo Inc ◈ 185c5
+rules:
+  - MATCH,🐟 Proxies
