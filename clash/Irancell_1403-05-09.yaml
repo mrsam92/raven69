@@ -1,0 +1,1214 @@
+####################################
+# Date：30-07-2024 16:36:55
+# Numbers：572
+####################################
+mixed-port: 7890
+allow-lan: true
+mode: Global
+log-level: info
+external-controller: :9090
+proxies:
+  - {"name":"🇦🇪 AE 3.28.127.173 ◈ tcp:443 ◈ Amazon Technologies Inc. / Amazon Data Services UAE ◈ 19fa3","type":"ss","server":"admin.c2.webramz.co","port":443,"password":"u17T3BvpYaaiuW2c","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇦🇪 AE 3.28.127.173 ◈ tcp:443 ◈ Amazon Technologies Inc. / Amazon Data Services UAE ◈ 53edd","type":"ss","server":"irancell.xn--g28h.dns-dynamic.net.cdn.cloudflare.net","port":443,"password":"u17T3BvpYaaiuW2c","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇦🇪 AE 3.28.127.173 ◈ tcp:443 ◈ Amazon Technologies Inc. / Amazon Data Services UAE ◈ dc675","type":"ss","server":"series-a2-mec.samanehha.co","port":443,"password":"u17T3BvpYaaiuW2c","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇦🇪 AE 3.28.127.173 ◈ tcp:443 ◈ Amazon Technologies Inc. / Amazon Data Services UAE ◈ 54bad","type":"ss","server":"series-a2-mec.varzesh360.co","port":443,"password":"u17T3BvpYaaiuW2c","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🚫🇦🇱 AL 31.171.153.178 ◈ tcp:989 ◈ Keminet Ltd. ◈ 1edc8","type":"ss","server":"31.171.153.178","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇦🇱 AL 31.171.153.178 ◈ tcp:989 ◈ Keminet Ltd. ◈ dba4e","type":"ss","server":"31.171.153.180","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇦🇷 AR 190.103.176.29 ◈ tcp:989 ◈ SONDATECH / IPXON Networks Argentina - Buenos Aires [AR-EZE] ◈ 51082","type":"ss","server":"190.103.176.29","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🇦🇹 AT 95.164.9.144 ◈ tcp:2927 ◈ Stark Industries ◈ 1e188","type":"ss","server":"95.164.9.144","port":2927,"password":"ug4Fu79SEREdFGlt2sUyT4","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇦🇹 AT 95.164.9.144 ◈ tcp:2927 ◈ Stark Industries ◈ 24a34","type":"ss","server":"shadowsocks.ctsubvpn.ggff.net","port":2927,"password":"ug4Fu79SEREdFGlt2sUyT4","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇦🇹 AT 95.164.9.144 ◈ tcp:2927 ◈ Stark Industries ◈ d1022","type":"ss","server":"ss1.ctsubvpn.ggff.net","port":2927,"password":"ug4Fu79SEREdFGlt2sUyT4","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🚫🇧🇦 BA 185.164.35.9 ◈ tcp:989 ◈ Globalhost d.o.o. - Web Hosting ◈ 80367","type":"ss","server":"185.164.35.9","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇧🇬 BG 213.183.63.69 ◈ tcp:9000 ◈ Melbikomas UAB ◈ 8c82b","type":"ss","server":"213.183.63.69","port":9000,"password":"a3GFYt36Sm82Vys9","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇧🇬 BG 213.183.63.69 ◈ tcp:9003 ◈ Melbikomas UAB ◈ 3e422","type":"ss","server":"213.183.63.69","port":9003,"password":"JdmRK9gMEqFgs8nP","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇧🇬 BG 213.183.63.69 ◈ tcp:9003 ◈ Melbikomas UAB ◈ a0cd5","type":"ss","server":"vpnctvip.vip2024allctkianuk1212ki2020www.ggff.net","port":9003,"password":"JdmRK9gMEqFgs8nP","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇧🇬 BG 213.183.63.69 ◈ tcp:9005 ◈ Melbikomas UAB ◈ 6b6d2","type":"ss","server":"213.183.63.69","port":9005,"password":"ZET59LF6DvCC8KVt","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇧🇬 BG 213.183.63.69 ◈ tcp:9011 ◈ Melbikomas UAB ◈ e602d","type":"ss","server":"213.183.63.69","port":9011,"password":"M3t2ZEQcMGRWBjRa","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇧🇬 BG 213.183.63.69 ◈ tcp:9029 ◈ Melbikomas UAB ◈ 0cdff","type":"ss","server":"213.183.63.69","port":9029,"password":"dU3DSNS8wYPXzEKw","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇧🇬 BG 213.183.63.69 ◈ tcp:9029 ◈ Melbikomas UAB ◈ b2cab","type":"ss","server":"vpnctvip.vip2024allctkianuk1212ki2020www.ggff.net","port":9029,"password":"dU3DSNS8wYPXzEKw","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇧🇬 BG 213.183.63.69 ◈ tcp:9030 ◈ Melbikomas UAB ◈ 7bcbc","type":"ss","server":"vpnctvip.vip2024allctkianuk1212ki2020www.ggff.net","port":9030,"password":"GeregetR8cvQHzYr","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇧🇬 BG 213.183.63.69 ◈ tcp:9031 ◈ Melbikomas UAB ◈ ccf14","type":"ss","server":"vpnctvip.vip2024allctkianuk1212ki2020www.ggff.net","port":9031,"password":"BwcAUZk8hUFAkDGN","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇧🇬 BG 213.183.63.69 ◈ tcp:9037 ◈ Melbikomas UAB ◈ 311d4","type":"ss","server":"213.183.63.69","port":9037,"password":"TN2YqghxeFDKZfLU","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇧🇬 BG 213.183.63.69 ◈ tcp:9040 ◈ Melbikomas UAB ◈ 942f8","type":"ss","server":"213.183.63.69","port":9040,"password":"p9z5BVADH2YFs3MN","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇧🇬 BG 213.183.63.69 ◈ tcp:9041 ◈ Melbikomas UAB ◈ 816be","type":"ss","server":"213.183.63.69","port":9041,"password":"U6qnYRhfyDmn8sgn","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇧🇬 BG 213.183.63.69 ◈ tcp:9041 ◈ Melbikomas UAB ◈ 84160","type":"ss","server":"vpnctvip.vip2024allctkianuk1212ki2020www.ggff.net","port":9041,"password":"U6qnYRhfyDmn8sgn","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇧🇬 BG 213.183.63.69 ◈ tcp:9042 ◈ Melbikomas UAB ◈ b4429","type":"ss","server":"213.183.63.69","port":9042,"password":"S7KwUu7yBy58S3Ga","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇧🇬 BG 213.183.63.69 ◈ tcp:9042 ◈ Melbikomas UAB ◈ 78e9e","type":"ss","server":"vpnctvip.vip2024allctkianuk1212ki2020www.ggff.net","port":9042,"password":"S7KwUu7yBy58S3Ga","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇧🇬 BG 213.183.63.69 ◈ tcp:9050 ◈ Melbikomas UAB ◈ c9abc","type":"ss","server":"213.183.63.69","port":9050,"password":"FG5ddLsMPbV5CutE","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇧🇬 BG 213.183.63.69 ◈ tcp:9050 ◈ Melbikomas UAB ◈ 3d26e","type":"ss","server":"vpnctvip.vip2024allctkianuk1212ki2020www.ggff.net","port":9050,"password":"FG5ddLsMPbV5CutE","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇧🇬 BG 213.183.63.69 ◈ tcp:9057 ◈ Melbikomas UAB ◈ fb4cf","type":"ss","server":"vpnctvip.vip2024allctkianuk1212ki2020www.ggff.net","port":9057,"password":"wjTugX3ZtHMB9c3Z","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇧🇬 BG 213.183.63.69 ◈ tcp:9060 ◈ Melbikomas UAB ◈ 66bd7","type":"ss","server":"vpnctvip.vip2024allctkianuk1212ki2020www.ggff.net","port":9060,"password":"ueLXVkvh4hckhErQ","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇧🇬 BG 213.183.63.69 ◈ tcp:9061 ◈ Melbikomas UAB ◈ 570d5","type":"ss","server":"213.183.63.69","port":9061,"password":"4R3hUfZ2FHhDmNcP","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇧🇬 BG 213.183.63.69 ◈ tcp:9061 ◈ Melbikomas UAB ◈ 7f1f7","type":"ss","server":"vpnctvip.vip2024allctkianuk1212ki2020www.ggff.net","port":9061,"password":"4R3hUfZ2FHhDmNcP","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇧🇬 BG 213.183.63.69 ◈ tcp:9065 ◈ Melbikomas UAB ◈ 9dbcf","type":"ss","server":"vpnctvip.vip2024allctkianuk1212ki2020www.ggff.net","port":9065,"password":"PeHSHm5SqEjBuEXE","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇧🇬 BG 213.183.63.69 ◈ tcp:9073 ◈ Melbikomas UAB ◈ 99070","type":"ss","server":"213.183.63.69","port":9073,"password":"daFYagqDdBdA6VTX","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇧🇬 BG 213.183.63.69 ◈ tcp:9088 ◈ Melbikomas UAB ◈ f980c","type":"ss","server":"213.183.63.69","port":9088,"password":"f8npKgNzdkss2ytn","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇧🇬 BG 213.183.63.69 ◈ tcp:9093 ◈ Melbikomas UAB ◈ 9f4a9","type":"ss","server":"vpnctvip.vip2024allctkianuk1212ki2020www.ggff.net","port":9093,"password":"wfLC2y7rzZyCmuyt","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇧🇬 BG 213.183.63.69 ◈ tcp:9098 ◈ Melbikomas UAB ◈ 08510","type":"ss","server":"213.183.63.69","port":9098,"password":"aLpQtfEZe445QyHk","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇧🇬 BG 213.183.63.69 ◈ tcp:9098 ◈ Melbikomas UAB ◈ 8aa1b","type":"ss","server":"vpnctvip.vip2024allctkianuk1212ki2020www.ggff.net","port":9098,"password":"aLpQtfEZe445QyHk","cipher":"aes-256-cfb"}
+  - {"name":"🇧🇭 BH 157.175.154.107 ◈ tcp:443 ◈ AWS EC2 (me-south-1) ◈ 9646a","type":"ss","server":"admin.c3.webramz.co","port":443,"password":"Bog0ELmMM9DSxDdQ","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇧🇭 BH 157.175.154.107 ◈ tcp:443 ◈ AWS EC2 (me-south-1) ◈ 4b68c","type":"ss","server":"series-a2-me.samanehha.co","port":443,"password":"Bog0ELmMM9DSxDdQ","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇧🇭 BH 157.175.154.107 ◈ tcp:443 ◈ AWS EC2 (me-south-1) ◈ 9a622","type":"ss","server":"series-a2-me.varzesh360.co","port":443,"password":"Bog0ELmMM9DSxDdQ","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇧🇾 BY 45.87.219.110 ◈ tcp:51348 ◈ Support Chain / HostFly.BY ◈ 48d78","type":"ss","server":"45.87.219.110","port":51348,"password":"F4fChWGojIcmxuMROuVQIQKGKRdg09vKfGp2STzSrdzrUSwZ","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔒🇨🇦 CA 134.195.196.138 ◈ ws:443 ◈ GLOBALTELEHOST Corp. ◈ 4c843","type":"trojan","server":"speed.cloudflare.com","port":443,"udp":true,"password":"b0b861c2c85346a389b9e95769c3cba4","sni":"avianrecruit.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"6b777a91","headers":{"host":"avianrecruit.com"}}}
+  - {"name":"🇨🇦 CA 38.111.114.133 ◈ tcp:443 ◈ GLOBALTELEHOST Corp. ◈ e753c","type":"ss","server":"38.111.114.133","port":443,"password":"pKEW8JPByTVTLtM","cipher":"aes-256-gcm"}
+  - {"name":"🇨🇦 CA 38.111.114.133 ◈ tcp:3306 ◈ GLOBALTELEHOST Corp. ◈ 91aa4","type":"ss","server":"38.111.114.133","port":3306,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"🇨🇦 CA 38.111.114.133 ◈ tcp:3389 ◈ GLOBALTELEHOST Corp. ◈ 71080","type":"ss","server":"38.111.114.133","port":3389,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"🇨🇦 CA 38.111.114.133 ◈ tcp:5001 ◈ GLOBALTELEHOST Corp. ◈ bf240","type":"ss","server":"38.111.114.133","port":5001,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"🇨🇦 CA 38.111.114.133 ◈ tcp:5500 ◈ GLOBALTELEHOST Corp. ◈ 0138e","type":"ss","server":"38.111.114.133","port":5500,"password":"KixLvKzwjekG00rm","cipher":"aes-256-gcm"}
+  - {"name":"🇨🇦 CA 38.111.114.133 ◈ tcp:6379 ◈ GLOBALTELEHOST Corp. ◈ 01750","type":"ss","server":"38.111.114.133","port":6379,"password":"zDNVedRFPQexG9v","cipher":"aes-256-gcm"}
+  - {"name":"🇨🇦 CA 38.111.114.133 ◈ tcp:7001 ◈ GLOBALTELEHOST Corp. ◈ 1b0d5","type":"ss","server":"38.111.114.133","port":7001,"password":"RexnBgU7EV5ADxG","cipher":"aes-256-gcm"}
+  - {"name":"🇨🇦 CA 38.111.114.133 ◈ tcp:7307 ◈ GLOBALTELEHOST Corp. ◈ 11eed","type":"ss","server":"38.111.114.133","port":7307,"password":"FoOiGlkAA9yPEGP","cipher":"aes-256-gcm"}
+  - {"name":"🇨🇦 CA 38.111.114.133 ◈ tcp:8009 ◈ GLOBALTELEHOST Corp. ◈ 0e426","type":"ss","server":"38.111.114.133","port":8009,"password":"XKFKl2rULjIp74","cipher":"aes-256-gcm"}
+  - {"name":"🇨🇦 CA 38.111.114.133 ◈ tcp:8080 ◈ GLOBALTELEHOST Corp. ◈ 3459f","type":"ss","server":"38.111.114.133","port":8080,"password":"KixLvKzwjekG00rm","cipher":"aes-256-gcm"}
+  - {"name":"🇨🇦 CA 38.111.114.133 ◈ tcp:8119 ◈ GLOBALTELEHOST Corp. ◈ 1cd31","type":"ss","server":"38.111.114.133","port":8119,"password":"cdBIDV42DCwnfIN","cipher":"aes-256-gcm"}
+  - {"name":"🇨🇦 CA 38.111.114.133 ◈ tcp:8881 ◈ GLOBALTELEHOST Corp. ◈ ec8d3","type":"ss","server":"38.111.114.133","port":8881,"password":"kDWvXYZoTBcGkC4","cipher":"aes-256-gcm"}
+  - {"name":"🇨🇦 CA 38.111.114.133 ◈ tcp:9090 ◈ GLOBALTELEHOST Corp. ◈ 6759d","type":"ss","server":"38.111.114.133","port":9090,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"🇨🇦 CA 23.162.200.133 ◈ tcp:443 ◈ GLOBALTELEHOST Corp. / Palmira Hosting ◈ dd5cf","type":"ss","server":"23.162.200.133","port":443,"password":"pKEW8JPByTVTLtM","cipher":"aes-256-gcm"}
+  - {"name":"🇨🇦 CA 23.162.200.133 ◈ tcp:445 ◈ GLOBALTELEHOST Corp. / Palmira Hosting ◈ 3f834","type":"ss","server":"23.162.200.133","port":445,"password":"zDNVedRFPQexG9v","cipher":"aes-256-gcm"}
+  - {"name":"🇨🇦 CA 23.162.200.133 ◈ tcp:2375 ◈ GLOBALTELEHOST Corp. / Palmira Hosting ◈ 0d6f4","type":"ss","server":"23.162.200.133","port":2375,"password":"faBAoD54k87UJG7","cipher":"aes-256-gcm"}
+  - {"name":"🇨🇦 CA 23.162.200.133 ◈ tcp:2376 ◈ GLOBALTELEHOST Corp. / Palmira Hosting ◈ 5ec38","type":"ss","server":"23.162.200.133","port":2376,"password":"faBAoD54k87UJG7","cipher":"aes-256-gcm"}
+  - {"name":"🇨🇦 CA 23.162.200.133 ◈ tcp:4444 ◈ GLOBALTELEHOST Corp. / Palmira Hosting ◈ ee444","type":"ss","server":"23.162.200.133","port":4444,"password":"pKEW8JPByTVTLtM","cipher":"aes-256-gcm"}
+  - {"name":"🇨🇦 CA 23.162.200.133 ◈ tcp:5003 ◈ GLOBALTELEHOST Corp. / Palmira Hosting ◈ 993dd","type":"ss","server":"23.162.200.133","port":5003,"password":"g5MeD6Ft3CWlJId","cipher":"aes-256-gcm"}
+  - {"name":"🇨🇦 CA 23.162.200.133 ◈ tcp:5498 ◈ GLOBALTELEHOST Corp. / Palmira Hosting ◈ d06aa","type":"ss","server":"23.162.200.133","port":5498,"password":"lGqs95QkFHo2NV","cipher":"aes-256-gcm"}
+  - {"name":"🇨🇦 CA 23.162.200.133 ◈ tcp:5500 ◈ GLOBALTELEHOST Corp. / Palmira Hosting ◈ d4f25","type":"ss","server":"23.162.200.133","port":5500,"password":"KixLvKzwjekG00rm","cipher":"aes-256-gcm"}
+  - {"name":"🇨🇦 CA 23.162.200.133 ◈ tcp:5600 ◈ GLOBALTELEHOST Corp. / Palmira Hosting ◈ bfb12","type":"ss","server":"23.162.200.133","port":5600,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"🇨🇦 CA 23.162.200.133 ◈ tcp:6697 ◈ GLOBALTELEHOST Corp. / Palmira Hosting ◈ 9f291","type":"ss","server":"23.162.200.133","port":6697,"password":"TEzjfAYq2IjtuoS","cipher":"aes-256-gcm"}
+  - {"name":"🇨🇦 CA 23.162.200.133 ◈ tcp:8080 ◈ GLOBALTELEHOST Corp. / Palmira Hosting ◈ 0046a","type":"ss","server":"23.162.200.133","port":8080,"password":"KixLvKzwjekG00rm","cipher":"aes-256-gcm"}
+  - {"name":"🇨🇦 CA 23.162.200.133 ◈ tcp:9090 ◈ GLOBALTELEHOST Corp. / Palmira Hosting ◈ df601","type":"ss","server":"23.162.200.133","port":9090,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"🇨🇦 CA 23.162.200.133 ◈ tcp:9102 ◈ GLOBALTELEHOST Corp. / Palmira Hosting ◈ 220a2","type":"ss","server":"23.162.200.133","port":9102,"password":"e4FCWrgpkji3QY","cipher":"aes-256-gcm"}
+  - {"name":"🇨🇦 CA 142.4.216.225 ◈ tcp:80 ◈ OVH, Inc. ◈ 72180","type":"ss","server":"142.4.216.225","port":80,"password":"JIhN6rBKkaEboLNXVSv5rq","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🚫🇨🇦 CA 198.245.49.22 ◈ tcp:989 ◈ OVH, Inc. ◈ c35c6","type":"ss","server":"198.245.49.22","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🇨🇭 CH 195.15.243.171 ◈ tcp:2048 ◈ Infomaniak Network Management / Infomaniak Network SA ◈ 673ee","type":"ss","server":"195.15.243.171","port":2048,"password":"FDfrXXL5TYb3LfBUFSAgDp46/BCAzQZFronMWDV5J54=","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇨🇭 CH 195.15.243.171 ◈ tcp:2048 ◈ Infomaniak Network Management / Infomaniak Network SA ◈ 22ff9","type":"ss","server":"[2001","port":2048,"password":"FDfrXXL5TYb3LfBUFSAgDp46/BCAzQZFronMWDV5J54=","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇨🇭 CH 195.15.243.171 ◈ tcp:2048 ◈ Infomaniak Network Management / Infomaniak Network SA ◈ 52e33","type":"ss","server":"no-vote.realofspeed.com","port":2048,"password":"FDfrXXL5TYb3LfBUFSAgDp46/BCAzQZFronMWDV5J54=","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🚫🇨🇴 CO 190.120.231.45 ◈ tcp:989 ◈ Sondatech S.A.S. / IPXON Networks Colombia ◈ c205f","type":"ss","server":"190.120.231.45","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇨🇷 CR 138.59.16.146 ◈ tcp:989 ◈ Data Miners S.A. ( Racknation.cr ) ◈ 82408","type":"ss","server":"138.59.16.146","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🔒🇩🇪 DE 5.182.87.141 ◈ ws:2053 ◈ Aeza International ◈ f1c23","type":"vmess","server":"speed.cloudflare.com","port":2053,"cipher":"auto","uuid":"7b308755-1135-4fed-828f-8e48ca1603ad","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"a1.wolf-shop.ir","network":"ws","ws-opts":{"path":"/6mHwql1HSSV5FOZe0UV1BYvuQ","headers":{"host":"a1.wolf-shop.ir"}}}
+  - {"name":"🔒🇩🇪 DE 5.182.87.141 ◈ ws:2083 ◈ Aeza International ◈ b8214","type":"vmess","server":"speed.cloudflare.com","port":2083,"cipher":"auto","uuid":"7b308755-1135-4fed-828f-8e48ca1603ad","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"a1.wolf-shop.ir","network":"ws","ws-opts":{"path":"/6mHwql1HSSV5FOZe0UV1BYvuQ","headers":{"host":"a1.wolf-shop.ir"}}}
+  - {"name":"🔒🇩🇪 DE 5.182.87.141 ◈ ws:2087 ◈ Aeza International ◈ 7598d","type":"vmess","server":"speed.cloudflare.com","port":2087,"cipher":"auto","uuid":"7b308755-1135-4fed-828f-8e48ca1603ad","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"a1.wolf-shop.ir","network":"ws","ws-opts":{"path":"/6mHwql1HSSV5FOZe0UV1BYvuQ","headers":{"host":"a1.wolf-shop.ir"}}}
+  - {"name":"🔒🇩🇪 DE 5.182.87.141 ◈ ws:2096 ◈ Aeza International ◈ 04724","type":"vmess","server":"speed.cloudflare.com","port":2096,"cipher":"auto","uuid":"7b308755-1135-4fed-828f-8e48ca1603ad","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"a1.wolf-shop.ir","network":"ws","ws-opts":{"path":"/6mHwql1HSSV5FOZe0UV1BYvuQ","headers":{"host":"a1.wolf-shop.ir"}}}
+  - {"name":"🔒🇩🇪 DE 5.182.87.141 ◈ ws:8443 ◈ Aeza International ◈ 918e9","type":"vmess","server":"speed.cloudflare.com","port":8443,"cipher":"auto","uuid":"7b308755-1135-4fed-828f-8e48ca1603ad","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"a1.wolf-shop.ir","network":"ws","ws-opts":{"path":"/6mHwql1HSSV5FOZe0UV1BYvuQ","headers":{"host":"a1.wolf-shop.ir"}}}
+  - {"name":"🔒🇩🇪 DE 172.104.250.152 ◈ ws:443 ◈ Akamai Technologies / Linode ◈ 0bafb","type":"vmess","server":"172.104.250.152","port":443,"cipher":"auto","uuid":"76221bfb-e92f-4e80-81c5-6fe48f50ac0b","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"glweidf.sbs","network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"glweidf.sbs"}}}
+  - {"name":"🔒🇩🇪 DE 179.61.253.116 ◈ ws:443 ◈ Collin Schneeweiss / Unesty Company ◈ 869b2","type":"vmess","server":"179.61.253.116","port":443,"cipher":"aes-128-gcm","uuid":"1052f24e-7b09-45eb-b0c5-d858eb124192","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"glweidf.cfd","network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"glweidf.cfd"}}}
+  - {"name":"🇩🇪 DE 5.182.87.141 ◈ ws:80 ◈ Aeza International ◈ 595b2","type":"vmess","server":"5.182.87.141","port":80,"cipher":"auto","uuid":"7b308755-1135-4fed-828f-8e48ca1603ad","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/6mHwql1HSSV5FOZe0UV1BYvuQ","headers":{"host":"a1.wolf-shop.ir"}}}
+  - {"name":"🇩🇪 DE 91.107.156.158 ◈ ws:2052 ◈ Hetzner ◈ 9666b","type":"vmess","server":"91.107.156.158","port":2052,"cipher":"auto","uuid":"01574712-f9e7-4787-b990-09d105e7b579","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/@irvpnn,@irvpnn,@irvpnn,@irvpnn?ed=1024","headers":{"host":"22d.irvn.debian.xn--6-e64s.6.1b71.8.fxp.debian.xn--org-nn33ba.speedtshest.net.xn--fhq0la447aac5504dea701axr1g.boland-sho-tokhm-sag.cyou."}}}
+  - {"name":"🇩🇪 DE 167.235.139.105 ◈ tcp:51348 ◈ Hetzner ◈ 2e707","type":"ss","server":"167.235.139.105","port":51348,"password":"P0VmjYa00wNNEDBoDuWKfIdWKIxycJQuq1eIwXMCRi2T650R","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇩🇪 DE 89.107.10.65 ◈ tcp:51348 ◈ Miglovets Egor Andreevich / Tehpostavka ◈ d8c10","type":"ss","server":"89.107.10.65","port":51348,"password":"WM5adrXijpwApm1wLsEB3WFSCrG9aQ6QAJjVc2btj73FvBnw","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🚫🇩🇪 DE 80.92.204.106 ◈ tcp:9000 ◈ Stark Industries ◈ 3c999","type":"ss","server":"80.92.204.106","port":9000,"password":"a3GFYt36Sm82Vys9","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇩🇪 DE 80.92.204.106 ◈ tcp:9010 ◈ Stark Industries ◈ 945b1","type":"ss","server":"80.92.204.106","port":9010,"password":"f63gg8EruDnUrmz4","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇩🇪 DE 80.92.204.106 ◈ tcp:9015 ◈ Stark Industries ◈ 374b3","type":"ss","server":"80.92.204.106","port":9015,"password":"ZpNDDKRu9MagNvaf","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇩🇪 DE 80.92.204.106 ◈ tcp:9019 ◈ Stark Industries ◈ 9f2a3","type":"ss","server":"80.92.204.106","port":9019,"password":"GA9KzeEgvfxNrgmM","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇩🇪 DE 80.92.204.106 ◈ tcp:9024 ◈ Stark Industries ◈ cf602","type":"ss","server":"80.92.204.106","port":9024,"password":"BejrQvtu9sqUeNuZ","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇩🇪 DE 80.92.204.106 ◈ tcp:9025 ◈ Stark Industries ◈ eace6","type":"ss","server":"80.92.204.106","port":9025,"password":"XPtzA9sCug3SPR4c","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇩🇪 DE 80.92.204.106 ◈ tcp:9027 ◈ Stark Industries ◈ b3333","type":"ss","server":"80.92.204.106","port":9027,"password":"EXN3S3eQpjE7EJu8","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇩🇪 DE 80.92.204.106 ◈ tcp:9031 ◈ Stark Industries ◈ 9d094","type":"ss","server":"80.92.204.106","port":9031,"password":"BwcAUZk8hUFAkDGN","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇩🇪 DE 80.92.204.106 ◈ tcp:9037 ◈ Stark Industries ◈ 67dcc","type":"ss","server":"80.92.204.106","port":9037,"password":"TN2YqghxeFDKZfLU","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇩🇪 DE 80.92.204.106 ◈ tcp:9046 ◈ Stark Industries ◈ 545f1","type":"ss","server":"80.92.204.106","port":9046,"password":"NvS8N4Vf8qAGPSCL","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇩🇪 DE 80.92.204.106 ◈ tcp:9057 ◈ Stark Industries ◈ 73fc9","type":"ss","server":"80.92.204.106","port":9057,"password":"wjTugX3ZtHMB9c3Z","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇩🇪 DE 80.92.204.106 ◈ tcp:9061 ◈ Stark Industries ◈ 89cf9","type":"ss","server":"80.92.204.106","port":9061,"password":"4R3hUfZ2FHhDmNcP","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇩🇪 DE 80.92.204.106 ◈ tcp:9064 ◈ Stark Industries ◈ f366a","type":"ss","server":"80.92.204.106","port":9064,"password":"cp8pRSUAyLhTfVWH","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇩🇪 DE 80.92.204.106 ◈ tcp:9084 ◈ Stark Industries ◈ 84d0a","type":"ss","server":"80.92.204.106","port":9084,"password":"c3NtHJ5ujV2tGDfj","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇩🇪 DE 80.92.204.106 ◈ tcp:9097 ◈ Stark Industries ◈ 36a6e","type":"ss","server":"80.92.204.106","port":9097,"password":"Sn5B7jTqr76aCJT8","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇩🇪 DE 80.92.204.106 ◈ tcp:9098 ◈ Stark Industries ◈ 9e2f3","type":"ss","server":"80.92.204.106","port":9098,"password":"aLpQtfEZe445QyHk","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇪🇨 EC 179.49.5.114 ◈ tcp:989 ◈ Puntonet S.A. ◈ d62a5","type":"ss","server":"179.49.5.114","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇪🇸 ES 5.188.181.201 ◈ tcp:9001 ◈ Melbikomas UAB ◈ e15ee","type":"ss","server":"5.188.181.201","port":9001,"password":"UkXRsXvR6buDMG2Y","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇪🇸 ES 5.188.181.201 ◈ tcp:9005 ◈ Melbikomas UAB ◈ 552d6","type":"ss","server":"5.188.181.201","port":9005,"password":"ZET59LF6DvCC8KVt","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇪🇸 ES 5.188.181.201 ◈ tcp:9011 ◈ Melbikomas UAB ◈ da742","type":"ss","server":"5.188.181.201","port":9011,"password":"M3t2ZEQcMGRWBjRa","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇪🇸 ES 5.188.181.201 ◈ tcp:9014 ◈ Melbikomas UAB ◈ f04e6","type":"ss","server":"5.188.181.201","port":9014,"password":"KnJGad3FqTvjqbaX","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇪🇸 ES 5.188.181.201 ◈ tcp:9020 ◈ Melbikomas UAB ◈ e36a7","type":"ss","server":"5.188.181.201","port":9020,"password":"BNmAXXxAHYpTRdzu","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇪🇸 ES 5.188.181.201 ◈ tcp:9027 ◈ Melbikomas UAB ◈ cc9d1","type":"ss","server":"5.188.181.201","port":9027,"password":"EXN3S3eQpjE7EJu8","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇪🇸 ES 5.188.181.201 ◈ tcp:9029 ◈ Melbikomas UAB ◈ 3881d","type":"ss","server":"5.188.181.201","port":9029,"password":"dU3DSNS8wYPXzEKw","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇪🇸 ES 5.188.181.201 ◈ tcp:9042 ◈ Melbikomas UAB ◈ 64bed","type":"ss","server":"5.188.181.201","port":9042,"password":"S7KwUu7yBy58S3Ga","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇪🇸 ES 5.188.181.201 ◈ tcp:9054 ◈ Melbikomas UAB ◈ aa529","type":"ss","server":"5.188.181.201","port":9054,"password":"VcFuyXvND2yQWSFY","cipher":"aes-256-cfb"}
+  - {"name":"🔒🇫🇷 FR 172.232.37.82 ◈ ws:443 ◈ Akamai Technologies, Inc. ◈ 59b3c","type":"vmess","server":"172.232.37.82","port":443,"cipher":"auto","uuid":"1052f24e-7b09-45eb-b0c5-d858eb124192","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"glweidf.cfd","network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"glweidf.cfd"}}}
+  - {"name":"🔒🇫🇷 FR 172.232.49.74 ◈ ws:443 ◈ Akamai Technologies, Inc. ◈ 526d2","type":"vmess","server":"172.232.49.74","port":443,"cipher":"auto","uuid":"1052f24e-7b09-45eb-b0c5-d858eb124192","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"glweidf.cfd","network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"glweidf.cfd"}}}
+  - {"name":"🔒🇫🇷 FR 172.232.62.177 ◈ ws:443 ◈ Akamai Technologies, Inc. ◈ ea55f","type":"vmess","server":"172.232.62.177","port":443,"cipher":"auto","uuid":"76221bfb-e92f-4e80-81c5-6fe48f50ac0b","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"glweidf.sbs","network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"glweidf.sbs"}}}
+  - {"name":"🔒🇫🇷 FR 172.232.43.58 ◈ ws:443 ◈ Akamai Technologies, Inc. ◈ 6a067","type":"vmess","server":"2606:4700:3030::ac43:836c","port":443,"cipher":"auto","uuid":"1052f24e-7b09-45eb-b0c5-d858eb124192","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"glweidf.cfd","network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"glweidf.cfd"}}}
+  - {"name":"🔒🇫🇷 FR 172.232.43.58 ◈ ws:443 ◈ Akamai Technologies, Inc. ◈ 5aee8","type":"vmess","server":"2606:4700:3037::6815:406","port":443,"cipher":"auto","uuid":"1052f24e-7b09-45eb-b0c5-d858eb124192","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"glweidf.cfd","network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"glweidf.cfd"}}}
+  - {"name":"🔒🇫🇷 FR warp ◈ grpc:443 ◈ 65bc6","type":"trojan","server":"[2606","port":4700,"udp":true,"password":"4804f14b-c1f8-452d-a6ec-eff1490aeac9","sni":"hdfy6c1.cpionline.cc","skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"Mf0ozB1t4KFzoZoavn2kmJ"}}
+  - {"name":"🔒🇫🇷 FR 163.5.159.231 ◈ ws:443 ◈ Feelb Sarl ◈ 96581","type":"vmess","server":"163.5.159.231","port":443,"cipher":"auto","uuid":"e537f2f5-2a0c-4f59-92c9-832ca6433bf3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"irvideo.cfd","network":"ws","ws-opts":{"path":"/linkws?ed=@alpha_v2ray_fazayi","headers":{"host":"irvideo.cfd"}}}
+  - {"name":"🔒🇫🇷 FR 193.160.130.108 ◈ ws:443 ◈ Feelb Sarl / Cedric Tabary ◈ 54502","type":"vmess","server":"193.160.130.108","port":443,"cipher":"auto","uuid":"93ea486a-bada-42a4-ac38-d088b320fa1e","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"xmivideo.cfd","network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"xmivideo.cfd"}}}
+  - {"name":"🔒🇫🇷 FR 193.160.130.117 ◈ ws:443 ◈ Feelb Sarl / Cedric Tabary ◈ 6e7e2","type":"vmess","server":"193.160.130.117","port":443,"cipher":"auto","uuid":"9b456c2a-f2c1-45e1-87a9-b7628b04bb24","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"beyonddsz.cfd","network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"beyonddsz.cfd"}}}
+  - {"name":"🔒🇫🇷 FR 45.145.167.49 ◈ ws:443 ◈ Feelb Sarl / HMS ◈ 38ebb","type":"vmess","server":"45.145.167.49","port":443,"cipher":"auto","uuid":"76221bfb-e92f-4e80-81c5-6fe48f50ac0b","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"glweidf.sbs","network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"glweidf.sbs"}}}
+  - {"name":"🔒🇫🇷 FR 45.145.167.103 ◈ ws:443 ◈ Feelb Sarl / HMS ◈ 918fd","type":"vmess","server":"45.145.167.103","port":443,"cipher":"auto","uuid":"425c5e6e-30a0-4984-8a13-ee6f72053162","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"indiavideo.sbs","network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"indiavideo.sbs"}}}
+  - {"name":"🔒🇫🇷 FR 45.145.167.103 ◈ ws:443 ◈ Feelb Sarl / HMS ◈ 6e77c","type":"vmess","server":"indiavideo.sbs","port":443,"cipher":"auto","uuid":"425c5e6e-30a0-4984-8a13-ee6f72053162","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/linkws"}}
+  - {"name":"🔒🇫🇷 FR 194.9.172.47 ◈ ws:443 ◈ HMS ◈ 13227","type":"vmess","server":"194.9.172.47","port":443,"cipher":"auto","uuid":"bc864078-dcf3-4bf4-8dbf-ca9f200b56be","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"gwdef.sbs","network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"gwdef.sbs"}}}
+  - {"name":"🇬🇧 GB 13.40.181.177 ◈ tcp:443 ◈ AWS EC2 (eu-west-2) ◈ 2ef43","type":"ss","server":"account.emofid.co","port":443,"password":"W74XFALLLuw6m5IA","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇬🇧 GB 13.40.181.177 ◈ tcp:443 ◈ AWS EC2 (eu-west-2) ◈ 06756","type":"ss","server":"series-a1.samanehha.co","port":443,"password":"W74XFALLLuw6m5IA","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇬🇧 GB 13.40.181.177 ◈ tcp:443 ◈ AWS EC2 (eu-west-2) ◈ 80c05","type":"ss","server":"series-a2.samanehha.co","port":443,"password":"mps3FwmDjLrWaOVg","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇬🇧 GB 13.40.181.177 ◈ tcp:443 ◈ AWS EC2 (eu-west-2) ◈ 6a22b","type":"ss","server":"series-a2.varzesh360.co","port":443,"password":"mps3FwmDjLrWaOVg","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇬🇧 GB 89.185.84.34 ◈ tcp:51348 ◈ Global ConnectivityLLP / Global Internet ◈ 41586","type":"ss","server":"89.185.84.34","port":51348,"password":"yeKtZW31qXeZbAz8HsH4zFui7aseIogssEK7X9XZsLZcUjw6","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇬🇧 GB 185.91.69.167 ◈ tcp:443 ◈ Hostgnome ◈ 6c490","type":"ss","server":"185.91.69.167","port":443,"password":"TurbooServer=","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇬🇧 GB 185.91.69.167 ◈ tcp:443 ◈ Hostgnome ◈ 543fc","type":"ss","server":"[2a13","port":443,"password":"TurbooServer=","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🚫🇬🇧 GB 77.72.5.113 ◈ tcp:989 ◈ Krystal Hosting Ltd ◈ 4498d","type":"ss","server":"77.72.5.113","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇬🇧 GB 77.72.5.150 ◈ tcp:989 ◈ Krystal Hosting Ltd ◈ 551ce","type":"ss","server":"77.72.5.150","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇬🇧 GB 77.72.5.150 ◈ tcp:989 ◈ Krystal Hosting Ltd ◈ e6b84","type":"ss","server":"shadowsocks-gb.ctsubvpn.ggff.net","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🇬🇧 GB 51.89.150.41 ◈ ws:80 ◈ OVH Ltd ◈ 0fa3b","type":"vmess","server":"51.89.150.41","port":80,"cipher":"auto","uuid":"18f96d21-4563-4d25-965e-14ef852f6d1c","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/vmess/","headers":{"host":"4un1.09vpn.com"}}}
+  - {"name":"🇬🇧 GB 51.195.149.115 ◈ tcp:45816 ◈ OVH Ltd ◈ aa11d","type":"ss","server":"51.195.149.115","port":45816,"password":"KkDzY101Oe","cipher":"aes-256-gcm"}
+  - {"name":"🚫🇬🇷 GR 192.71.166.100 ◈ tcp:989 ◈ SYNAPSECOM S.A. Provider of Telecommunications and Internet Services / EDIS ◈ 94b31","type":"ss","server":"192.71.166.100","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇬🇷 GR 192.71.166.102 ◈ tcp:989 ◈ SYNAPSECOM S.A. Provider of Telecommunications and Internet Services / EDIS ◈ 566a5","type":"ss","server":"192.71.166.102","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇬🇹 GT 170.80.111.5 ◈ tcp:989 ◈ SONDATECH / IPXON Networks Guatemala [GT-GUA] ◈ 56856","type":"ss","server":"170.80.111.5","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇬🇹 GT 170.80.111.6 ◈ tcp:989 ◈ SONDATECH / IPXON Networks Guatemala [GT-GUA] ◈ 49239","type":"ss","server":"170.80.111.6","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🇭🇰 HK 162.211.183.84 ◈ ws:6145 ◈ Landui Cloud Computing(HK) Limited / G NETWORK ◈ 49758","type":"vmess","server":"162.211.183.84","port":6145,"cipher":"auto","uuid":"04c46639-436e-465d-bdcb-b9acd92de51c","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"🚫🇭🇷 HR 46.183.184.60 ◈ tcp:989 ◈ Akton d.o.o. / EDIS ◈ 26d9d","type":"ss","server":"46.183.184.60","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇭🇷 HR 46.183.184.62 ◈ tcp:989 ◈ Akton d.o.o. / EDIS ◈ 4f8b4","type":"ss","server":"46.183.184.62","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇭🇷 HR 46.183.184.63 ◈ tcp:989 ◈ Akton d.o.o. / EDIS ◈ 8ef0c","type":"ss","server":"46.183.184.63","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🇮🇪 IE 95.164.44.140 ◈ ws:80 ◈ Stark Industries ◈ 185c4","type":"vmess","server":"95.164.44.140","port":80,"cipher":"auto","uuid":"7e7325be-5c04-400a-9f11-e7f51c9cb1a9","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"127.0.0.1.dl3.xn--80adsi2a0f.mrarsha.xn--80ajjboungj8a3263r97va7n3n.xn--9myx22d.wonkacapitano.buzz."}}}
+  - {"name":"🇮🇪 IE 95.164.44.140 ◈ ws:2052 ◈ Stark Industries ◈ fd45e","type":"vmess","server":"95.164.44.140","port":2052,"cipher":"auto","uuid":"7e7325be-5c04-400a-9f11-e7f51c9cb1a9","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"127.0.0.1.dl3.xn--80adsi2a0f.mrarsha.xn--80ajjboungj8a3263r97va7n3n.xn--9myx22d.wonkacapitano.buzz."}}}
+  - {"name":"🇮🇪 IE 95.164.44.140 ◈ ws:2082 ◈ Stark Industries ◈ 7e1a9","type":"vmess","server":"95.164.44.140","port":2082,"cipher":"auto","uuid":"7e7325be-5c04-400a-9f11-e7f51c9cb1a9","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"127.0.0.1.dl3.xn--80adsi2a0f.mrarsha.xn--80ajjboungj8a3263r97va7n3n.xn--9myx22d.wonkacapitano.buzz."}}}
+  - {"name":"🇮🇪 IE 95.164.44.140 ◈ ws:2086 ◈ Stark Industries ◈ 594d8","type":"vmess","server":"95.164.44.140","port":2086,"cipher":"auto","uuid":"7e7325be-5c04-400a-9f11-e7f51c9cb1a9","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"127.0.0.1.dl3.xn--80adsi2a0f.mrarsha.xn--80ajjboungj8a3263r97va7n3n.xn--9myx22d.wonkacapitano.buzz."}}}
+  - {"name":"🇮🇪 IE 95.164.44.140 ◈ ws:2095 ◈ Stark Industries ◈ d0376","type":"vmess","server":"95.164.44.140","port":2095,"cipher":"auto","uuid":"7e7325be-5c04-400a-9f11-e7f51c9cb1a9","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"127.0.0.1.dl3.xn--80adsi2a0f.mrarsha.xn--80ajjboungj8a3263r97va7n3n.xn--9myx22d.wonkacapitano.buzz."}}}
+  - {"name":"🇮🇪 IE 95.164.44.140 ◈ ws:8080 ◈ Stark Industries ◈ 50ac3","type":"vmess","server":"95.164.44.140","port":8080,"cipher":"auto","uuid":"7e7325be-5c04-400a-9f11-e7f51c9cb1a9","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"127.0.0.1.dl3.xn--80adsi2a0f.mrarsha.xn--80ajjboungj8a3263r97va7n3n.xn--9myx22d.wonkacapitano.buzz."}}}
+  - {"name":"🇮🇪 IE 95.164.44.21 ◈ tcp:8388 ◈ Stark Industries ◈ 39e3f","type":"ss","server":"ie1.ssproxy.xyz","port":8388,"password":"Mjk4ZWEw","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇮🇪 IE 95.164.44.140 ◈ ws:8880 ◈ Stark Industries ◈ e438e","type":"vmess","server":"95.164.44.140","port":8880,"cipher":"auto","uuid":"7e7325be-5c04-400a-9f11-e7f51c9cb1a9","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"127.0.0.1.dl3.xn--80adsi2a0f.mrarsha.xn--80ajjboungj8a3263r97va7n3n.xn--9myx22d.wonkacapitano.buzz."}}}
+  - {"name":"🇮🇱 IL 77.91.69.236 ◈ tcp:51348 ◈ CLOUD LEASE Ltd / Foton Telecom CJSC ◈ 87dff","type":"ss","server":"77.91.69.236","port":51348,"password":"FkRnw4U23GukH0D83NqNT7yszV4h4xlJ0t43SlBDN6iuZhBv","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🚫🇮🇱 IL 193.182.144.183 ◈ tcp:989 ◈ EDIS Infrastructure in Israel / EDIS ◈ b2dc2","type":"ss","server":"193.182.144.183","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇮🇱 IL 192.71.27.87 ◈ tcp:989 ◈ Interhost CommunicationLtd. / EDIS ◈ e58e9","type":"ss","server":"192.71.27.87","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🇮🇳 IN 103.174.86.114 ◈ tcp:51348 ◈ VCCL Cloud Pvt Ltd / VCCL Cloud Private Limited ◈ 75bb3","type":"ss","server":"103.174.86.114","port":51348,"password":"US4tskJaYStBPUKvcNVkf0PVhXbsAGCNvrhbfZybtOx9u2cF","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🚫🇮🇸 IS 37.235.49.152 ◈ tcp:989 ◈ Advania Island ehf / Edis ◈ 7defb","type":"ss","server":"37.235.49.152","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🇮🇹 IT 185.247.184.115 ◈ tcp:2098 ◈ Global ConnectivityLLP / Global Internet ◈ f3f89","type":"vmess","server":"2a05:541:110:43::1","port":2098,"cipher":"auto","uuid":"83876222-64a4-4912-aa18-b7d9d34959de","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🚫🇯🇵 JP 57.180.39.104 ◈ tcp:443 ◈ AWS EC2 (ap-northeast-1) ◈ 5d570","type":"ss","server":"57.180.39.104","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇯🇵 JP 176.34.0.69 ◈ tcp:443 ◈ AWS EC2 (ap-northeast-1) ◈ 7e09a","type":"ss","server":"176.34.0.69","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇯🇵 JP 18.183.77.249 ◈ tcp:443 ◈ AWS EC2 (ap-northeast-1) ◈ 8bef1","type":"ss","server":"18.183.77.249","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇯🇵 JP 18.183.186.14 ◈ tcp:443 ◈ AWS EC2 (ap-northeast-1) ◈ 6c698","type":"ss","server":"18.183.186.14","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇯🇵 JP 52.69.37.205 ◈ tcp:443 ◈ AWS EC2 (ap-northeast-1) ◈ 0715f","type":"ss","server":"52.69.37.205","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇯🇵 JP 52.194.223.127 ◈ tcp:443 ◈ AWS EC2 (ap-northeast-1) ◈ 1dab9","type":"ss","server":"52.194.223.127","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇯🇵 JP 52.194.250.138 ◈ tcp:443 ◈ AWS EC2 (ap-northeast-1) ◈ 1154a","type":"ss","server":"52.194.250.138","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇯🇵 JP 52.195.207.131 ◈ tcp:443 ◈ AWS EC2 (ap-northeast-1) ◈ 9a407","type":"ss","server":"52.195.207.131","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇯🇵 JP 52.197.150.228 ◈ tcp:443 ◈ AWS EC2 (ap-northeast-1) ◈ da08f","type":"ss","server":"52.197.150.228","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇯🇵 JP 54.95.170.220 ◈ tcp:443 ◈ AWS EC2 (ap-northeast-1) ◈ 02717","type":"ss","server":"54.95.170.220","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇰🇪 KE 62.12.116.66 ◈ tcp:989 ◈ Angani - KE ◈ b3644","type":"ss","server":"62.12.116.66","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇰🇷 KR 43.201.254.74 ◈ tcp:443 ◈ AWS EC2 (ap-northeast-2) ◈ 0d90f","type":"ss","server":"43.201.254.74","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇰🇷 KR 43.201.254.211 ◈ tcp:443 ◈ AWS EC2 (ap-northeast-2) ◈ d6fae","type":"ss","server":"43.201.254.211","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇰🇿 KZ 213.156.137.67 ◈ tcp:989 ◈ G-Core Labs S.A. / GCL ◈ c0a44","type":"ss","server":"213.156.137.67","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🇰🇿 KZ 89.44.193.112 ◈ tcp:51348 ◈ G-Core Labs S.A. / GCL ◈ 133a6","type":"ss","server":"89.44.193.112","port":51348,"password":"04yG0sOWSRVSlid9mfKUmmj8U4XgVlodu4oSRU90ey2e0CQ2","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🚫🇱🇹 LT 192.36.61.59 ◈ tcp:989 ◈ EDIS ◈ 39310","type":"ss","server":"192.36.61.59","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🇱🇻 LV 188.64.12.69 ◈ ws:80 ◈ Azeronline Information Services ◈ 5e690","type":"vmess","server":"188.64.12.69","port":80,"cipher":"chacha20-poly1305","uuid":"cb4fca5f-edf8-415b-aa8f-ac52f415296a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/0fpZFB6IbpNptGAxAtI0QM","headers":{"host":"de01.tradex2080.com"}}}
+  - {"name":"🇱🇻 LV 188.64.12.69 ◈ ws:80 ◈ Azeronline Information Services ◈ 6d632","type":"vmess","server":"de.tradex2080.com","port":80,"cipher":"chacha20-poly1305","uuid":"cb4fca5f-edf8-415b-aa8f-ac52f415296a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/0fpZFB6IbpNptGAxAtI0QM","headers":{"host":"de01.tradex2080.com"}}}
+  - {"name":"🚫🇱🇻 LV 46.183.217.232 ◈ tcp:989 ◈ DataClub S.A. ◈ 38fcd","type":"ss","server":"46.183.217.232","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇲🇦 MA 188.214.157.5 ◈ tcp:989 ◈ Oneprovider.com ◈ 2c377","type":"ss","server":"188.214.157.5","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇲🇩 MD 178.175.134.2 ◈ tcp:989 ◈ Trabia SRL ◈ e94d0","type":"ss","server":"178.175.134.2","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇲🇩 MD 192.121.87.147 ◈ tcp:989 ◈ Trabia SRL / EDIS ◈ c2c42","type":"ss","server":"192.121.87.147","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇲🇰 MK 46.183.185.15 ◈ tcp:989 ◈ Akton d.o.o. / EDIS ◈ 4e634","type":"ss","server":"46.183.185.15","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇲🇽 MX 190.103.179.23 ◈ tcp:989 ◈ Sondatech S.A.S. / IPXON Networks Mexico - Ciudad de Mexico ◈ c2a6a","type":"ss","server":"190.103.179.23","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🔒🇳🇱 NL warpPlus ◈ grpc:443 ◈ ece1d","type":"trojan","server":"[2606","port":4700,"udp":true,"password":"a6292090-afe1-4640-97a7-4f1d1d877cf1","sni":"hdfy8c1.cpionline.co","skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"8bHUAD5IX0lC5KffvrsN6rqb"}}
+  - {"name":"🇳🇱 NL 62.106.66.133 ◈ tcp:8388 ◈ BlueVPS OU / Baxet ◈ 90a69","type":"ss","server":"62.106.66.133","port":8388,"password":"Yf32a73g3Cs3oENH","cipher":"aes-256-gcm"}
+  - {"name":"🇳🇱 NL 62.106.66.133 ◈ tcp:8388 ◈ BlueVPS OU / Baxet ◈ 93bc9","type":"ss","server":"ams2.vpntype.com","port":8388,"password":"Yf32a73g3Cs3oENH","cipher":"aes-256-gcm"}
+  - {"name":"🇳🇱 NL 45.76.33.120 ◈ ws:80 ◈ Choopa / Vultr Holdings ◈ 0eb95","type":"vmess","server":"45.76.33.120","port":80,"cipher":"chacha20-poly1305","uuid":"19c80ce9-0935-41b9-b077-277621316a87","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/liUxUGJTGoPjd07ui73LZgwx8s","headers":{"host":"hidd2.sassanidempire.com"}}}
+  - {"name":"🇳🇱 NL 45.76.33.120 ◈ ws:80 ◈ Choopa / Vultr Holdings ◈ 9a273","type":"vmess","server":"hidd2.afsharidempire.uk","port":80,"cipher":"chacha20-poly1305","uuid":"19c80ce9-0935-41b9-b077-277621316a87","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/liUxUGJTGoPjd07ui73LZgwx8s"}}
+  - {"name":"🇳🇱 NL 45.76.33.120 ◈ ws:80 ◈ Choopa / Vultr Holdings ◈ 1c11b","type":"vmess","server":"hidd2.parthianempire.org","port":80,"cipher":"auto","uuid":"19c80ce9-0935-41b9-b077-277621316a87","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/liUxUGJTGoPjd07ui73LZgwx8s"}}
+  - {"name":"🇳🇱 NL 45.76.33.120 ◈ ws:80 ◈ Choopa / Vultr Holdings ◈ ee6e6","type":"vmess","server":"hidd2.sassanidempire.com","port":80,"cipher":"chacha20-poly1305","uuid":"19c80ce9-0935-41b9-b077-277621316a87","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/liUxUGJTGoPjd07ui73LZgwx8s"}}
+  - {"name":"🇳🇱 NL 193.29.139.182 ◈ tcp:8080 ◈ Greenhost BV ◈ 96bdb","type":"ss","server":"45.158.171.129","port":8080,"password":"a8bt9fY0QsLS6eLnXUe0Ym","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇳🇱 NL 193.29.139.162 ◈ tcp:8080 ◈ Greenhost BV ◈ 590ff","type":"ss","server":"45.158.171.131","port":8080,"password":"a8bt9fY0QsLS6eLnXUe0Ym","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇳🇱 NL 193.29.139.131 ◈ tcp:8080 ◈ Greenhost BV ◈ ad885","type":"ss","server":"45.158.171.138","port":8080,"password":"a8bt9fY0QsLS6eLnXUe0Ym","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇳🇱 NL 193.29.139.237 ◈ tcp:8080 ◈ Greenhost BV ◈ 23dc5","type":"ss","server":"45.158.171.141","port":8080,"password":"a8bt9fY0QsLS6eLnXUe0Ym","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇳🇱 NL 193.29.139.215 ◈ tcp:8080 ◈ Greenhost BV ◈ 8b943","type":"ss","server":"45.158.171.148","port":8080,"password":"a8bt9fY0QsLS6eLnXUe0Ym","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇳🇱 NL 193.29.139.182 ◈ tcp:8080 ◈ Greenhost BV ◈ a19dd","type":"ss","server":"beedoost.org","port":8080,"password":"a8bt9fY0QsLS6eLnXUe0Ym","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🚫🇳🇱 NL 109.201.152.181 ◈ tcp:443 ◈ NForce Entertainment B.V. / Customer 3015 ◈ 825f8","type":"ss","server":"109.201.152.181","port":443,"password":"shadowsocks","cipher":"aes-128-cfb"}
+  - {"name":"🚫🇳🇴 NO 185.90.61.153 ◈ tcp:989 ◈ BrainStorm Network, Inc / Oneprovider.com ◈ bae85","type":"ss","server":"185.90.61.153","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇵🇦 PA 138.186.142.4 ◈ tcp:989 ◈ Sondatech S.A.S. / IPXON Networks Panamá ◈ 46a24","type":"ss","server":"138.186.142.4","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇵🇪 PE 190.120.229.28 ◈ tcp:989 ◈ Sondatech S.A.S. / IPXON Networks Peru ◈ 60876","type":"ss","server":"190.120.229.28","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇵🇹 PT 185.113.140.22 ◈ tcp:989 ◈ I4W - Web Solutions, Lda ◈ 54b04","type":"ss","server":"185.113.140.22","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"💥🇸🇬 SG 5.44.249.53 ◈ ws:3306 ◈ Melbikomas UAB ◈ 00bcc","type":"trojan","server":"5.44.249.53","port":3306,"udp":true,"password":"8a1ab0df6abea549","sni":"n2.gladns.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/gateway/connect","headers":{"host":"tg.wangcai_1"}}}
+  - {"name":"🚫🇸🇬 SG 54.169.236.64 ◈ tcp:443 ◈ AWS EC2 (ap-southeast-1) ◈ 31cf8","type":"ss","server":"54.169.236.64","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇸🇬 SG 54.179.241.46 ◈ tcp:443 ◈ AWS EC2 (ap-southeast-1) ◈ c32de","type":"ss","server":"54.179.241.46","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇸🇬 SG 13.212.14.204 ◈ tcp:443 ◈ AWS EC2 (ap-southeast-1) ◈ 587d9","type":"ss","server":"13.212.14.204","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇸🇬 SG 13.212.34.140 ◈ tcp:443 ◈ AWS EC2 (ap-southeast-1) ◈ 8b5c9","type":"ss","server":"13.212.34.140","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇸🇬 SG 13.212.82.167 ◈ tcp:443 ◈ AWS EC2 (ap-southeast-1) ◈ 03d83","type":"ss","server":"13.212.82.167","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇸🇬 SG 13.228.79.13 ◈ tcp:443 ◈ AWS EC2 (ap-southeast-1) ◈ 5f1a3","type":"ss","server":"13.228.79.13","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇸🇬 SG 13.229.87.253 ◈ tcp:443 ◈ AWS EC2 (ap-southeast-1) ◈ 31fd3","type":"ss","server":"13.229.87.253","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇸🇬 SG 13.229.243.64 ◈ tcp:443 ◈ AWS EC2 (ap-southeast-1) ◈ 0d325","type":"ss","server":"13.229.243.64","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇸🇬 SG 18.139.110.249 ◈ tcp:443 ◈ AWS EC2 (ap-southeast-1) ◈ ef55c","type":"ss","server":"18.139.110.249","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇸🇬 SG 18.142.246.19 ◈ tcp:443 ◈ AWS EC2 (ap-southeast-1) ◈ a8a10","type":"ss","server":"18.142.246.19","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇸🇬 SG 54.255.211.19 ◈ tcp:443 ◈ AWS EC2 (ap-southeast-1) ◈ aa19c","type":"ss","server":"54.255.211.19","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🇸🇬 SG 207.148.70.162 ◈ tcp:54316 ◈ Choopa ◈ 106c7","type":"ss","server":"sg.outlinekeys.net","port":54316,"password":"R7VtnSDohBLbyP8sTLKXrH","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🚫🇸🇮 SI 192.71.244.150 ◈ tcp:989 ◈ Optimus IT d.o.o. / EDIS ◈ 36ad6","type":"ss","server":"192.71.244.150","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇹🇷 TR 45.89.52.66 ◈ tcp:9000 ◈ Stark Industries ◈ 8d813","type":"ss","server":"45.89.52.66","port":9000,"password":"a3GFYt36Sm82Vys9","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇹🇷 TR 45.89.52.66 ◈ tcp:9005 ◈ Stark Industries ◈ 99245","type":"ss","server":"45.89.52.66","port":9005,"password":"ZET59LF6DvCC8KVt","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇹🇷 TR 45.89.52.66 ◈ tcp:9014 ◈ Stark Industries ◈ e69a0","type":"ss","server":"45.89.52.66","port":9014,"password":"KnJGad3FqTvjqbaX","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇹🇷 TR 45.89.52.66 ◈ tcp:9020 ◈ Stark Industries ◈ bb05b","type":"ss","server":"45.89.52.66","port":9020,"password":"BNmAXXxAHYpTRdzu","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇹🇷 TR 45.89.52.66 ◈ tcp:9025 ◈ Stark Industries ◈ ea6fc","type":"ss","server":"45.89.52.66","port":9025,"password":"XPtzA9sCug3SPR4c","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇹🇷 TR 45.89.52.66 ◈ tcp:9027 ◈ Stark Industries ◈ beeb2","type":"ss","server":"45.89.52.66","port":9027,"password":"EXN3S3eQpjE7EJu8","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇹🇷 TR 45.89.52.66 ◈ tcp:9060 ◈ Stark Industries ◈ 03ccc","type":"ss","server":"45.89.52.66","port":9060,"password":"ueLXVkvh4hckhErQ","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇹🇷 TR 45.89.52.66 ◈ tcp:9073 ◈ Stark Industries ◈ 64ab5","type":"ss","server":"45.89.52.66","port":9073,"password":"daFYagqDdBdA6VTX","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇹🇷 TR 45.89.52.66 ◈ tcp:9079 ◈ Stark Industries ◈ 4a4f3","type":"ss","server":"45.89.52.66","port":9079,"password":"TPqX8edgbAURcAMb","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇹🇷 TR 45.89.52.66 ◈ tcp:9093 ◈ Stark Industries ◈ 39eac","type":"ss","server":"45.89.52.66","port":9093,"password":"wfLC2y7rzZyCmuyt","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇹🇼 TW 223.165.4.173 ◈ tcp:989 ◈ Oneprovider.com ◈ 905f4","type":"ss","server":"223.165.4.173","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🇺🇦 UA 195.28.182.217 ◈ tcp:51348 ◈ Green Floid / Friendhosting ◈ b1b32","type":"ss","server":"195.28.182.217","port":51348,"password":"70PXfAv4ldwsOT5714dgutH0sw5y5tinhGxYqMuF7CqVcCXJ","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇦 UA 130.0.233.247 ◈ tcp:51348 ◈ UK-3NT / IROKO Networks Corporation ◈ b2d0e","type":"ss","server":"130.0.233.247","port":51348,"password":"9Eli0vyoLMRCQqln6HUVZEOrEqjG7Aefj6RBuxsxMQhMevOk","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔒🇺🇸 US 172.233.175.160 ◈ ws:443 ◈ Akamai Technologies, Inc. ◈ 86350","type":"vmess","server":"162.159.192.200","port":443,"cipher":"auto","uuid":"edbb1059-1633-4271-b66e-ed4fba47a1bf","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"vcp.cushingreflex4.workers.dev","network":"ws","ws-opts":{"path":"/linde06.indiavideo.sbs/linkws","headers":{"host":"vcp.cushingreflex4.workers.dev"}}}
+  - {"name":"🔒🇺🇸 US 172.235.157.139 ◈ ws:443 ◈ Akamai Technologies, Inc. ◈ 6c85e","type":"vmess","server":"172.235.157.139","port":443,"cipher":"auto","uuid":"93ea486a-bada-42a4-ac38-d088b320fa1e","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"xmivideo.cfd","network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"xmivideo.cfd"}}}
+  - {"name":"🔒🇺🇸 US 23.92.25.204 ◈ ws:443 ◈ Akamai Technologies, Inc. / Linode ◈ 89fce","type":"vmess","server":"23.92.25.204","port":443,"cipher":"auto","uuid":"93ea486a-bada-42a4-ac38-d088b320fa1e","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"xmivideo.cfd","network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"xmivideo.cfd"}}}
+  - {"name":"🔒🇺🇸 US 173.255.236.245 ◈ ws:443 ◈ Akamai Technologies, Inc. / Linode ◈ 2d123","type":"vmess","server":"173.255.236.245","port":443,"cipher":"auto","uuid":"93ea486a-bada-42a4-ac38-d088b320fa1e","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"xmivideo.cfd","network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"xmivideo.cfd"}}}
+  - {"name":"🔒🇺🇸 US 172.105.150.214 ◈ ws:443 ◈ Akamai Technologies, Inc. / Linode ◈ 60a8c","type":"vmess","server":"2606:4700:3031::ac43:cf1a","port":443,"cipher":"auto","uuid":"76221bfb-e92f-4e80-81c5-6fe48f50ac0b","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"glweidf.sbs","network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"glweidf.sbs"}}}
+  - {"name":"🔒🇺🇸 US 154.17.10.185 ◈ tcp:443 ◈ DMIT Cloud Services ◈ 4f4df","type":"trojan","server":"154.17.10.185","port":443,"udp":true,"password":"Z3FSA9weaaRYpN89weaaRYpN89weaaRYpN80CDYFOxS5TSBqlCyAaXzaXzc7ZpngISBqlCyAaXzc7Zp","sni":"tubular.wireshop.net","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🔒🇺🇸 US 154.17.10.185 ◈ tcp:443 ◈ DMIT Cloud Services ◈ 33c55","type":"trojan","server":"tubular.wireshop.net","port":443,"udp":true,"password":"Z3FSA9weaaRYpN89weaaRYpN89weaaRYpN80CDYFOxS5TSBqlCyAaXzaXzc7ZpngISBqlCyAaXzc7Zp","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"💥🇺🇸 US 15.204.234.166 ◈ ws:443 ◈ OVH US ◈ b7a1c","type":"trojan","server":"15.204.234.166","port":443,"udp":true,"password":"069d96c0-4d64-11ef-ad50-1239d0255272","sni":"usa.test3.net","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/howdy","headers":{"host":"usa.test3.net"}}}
+  - {"name":"🇺🇸 US 2.58.87.221 ◈ ws:12269 ◈ Aiyun (HK) Network / ORG-AIYUN-RIPE ◈ 773e5","type":"vmess","server":"2.58.87.221","port":12269,"cipher":"auto","uuid":"db85ff0e-c33f-401d-c415-4c7cce135704","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"🇺🇸 US 2.58.87.221 ◈ tcp:16899 ◈ Aiyun (HK) Network / ORG-AIYUN-RIPE ◈ c2d45","type":"ss","server":"2.58.87.221","port":16899,"password":"Yc2CtrIz8L","cipher":"aes-128-gcm"}
+  - {"name":"🚫🇺🇸 US 34.219.154.160 ◈ tcp:443 ◈ AWS EC2 (us-west-2) ◈ 8770b","type":"ss","server":"34.219.154.160","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇺🇸 US 35.87.35.207 ◈ tcp:443 ◈ AWS EC2 (us-west-2) ◈ e0e28","type":"ss","server":"35.87.35.207","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🇺🇸 US 205.134.180.139 ◈ tcp:443 ◈ American Information Network / Vector Data Systems ◈ 95fb6","type":"ss","server":"205.134.180.139","port":443,"password":"lWaGPVFjmnag","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸 US 205.134.180.137 ◈ tcp:443 ◈ American Information Network / Vector Data Systems ◈ bb0f6","type":"ss","server":"us-ain.yangon.club","port":443,"password":"g13S7doXar0A","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸 US warp ◈ ws:80 ◈ 6a896","type":"vmess","server":"2606:4700:3031::ac43:aa4b","port":80,"cipher":"auto","uuid":"2a8a10fb-9ca3-367e-a234-cf09f841be4f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/v118-fccxmxm35","headers":{"host":"us3e-mmnnfr9dop0.v2freevpn.com"}}}
+  - {"name":"🇺🇸 US warp ◈ tcp:47529 ◈ a9d37","type":"ss","server":"[2a0d","port":47529,"password":"@GetNetworkBot","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 69.50.95.86 ◈ tcp:2376 ◈ GTHost ◈ e29ac","type":"ss","server":"69.50.95.86","port":2376,"password":"faBAoD54k87UJG7","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 69.50.93.28 ◈ tcp:3306 ◈ GTHost ◈ bcc94","type":"ss","server":"69.50.93.28","port":3306,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 69.50.93.80 ◈ tcp:3306 ◈ GTHost ◈ 5bb59","type":"ss","server":"69.50.93.80","port":3306,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 69.50.93.118 ◈ tcp:3389 ◈ GTHost ◈ 2e3ff","type":"ss","server":"69.50.93.118","port":3389,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 69.50.95.86 ◈ tcp:5000 ◈ GTHost ◈ 15193","type":"ss","server":"69.50.95.86","port":5000,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 69.50.95.180 ◈ tcp:5000 ◈ GTHost ◈ 240bb","type":"ss","server":"69.50.95.180","port":5000,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 69.50.93.28 ◈ tcp:5001 ◈ GTHost ◈ 4bd0a","type":"ss","server":"69.50.93.28","port":5001,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 69.50.93.117 ◈ tcp:5001 ◈ GTHost ◈ 9bf6f","type":"ss","server":"69.50.93.117","port":5001,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 69.50.93.118 ◈ tcp:5001 ◈ GTHost ◈ cf0aa","type":"ss","server":"69.50.93.118","port":5001,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 69.50.95.86 ◈ tcp:5001 ◈ GTHost ◈ 60dcc","type":"ss","server":"69.50.95.86","port":5001,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 69.50.93.118 ◈ tcp:5003 ◈ GTHost ◈ 0f259","type":"ss","server":"69.50.93.118","port":5003,"password":"g5MeD6Ft3CWlJId","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 69.50.93.80 ◈ tcp:5498 ◈ GTHost ◈ 2bc69","type":"ss","server":"69.50.93.80","port":5498,"password":"lGqs95QkFHo2NV","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 69.50.95.86 ◈ tcp:5498 ◈ GTHost ◈ 181e0","type":"ss","server":"69.50.95.86","port":5498,"password":"lGqs95QkFHo2NV","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 69.50.95.115 ◈ tcp:5498 ◈ GTHost ◈ f1266","type":"ss","server":"69.50.95.115","port":5498,"password":"lGqs95QkFHo2NV","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 69.50.95.179 ◈ tcp:5498 ◈ GTHost ◈ e9423","type":"ss","server":"69.50.95.179","port":5498,"password":"lGqs95QkFHo2NV","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 69.50.95.180 ◈ tcp:5498 ◈ GTHost ◈ df46b","type":"ss","server":"69.50.95.180","port":5498,"password":"lGqs95QkFHo2NV","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 69.50.93.117 ◈ tcp:5499 ◈ GTHost ◈ 1f7a3","type":"ss","server":"69.50.93.117","port":5499,"password":"lGqs95QkFHo2NV","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 69.50.93.118 ◈ tcp:5499 ◈ GTHost ◈ 0e517","type":"ss","server":"69.50.93.118","port":5499,"password":"lGqs95QkFHo2NV","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 69.50.95.86 ◈ tcp:5499 ◈ GTHost ◈ d2309","type":"ss","server":"69.50.95.86","port":5499,"password":"lGqs95QkFHo2NV","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 69.50.95.86 ◈ tcp:5500 ◈ GTHost ◈ 452a1","type":"ss","server":"69.50.95.86","port":5500,"password":"KixLvKzwjekG00rm","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 69.50.95.179 ◈ tcp:5600 ◈ GTHost ◈ aa1b1","type":"ss","server":"69.50.95.179","port":5600,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 69.50.95.101 ◈ tcp:5601 ◈ GTHost ◈ 207b0","type":"ss","server":"69.50.95.101","port":5601,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 69.50.93.28 ◈ tcp:6679 ◈ GTHost ◈ c1c6c","type":"ss","server":"69.50.93.28","port":6679,"password":"TEzjfAYq2IjtuoS","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 69.50.93.86 ◈ tcp:6679 ◈ GTHost ◈ e4bdf","type":"ss","server":"69.50.93.86","port":6679,"password":"TEzjfAYq2IjtuoS","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 69.50.93.28 ◈ tcp:6697 ◈ GTHost ◈ 787b8","type":"ss","server":"69.50.93.28","port":6697,"password":"TEzjfAYq2IjtuoS","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 69.50.95.86 ◈ tcp:6697 ◈ GTHost ◈ a75ad","type":"ss","server":"69.50.95.86","port":6697,"password":"TEzjfAYq2IjtuoS","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 69.50.95.245 ◈ tcp:7002 ◈ GTHost ◈ ea02c","type":"ss","server":"69.50.95.245","port":7002,"password":"RexnBgU7EV5ADxG","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 69.50.95.86 ◈ tcp:8000 ◈ GTHost ◈ 2a3da","type":"ss","server":"69.50.95.86","port":8000,"password":"KixLvKzwjekG00rm","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 69.50.95.101 ◈ tcp:8008 ◈ GTHost ◈ ebd56","type":"ss","server":"69.50.95.101","port":8008,"password":"XKFKl2rULjIp74","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 69.50.95.103 ◈ tcp:8008 ◈ GTHost ◈ 6a680","type":"ss","server":"69.50.95.103","port":8008,"password":"XKFKl2rULjIp74","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 69.50.95.86 ◈ tcp:8080 ◈ GTHost ◈ 9f735","type":"ss","server":"69.50.95.86","port":8080,"password":"KixLvKzwjekG00rm","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 69.50.95.179 ◈ tcp:8080 ◈ GTHost ◈ 0601a","type":"ss","server":"69.50.95.179","port":8080,"password":"KixLvKzwjekG00rm","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 69.50.95.86 ◈ tcp:8090 ◈ GTHost ◈ b0ad4","type":"ss","server":"69.50.95.86","port":8090,"password":"PCnnH6SQSnfoS27","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 69.50.93.10 ◈ tcp:8091 ◈ GTHost ◈ ebdb9","type":"ss","server":"69.50.93.10","port":8091,"password":"PCnnH6SQSnfoS27","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 69.50.95.115 ◈ tcp:8091 ◈ GTHost ◈ cdbe3","type":"ss","server":"69.50.95.115","port":8091,"password":"PCnnH6SQSnfoS27","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 69.50.95.86 ◈ tcp:8118 ◈ GTHost ◈ 1b674","type":"ss","server":"69.50.95.86","port":8118,"password":"cdBIDV42DCwnfIN","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 69.50.95.86 ◈ tcp:8119 ◈ GTHost ◈ 59253","type":"ss","server":"69.50.95.86","port":8119,"password":"cdBIDV42DCwnfIN","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 69.50.95.103 ◈ tcp:8882 ◈ GTHost ◈ 57c52","type":"ss","server":"69.50.95.103","port":8882,"password":"kDWvXYZoTBcGkC4","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 69.50.95.179 ◈ tcp:8882 ◈ GTHost ◈ da954","type":"ss","server":"69.50.95.179","port":8882,"password":"kDWvXYZoTBcGkC4","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 69.50.95.218 ◈ tcp:8882 ◈ GTHost ◈ 58406","type":"ss","server":"69.50.95.218","port":8882,"password":"kDWvXYZoTBcGkC4","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 69.50.95.86 ◈ tcp:8888 ◈ GTHost ◈ edb07","type":"ss","server":"69.50.95.86","port":8888,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 69.50.95.115 ◈ tcp:8888 ◈ GTHost ◈ 037c2","type":"ss","server":"69.50.95.115","port":8888,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 69.50.93.10 ◈ tcp:9090 ◈ GTHost ◈ 6cc58","type":"ss","server":"69.50.93.10","port":9090,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 69.50.95.86 ◈ tcp:9090 ◈ GTHost ◈ 8a8ab","type":"ss","server":"69.50.95.86","port":9090,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 69.50.95.39 ◈ tcp:9101 ◈ GTHost ◈ dafa7","type":"ss","server":"69.50.95.39","port":9101,"password":"e4FCWrgpkji3QY","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 69.50.95.103 ◈ tcp:9101 ◈ GTHost ◈ d7769","type":"ss","server":"69.50.95.103","port":9101,"password":"e4FCWrgpkji3QY","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 67.220.86.72 ◈ tcp:8882 ◈ GTHost / OBJX Networks ◈ ac778","type":"ss","server":"67.220.86.72","port":8882,"password":"kDWvXYZoTBcGkC4","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.154.136.47 ◈ tcp:22324 ◈ GTHost / Ontario Inc ◈ ea108","type":"vmess","server":"23.154.136.47","port":22324,"cipher":"auto","uuid":"04621bae-ab36-11ec-b909-0242ac120002","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇺🇸 US 23.150.152.16 ◈ tcp:443 ◈ GTHost / Sanek Hosting ◈ 5d393","type":"ss","server":"23.150.152.16","port":443,"password":"pKEW8JPByTVTLtM","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.150.152.16 ◈ tcp:2376 ◈ GTHost / Sanek Hosting ◈ c23a0","type":"ss","server":"23.150.152.16","port":2376,"password":"faBAoD54k87UJG7","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.150.152.112 ◈ tcp:3306 ◈ GTHost / Sanek Hosting ◈ 77361","type":"ss","server":"23.150.152.112","port":3306,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.150.152.16 ◈ tcp:5001 ◈ GTHost / Sanek Hosting ◈ c1bd0","type":"ss","server":"23.150.152.16","port":5001,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.150.152.56 ◈ tcp:5001 ◈ GTHost / Sanek Hosting ◈ bb8de","type":"ss","server":"23.150.152.56","port":5001,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.150.152.24 ◈ tcp:5003 ◈ GTHost / Sanek Hosting ◈ 450d8","type":"ss","server":"23.150.152.24","port":5003,"password":"g5MeD6Ft3CWlJId","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.150.152.16 ◈ tcp:5004 ◈ GTHost / Sanek Hosting ◈ bc8c6","type":"ss","server":"23.150.152.16","port":5004,"password":"g5MeD6Ft3CWlJId","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.150.152.24 ◈ tcp:5004 ◈ GTHost / Sanek Hosting ◈ 4faaa","type":"ss","server":"23.150.152.24","port":5004,"password":"g5MeD6Ft3CWlJId","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.150.152.56 ◈ tcp:5004 ◈ GTHost / Sanek Hosting ◈ 761c5","type":"ss","server":"23.150.152.56","port":5004,"password":"g5MeD6Ft3CWlJId","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.150.152.112 ◈ tcp:5498 ◈ GTHost / Sanek Hosting ◈ f2928","type":"ss","server":"23.150.152.112","port":5498,"password":"lGqs95QkFHo2NV","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.150.152.16 ◈ tcp:5500 ◈ GTHost / Sanek Hosting ◈ 7c0d5","type":"ss","server":"23.150.152.16","port":5500,"password":"KixLvKzwjekG00rm","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.150.152.56 ◈ tcp:5500 ◈ GTHost / Sanek Hosting ◈ c7222","type":"ss","server":"23.150.152.56","port":5500,"password":"KixLvKzwjekG00rm","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.150.152.24 ◈ tcp:5600 ◈ GTHost / Sanek Hosting ◈ 34f59","type":"ss","server":"23.150.152.24","port":5600,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.150.152.56 ◈ tcp:5600 ◈ GTHost / Sanek Hosting ◈ 5a7e4","type":"ss","server":"23.150.152.56","port":5600,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.150.152.56 ◈ tcp:6697 ◈ GTHost / Sanek Hosting ◈ 54a5b","type":"ss","server":"23.150.152.56","port":6697,"password":"TEzjfAYq2IjtuoS","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.150.152.112 ◈ tcp:7002 ◈ GTHost / Sanek Hosting ◈ 1197e","type":"ss","server":"23.150.152.112","port":7002,"password":"RexnBgU7EV5ADxG","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.150.152.56 ◈ tcp:7306 ◈ GTHost / Sanek Hosting ◈ 89397","type":"ss","server":"23.150.152.56","port":7306,"password":"FoOiGlkAA9yPEGP","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.150.152.56 ◈ tcp:8000 ◈ GTHost / Sanek Hosting ◈ e289b","type":"ss","server":"23.150.152.56","port":8000,"password":"KixLvKzwjekG00rm","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.150.152.56 ◈ tcp:8008 ◈ GTHost / Sanek Hosting ◈ 7dde4","type":"ss","server":"23.150.152.56","port":8008,"password":"XKFKl2rULjIp74","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.150.152.16 ◈ tcp:8091 ◈ GTHost / Sanek Hosting ◈ 76202","type":"ss","server":"23.150.152.16","port":8091,"password":"PCnnH6SQSnfoS27","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.150.152.16 ◈ tcp:8118 ◈ GTHost / Sanek Hosting ◈ 82ad0","type":"ss","server":"23.150.152.16","port":8118,"password":"cdBIDV42DCwnfIN","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.150.152.56 ◈ tcp:8119 ◈ GTHost / Sanek Hosting ◈ 84439","type":"ss","server":"23.150.152.56","port":8119,"password":"cdBIDV42DCwnfIN","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.150.152.24 ◈ tcp:8881 ◈ GTHost / Sanek Hosting ◈ 2c14c","type":"ss","server":"23.150.152.24","port":8881,"password":"kDWvXYZoTBcGkC4","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.150.152.24 ◈ tcp:8888 ◈ GTHost / Sanek Hosting ◈ 5c29d","type":"ss","server":"23.150.152.24","port":8888,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.150.152.56 ◈ tcp:9090 ◈ GTHost / Sanek Hosting ◈ 0323e","type":"ss","server":"23.150.152.56","port":9090,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.150.152.112 ◈ tcp:9090 ◈ GTHost / Sanek Hosting ◈ 2eb3c","type":"ss","server":"23.150.152.112","port":9090,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.150.152.53 ◈ tcp:9101 ◈ GTHost / Sanek Hosting ◈ 29e27","type":"ss","server":"23.150.152.53","port":9101,"password":"e4FCWrgpkji3QY","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.103 ◈ tcp:443 ◈ GTHost / TChosting ◈ e1045","type":"ss","server":"23.157.40.103","port":443,"password":"pKEW8JPByTVTLtM","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.113 ◈ tcp:443 ◈ GTHost / TChosting ◈ 0c49b","type":"ss","server":"23.157.40.113","port":443,"password":"pKEW8JPByTVTLtM","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.115 ◈ tcp:443 ◈ GTHost / TChosting ◈ 68d4d","type":"ss","server":"23.157.40.115","port":443,"password":"pKEW8JPByTVTLtM","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.113 ◈ tcp:445 ◈ GTHost / TChosting ◈ 61a6b","type":"ss","server":"23.157.40.113","port":445,"password":"zDNVedRFPQexG9v","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.113 ◈ tcp:2375 ◈ GTHost / TChosting ◈ 515f9","type":"ss","server":"23.157.40.113","port":2375,"password":"faBAoD54k87UJG7","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.115 ◈ tcp:2375 ◈ GTHost / TChosting ◈ c8ded","type":"ss","server":"23.157.40.115","port":2375,"password":"faBAoD54k87UJG7","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.19 ◈ tcp:2376 ◈ GTHost / TChosting ◈ 3b4a4","type":"ss","server":"23.157.40.19","port":2376,"password":"faBAoD54k87UJG7","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.113 ◈ tcp:2376 ◈ GTHost / TChosting ◈ 88296","type":"ss","server":"23.157.40.113","port":2376,"password":"faBAoD54k87UJG7","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.115 ◈ tcp:2376 ◈ GTHost / TChosting ◈ 6005f","type":"ss","server":"23.157.40.115","port":2376,"password":"faBAoD54k87UJG7","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.103 ◈ tcp:3306 ◈ GTHost / TChosting ◈ 73b7d","type":"ss","server":"23.157.40.103","port":3306,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.113 ◈ tcp:3306 ◈ GTHost / TChosting ◈ a3a93","type":"ss","server":"23.157.40.113","port":3306,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.115 ◈ tcp:3306 ◈ GTHost / TChosting ◈ b3ccc","type":"ss","server":"23.157.40.115","port":3306,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.10 ◈ tcp:3389 ◈ GTHost / TChosting ◈ 335dc","type":"ss","server":"23.157.40.10","port":3389,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.103 ◈ tcp:3389 ◈ GTHost / TChosting ◈ 373bf","type":"ss","server":"23.157.40.103","port":3389,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.113 ◈ tcp:3389 ◈ GTHost / TChosting ◈ d26d6","type":"ss","server":"23.157.40.113","port":3389,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.115 ◈ tcp:3389 ◈ GTHost / TChosting ◈ b2334","type":"ss","server":"23.157.40.115","port":3389,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.10 ◈ tcp:4444 ◈ GTHost / TChosting ◈ 53cab","type":"ss","server":"23.157.40.10","port":4444,"password":"pKEW8JPByTVTLtM","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.113 ◈ tcp:4444 ◈ GTHost / TChosting ◈ 0bcbc","type":"ss","server":"23.157.40.113","port":4444,"password":"pKEW8JPByTVTLtM","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.10 ◈ tcp:5000 ◈ GTHost / TChosting ◈ 2c6dc","type":"ss","server":"23.157.40.10","port":5000,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.19 ◈ tcp:5000 ◈ GTHost / TChosting ◈ b0269","type":"ss","server":"23.157.40.19","port":5000,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.113 ◈ tcp:5000 ◈ GTHost / TChosting ◈ 076ef","type":"ss","server":"23.157.40.113","port":5000,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.115 ◈ tcp:5000 ◈ GTHost / TChosting ◈ 4b086","type":"ss","server":"23.157.40.115","port":5000,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.10 ◈ tcp:5001 ◈ GTHost / TChosting ◈ f2242","type":"ss","server":"23.157.40.10","port":5001,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.113 ◈ tcp:5001 ◈ GTHost / TChosting ◈ 081af","type":"ss","server":"23.157.40.113","port":5001,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.115 ◈ tcp:5001 ◈ GTHost / TChosting ◈ baad2","type":"ss","server":"23.157.40.115","port":5001,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.103 ◈ tcp:5003 ◈ GTHost / TChosting ◈ 2daca","type":"ss","server":"23.157.40.103","port":5003,"password":"g5MeD6Ft3CWlJId","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.113 ◈ tcp:5003 ◈ GTHost / TChosting ◈ 65e7e","type":"ss","server":"23.157.40.113","port":5003,"password":"g5MeD6Ft3CWlJId","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.19 ◈ tcp:5004 ◈ GTHost / TChosting ◈ 7ca3d","type":"ss","server":"23.157.40.19","port":5004,"password":"g5MeD6Ft3CWlJId","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.113 ◈ tcp:5004 ◈ GTHost / TChosting ◈ c996e","type":"ss","server":"23.157.40.113","port":5004,"password":"g5MeD6Ft3CWlJId","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.19 ◈ tcp:5498 ◈ GTHost / TChosting ◈ a9cac","type":"ss","server":"23.157.40.19","port":5498,"password":"lGqs95QkFHo2NV","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.113 ◈ tcp:5498 ◈ GTHost / TChosting ◈ 84e15","type":"ss","server":"23.157.40.113","port":5498,"password":"lGqs95QkFHo2NV","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.115 ◈ tcp:5498 ◈ GTHost / TChosting ◈ b6ec3","type":"ss","server":"23.157.40.115","port":5498,"password":"lGqs95QkFHo2NV","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.103 ◈ tcp:5499 ◈ GTHost / TChosting ◈ ec9ba","type":"ss","server":"23.157.40.103","port":5499,"password":"lGqs95QkFHo2NV","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.113 ◈ tcp:5499 ◈ GTHost / TChosting ◈ 03a1f","type":"ss","server":"23.157.40.113","port":5499,"password":"lGqs95QkFHo2NV","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.103 ◈ tcp:5500 ◈ GTHost / TChosting ◈ 0f6e0","type":"ss","server":"23.157.40.103","port":5500,"password":"KixLvKzwjekG00rm","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.113 ◈ tcp:5500 ◈ GTHost / TChosting ◈ 84ee3","type":"ss","server":"23.157.40.113","port":5500,"password":"KixLvKzwjekG00rm","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.115 ◈ tcp:5500 ◈ GTHost / TChosting ◈ 18c42","type":"ss","server":"23.157.40.115","port":5500,"password":"KixLvKzwjekG00rm","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.113 ◈ tcp:5600 ◈ GTHost / TChosting ◈ bb5be","type":"ss","server":"23.157.40.113","port":5600,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.115 ◈ tcp:5600 ◈ GTHost / TChosting ◈ 7b4ba","type":"ss","server":"23.157.40.115","port":5600,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.103 ◈ tcp:5601 ◈ GTHost / TChosting ◈ db858","type":"ss","server":"23.157.40.103","port":5601,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.113 ◈ tcp:5601 ◈ GTHost / TChosting ◈ e7de6","type":"ss","server":"23.157.40.113","port":5601,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.115 ◈ tcp:5601 ◈ GTHost / TChosting ◈ ab17a","type":"ss","server":"23.157.40.115","port":5601,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.119 ◈ tcp:5601 ◈ GTHost / TChosting ◈ 2c0f7","type":"ss","server":"23.157.40.119","port":5601,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.103 ◈ tcp:6379 ◈ GTHost / TChosting ◈ 78ebc","type":"ss","server":"23.157.40.103","port":6379,"password":"zDNVedRFPQexG9v","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.113 ◈ tcp:6379 ◈ GTHost / TChosting ◈ dfd5a","type":"ss","server":"23.157.40.113","port":6379,"password":"zDNVedRFPQexG9v","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.115 ◈ tcp:6379 ◈ GTHost / TChosting ◈ 6bbdc","type":"ss","server":"23.157.40.115","port":6379,"password":"zDNVedRFPQexG9v","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.19 ◈ tcp:6679 ◈ GTHost / TChosting ◈ 5a94f","type":"ss","server":"23.157.40.19","port":6679,"password":"TEzjfAYq2IjtuoS","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.103 ◈ tcp:6679 ◈ GTHost / TChosting ◈ 031a5","type":"ss","server":"23.157.40.103","port":6679,"password":"TEzjfAYq2IjtuoS","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.113 ◈ tcp:6679 ◈ GTHost / TChosting ◈ afb08","type":"ss","server":"23.157.40.113","port":6679,"password":"TEzjfAYq2IjtuoS","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.115 ◈ tcp:6679 ◈ GTHost / TChosting ◈ c51ed","type":"ss","server":"23.157.40.115","port":6679,"password":"TEzjfAYq2IjtuoS","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.103 ◈ tcp:6697 ◈ GTHost / TChosting ◈ f41cd","type":"ss","server":"23.157.40.103","port":6697,"password":"TEzjfAYq2IjtuoS","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.113 ◈ tcp:6697 ◈ GTHost / TChosting ◈ fad3a","type":"ss","server":"23.157.40.113","port":6697,"password":"TEzjfAYq2IjtuoS","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.115 ◈ tcp:6697 ◈ GTHost / TChosting ◈ 7773d","type":"ss","server":"23.157.40.115","port":6697,"password":"TEzjfAYq2IjtuoS","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.19 ◈ tcp:7001 ◈ GTHost / TChosting ◈ bc937","type":"ss","server":"23.157.40.19","port":7001,"password":"RexnBgU7EV5ADxG","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.103 ◈ tcp:7001 ◈ GTHost / TChosting ◈ 140bb","type":"ss","server":"23.157.40.103","port":7001,"password":"RexnBgU7EV5ADxG","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.113 ◈ tcp:7001 ◈ GTHost / TChosting ◈ 87bce","type":"ss","server":"23.157.40.113","port":7001,"password":"RexnBgU7EV5ADxG","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.113 ◈ tcp:7002 ◈ GTHost / TChosting ◈ 0310d","type":"ss","server":"23.157.40.113","port":7002,"password":"RexnBgU7EV5ADxG","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.115 ◈ tcp:7002 ◈ GTHost / TChosting ◈ ac9ea","type":"ss","server":"23.157.40.115","port":7002,"password":"RexnBgU7EV5ADxG","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.113 ◈ tcp:7306 ◈ GTHost / TChosting ◈ 1d3b8","type":"ss","server":"23.157.40.113","port":7306,"password":"FoOiGlkAA9yPEGP","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.101 ◈ tcp:7307 ◈ GTHost / TChosting ◈ 6050a","type":"ss","server":"23.157.40.101","port":7307,"password":"FoOiGlkAA9yPEGP","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.103 ◈ tcp:7307 ◈ GTHost / TChosting ◈ d58ce","type":"ss","server":"23.157.40.103","port":7307,"password":"FoOiGlkAA9yPEGP","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.113 ◈ tcp:7307 ◈ GTHost / TChosting ◈ a934f","type":"ss","server":"23.157.40.113","port":7307,"password":"FoOiGlkAA9yPEGP","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.115 ◈ tcp:7307 ◈ GTHost / TChosting ◈ 5bf04","type":"ss","server":"23.157.40.115","port":7307,"password":"FoOiGlkAA9yPEGP","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.19 ◈ tcp:8000 ◈ GTHost / TChosting ◈ d5464","type":"ss","server":"23.157.40.19","port":8000,"password":"KixLvKzwjekG00rm","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.101 ◈ tcp:8000 ◈ GTHost / TChosting ◈ 88bdc","type":"ss","server":"23.157.40.101","port":8000,"password":"KixLvKzwjekG00rm","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.103 ◈ tcp:8000 ◈ GTHost / TChosting ◈ 321af","type":"ss","server":"23.157.40.103","port":8000,"password":"KixLvKzwjekG00rm","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.113 ◈ tcp:8000 ◈ GTHost / TChosting ◈ 86b32","type":"ss","server":"23.157.40.113","port":8000,"password":"KixLvKzwjekG00rm","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.115 ◈ tcp:8000 ◈ GTHost / TChosting ◈ 1fc9f","type":"ss","server":"23.157.40.115","port":8000,"password":"KixLvKzwjekG00rm","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.101 ◈ tcp:8008 ◈ GTHost / TChosting ◈ 568f2","type":"ss","server":"23.157.40.101","port":8008,"password":"XKFKl2rULjIp74","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.103 ◈ tcp:8008 ◈ GTHost / TChosting ◈ fbad5","type":"ss","server":"23.157.40.103","port":8008,"password":"XKFKl2rULjIp74","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.113 ◈ tcp:8008 ◈ GTHost / TChosting ◈ 829cf","type":"ss","server":"23.157.40.113","port":8008,"password":"XKFKl2rULjIp74","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.19 ◈ tcp:8009 ◈ GTHost / TChosting ◈ 52c5a","type":"ss","server":"23.157.40.19","port":8009,"password":"XKFKl2rULjIp74","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.101 ◈ tcp:8009 ◈ GTHost / TChosting ◈ 8858d","type":"ss","server":"23.157.40.101","port":8009,"password":"XKFKl2rULjIp74","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.103 ◈ tcp:8009 ◈ GTHost / TChosting ◈ 11a79","type":"ss","server":"23.157.40.103","port":8009,"password":"XKFKl2rULjIp74","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.113 ◈ tcp:8009 ◈ GTHost / TChosting ◈ e0d8e","type":"ss","server":"23.157.40.113","port":8009,"password":"XKFKl2rULjIp74","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.115 ◈ tcp:8009 ◈ GTHost / TChosting ◈ 29bf1","type":"ss","server":"23.157.40.115","port":8009,"password":"XKFKl2rULjIp74","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.113 ◈ tcp:8080 ◈ GTHost / TChosting ◈ 07480","type":"ss","server":"23.157.40.113","port":8080,"password":"KixLvKzwjekG00rm","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.115 ◈ tcp:8080 ◈ GTHost / TChosting ◈ 50fb1","type":"ss","server":"23.157.40.115","port":8080,"password":"KixLvKzwjekG00rm","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.103 ◈ tcp:8090 ◈ GTHost / TChosting ◈ e6718","type":"ss","server":"23.157.40.103","port":8090,"password":"PCnnH6SQSnfoS27","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.113 ◈ tcp:8090 ◈ GTHost / TChosting ◈ b4561","type":"ss","server":"23.157.40.113","port":8090,"password":"PCnnH6SQSnfoS27","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.115 ◈ tcp:8090 ◈ GTHost / TChosting ◈ 2b444","type":"ss","server":"23.157.40.115","port":8090,"password":"PCnnH6SQSnfoS27","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.19 ◈ tcp:8091 ◈ GTHost / TChosting ◈ c529b","type":"ss","server":"23.157.40.19","port":8091,"password":"PCnnH6SQSnfoS27","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.103 ◈ tcp:8091 ◈ GTHost / TChosting ◈ 507e1","type":"ss","server":"23.157.40.103","port":8091,"password":"PCnnH6SQSnfoS27","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.113 ◈ tcp:8091 ◈ GTHost / TChosting ◈ e0f8f","type":"ss","server":"23.157.40.113","port":8091,"password":"PCnnH6SQSnfoS27","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.115 ◈ tcp:8091 ◈ GTHost / TChosting ◈ 7546d","type":"ss","server":"23.157.40.115","port":8091,"password":"PCnnH6SQSnfoS27","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.103 ◈ tcp:8118 ◈ GTHost / TChosting ◈ 6f9da","type":"ss","server":"23.157.40.103","port":8118,"password":"cdBIDV42DCwnfIN","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.113 ◈ tcp:8118 ◈ GTHost / TChosting ◈ 8f99d","type":"ss","server":"23.157.40.113","port":8118,"password":"cdBIDV42DCwnfIN","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.115 ◈ tcp:8118 ◈ GTHost / TChosting ◈ f2196","type":"ss","server":"23.157.40.115","port":8118,"password":"cdBIDV42DCwnfIN","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.10 ◈ tcp:8119 ◈ GTHost / TChosting ◈ 6b1b7","type":"ss","server":"23.157.40.10","port":8119,"password":"cdBIDV42DCwnfIN","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.103 ◈ tcp:8119 ◈ GTHost / TChosting ◈ d8e1a","type":"ss","server":"23.157.40.103","port":8119,"password":"cdBIDV42DCwnfIN","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.113 ◈ tcp:8119 ◈ GTHost / TChosting ◈ cdc23","type":"ss","server":"23.157.40.113","port":8119,"password":"cdBIDV42DCwnfIN","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.115 ◈ tcp:8119 ◈ GTHost / TChosting ◈ ad7ef","type":"ss","server":"23.157.40.115","port":8119,"password":"cdBIDV42DCwnfIN","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.10 ◈ tcp:8881 ◈ GTHost / TChosting ◈ a682f","type":"ss","server":"23.157.40.10","port":8881,"password":"kDWvXYZoTBcGkC4","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.103 ◈ tcp:8881 ◈ GTHost / TChosting ◈ a0b2a","type":"ss","server":"23.157.40.103","port":8881,"password":"kDWvXYZoTBcGkC4","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.113 ◈ tcp:8881 ◈ GTHost / TChosting ◈ b8747","type":"ss","server":"23.157.40.113","port":8881,"password":"kDWvXYZoTBcGkC4","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.115 ◈ tcp:8881 ◈ GTHost / TChosting ◈ b4e90","type":"ss","server":"23.157.40.115","port":8881,"password":"kDWvXYZoTBcGkC4","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.10 ◈ tcp:8882 ◈ GTHost / TChosting ◈ b94dc","type":"ss","server":"23.157.40.10","port":8882,"password":"kDWvXYZoTBcGkC4","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.103 ◈ tcp:8882 ◈ GTHost / TChosting ◈ c0a0f","type":"ss","server":"23.157.40.103","port":8882,"password":"kDWvXYZoTBcGkC4","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.113 ◈ tcp:8882 ◈ GTHost / TChosting ◈ d7f0b","type":"ss","server":"23.157.40.113","port":8882,"password":"kDWvXYZoTBcGkC4","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.115 ◈ tcp:8882 ◈ GTHost / TChosting ◈ 61476","type":"ss","server":"23.157.40.115","port":8882,"password":"kDWvXYZoTBcGkC4","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.10 ◈ tcp:8888 ◈ GTHost / TChosting ◈ c21c7","type":"ss","server":"23.157.40.10","port":8888,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.19 ◈ tcp:8888 ◈ GTHost / TChosting ◈ ca984","type":"ss","server":"23.157.40.19","port":8888,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.113 ◈ tcp:8888 ◈ GTHost / TChosting ◈ 95e6b","type":"ss","server":"23.157.40.113","port":8888,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.115 ◈ tcp:8888 ◈ GTHost / TChosting ◈ b35dd","type":"ss","server":"23.157.40.115","port":8888,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.10 ◈ tcp:9090 ◈ GTHost / TChosting ◈ 893b8","type":"ss","server":"23.157.40.10","port":9090,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.113 ◈ tcp:9090 ◈ GTHost / TChosting ◈ 4d4ef","type":"ss","server":"23.157.40.113","port":9090,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.115 ◈ tcp:9090 ◈ GTHost / TChosting ◈ 9f9cd","type":"ss","server":"23.157.40.115","port":9090,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.19 ◈ tcp:9101 ◈ GTHost / TChosting ◈ 5921f","type":"ss","server":"23.157.40.19","port":9101,"password":"e4FCWrgpkji3QY","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.103 ◈ tcp:9101 ◈ GTHost / TChosting ◈ 43d46","type":"ss","server":"23.157.40.103","port":9101,"password":"e4FCWrgpkji3QY","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.113 ◈ tcp:9101 ◈ GTHost / TChosting ◈ bb2b6","type":"ss","server":"23.157.40.113","port":9101,"password":"e4FCWrgpkji3QY","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.103 ◈ tcp:9102 ◈ GTHost / TChosting ◈ ddee3","type":"ss","server":"23.157.40.103","port":9102,"password":"e4FCWrgpkji3QY","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 23.157.40.113 ◈ tcp:9102 ◈ GTHost / TChosting ◈ d5ff7","type":"ss","server":"23.157.40.113","port":9102,"password":"e4FCWrgpkji3QY","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 74.48.4.5 ◈ tcp:50100 ◈ Multacom Corporation / TELUS Communications Inc ◈ 7b2e9","type":"vmess","server":"2607:f130:0:134::9","port":50100,"cipher":"auto","uuid":"7748cec0-5164-4c52-87cf-55758d80fdaf","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇺🇸 US 144.126.145.43 ◈ ws:80 ◈ Nubes / Contabo Inc ◈ 86f48","type":"vmess","server":"144.126.145.43","port":80,"cipher":"auto","uuid":"ec451354-ad9c-4a01-9c93-5dbb9409623d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/5k7oCLn871DU5O2ONZ6a2i","headers":{"host":"us.eaxeg.be"}}}
+  - {"name":"🇺🇸 US 15.204.67.50 ◈ ws:80 ◈ OVH US ◈ b0581","type":"vmess","server":"15.204.67.50","port":80,"cipher":"auto","uuid":"2a8a10fb-9ca3-367e-a234-cf09f841be4f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/v149-dskds65","headers":{"host":"us4e-20240111.v2freevpn.com"}}}
+  - {"name":"🇺🇸 US 15.204.87.222 ◈ tcp:443 ◈ OVH US ◈ 03ae1","type":"ss","server":"15.204.87.222","port":443,"password":"pKEW8JPByTVTLtM","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 15.204.87.222 ◈ tcp:2375 ◈ OVH US ◈ 8e999","type":"ss","server":"15.204.87.222","port":2375,"password":"faBAoD54k87UJG7","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 15.204.87.222 ◈ tcp:2376 ◈ OVH US ◈ 53e39","type":"ss","server":"15.204.87.222","port":2376,"password":"faBAoD54k87UJG7","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 15.204.87.222 ◈ tcp:3306 ◈ OVH US ◈ b04da","type":"ss","server":"15.204.87.222","port":3306,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 15.204.87.222 ◈ tcp:3389 ◈ OVH US ◈ 7ad4a","type":"ss","server":"15.204.87.222","port":3389,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 15.204.87.222 ◈ tcp:5000 ◈ OVH US ◈ 640ed","type":"ss","server":"15.204.87.222","port":5000,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 15.204.87.222 ◈ tcp:5001 ◈ OVH US ◈ 6e690","type":"ss","server":"15.204.87.222","port":5001,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 15.204.87.222 ◈ tcp:5003 ◈ OVH US ◈ 8e0b1","type":"ss","server":"15.204.87.222","port":5003,"password":"g5MeD6Ft3CWlJId","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 15.204.87.225 ◈ tcp:5003 ◈ OVH US ◈ 2f650","type":"ss","server":"15.204.87.225","port":5003,"password":"g5MeD6Ft3CWlJId","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 15.204.87.222 ◈ tcp:5004 ◈ OVH US ◈ 108ad","type":"ss","server":"15.204.87.222","port":5004,"password":"g5MeD6Ft3CWlJId","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 15.204.87.222 ◈ tcp:5498 ◈ OVH US ◈ 26978","type":"ss","server":"15.204.87.222","port":5498,"password":"lGqs95QkFHo2NV","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 15.204.87.222 ◈ tcp:5499 ◈ OVH US ◈ bc757","type":"ss","server":"15.204.87.222","port":5499,"password":"lGqs95QkFHo2NV","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 15.204.87.225 ◈ tcp:5499 ◈ OVH US ◈ 88072","type":"ss","server":"15.204.87.225","port":5499,"password":"lGqs95QkFHo2NV","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 15.204.87.222 ◈ tcp:5500 ◈ OVH US ◈ 91cdb","type":"ss","server":"15.204.87.222","port":5500,"password":"KixLvKzwjekG00rm","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 15.204.87.222 ◈ tcp:5600 ◈ OVH US ◈ 8e915","type":"ss","server":"15.204.87.222","port":5600,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 15.204.87.222 ◈ tcp:5601 ◈ OVH US ◈ 70954","type":"ss","server":"15.204.87.222","port":5601,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 15.204.87.222 ◈ tcp:6379 ◈ OVH US ◈ 8c44a","type":"ss","server":"15.204.87.222","port":6379,"password":"zDNVedRFPQexG9v","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 15.204.87.222 ◈ tcp:6679 ◈ OVH US ◈ 7831d","type":"ss","server":"15.204.87.222","port":6679,"password":"TEzjfAYq2IjtuoS","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 15.204.87.222 ◈ tcp:6697 ◈ OVH US ◈ 3a4be","type":"ss","server":"15.204.87.222","port":6697,"password":"TEzjfAYq2IjtuoS","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 15.204.87.222 ◈ tcp:7001 ◈ OVH US ◈ 31913","type":"ss","server":"15.204.87.222","port":7001,"password":"RexnBgU7EV5ADxG","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 15.204.87.222 ◈ tcp:7002 ◈ OVH US ◈ c585a","type":"ss","server":"15.204.87.222","port":7002,"password":"RexnBgU7EV5ADxG","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 15.204.87.225 ◈ tcp:7002 ◈ OVH US ◈ d09cd","type":"ss","server":"15.204.87.225","port":7002,"password":"RexnBgU7EV5ADxG","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 15.204.87.222 ◈ tcp:7306 ◈ OVH US ◈ b9466","type":"ss","server":"15.204.87.222","port":7306,"password":"FoOiGlkAA9yPEGP","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 15.204.87.225 ◈ tcp:7306 ◈ OVH US ◈ 3ce47","type":"ss","server":"15.204.87.225","port":7306,"password":"FoOiGlkAA9yPEGP","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 15.204.87.222 ◈ tcp:7307 ◈ OVH US ◈ 2f23b","type":"ss","server":"15.204.87.222","port":7307,"password":"FoOiGlkAA9yPEGP","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 15.204.87.225 ◈ tcp:7307 ◈ OVH US ◈ fc894","type":"ss","server":"15.204.87.225","port":7307,"password":"FoOiGlkAA9yPEGP","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 15.204.87.222 ◈ tcp:8000 ◈ OVH US ◈ 44264","type":"ss","server":"15.204.87.222","port":8000,"password":"KixLvKzwjekG00rm","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 15.204.87.225 ◈ tcp:8000 ◈ OVH US ◈ 7c0bc","type":"ss","server":"15.204.87.225","port":8000,"password":"KixLvKzwjekG00rm","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 15.204.87.222 ◈ tcp:8008 ◈ OVH US ◈ b910c","type":"ss","server":"15.204.87.222","port":8008,"password":"XKFKl2rULjIp74","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 15.204.87.222 ◈ tcp:8009 ◈ OVH US ◈ fb4d9","type":"ss","server":"15.204.87.222","port":8009,"password":"XKFKl2rULjIp74","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 15.204.87.222 ◈ tcp:8090 ◈ OVH US ◈ cb7cc","type":"ss","server":"15.204.87.222","port":8090,"password":"PCnnH6SQSnfoS27","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 15.204.87.225 ◈ tcp:8090 ◈ OVH US ◈ 8e83f","type":"ss","server":"15.204.87.225","port":8090,"password":"PCnnH6SQSnfoS27","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 15.204.87.222 ◈ tcp:8091 ◈ OVH US ◈ 52c19","type":"ss","server":"15.204.87.222","port":8091,"password":"PCnnH6SQSnfoS27","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 15.204.87.222 ◈ tcp:8118 ◈ OVH US ◈ d41d4","type":"ss","server":"15.204.87.222","port":8118,"password":"cdBIDV42DCwnfIN","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 15.204.87.225 ◈ tcp:8118 ◈ OVH US ◈ 37852","type":"ss","server":"15.204.87.225","port":8118,"password":"cdBIDV42DCwnfIN","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 15.204.87.222 ◈ tcp:8119 ◈ OVH US ◈ 4273a","type":"ss","server":"15.204.87.222","port":8119,"password":"cdBIDV42DCwnfIN","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 15.204.87.222 ◈ tcp:8881 ◈ OVH US ◈ 6536d","type":"ss","server":"15.204.87.222","port":8881,"password":"kDWvXYZoTBcGkC4","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 15.204.87.222 ◈ tcp:8882 ◈ OVH US ◈ 73ff8","type":"ss","server":"15.204.87.222","port":8882,"password":"kDWvXYZoTBcGkC4","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 15.204.87.222 ◈ tcp:8888 ◈ OVH US ◈ 44054","type":"ss","server":"15.204.87.222","port":8888,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 15.204.87.222 ◈ tcp:9090 ◈ OVH US ◈ 75e93","type":"ss","server":"15.204.87.222","port":9090,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 15.204.87.225 ◈ tcp:9090 ◈ OVH US ◈ b65a0","type":"ss","server":"15.204.87.225","port":9090,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 15.204.87.222 ◈ tcp:9101 ◈ OVH US ◈ e059f","type":"ss","server":"15.204.87.222","port":9101,"password":"e4FCWrgpkji3QY","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸 US 15.204.87.222 ◈ tcp:9102 ◈ OVH US ◈ 7ebbd","type":"ss","server":"15.204.87.222","port":9102,"password":"e4FCWrgpkji3QY","cipher":"aes-256-gcm"}
+  - {"name":"🚫🇺🇸 US 194.116.173.21 ◈ tcp:9038 ◈ Stark Industries ◈ 831d2","type":"ss","server":"194.116.173.21","port":9038,"password":"gYCYXfkUQEs2TaJQ","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇺🇾 UY 179.27.200.28 ◈ tcp:989 ◈ Administracion Nacional de Telecomunicaciones / Cliente Antel Uruguay ◈ 0630a","type":"ss","server":"179.27.200.28","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🚫🇿🇦 ZA 41.203.4.34 ◈ tcp:989 ◈ Xneelo (Pty) Ltd / Xneelo Tscolo ◈ e23bb","type":"ss","server":"41.203.4.34","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"🚩CF | 🟢 | vmess | @V2rayCollectorDonate | 4","type":"vmess","server":"172.67.71.160","port":443,"cipher":"auto","uuid":"05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"obdii.cfd","network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"obdii.cfd"}}}
+  - {"name":"🇸🇪SE | 🟢 | trojan | @PrivateVPNs | 0","type":"trojan","server":"16.16.112.92","port":22222,"udp":true,"password":"telegram-id-privatevpns","sni":"trojan.burgerip.co.uk","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇮🇪IE | 🟢 | trojan | @PrivateVPNs | 2","type":"trojan","server":"54.73.160.24","port":22222,"udp":true,"password":"telegram-id-privatevpns","sni":"trojan.burgerip.co.uk","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇮🇪IE | 🟢 | trojan | @PrivateVPNs | 3","type":"trojan","server":"3.248.63.20","port":22222,"udp":true,"password":"telegram-id-privatevpns","sni":"trojan.burgerip.co.uk","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇬🇧GB | 🟢 | trojan | @PrivateVPNs | 4","type":"trojan","server":"3.9.53.61","port":22222,"udp":true,"password":"telegram-id-privatevpns","sni":"trojan.burgerip.co.uk","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 9","type":"trojan","server":"18.158.39.94","port":22222,"udp":true,"password":"telegram-id-privatevpns","sni":"trojan.burgerip.co.uk","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇨🇦CA | 🟢 | trojan | @DirectVPN | 0","type":"trojan","server":"3.97.143.98","port":22222,"udp":true,"password":"telegram-id-directvpn","sni":"trojan.burgerip.co.uk","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇬🇧GB | 🟢 | trojan | @DirectVPN | 4","type":"trojan","server":"18.130.168.33","port":22222,"udp":true,"password":"telegram-id-directvpn","sni":"trojan.burgerip.co.uk","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇫🇷FR | 🟢 | trojan | @DirectVPN | 7","type":"trojan","server":"15.236.139.246","port":22222,"udp":true,"password":"telegram-id-directvpn","sni":"trojan.burgerip.co.uk","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🚩CF | 🟢 | vmess | @v2ray1_ng | 5","type":"vmess","server":"104.21.94.64","port":443,"cipher":"auto","uuid":"39cec18f-a439-427c-9a4e-aeb6fcdf6f53","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"linja05.hwcar.sbs","network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"linja05.hwcar.sbs"}}}
+  - {"name":"🚩CF | 🟢 | vmess | @DailyV2RY | 207","type":"vmess","server":"104.21.51.208","port":443,"cipher":"auto","uuid":"cb4fca5f-edf8-415b-aa8f-ac52f415296a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"de-02.tradex2080.com","network":"ws","ws-opts":{"path":"/0fpZFB6IbpNptGAxAtI0QM","headers":{"host":"de-02.tradex2080.com"}}}
+  - {"name":"🚩CF | 🟢 | vmess | @proxystore11 | 1","type":"vmess","server":"172.67.219.194","port":443,"cipher":"auto","uuid":"b321fd5d-e6ec-4293-a644-164e3885f52e","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"adenc36v.xtooltech.cfd","network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"adenc36v.xtooltech.cfd"}}}
+  - {"name":"🇸🇪SE | 🟢 | vmess | @proxystore11 | 3","type":"vmess","server":"185.146.173.158","port":443,"cipher":"auto","uuid":"950db6aa-4926-4616-816e-ec0312dcb87b","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"jahfkjha.cfd","network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"jahfkjha.cfd"}}}
+  - {"name":"🚩CF | 🟢 | vmess | @Hope_Net | 2","type":"vmess","server":"172.67.220.83","port":443,"cipher":"auto","uuid":"39cec18f-a439-427c-9a4e-aeb6fcdf6f53","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"linja05.hwcar.sbs","network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"linja05.hwcar.sbs"}}}
+  - {"name":"🚩CF | 🟢 | vmess | @v2Line | 0","type":"vmess","server":"172.67.156.22","port":443,"cipher":"auto","uuid":"f584de15-2034-4170-a723-f48c2bae5e0f","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"nezuko.raidenshogun.cloudns.org","network":"ws","ws-opts":{"path":"/linkws/afrhms16v.bestxray.buzz","headers":{"host":"nezuko.raidenshogun.cloudns.org"}}}
+  - {"name":"🇺🇸US | 🟢 | vmess | @FreakConfig | 5","type":"vmess","server":"s.marktred.com","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"aveiror.com","network":"ws","ws-opts":{"path":"/linkvws","headers":{"host":"aveiror.com"}}}
+  - {"name":"💘 @v2ray_configs_pool 💘","type":"vmess","server":"104.21.24.170","port":443,"cipher":"auto","uuid":"b321fd5d-e6ec-4293-a644-164e3885f52e","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"adenc36v.xtooltech.cfd","network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"adenc36v.xtooltech.cfd"}}}
+  - {"name":"💘 @v2ray_configs_pool 💘 (2)","type":"vmess","server":"104.17.147.22","port":443,"cipher":"auto","uuid":"62aa5f80-0328-4004-a375-7f5a59df4022","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"pages.dev","network":"ws","ws-opts":{"path":"/d3","headers":{"host":"xv2.pages.dev"}}}
+  - {"name":"💘 @v2ray_configs_pool 💘 (3)","type":"vmess","server":"185.146.173.91","port":2052,"cipher":"auto","uuid":"6e88465e-a2ac-57d3-bbaf-f72e4439bd75","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"De1.vmess.site."}}}
+  - {"name":"[🇨🇦]t.me/ConfigsHub`","type":"trojan","server":"104.17.147.11","port":443,"udp":true,"password":"0ab6c98dae3b48e8b9c4a776b6c9c19a","sni":"jobscareerfortoday.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/6b777a91","headers":{"host":"jobscareerfortoday.com"}}}
+  - {"name":"💘 @v2ray_configs_pool 💘 (14)","type":"vmess","server":"sareikela.com","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"sareikela.com","network":"ws","ws-opts":{"path":"/linkvws","headers":{"host":"sareikela.com"}}}
+  - {"name":"4","type":"trojan","server":"42.236.73.72","port":443,"udp":true,"password":"fuck","sni":"www.zitian.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🔒 SS-TCP-NA 🇺🇸 US-23.134.94.175:8119","type":"ss","server":"23.134.94.175","port":8119,"password":"cdBIDV42DCwnfIN","cipher":"aes-256-gcm"}
+  - {"name":"🔒 SS-TCP-NA 🇳🇱 NL-188.212.132.20:52952","type":"ss","server":"188.212.132.20","port":52952,"password":"XRUwpkSouW5HCTUFUxErfnL5AmahofrjznVrAu2iNFMFGUCrChznAULhuHGAQdC463mzcgo2jV546Ut5HKhk3pz956cHYYyc","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔒 VM-TCP-NA 🇺🇸 US-142.0.134.242:45017","type":"vmess","server":"142.0.134.242","port":45017,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🔒 VM-TCP-NA 🇺🇸 US-50.114.243.61:43834","type":"vmess","server":"50.114.243.61","port":43834,"cipher":"auto","uuid":"b246e34d-bbd1-4016-8f74-ea461c37e411","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🔒 VM-TCP-NONE 🇸🇬 SG-68.183.226.206:49365","type":"vmess","server":"68.183.226.206","port":49365,"cipher":"auto","uuid":"b95837e7-7bba-4ad6-ebb2-54b57c5a51cb","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🔒 VM-WS-NA 🏴‍☠️ NA-104.16.61.8:80","type":"vmess","server":"104.16.61.8","port":80,"cipher":"auto","uuid":"4804f14b-c1f8-452d-a6ec-eff1490aeac9","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/lRkGCkYS9X5GDNJYMWXN7kCm3lL","headers":{"host":"hdfy6d3.freelines.net"}}}
+  - {"name":"🔒 VM-TCP-NA 🇨🇳 CN-112.132.212.19:50004","type":"vmess","server":"112.132.212.19","port":50004,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🔒 VM-TCP-NA 🇺🇸 US-198.2.234.99:39771","type":"vmess","server":"198.2.234.99","port":39771,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🔒 VM-TCP-NA 🇺🇸 US-198.2.218.100:41400","type":"vmess","server":"198.2.218.100","port":41400,"cipher":"none","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🔒 VM-TCP-NA 🇨🇳 CN-120.210.205.82:50002","type":"vmess","server":"120.210.205.82","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🔒 VM-TCP-NONE 🇸🇬 SG-68.183.226.206:26011","type":"vmess","server":"68.183.226.206","port":26011,"cipher":"auto","uuid":"338a9347-6d6f-4c4e-9b43-aebe0ed8188a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🔒 VM-TCP-NA 🇯🇵 JP-20.243.98.115:53001","type":"vmess","server":"20.243.98.115","port":53001,"cipher":"auto","uuid":"60626f2a-a43d-3ef0-9e7a-f527d5ebe6fb","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🔒 VM-TCP-NA 🇯🇵 JP-103.200.30.8:45458","type":"vmess","server":"103.200.30.8","port":45458,"cipher":"auto","uuid":"bbe8249a-3bfe-43c2-fe55-838e7ae13c45","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🔒 TR-TCP-TLS 🇩🇪 DE-3.65.13.195:42651","type":"trojan","server":"3.65.13.195","port":42651,"udp":true,"password":"RXJBaMNA6o","sni":"zac23.ir","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🔒 TR-WS-TLS 🏴‍☠️ NA-162.159.136.234:443","type":"trojan","server":"162.159.136.234","port":443,"udp":true,"password":"559c3b5f-3dd1-47e4-94ad-017cb392a7ba","sni":"de1.trojanvpn.de","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/path/Alfred_Config---Alfred_Config---Alfred_Config---Alfred_Config---Alfred_Config---Alfred_Config---Alfred_Config---Alfred_Config---Alfred_Config---Alfred_Config---Alfred_Config---Alfred_Config---Alfred_Config---Alfred_Config---Alfred_Config---Alfred_Config---Alfred_Config---Alfred_Config---Alfred_Config---Alfred_Config---Alfred_Config---Alfred_Config---Alfred_Config---Alfred_Config---Alfred_Config---Alfred_Config---Alfred_Config","headers":{"host":"de1.trojanvpn.dE"}}}
+  - {"name":"🔒 TR-HTTP-TLS 🇳🇱 NL-46.30.47.23:443","type":"trojan","server":"46.30.47.23","port":443,"udp":true,"password":"z3SbEnN0kc","sni":"split.xuunn.info","skip-cert-verify":true,"network":"http","ws-opts":{"headers":{"host":"split.xuunn.info"}}}
+  - {"name":"🔒 TR-WS-TLS 🏴‍☠️ NA-198.41.220.3:443","type":"trojan","server":"198.41.220.3","port":443,"udp":true,"password":"b4e8771997c94732acbc9ec4d19c2589","sni":"jobscareertoday.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"6b777a91","headers":{"host":"jobscareertoday.com"}}}
+  - {"name":"🔒 TR-WS-TLS 🏴‍☠️ NA-172.67.188.24:443","type":"trojan","server":"172.67.188.24","port":443,"udp":true,"password":"your_password","sni":"aws-ch-zurich-1.f1cflineb.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/f1rocket","headers":{"host":"aws-ch-zurich-1.f1cflineb.com"}}}
+  - {"name":"🔒 TR-TCP-TLS 🇯🇵 JP-43.206.127.212:443","type":"trojan","server":"43.206.127.212","port":443,"udp":true,"password":"your_password","sni":"aws-jp-tokyo-1.f1rocketnode.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🔒 TR-GRPC-TLS 🏴‍☠️ NA-104.21.47.176:443","type":"trojan","server":"104.21.47.176","port":443,"udp":true,"password":"52701795-3c3b-46b4-b7cf-c5978b3a4cf2","sni":"hdfyc1.achaemenidempireofpersia.uk","skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"xw7uebRG4KlUXGGYTVEagC5V7fI"}}
+  - {"name":"🔒 TR-WS-TLS 🏴‍☠️ NA-190.93.246.247:443","type":"trojan","server":"190.93.246.247","port":443,"udp":true,"password":"dba20dcb635e430fa4d3bfc303a149d2","sni":"jobscareerforlawyers.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"6b777a91","headers":{"host":"jobscareerforlawyers.com"}}}
+  - {"name":"🔒 TR-WS-TLS 🏴‍☠️ NA-104.17.61.7:443","type":"trojan","server":"104.17.61.7","port":443,"udp":true,"password":"4732adfa16c6450bbef87264e41332db","sni":"jobscareerfortoday.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"6b777a91","headers":{"host":"jobscareerfortoday.com"}}}
+  - {"name":"🔒 TR-WS-TLS 🏴‍☠️ NA-198.41.220.8:443","type":"trojan","server":"198.41.220.8","port":443,"udp":true,"password":"b4e8771997c94732acbc9ec4d19c2589","sni":"jobscareerforstudent.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/6b777a91","headers":{"host":"jobscareerforstudent.com"}}}
+  - {"name":"🔒 TR-WS-TLS 🏴‍☠️ NA-104.21.73.195:443","type":"trojan","server":"104.21.73.195","port":443,"udp":true,"password":"your_password","sni":"aws-se-stockholm-1.f1cflinea.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/f1rocket","headers":{"host":"aws-se-stockholm-1.f1cflinea.com"}}}
+  - {"name":"🔒 TR-WS-TLS 🏴‍☠️ NA-[::ffff:c629:dc0a]:443","type":"trojan","server":"198.41.220.10","port":443,"udp":true,"password":"2cba4104747d49d18319e5ade1b93ab5","sni":"jobscareerforstudent.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/6b777a91","headers":{"host":"jobscareerforstudent.com"}}}
+  - {"name":"🔒 TR-WS-TLS 🏴‍☠️ NA-162.159.133.234:443","type":"trojan","server":"162.159.133.234","port":443,"udp":true,"password":"559c3b5f-3dd1-47e4-94ad-017cb392a7ba","sni":"de1.trojanvpn.de","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/path/Alfred_Config---Alfred_Config---Alfred_Config---Alfred_Config---Alfred_Config---Alfred_Config---Alfred_Config---Alfred_Config---Alfred_Config---Alfred_Config---Alfred_Config---Alfred_Config---Alfred_Config---Alfred_Config---Alfred_Config---Alfred_Config---Alfred_Config---Alfred_Config---Alfred_Config---Alfred_Config---Alfred_Config---Alfred_Config---Alfred_Config---Alfred_Config---Alfred_Config---Alfred_Config---Alfred_Config","headers":{"host":"de1.trojanvpn.dE"}}}
+  - {"name":"🔒 TR-WS-TLS 🏴‍☠️ NA-104.21.51.9:443","type":"trojan","server":"104.21.51.9","port":443,"udp":true,"password":"pumq91","sni":"aws-ca-central-1.f1cflined.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/f1rocket","headers":{"host":"aws-ca-central-1.f1cflined.com"}}}
+  - {"name":"🔒 TR-WS-TLS 🏴‍☠️ NA-104.18.25.92:443","type":"trojan","server":"104.18.25.92","port":443,"udp":true,"password":"e8105dfd24414268b6c7652c63731097","sni":"avianrecruit.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/6b777a91","headers":{"host":"avianrecruit.com"}}}
+  - {"name":"🔒 TR-WS-TLS 🏴‍☠️ NA-104.26.8.202:443","type":"trojan","server":"104.26.8.202","port":443,"udp":true,"password":"559c3b5f-3dd1-47e4-94ad-017cb392a7ba","sni":"de1.trojanvpn.de","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/path/Alfred_Config-Alfred_Config-Alfred_Config-Alfred_Config-Alfred_Config-Alfred_Config-Alfred_Config-Alfred_Config-Alfred_Config-Alfred_Config-Alfred_Config-Alfred_Config-Alfred_Config-Alfred_Config-Alfred_Config-Alfred_Config-Alfred_Config-Alfred_Config-Alfred_Config-Alfred_Config-Alfred_Config-Alfred_Config-Alfred_Config-Alfred_Config-Alfred_Config-Alfred_Config-Alfred_Config","headers":{"host":"de1.trojanvpn.dE"}}}
+  - {"name":"🔒 TR-WS-TLS 🏴‍☠️ NA-104.24.196.20:443","type":"trojan","server":"104.24.196.20","port":443,"udp":true,"password":"dfbbc8de-8a4f-407d-8069-6de38d83c4e1","sni":"hdfy4c6.freelines.net","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/Q177OZ8bzrxRWBtLTlTL","headers":{"host":"hdfy4c6.freelines.net"}}}
+  - {"name":"🔒 TR-WS-TLS 🏴‍☠️ NA-198.41.220.83:443","type":"trojan","server":"198.41.220.83","port":443,"udp":true,"password":"e8105dfd24414268b6c7652c63731097","sni":"jobscareertoday.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"6b777a91","headers":{"host":"jobscareertoday.com"}}}
+  - {"name":"🔒 TR-WS-TLS 🏴‍☠️ NA-104.21.69.52:443","type":"trojan","server":"104.21.69.52","port":443,"udp":true,"password":"mnk8fd","sni":"aws-us-oregon-1.f1cflinec.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/f1rocket","headers":{"host":"aws-us-oregon-1.f1cflinec.com"}}}
+  - {"name":"🔒 TR-WS-TLS 🏴‍☠️ NA-172.67.165.204:443","type":"trojan","server":"172.67.165.204","port":443,"udp":true,"password":"your_password","sni":"aws-uk-london-1.f1cflinea.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/f1rocket","headers":{"host":"aws-uk-london-1.f1cflinea.com"}}}
+  - {"name":"🔒 TR-WS-TLS 🏴‍☠️ NA-104.21.46.126:2053","type":"trojan","server":"104.21.46.126","port":2053,"udp":true,"password":"16ecb6dd-f6ca-57c6-928c-9634d3171f8e","sni":"ip-cf.hukinghumans-655.WorkeRs.dEv","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"trojan-ws/","headers":{"host":"ip-cf.hukinghumans-655.WorkeRs.dEv"}}}
+  - {"name":"🔒 TR-WS-TLS 🏴‍☠️ NA-162.159.130.234:443","type":"trojan","server":"162.159.130.234","port":443,"udp":true,"password":"559c3b5f-3dd1-47e4-94ad-017cb392a7ba","sni":"de1.trojanvpn.de","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/path/Alfred_Config---Alfred_Config---Alfred_Config---Alfred_Config---Alfred_Config---Alfred_Config---Alfred_Config---Alfred_Config---Alfred_Config---Alfred_Config---Alfred_Config---Alfred_Config---Alfred_Config---Alfred_Config---Alfred_Config---Alfred_Config---Alfred_Config---Alfred_Config---Alfred_Config---Alfred_Config---Alfred_Config---Alfred_Config---Alfred_Config---Alfred_Config---Alfred_Config---Alfred_Config---Alfred_Config","headers":{"host":"de1.trojanvpn.dE"}}}
+  - {"name":"🔒 TR-WS-TLS 🏴‍☠️ NA-198.41.220.2:443","type":"trojan","server":"198.41.220.2","port":443,"udp":true,"password":"242a3d8eee5e4ed1a6bfa4141d549a25","sni":"jobscareerfortoday.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"6b777a91","headers":{"host":"jobscareerfortoday.com"}}}
+  - {"name":"🔒 TR-WS-TLS 🏴‍☠️ NA-104.16.192.1:443","type":"trojan","server":"104.16.192.1","port":443,"udp":true,"password":"0ab6c98dae3b48e8b9c4a776b6c9c19a","sni":"sherasheba.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/6b777a91","headers":{"host":"sherasheba.com"}}}
+  - {"name":"🔒 TR-TCP-TLS 🇺🇸 US-103.224.182.249:443","type":"trojan","server":"103.224.182.249","port":443,"udp":true,"password":"bcf96c9b-30bf-4ab0-bc28-6076218f2a14","sni":"z9.gozargah.one","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🔒 TR-TCP-TLS 🇺🇸 US-15.181.162.90:443","type":"trojan","server":"15.181.162.90","port":443,"udp":true,"password":"pjdnqv","sni":"aws-us-nyc-1.f1rocketnode.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🔒 TR-WS-TLS 🏴‍☠️ NA-104.19.159.12:443","type":"trojan","server":"104.19.159.12","port":443,"udp":true,"password":"242a3d8eee5e4ed1a6bfa4141d549a25","sni":"jobscareertoday.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"6b777a91","headers":{"host":"jobscareertoday.com"}}}
+  - {"name":"🔒 TR-WS-TLS 🏴‍☠️ NA-198.41.220.5:443","type":"trojan","server":"198.41.220.5","port":443,"udp":true,"password":"cb1f26aa437d4bfa9b841d28503ce8cc","sni":"jobscareertoday.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"6b777a91","headers":{"host":"jobscareertoday.com"}}}
+  - {"name":"🔒 TR-WS-TLS 🏴‍☠️ NA-104.16.159.6:443","type":"trojan","server":"104.16.159.6","port":443,"udp":true,"password":"669d0ac7b5b64ebbb1abb75d5d540a5c","sni":"bangladeshipatri.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/6b777a91","headers":{"host":"bangladeshipatri.com"}}}
+  - {"name":"🔒 TR-WS-TLS 🏴‍☠️ NA-104.21.7.241:443","type":"trojan","server":"104.21.7.241","port":443,"udp":true,"password":"your_password","sni":"aws-ca-central-1.f1cflineb.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/f1rocket","headers":{"host":"aws-ca-central-1.f1cflineb.com"}}}
+  - {"name":"🔒 TR-WS-TLS 🏴‍☠️ NA-172.67.216.95:443","type":"trojan","server":"172.67.216.95","port":443,"udp":true,"password":"pumq91","sni":"aws-ca-central-1.f1cflined.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/f1rocket","headers":{"host":"aws-ca-central-1.f1cflined.com"}}}
+  - {"name":"🔒 TR-WS-TLS 🏴‍☠️ NA-188.114.99.0:443","type":"trojan","server":"188.114.99.0","port":443,"udp":true,"password":"your_password","sni":"aws-ge-frankfurt-1.f1cflinea.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/f1rocket","headers":{"host":"aws-ge-frankfurt-1.f1cflinea.com"}}}
+  - {"name":"🔒 SS-TCP-NA 🇬🇧 GB-18.132.19.242:443","type":"ss","server":"18.132.19.242","port":443,"password":"mps3FwmDjLrWaOVg","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔒 SS-TCP-NA 🇺🇸 US-40.172.22.164:443","type":"ss","server":"40.172.22.164","port":443,"password":"u17T3BvpYaaiuW2c","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔒 SS-TCP-NA 🇩🇪 DE-185.65.202.99:49318","type":"ss","server":"185.65.202.99","port":49318,"password":"cNnrPBakDwICGyoxsDcLy5","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔒 SS-TCP-NA 🇨🇦 CA-38.111.114.133:5499","type":"ss","server":"38.111.114.133","port":5499,"password":"lGqs95QkFHo2NV","cipher":"aes-256-gcm"}
+  - {"name":"🔒 SS-TCP-NA 🇸🇬 SG-68.183.226.206:49094","type":"ss","server":"68.183.226.206","port":49094,"password":"Zc62mXbMiBWBLdMpjtUW0E","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔒 SS-TCP-NA 🇺🇸 US-147.45.124.227:30488","type":"ss","server":"147.45.124.227","port":30488,"password":"i7LJkuFJI8nI7daaaCOG3w","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔒 SS-TCP-NA 🇧🇭 BH-157.241.18.13:443","type":"ss","server":"157.241.18.13","port":443,"password":"Bog0ELmMM9DSxDdQ","cipher":"chacha20-poly1305"}
+  - {"name":"🔒 SS-TCP-NA 🇺🇸 US-23.157.40.47:3389","type":"ss","server":"23.157.40.47","port":3389,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"🏁RELAY-185.146.173.59-0317","type":"vmess","server":"185.146.173.59","port":443,"cipher":"auto","uuid":"05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"obdii.cfd","network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"obdii.cfd"}}}
+  - {"name":"🏁RELAY-188.114.99.205-0464","type":"vmess","server":"188.114.99.205","port":443,"cipher":"auto","uuid":"edbb1059-1633-4271-b66e-ed4fba47a1bf","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"linde06.indiavideo.sbs","network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"linde06.indiavideo.sbs"}}}
+  - {"name":"🏁RELAY-104.21.95.165-0517","type":"vmess","server":"104.21.95.165","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"sareikela.com","network":"ws","ws-opts":{"path":"/linkvws","headers":{"host":"sareikela.com"}}}
+  - {"name":"🏁RELAY-104.21.82.17-0483","type":"vmess","server":"104.21.82.17","port":443,"cipher":"auto","uuid":"bc864078-dcf3-4bf4-8dbf-ca9f200b56be","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"gwdef.sbs","network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"gwdef.sbs"}}}
+  - {"name":"🏁RELAY-172.67.220.83-0446","type":"vmess","server":"lin0502.hwcar.sbs","port":443,"cipher":"auto","uuid":"39cec18f-a439-427c-9a4e-aeb6fcdf6f53","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"linja05.hwcar.sbs","network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"linja05.hwcar.sbs"}}}
+  - {"name":"🏁RELAY-172.67.219.194-0489","type":"vmess","server":"denc36.xtooltech.cfd","port":443,"cipher":"auto","uuid":"b321fd5d-e6ec-4293-a644-164e3885f52e","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"adenc36v.xtooltech.cfd","network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"adenc36v.xtooltech.cfd"}}}
+  - {"name":"🏁RELAY-104.21.71.88-0300","type":"vmess","server":"us3e-mmnnfr9dop0.v2freevpn.com","port":80,"cipher":"auto","uuid":"2a8a10fb-9ca3-367e-a234-cf09f841be4f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/v118-fccxmxm35","headers":{"host":"us3e-mmnnfr9dop0.v2freevpn.com"}}}
+  - {"name":"🏁RELAY-172.67.204.84-1255","type":"vmess","server":"Zula.ir","port":2052,"cipher":"auto","uuid":"6dbb6c48-ff95-502a-a92d-4ca8189308f0","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"De1.vmess.site."}}}
+  - {"name":"🏁RELAY-141.101.114.40-1208","type":"vmess","server":"141.101.114.40","port":80,"cipher":"auto","uuid":"5d214f53-1332-449f-ad0e-0a1888ef5479","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"dl2.arsha.разведки守望者.hаблюдатели.watchers.aгент.偵察探員.wonkacapitano.buzz."}}}
+  - {"name":"🇮🇩ID-38.9.140.66-4994","type":"trojan","server":"38.9.140.66","port":443,"udp":true,"password":"vvip-periantara","sni":"id3tr.jagoan.vip","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🏁RELAY-104.19.45.108-1124","type":"vmess","server":"104.19.45.108","port":2095,"cipher":"auto","uuid":"7a737f41-b792-4260-94ff-3d864da67b80","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"onea.flha.ru"}}}
+  - {"name":"🏁RELAY-104.19.45.50-1810","type":"vmess","server":"104.19.45.50","port":2095,"cipher":"auto","uuid":"7a737f41-b792-4260-94ff-3d864da67b80","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"onea.flha.ru"}}}
+  - {"name":"🇮🇩ID-38.9.140.66-4997","type":"trojan","server":"id3tr.jagoan.vip","port":443,"udp":true,"password":"vvip-periantara","sni":"id3tr.jagoan.vip","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇭🇰HK-20.2.36.118-6157","type":"trojan","server":"hk04.trojanyyds.xyz","port":443,"udp":true,"password":"9bb27128-e6d2-4cac-bbd3-beb46c4417f8","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇯🇵JP-74.226.136.204-6159","type":"trojan","server":"my01.trojanyyds.xyz","port":443,"udp":true,"password":"9bb27128-e6d2-4cac-bbd3-beb46c4417f8","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇯🇵JP-74.226.136.204-6161","type":"trojan","server":"tw01.trojanyyds.xyz","port":443,"udp":true,"password":"6a91134d-1e3f-4b63-9a46-99515cb62596","skip-cert-verify":true,"network":"tcp"}
+proxy-groups:
+  - name: 🐟 Proxies
+    type: select
+    proxies:
+      -   🇦🇪 AE 3.28.127.173 ◈ tcp:443 ◈ Amazon Technologies Inc. / Amazon Data
+        Services UAE ◈ 19fa3
+      -   🇦🇪 AE 3.28.127.173 ◈ tcp:443 ◈ Amazon Technologies Inc. / Amazon Data
+        Services UAE ◈ 53edd
+      -   🇦🇪 AE 3.28.127.173 ◈ tcp:443 ◈ Amazon Technologies Inc. / Amazon Data
+        Services UAE ◈ dc675
+      -   🇦🇪 AE 3.28.127.173 ◈ tcp:443 ◈ Amazon Technologies Inc. / Amazon Data
+        Services UAE ◈ 54bad
+      - 🚫🇦🇱 AL 31.171.153.178 ◈ tcp:989 ◈ Keminet Ltd. ◈ 1edc8
+      - 🚫🇦🇱 AL 31.171.153.178 ◈ tcp:989 ◈ Keminet Ltd. ◈ dba4e
+      -   🚫🇦🇷 AR 190.103.176.29 ◈ tcp:989 ◈ SONDATECH / IPXON Networks
+        Argentina - Buenos Aires [AR-EZE] ◈ 51082
+      - 🇦🇹 AT 95.164.9.144 ◈ tcp:2927 ◈ Stark Industries ◈ 1e188
+      - 🇦🇹 AT 95.164.9.144 ◈ tcp:2927 ◈ Stark Industries ◈ 24a34
+      - 🇦🇹 AT 95.164.9.144 ◈ tcp:2927 ◈ Stark Industries ◈ d1022
+      -   🚫🇧🇦 BA 185.164.35.9 ◈ tcp:989 ◈ Globalhost d.o.o. - Web Hosting ◈
+        80367
+      - 🚫🇧🇬 BG 213.183.63.69 ◈ tcp:9000 ◈ Melbikomas UAB ◈ 8c82b
+      - 🚫🇧🇬 BG 213.183.63.69 ◈ tcp:9003 ◈ Melbikomas UAB ◈ 3e422
+      - 🚫🇧🇬 BG 213.183.63.69 ◈ tcp:9003 ◈ Melbikomas UAB ◈ a0cd5
+      - 🚫🇧🇬 BG 213.183.63.69 ◈ tcp:9005 ◈ Melbikomas UAB ◈ 6b6d2
+      - 🚫🇧🇬 BG 213.183.63.69 ◈ tcp:9011 ◈ Melbikomas UAB ◈ e602d
+      - 🚫🇧🇬 BG 213.183.63.69 ◈ tcp:9029 ◈ Melbikomas UAB ◈ 0cdff
+      - 🚫🇧🇬 BG 213.183.63.69 ◈ tcp:9029 ◈ Melbikomas UAB ◈ b2cab
+      - 🚫🇧🇬 BG 213.183.63.69 ◈ tcp:9030 ◈ Melbikomas UAB ◈ 7bcbc
+      - 🚫🇧🇬 BG 213.183.63.69 ◈ tcp:9031 ◈ Melbikomas UAB ◈ ccf14
+      - 🚫🇧🇬 BG 213.183.63.69 ◈ tcp:9037 ◈ Melbikomas UAB ◈ 311d4
+      - 🚫🇧🇬 BG 213.183.63.69 ◈ tcp:9040 ◈ Melbikomas UAB ◈ 942f8
+      - 🚫🇧🇬 BG 213.183.63.69 ◈ tcp:9041 ◈ Melbikomas UAB ◈ 816be
+      - 🚫🇧🇬 BG 213.183.63.69 ◈ tcp:9041 ◈ Melbikomas UAB ◈ 84160
+      - 🚫🇧🇬 BG 213.183.63.69 ◈ tcp:9042 ◈ Melbikomas UAB ◈ b4429
+      - 🚫🇧🇬 BG 213.183.63.69 ◈ tcp:9042 ◈ Melbikomas UAB ◈ 78e9e
+      - 🚫🇧🇬 BG 213.183.63.69 ◈ tcp:9050 ◈ Melbikomas UAB ◈ c9abc
+      - 🚫🇧🇬 BG 213.183.63.69 ◈ tcp:9050 ◈ Melbikomas UAB ◈ 3d26e
+      - 🚫🇧🇬 BG 213.183.63.69 ◈ tcp:9057 ◈ Melbikomas UAB ◈ fb4cf
+      - 🚫🇧🇬 BG 213.183.63.69 ◈ tcp:9060 ◈ Melbikomas UAB ◈ 66bd7
+      - 🚫🇧🇬 BG 213.183.63.69 ◈ tcp:9061 ◈ Melbikomas UAB ◈ 570d5
+      - 🚫🇧🇬 BG 213.183.63.69 ◈ tcp:9061 ◈ Melbikomas UAB ◈ 7f1f7
+      - 🚫🇧🇬 BG 213.183.63.69 ◈ tcp:9065 ◈ Melbikomas UAB ◈ 9dbcf
+      - 🚫🇧🇬 BG 213.183.63.69 ◈ tcp:9073 ◈ Melbikomas UAB ◈ 99070
+      - 🚫🇧🇬 BG 213.183.63.69 ◈ tcp:9088 ◈ Melbikomas UAB ◈ f980c
+      - 🚫🇧🇬 BG 213.183.63.69 ◈ tcp:9093 ◈ Melbikomas UAB ◈ 9f4a9
+      - 🚫🇧🇬 BG 213.183.63.69 ◈ tcp:9098 ◈ Melbikomas UAB ◈ 08510
+      - 🚫🇧🇬 BG 213.183.63.69 ◈ tcp:9098 ◈ Melbikomas UAB ◈ 8aa1b
+      - 🇧🇭 BH 157.175.154.107 ◈ tcp:443 ◈ AWS EC2 (me-south-1) ◈ 9646a
+      - 🇧🇭 BH 157.175.154.107 ◈ tcp:443 ◈ AWS EC2 (me-south-1) ◈ 4b68c
+      - 🇧🇭 BH 157.175.154.107 ◈ tcp:443 ◈ AWS EC2 (me-south-1) ◈ 9a622
+      - 🇧🇾 BY 45.87.219.110 ◈ tcp:51348 ◈ Support Chain / HostFly.BY ◈ 48d78
+      - 🔒🇨🇦 CA 134.195.196.138 ◈ ws:443 ◈ GLOBALTELEHOST Corp. ◈ 4c843
+      - 🇨🇦 CA 38.111.114.133 ◈ tcp:443 ◈ GLOBALTELEHOST Corp. ◈ e753c
+      - 🇨🇦 CA 38.111.114.133 ◈ tcp:3306 ◈ GLOBALTELEHOST Corp. ◈ 91aa4
+      - 🇨🇦 CA 38.111.114.133 ◈ tcp:3389 ◈ GLOBALTELEHOST Corp. ◈ 71080
+      - 🇨🇦 CA 38.111.114.133 ◈ tcp:5001 ◈ GLOBALTELEHOST Corp. ◈ bf240
+      - 🇨🇦 CA 38.111.114.133 ◈ tcp:5500 ◈ GLOBALTELEHOST Corp. ◈ 0138e
+      - 🇨🇦 CA 38.111.114.133 ◈ tcp:6379 ◈ GLOBALTELEHOST Corp. ◈ 01750
+      - 🇨🇦 CA 38.111.114.133 ◈ tcp:7001 ◈ GLOBALTELEHOST Corp. ◈ 1b0d5
+      - 🇨🇦 CA 38.111.114.133 ◈ tcp:7307 ◈ GLOBALTELEHOST Corp. ◈ 11eed
+      - 🇨🇦 CA 38.111.114.133 ◈ tcp:8009 ◈ GLOBALTELEHOST Corp. ◈ 0e426
+      - 🇨🇦 CA 38.111.114.133 ◈ tcp:8080 ◈ GLOBALTELEHOST Corp. ◈ 3459f
+      - 🇨🇦 CA 38.111.114.133 ◈ tcp:8119 ◈ GLOBALTELEHOST Corp. ◈ 1cd31
+      - 🇨🇦 CA 38.111.114.133 ◈ tcp:8881 ◈ GLOBALTELEHOST Corp. ◈ ec8d3
+      - 🇨🇦 CA 38.111.114.133 ◈ tcp:9090 ◈ GLOBALTELEHOST Corp. ◈ 6759d
+      -   🇨🇦 CA 23.162.200.133 ◈ tcp:443 ◈ GLOBALTELEHOST Corp. / Palmira
+        Hosting ◈ dd5cf
+      -   🇨🇦 CA 23.162.200.133 ◈ tcp:445 ◈ GLOBALTELEHOST Corp. / Palmira
+        Hosting ◈ 3f834
+      -   🇨🇦 CA 23.162.200.133 ◈ tcp:2375 ◈ GLOBALTELEHOST Corp. / Palmira
+        Hosting ◈ 0d6f4
+      -   🇨🇦 CA 23.162.200.133 ◈ tcp:2376 ◈ GLOBALTELEHOST Corp. / Palmira
+        Hosting ◈ 5ec38
+      -   🇨🇦 CA 23.162.200.133 ◈ tcp:4444 ◈ GLOBALTELEHOST Corp. / Palmira
+        Hosting ◈ ee444
+      -   🇨🇦 CA 23.162.200.133 ◈ tcp:5003 ◈ GLOBALTELEHOST Corp. / Palmira
+        Hosting ◈ 993dd
+      -   🇨🇦 CA 23.162.200.133 ◈ tcp:5498 ◈ GLOBALTELEHOST Corp. / Palmira
+        Hosting ◈ d06aa
+      -   🇨🇦 CA 23.162.200.133 ◈ tcp:5500 ◈ GLOBALTELEHOST Corp. / Palmira
+        Hosting ◈ d4f25
+      -   🇨🇦 CA 23.162.200.133 ◈ tcp:5600 ◈ GLOBALTELEHOST Corp. / Palmira
+        Hosting ◈ bfb12
+      -   🇨🇦 CA 23.162.200.133 ◈ tcp:6697 ◈ GLOBALTELEHOST Corp. / Palmira
+        Hosting ◈ 9f291
+      -   🇨🇦 CA 23.162.200.133 ◈ tcp:8080 ◈ GLOBALTELEHOST Corp. / Palmira
+        Hosting ◈ 0046a
+      -   🇨🇦 CA 23.162.200.133 ◈ tcp:9090 ◈ GLOBALTELEHOST Corp. / Palmira
+        Hosting ◈ df601
+      -   🇨🇦 CA 23.162.200.133 ◈ tcp:9102 ◈ GLOBALTELEHOST Corp. / Palmira
+        Hosting ◈ 220a2
+      - 🇨🇦 CA 142.4.216.225 ◈ tcp:80 ◈ OVH, Inc. ◈ 72180
+      - 🚫🇨🇦 CA 198.245.49.22 ◈ tcp:989 ◈ OVH, Inc. ◈ c35c6
+      -   🇨🇭 CH 195.15.243.171 ◈ tcp:2048 ◈ Infomaniak Network Management /
+        Infomaniak Network SA ◈ 673ee
+      -   🇨🇭 CH 195.15.243.171 ◈ tcp:2048 ◈ Infomaniak Network Management /
+        Infomaniak Network SA ◈ 22ff9
+      -   🇨🇭 CH 195.15.243.171 ◈ tcp:2048 ◈ Infomaniak Network Management /
+        Infomaniak Network SA ◈ 52e33
+      -   🚫🇨🇴 CO 190.120.231.45 ◈ tcp:989 ◈ Sondatech S.A.S. / IPXON Networks
+        Colombia ◈ c205f
+      -   🚫🇨🇷 CR 138.59.16.146 ◈ tcp:989 ◈ Data Miners S.A. ( Racknation.cr ) ◈
+        82408
+      - 🔒🇩🇪 DE 5.182.87.141 ◈ ws:2053 ◈ Aeza International ◈ f1c23
+      - 🔒🇩🇪 DE 5.182.87.141 ◈ ws:2083 ◈ Aeza International ◈ b8214
+      - 🔒🇩🇪 DE 5.182.87.141 ◈ ws:2087 ◈ Aeza International ◈ 7598d
+      - 🔒🇩🇪 DE 5.182.87.141 ◈ ws:2096 ◈ Aeza International ◈ 04724
+      - 🔒🇩🇪 DE 5.182.87.141 ◈ ws:8443 ◈ Aeza International ◈ 918e9
+      -   🔒🇩🇪 DE 172.104.250.152 ◈ ws:443 ◈ Akamai Technologies / Linode ◈
+        0bafb
+      -   🔒🇩🇪 DE 179.61.253.116 ◈ ws:443 ◈ Collin Schneeweiss / Unesty Company
+        ◈ 869b2
+      - 🇩🇪 DE 5.182.87.141 ◈ ws:80 ◈ Aeza International ◈ 595b2
+      - 🇩🇪 DE 91.107.156.158 ◈ ws:2052 ◈ Hetzner ◈ 9666b
+      - 🇩🇪 DE 167.235.139.105 ◈ tcp:51348 ◈ Hetzner ◈ 2e707
+      -   🇩🇪 DE 89.107.10.65 ◈ tcp:51348 ◈ Miglovets Egor Andreevich /
+        Tehpostavka ◈ d8c10
+      - 🚫🇩🇪 DE 80.92.204.106 ◈ tcp:9000 ◈ Stark Industries ◈ 3c999
+      - 🚫🇩🇪 DE 80.92.204.106 ◈ tcp:9010 ◈ Stark Industries ◈ 945b1
+      - 🚫🇩🇪 DE 80.92.204.106 ◈ tcp:9015 ◈ Stark Industries ◈ 374b3
+      - 🚫🇩🇪 DE 80.92.204.106 ◈ tcp:9019 ◈ Stark Industries ◈ 9f2a3
+      - 🚫🇩🇪 DE 80.92.204.106 ◈ tcp:9024 ◈ Stark Industries ◈ cf602
+      - 🚫🇩🇪 DE 80.92.204.106 ◈ tcp:9025 ◈ Stark Industries ◈ eace6
+      - 🚫🇩🇪 DE 80.92.204.106 ◈ tcp:9027 ◈ Stark Industries ◈ b3333
+      - 🚫🇩🇪 DE 80.92.204.106 ◈ tcp:9031 ◈ Stark Industries ◈ 9d094
+      - 🚫🇩🇪 DE 80.92.204.106 ◈ tcp:9037 ◈ Stark Industries ◈ 67dcc
+      - 🚫🇩🇪 DE 80.92.204.106 ◈ tcp:9046 ◈ Stark Industries ◈ 545f1
+      - 🚫🇩🇪 DE 80.92.204.106 ◈ tcp:9057 ◈ Stark Industries ◈ 73fc9
+      - 🚫🇩🇪 DE 80.92.204.106 ◈ tcp:9061 ◈ Stark Industries ◈ 89cf9
+      - 🚫🇩🇪 DE 80.92.204.106 ◈ tcp:9064 ◈ Stark Industries ◈ f366a
+      - 🚫🇩🇪 DE 80.92.204.106 ◈ tcp:9084 ◈ Stark Industries ◈ 84d0a
+      - 🚫🇩🇪 DE 80.92.204.106 ◈ tcp:9097 ◈ Stark Industries ◈ 36a6e
+      - 🚫🇩🇪 DE 80.92.204.106 ◈ tcp:9098 ◈ Stark Industries ◈ 9e2f3
+      - 🚫🇪🇨 EC 179.49.5.114 ◈ tcp:989 ◈ Puntonet S.A. ◈ d62a5
+      - 🚫🇪🇸 ES 5.188.181.201 ◈ tcp:9001 ◈ Melbikomas UAB ◈ e15ee
+      - 🚫🇪🇸 ES 5.188.181.201 ◈ tcp:9005 ◈ Melbikomas UAB ◈ 552d6
+      - 🚫🇪🇸 ES 5.188.181.201 ◈ tcp:9011 ◈ Melbikomas UAB ◈ da742
+      - 🚫🇪🇸 ES 5.188.181.201 ◈ tcp:9014 ◈ Melbikomas UAB ◈ f04e6
+      - 🚫🇪🇸 ES 5.188.181.201 ◈ tcp:9020 ◈ Melbikomas UAB ◈ e36a7
+      - 🚫🇪🇸 ES 5.188.181.201 ◈ tcp:9027 ◈ Melbikomas UAB ◈ cc9d1
+      - 🚫🇪🇸 ES 5.188.181.201 ◈ tcp:9029 ◈ Melbikomas UAB ◈ 3881d
+      - 🚫🇪🇸 ES 5.188.181.201 ◈ tcp:9042 ◈ Melbikomas UAB ◈ 64bed
+      - 🚫🇪🇸 ES 5.188.181.201 ◈ tcp:9054 ◈ Melbikomas UAB ◈ aa529
+      - 🔒🇫🇷 FR 172.232.37.82 ◈ ws:443 ◈ Akamai Technologies, Inc. ◈ 59b3c
+      - 🔒🇫🇷 FR 172.232.49.74 ◈ ws:443 ◈ Akamai Technologies, Inc. ◈ 526d2
+      - 🔒🇫🇷 FR 172.232.62.177 ◈ ws:443 ◈ Akamai Technologies, Inc. ◈ ea55f
+      - 🔒🇫🇷 FR 172.232.43.58 ◈ ws:443 ◈ Akamai Technologies, Inc. ◈ 6a067
+      - 🔒🇫🇷 FR 172.232.43.58 ◈ ws:443 ◈ Akamai Technologies, Inc. ◈ 5aee8
+      - 🔒🇫🇷 FR warp ◈ grpc:443 ◈ 65bc6
+      - 🔒🇫🇷 FR 163.5.159.231 ◈ ws:443 ◈ Feelb Sarl ◈ 96581
+      - 🔒🇫🇷 FR 193.160.130.108 ◈ ws:443 ◈ Feelb Sarl / Cedric Tabary ◈ 54502
+      - 🔒🇫🇷 FR 193.160.130.117 ◈ ws:443 ◈ Feelb Sarl / Cedric Tabary ◈ 6e7e2
+      - 🔒🇫🇷 FR 45.145.167.49 ◈ ws:443 ◈ Feelb Sarl / HMS ◈ 38ebb
+      - 🔒🇫🇷 FR 45.145.167.103 ◈ ws:443 ◈ Feelb Sarl / HMS ◈ 918fd
+      - 🔒🇫🇷 FR 45.145.167.103 ◈ ws:443 ◈ Feelb Sarl / HMS ◈ 6e77c
+      - 🔒🇫🇷 FR 194.9.172.47 ◈ ws:443 ◈ HMS ◈ 13227
+      - 🇬🇧 GB 13.40.181.177 ◈ tcp:443 ◈ AWS EC2 (eu-west-2) ◈ 2ef43
+      - 🇬🇧 GB 13.40.181.177 ◈ tcp:443 ◈ AWS EC2 (eu-west-2) ◈ 06756
+      - 🇬🇧 GB 13.40.181.177 ◈ tcp:443 ◈ AWS EC2 (eu-west-2) ◈ 80c05
+      - 🇬🇧 GB 13.40.181.177 ◈ tcp:443 ◈ AWS EC2 (eu-west-2) ◈ 6a22b
+      -   🇬🇧 GB 89.185.84.34 ◈ tcp:51348 ◈ Global ConnectivityLLP / Global
+        Internet ◈ 41586
+      - 🇬🇧 GB 185.91.69.167 ◈ tcp:443 ◈ Hostgnome ◈ 6c490
+      - 🇬🇧 GB 185.91.69.167 ◈ tcp:443 ◈ Hostgnome ◈ 543fc
+      - 🚫🇬🇧 GB 77.72.5.113 ◈ tcp:989 ◈ Krystal Hosting Ltd ◈ 4498d
+      - 🚫🇬🇧 GB 77.72.5.150 ◈ tcp:989 ◈ Krystal Hosting Ltd ◈ 551ce
+      - 🚫🇬🇧 GB 77.72.5.150 ◈ tcp:989 ◈ Krystal Hosting Ltd ◈ e6b84
+      - 🇬🇧 GB 51.89.150.41 ◈ ws:80 ◈ OVH Ltd ◈ 0fa3b
+      - 🇬🇧 GB 51.195.149.115 ◈ tcp:45816 ◈ OVH Ltd ◈ aa11d
+      -   🚫🇬🇷 GR 192.71.166.100 ◈ tcp:989 ◈ SYNAPSECOM S.A. Provider of
+        Telecommunications and Internet Services / EDIS ◈ 94b31
+      -   🚫🇬🇷 GR 192.71.166.102 ◈ tcp:989 ◈ SYNAPSECOM S.A. Provider of
+        Telecommunications and Internet Services / EDIS ◈ 566a5
+      -   🚫🇬🇹 GT 170.80.111.5 ◈ tcp:989 ◈ SONDATECH / IPXON Networks Guatemala
+        [GT-GUA] ◈ 56856
+      -   🚫🇬🇹 GT 170.80.111.6 ◈ tcp:989 ◈ SONDATECH / IPXON Networks Guatemala
+        [GT-GUA] ◈ 49239
+      -   🇭🇰 HK 162.211.183.84 ◈ ws:6145 ◈ Landui Cloud Computing(HK) Limited /
+        G NETWORK ◈ 49758
+      - 🚫🇭🇷 HR 46.183.184.60 ◈ tcp:989 ◈ Akton d.o.o. / EDIS ◈ 26d9d
+      - 🚫🇭🇷 HR 46.183.184.62 ◈ tcp:989 ◈ Akton d.o.o. / EDIS ◈ 4f8b4
+      - 🚫🇭🇷 HR 46.183.184.63 ◈ tcp:989 ◈ Akton d.o.o. / EDIS ◈ 8ef0c
+      - 🇮🇪 IE 95.164.44.140 ◈ ws:80 ◈ Stark Industries ◈ 185c4
+      - 🇮🇪 IE 95.164.44.140 ◈ ws:2052 ◈ Stark Industries ◈ fd45e
+      - 🇮🇪 IE 95.164.44.140 ◈ ws:2082 ◈ Stark Industries ◈ 7e1a9
+      - 🇮🇪 IE 95.164.44.140 ◈ ws:2086 ◈ Stark Industries ◈ 594d8
+      - 🇮🇪 IE 95.164.44.140 ◈ ws:2095 ◈ Stark Industries ◈ d0376
+      - 🇮🇪 IE 95.164.44.140 ◈ ws:8080 ◈ Stark Industries ◈ 50ac3
+      - 🇮🇪 IE 95.164.44.21 ◈ tcp:8388 ◈ Stark Industries ◈ 39e3f
+      - 🇮🇪 IE 95.164.44.140 ◈ ws:8880 ◈ Stark Industries ◈ e438e
+      -   🇮🇱 IL 77.91.69.236 ◈ tcp:51348 ◈ CLOUD LEASE Ltd / Foton Telecom CJSC
+        ◈ 87dff
+      -   🚫🇮🇱 IL 193.182.144.183 ◈ tcp:989 ◈ EDIS Infrastructure in Israel /
+        EDIS ◈ b2dc2
+      -   🚫🇮🇱 IL 192.71.27.87 ◈ tcp:989 ◈ Interhost CommunicationLtd. / EDIS ◈
+        e58e9
+      -   🇮🇳 IN 103.174.86.114 ◈ tcp:51348 ◈ VCCL Cloud Pvt Ltd / VCCL Cloud
+        Private Limited ◈ 75bb3
+      - 🚫🇮🇸 IS 37.235.49.152 ◈ tcp:989 ◈ Advania Island ehf / Edis ◈ 7defb
+      -   🇮🇹 IT 185.247.184.115 ◈ tcp:2098 ◈ Global ConnectivityLLP / Global
+        Internet ◈ f3f89
+      - 🚫🇯🇵 JP 57.180.39.104 ◈ tcp:443 ◈ AWS EC2 (ap-northeast-1) ◈ 5d570
+      - 🚫🇯🇵 JP 176.34.0.69 ◈ tcp:443 ◈ AWS EC2 (ap-northeast-1) ◈ 7e09a
+      - 🚫🇯🇵 JP 18.183.77.249 ◈ tcp:443 ◈ AWS EC2 (ap-northeast-1) ◈ 8bef1
+      - 🚫🇯🇵 JP 18.183.186.14 ◈ tcp:443 ◈ AWS EC2 (ap-northeast-1) ◈ 6c698
+      - 🚫🇯🇵 JP 52.69.37.205 ◈ tcp:443 ◈ AWS EC2 (ap-northeast-1) ◈ 0715f
+      - 🚫🇯🇵 JP 52.194.223.127 ◈ tcp:443 ◈ AWS EC2 (ap-northeast-1) ◈ 1dab9
+      - 🚫🇯🇵 JP 52.194.250.138 ◈ tcp:443 ◈ AWS EC2 (ap-northeast-1) ◈ 1154a
+      - 🚫🇯🇵 JP 52.195.207.131 ◈ tcp:443 ◈ AWS EC2 (ap-northeast-1) ◈ 9a407
+      - 🚫🇯🇵 JP 52.197.150.228 ◈ tcp:443 ◈ AWS EC2 (ap-northeast-1) ◈ da08f
+      - 🚫🇯🇵 JP 54.95.170.220 ◈ tcp:443 ◈ AWS EC2 (ap-northeast-1) ◈ 02717
+      - 🚫🇰🇪 KE 62.12.116.66 ◈ tcp:989 ◈ Angani - KE ◈ b3644
+      - 🚫🇰🇷 KR 43.201.254.74 ◈ tcp:443 ◈ AWS EC2 (ap-northeast-2) ◈ 0d90f
+      - 🚫🇰🇷 KR 43.201.254.211 ◈ tcp:443 ◈ AWS EC2 (ap-northeast-2) ◈ d6fae
+      - 🚫🇰🇿 KZ 213.156.137.67 ◈ tcp:989 ◈ G-Core Labs S.A. / GCL ◈ c0a44
+      - 🇰🇿 KZ 89.44.193.112 ◈ tcp:51348 ◈ G-Core Labs S.A. / GCL ◈ 133a6
+      - 🚫🇱🇹 LT 192.36.61.59 ◈ tcp:989 ◈ EDIS ◈ 39310
+      - 🇱🇻 LV 188.64.12.69 ◈ ws:80 ◈ Azeronline Information Services ◈ 5e690
+      - 🇱🇻 LV 188.64.12.69 ◈ ws:80 ◈ Azeronline Information Services ◈ 6d632
+      - 🚫🇱🇻 LV 46.183.217.232 ◈ tcp:989 ◈ DataClub S.A. ◈ 38fcd
+      - 🚫🇲🇦 MA 188.214.157.5 ◈ tcp:989 ◈ Oneprovider.com ◈ 2c377
+      - 🚫🇲🇩 MD 178.175.134.2 ◈ tcp:989 ◈ Trabia SRL ◈ e94d0
+      - 🚫🇲🇩 MD 192.121.87.147 ◈ tcp:989 ◈ Trabia SRL / EDIS ◈ c2c42
+      - 🚫🇲🇰 MK 46.183.185.15 ◈ tcp:989 ◈ Akton d.o.o. / EDIS ◈ 4e634
+      -   🚫🇲🇽 MX 190.103.179.23 ◈ tcp:989 ◈ Sondatech S.A.S. / IPXON Networks
+        Mexico - Ciudad de Mexico ◈ c2a6a
+      - 🔒🇳🇱 NL warpPlus ◈ grpc:443 ◈ ece1d
+      - 🇳🇱 NL 62.106.66.133 ◈ tcp:8388 ◈ BlueVPS OU / Baxet ◈ 90a69
+      - 🇳🇱 NL 62.106.66.133 ◈ tcp:8388 ◈ BlueVPS OU / Baxet ◈ 93bc9
+      - 🇳🇱 NL 45.76.33.120 ◈ ws:80 ◈ Choopa / Vultr Holdings ◈ 0eb95
+      - 🇳🇱 NL 45.76.33.120 ◈ ws:80 ◈ Choopa / Vultr Holdings ◈ 9a273
+      - 🇳🇱 NL 45.76.33.120 ◈ ws:80 ◈ Choopa / Vultr Holdings ◈ 1c11b
+      - 🇳🇱 NL 45.76.33.120 ◈ ws:80 ◈ Choopa / Vultr Holdings ◈ ee6e6
+      - 🇳🇱 NL 193.29.139.182 ◈ tcp:8080 ◈ Greenhost BV ◈ 96bdb
+      - 🇳🇱 NL 193.29.139.162 ◈ tcp:8080 ◈ Greenhost BV ◈ 590ff
+      - 🇳🇱 NL 193.29.139.131 ◈ tcp:8080 ◈ Greenhost BV ◈ ad885
+      - 🇳🇱 NL 193.29.139.237 ◈ tcp:8080 ◈ Greenhost BV ◈ 23dc5
+      - 🇳🇱 NL 193.29.139.215 ◈ tcp:8080 ◈ Greenhost BV ◈ 8b943
+      - 🇳🇱 NL 193.29.139.182 ◈ tcp:8080 ◈ Greenhost BV ◈ a19dd
+      -   🚫🇳🇱 NL 109.201.152.181 ◈ tcp:443 ◈ NForce Entertainment B.V. /
+        Customer 3015 ◈ 825f8
+      -   🚫🇳🇴 NO 185.90.61.153 ◈ tcp:989 ◈ BrainStorm Network, Inc /
+        Oneprovider.com ◈ bae85
+      -   🚫🇵🇦 PA 138.186.142.4 ◈ tcp:989 ◈ Sondatech S.A.S. / IPXON Networks
+        Panamá ◈ 46a24
+      -   🚫🇵🇪 PE 190.120.229.28 ◈ tcp:989 ◈ Sondatech S.A.S. / IPXON Networks
+        Peru ◈ 60876
+      - 🚫🇵🇹 PT 185.113.140.22 ◈ tcp:989 ◈ I4W - Web Solutions, Lda ◈ 54b04
+      - 💥🇸🇬 SG 5.44.249.53 ◈ ws:3306 ◈ Melbikomas UAB ◈ 00bcc
+      - 🚫🇸🇬 SG 54.169.236.64 ◈ tcp:443 ◈ AWS EC2 (ap-southeast-1) ◈ 31cf8
+      - 🚫🇸🇬 SG 54.179.241.46 ◈ tcp:443 ◈ AWS EC2 (ap-southeast-1) ◈ c32de
+      - 🚫🇸🇬 SG 13.212.14.204 ◈ tcp:443 ◈ AWS EC2 (ap-southeast-1) ◈ 587d9
+      - 🚫🇸🇬 SG 13.212.34.140 ◈ tcp:443 ◈ AWS EC2 (ap-southeast-1) ◈ 8b5c9
+      - 🚫🇸🇬 SG 13.212.82.167 ◈ tcp:443 ◈ AWS EC2 (ap-southeast-1) ◈ 03d83
+      - 🚫🇸🇬 SG 13.228.79.13 ◈ tcp:443 ◈ AWS EC2 (ap-southeast-1) ◈ 5f1a3
+      - 🚫🇸🇬 SG 13.229.87.253 ◈ tcp:443 ◈ AWS EC2 (ap-southeast-1) ◈ 31fd3
+      - 🚫🇸🇬 SG 13.229.243.64 ◈ tcp:443 ◈ AWS EC2 (ap-southeast-1) ◈ 0d325
+      - 🚫🇸🇬 SG 18.139.110.249 ◈ tcp:443 ◈ AWS EC2 (ap-southeast-1) ◈ ef55c
+      - 🚫🇸🇬 SG 18.142.246.19 ◈ tcp:443 ◈ AWS EC2 (ap-southeast-1) ◈ a8a10
+      - 🚫🇸🇬 SG 54.255.211.19 ◈ tcp:443 ◈ AWS EC2 (ap-southeast-1) ◈ aa19c
+      - 🇸🇬 SG 207.148.70.162 ◈ tcp:54316 ◈ Choopa ◈ 106c7
+      - 🚫🇸🇮 SI 192.71.244.150 ◈ tcp:989 ◈ Optimus IT d.o.o. / EDIS ◈ 36ad6
+      - 🚫🇹🇷 TR 45.89.52.66 ◈ tcp:9000 ◈ Stark Industries ◈ 8d813
+      - 🚫🇹🇷 TR 45.89.52.66 ◈ tcp:9005 ◈ Stark Industries ◈ 99245
+      - 🚫🇹🇷 TR 45.89.52.66 ◈ tcp:9014 ◈ Stark Industries ◈ e69a0
+      - 🚫🇹🇷 TR 45.89.52.66 ◈ tcp:9020 ◈ Stark Industries ◈ bb05b
+      - 🚫🇹🇷 TR 45.89.52.66 ◈ tcp:9025 ◈ Stark Industries ◈ ea6fc
+      - 🚫🇹🇷 TR 45.89.52.66 ◈ tcp:9027 ◈ Stark Industries ◈ beeb2
+      - 🚫🇹🇷 TR 45.89.52.66 ◈ tcp:9060 ◈ Stark Industries ◈ 03ccc
+      - 🚫🇹🇷 TR 45.89.52.66 ◈ tcp:9073 ◈ Stark Industries ◈ 64ab5
+      - 🚫🇹🇷 TR 45.89.52.66 ◈ tcp:9079 ◈ Stark Industries ◈ 4a4f3
+      - 🚫🇹🇷 TR 45.89.52.66 ◈ tcp:9093 ◈ Stark Industries ◈ 39eac
+      - 🚫🇹🇼 TW 223.165.4.173 ◈ tcp:989 ◈ Oneprovider.com ◈ 905f4
+      - 🇺🇦 UA 195.28.182.217 ◈ tcp:51348 ◈ Green Floid / Friendhosting ◈ b1b32
+      -   🇺🇦 UA 130.0.233.247 ◈ tcp:51348 ◈ UK-3NT / IROKO Networks Corporation
+        ◈ b2d0e
+      - 🔒🇺🇸 US 172.233.175.160 ◈ ws:443 ◈ Akamai Technologies, Inc. ◈ 86350
+      - 🔒🇺🇸 US 172.235.157.139 ◈ ws:443 ◈ Akamai Technologies, Inc. ◈ 6c85e
+      -   🔒🇺🇸 US 23.92.25.204 ◈ ws:443 ◈ Akamai Technologies, Inc. / Linode ◈
+        89fce
+      -   🔒🇺🇸 US 173.255.236.245 ◈ ws:443 ◈ Akamai Technologies, Inc. / Linode
+        ◈ 2d123
+      -   🔒🇺🇸 US 172.105.150.214 ◈ ws:443 ◈ Akamai Technologies, Inc. / Linode
+        ◈ 60a8c
+      - 🔒🇺🇸 US 154.17.10.185 ◈ tcp:443 ◈ DMIT Cloud Services ◈ 4f4df
+      - 🔒🇺🇸 US 154.17.10.185 ◈ tcp:443 ◈ DMIT Cloud Services ◈ 33c55
+      - 💥🇺🇸 US 15.204.234.166 ◈ ws:443 ◈ OVH US ◈ b7a1c
+      -   🇺🇸 US 2.58.87.221 ◈ ws:12269 ◈ Aiyun (HK) Network / ORG-AIYUN-RIPE ◈
+        773e5
+      -   🇺🇸 US 2.58.87.221 ◈ tcp:16899 ◈ Aiyun (HK) Network / ORG-AIYUN-RIPE ◈
+        c2d45
+      - 🚫🇺🇸 US 34.219.154.160 ◈ tcp:443 ◈ AWS EC2 (us-west-2) ◈ 8770b
+      - 🚫🇺🇸 US 35.87.35.207 ◈ tcp:443 ◈ AWS EC2 (us-west-2) ◈ e0e28
+      -   🇺🇸 US 205.134.180.139 ◈ tcp:443 ◈ American Information Network /
+        Vector Data Systems ◈ 95fb6
+      -   🇺🇸 US 205.134.180.137 ◈ tcp:443 ◈ American Information Network /
+        Vector Data Systems ◈ bb0f6
+      - 🇺🇸 US warp ◈ ws:80 ◈ 6a896
+      - 🇺🇸 US warp ◈ tcp:47529 ◈ a9d37
+      - 🇺🇸 US 69.50.95.86 ◈ tcp:2376 ◈ GTHost ◈ e29ac
+      - 🇺🇸 US 69.50.93.28 ◈ tcp:3306 ◈ GTHost ◈ bcc94
+      - 🇺🇸 US 69.50.93.80 ◈ tcp:3306 ◈ GTHost ◈ 5bb59
+      - 🇺🇸 US 69.50.93.118 ◈ tcp:3389 ◈ GTHost ◈ 2e3ff
+      - 🇺🇸 US 69.50.95.86 ◈ tcp:5000 ◈ GTHost ◈ 15193
+      - 🇺🇸 US 69.50.95.180 ◈ tcp:5000 ◈ GTHost ◈ 240bb
+      - 🇺🇸 US 69.50.93.28 ◈ tcp:5001 ◈ GTHost ◈ 4bd0a
+      - 🇺🇸 US 69.50.93.117 ◈ tcp:5001 ◈ GTHost ◈ 9bf6f
+      - 🇺🇸 US 69.50.93.118 ◈ tcp:5001 ◈ GTHost ◈ cf0aa
+      - 🇺🇸 US 69.50.95.86 ◈ tcp:5001 ◈ GTHost ◈ 60dcc
+      - 🇺🇸 US 69.50.93.118 ◈ tcp:5003 ◈ GTHost ◈ 0f259
+      - 🇺🇸 US 69.50.93.80 ◈ tcp:5498 ◈ GTHost ◈ 2bc69
+      - 🇺🇸 US 69.50.95.86 ◈ tcp:5498 ◈ GTHost ◈ 181e0
+      - 🇺🇸 US 69.50.95.115 ◈ tcp:5498 ◈ GTHost ◈ f1266
+      - 🇺🇸 US 69.50.95.179 ◈ tcp:5498 ◈ GTHost ◈ e9423
+      - 🇺🇸 US 69.50.95.180 ◈ tcp:5498 ◈ GTHost ◈ df46b
+      - 🇺🇸 US 69.50.93.117 ◈ tcp:5499 ◈ GTHost ◈ 1f7a3
+      - 🇺🇸 US 69.50.93.118 ◈ tcp:5499 ◈ GTHost ◈ 0e517
+      - 🇺🇸 US 69.50.95.86 ◈ tcp:5499 ◈ GTHost ◈ d2309
+      - 🇺🇸 US 69.50.95.86 ◈ tcp:5500 ◈ GTHost ◈ 452a1
+      - 🇺🇸 US 69.50.95.179 ◈ tcp:5600 ◈ GTHost ◈ aa1b1
+      - 🇺🇸 US 69.50.95.101 ◈ tcp:5601 ◈ GTHost ◈ 207b0
+      - 🇺🇸 US 69.50.93.28 ◈ tcp:6679 ◈ GTHost ◈ c1c6c
+      - 🇺🇸 US 69.50.93.86 ◈ tcp:6679 ◈ GTHost ◈ e4bdf
+      - 🇺🇸 US 69.50.93.28 ◈ tcp:6697 ◈ GTHost ◈ 787b8
+      - 🇺🇸 US 69.50.95.86 ◈ tcp:6697 ◈ GTHost ◈ a75ad
+      - 🇺🇸 US 69.50.95.245 ◈ tcp:7002 ◈ GTHost ◈ ea02c
+      - 🇺🇸 US 69.50.95.86 ◈ tcp:8000 ◈ GTHost ◈ 2a3da
+      - 🇺🇸 US 69.50.95.101 ◈ tcp:8008 ◈ GTHost ◈ ebd56
+      - 🇺🇸 US 69.50.95.103 ◈ tcp:8008 ◈ GTHost ◈ 6a680
+      - 🇺🇸 US 69.50.95.86 ◈ tcp:8080 ◈ GTHost ◈ 9f735
+      - 🇺🇸 US 69.50.95.179 ◈ tcp:8080 ◈ GTHost ◈ 0601a
+      - 🇺🇸 US 69.50.95.86 ◈ tcp:8090 ◈ GTHost ◈ b0ad4
+      - 🇺🇸 US 69.50.93.10 ◈ tcp:8091 ◈ GTHost ◈ ebdb9
+      - 🇺🇸 US 69.50.95.115 ◈ tcp:8091 ◈ GTHost ◈ cdbe3
+      - 🇺🇸 US 69.50.95.86 ◈ tcp:8118 ◈ GTHost ◈ 1b674
+      - 🇺🇸 US 69.50.95.86 ◈ tcp:8119 ◈ GTHost ◈ 59253
+      - 🇺🇸 US 69.50.95.103 ◈ tcp:8882 ◈ GTHost ◈ 57c52
+      - 🇺🇸 US 69.50.95.179 ◈ tcp:8882 ◈ GTHost ◈ da954
+      - 🇺🇸 US 69.50.95.218 ◈ tcp:8882 ◈ GTHost ◈ 58406
+      - 🇺🇸 US 69.50.95.86 ◈ tcp:8888 ◈ GTHost ◈ edb07
+      - 🇺🇸 US 69.50.95.115 ◈ tcp:8888 ◈ GTHost ◈ 037c2
+      - 🇺🇸 US 69.50.93.10 ◈ tcp:9090 ◈ GTHost ◈ 6cc58
+      - 🇺🇸 US 69.50.95.86 ◈ tcp:9090 ◈ GTHost ◈ 8a8ab
+      - 🇺🇸 US 69.50.95.39 ◈ tcp:9101 ◈ GTHost ◈ dafa7
+      - 🇺🇸 US 69.50.95.103 ◈ tcp:9101 ◈ GTHost ◈ d7769
+      - 🇺🇸 US 67.220.86.72 ◈ tcp:8882 ◈ GTHost / OBJX Networks ◈ ac778
+      - 🇺🇸 US 23.154.136.47 ◈ tcp:22324 ◈ GTHost / Ontario Inc ◈ ea108
+      - 🇺🇸 US 23.150.152.16 ◈ tcp:443 ◈ GTHost / Sanek Hosting ◈ 5d393
+      - 🇺🇸 US 23.150.152.16 ◈ tcp:2376 ◈ GTHost / Sanek Hosting ◈ c23a0
+      - 🇺🇸 US 23.150.152.112 ◈ tcp:3306 ◈ GTHost / Sanek Hosting ◈ 77361
+      - 🇺🇸 US 23.150.152.16 ◈ tcp:5001 ◈ GTHost / Sanek Hosting ◈ c1bd0
+      - 🇺🇸 US 23.150.152.56 ◈ tcp:5001 ◈ GTHost / Sanek Hosting ◈ bb8de
+      - 🇺🇸 US 23.150.152.24 ◈ tcp:5003 ◈ GTHost / Sanek Hosting ◈ 450d8
+      - 🇺🇸 US 23.150.152.16 ◈ tcp:5004 ◈ GTHost / Sanek Hosting ◈ bc8c6
+      - 🇺🇸 US 23.150.152.24 ◈ tcp:5004 ◈ GTHost / Sanek Hosting ◈ 4faaa
+      - 🇺🇸 US 23.150.152.56 ◈ tcp:5004 ◈ GTHost / Sanek Hosting ◈ 761c5
+      - 🇺🇸 US 23.150.152.112 ◈ tcp:5498 ◈ GTHost / Sanek Hosting ◈ f2928
+      - 🇺🇸 US 23.150.152.16 ◈ tcp:5500 ◈ GTHost / Sanek Hosting ◈ 7c0d5
+      - 🇺🇸 US 23.150.152.56 ◈ tcp:5500 ◈ GTHost / Sanek Hosting ◈ c7222
+      - 🇺🇸 US 23.150.152.24 ◈ tcp:5600 ◈ GTHost / Sanek Hosting ◈ 34f59
+      - 🇺🇸 US 23.150.152.56 ◈ tcp:5600 ◈ GTHost / Sanek Hosting ◈ 5a7e4
+      - 🇺🇸 US 23.150.152.56 ◈ tcp:6697 ◈ GTHost / Sanek Hosting ◈ 54a5b
+      - 🇺🇸 US 23.150.152.112 ◈ tcp:7002 ◈ GTHost / Sanek Hosting ◈ 1197e
+      - 🇺🇸 US 23.150.152.56 ◈ tcp:7306 ◈ GTHost / Sanek Hosting ◈ 89397
+      - 🇺🇸 US 23.150.152.56 ◈ tcp:8000 ◈ GTHost / Sanek Hosting ◈ e289b
+      - 🇺🇸 US 23.150.152.56 ◈ tcp:8008 ◈ GTHost / Sanek Hosting ◈ 7dde4
+      - 🇺🇸 US 23.150.152.16 ◈ tcp:8091 ◈ GTHost / Sanek Hosting ◈ 76202
+      - 🇺🇸 US 23.150.152.16 ◈ tcp:8118 ◈ GTHost / Sanek Hosting ◈ 82ad0
+      - 🇺🇸 US 23.150.152.56 ◈ tcp:8119 ◈ GTHost / Sanek Hosting ◈ 84439
+      - 🇺🇸 US 23.150.152.24 ◈ tcp:8881 ◈ GTHost / Sanek Hosting ◈ 2c14c
+      - 🇺🇸 US 23.150.152.24 ◈ tcp:8888 ◈ GTHost / Sanek Hosting ◈ 5c29d
+      - 🇺🇸 US 23.150.152.56 ◈ tcp:9090 ◈ GTHost / Sanek Hosting ◈ 0323e
+      - 🇺🇸 US 23.150.152.112 ◈ tcp:9090 ◈ GTHost / Sanek Hosting ◈ 2eb3c
+      - 🇺🇸 US 23.150.152.53 ◈ tcp:9101 ◈ GTHost / Sanek Hosting ◈ 29e27
+      - 🇺🇸 US 23.157.40.103 ◈ tcp:443 ◈ GTHost / TChosting ◈ e1045
+      - 🇺🇸 US 23.157.40.113 ◈ tcp:443 ◈ GTHost / TChosting ◈ 0c49b
+      - 🇺🇸 US 23.157.40.115 ◈ tcp:443 ◈ GTHost / TChosting ◈ 68d4d
+      - 🇺🇸 US 23.157.40.113 ◈ tcp:445 ◈ GTHost / TChosting ◈ 61a6b
+      - 🇺🇸 US 23.157.40.113 ◈ tcp:2375 ◈ GTHost / TChosting ◈ 515f9
+      - 🇺🇸 US 23.157.40.115 ◈ tcp:2375 ◈ GTHost / TChosting ◈ c8ded
+      - 🇺🇸 US 23.157.40.19 ◈ tcp:2376 ◈ GTHost / TChosting ◈ 3b4a4
+      - 🇺🇸 US 23.157.40.113 ◈ tcp:2376 ◈ GTHost / TChosting ◈ 88296
+      - 🇺🇸 US 23.157.40.115 ◈ tcp:2376 ◈ GTHost / TChosting ◈ 6005f
+      - 🇺🇸 US 23.157.40.103 ◈ tcp:3306 ◈ GTHost / TChosting ◈ 73b7d
+      - 🇺🇸 US 23.157.40.113 ◈ tcp:3306 ◈ GTHost / TChosting ◈ a3a93
+      - 🇺🇸 US 23.157.40.115 ◈ tcp:3306 ◈ GTHost / TChosting ◈ b3ccc
+      - 🇺🇸 US 23.157.40.10 ◈ tcp:3389 ◈ GTHost / TChosting ◈ 335dc
+      - 🇺🇸 US 23.157.40.103 ◈ tcp:3389 ◈ GTHost / TChosting ◈ 373bf
+      - 🇺🇸 US 23.157.40.113 ◈ tcp:3389 ◈ GTHost / TChosting ◈ d26d6
+      - 🇺🇸 US 23.157.40.115 ◈ tcp:3389 ◈ GTHost / TChosting ◈ b2334
+      - 🇺🇸 US 23.157.40.10 ◈ tcp:4444 ◈ GTHost / TChosting ◈ 53cab
+      - 🇺🇸 US 23.157.40.113 ◈ tcp:4444 ◈ GTHost / TChosting ◈ 0bcbc
+      - 🇺🇸 US 23.157.40.10 ◈ tcp:5000 ◈ GTHost / TChosting ◈ 2c6dc
+      - 🇺🇸 US 23.157.40.19 ◈ tcp:5000 ◈ GTHost / TChosting ◈ b0269
+      - 🇺🇸 US 23.157.40.113 ◈ tcp:5000 ◈ GTHost / TChosting ◈ 076ef
+      - 🇺🇸 US 23.157.40.115 ◈ tcp:5000 ◈ GTHost / TChosting ◈ 4b086
+      - 🇺🇸 US 23.157.40.10 ◈ tcp:5001 ◈ GTHost / TChosting ◈ f2242
+      - 🇺🇸 US 23.157.40.113 ◈ tcp:5001 ◈ GTHost / TChosting ◈ 081af
+      - 🇺🇸 US 23.157.40.115 ◈ tcp:5001 ◈ GTHost / TChosting ◈ baad2
+      - 🇺🇸 US 23.157.40.103 ◈ tcp:5003 ◈ GTHost / TChosting ◈ 2daca
+      - 🇺🇸 US 23.157.40.113 ◈ tcp:5003 ◈ GTHost / TChosting ◈ 65e7e
+      - 🇺🇸 US 23.157.40.19 ◈ tcp:5004 ◈ GTHost / TChosting ◈ 7ca3d
+      - 🇺🇸 US 23.157.40.113 ◈ tcp:5004 ◈ GTHost / TChosting ◈ c996e
+      - 🇺🇸 US 23.157.40.19 ◈ tcp:5498 ◈ GTHost / TChosting ◈ a9cac
+      - 🇺🇸 US 23.157.40.113 ◈ tcp:5498 ◈ GTHost / TChosting ◈ 84e15
+      - 🇺🇸 US 23.157.40.115 ◈ tcp:5498 ◈ GTHost / TChosting ◈ b6ec3
+      - 🇺🇸 US 23.157.40.103 ◈ tcp:5499 ◈ GTHost / TChosting ◈ ec9ba
+      - 🇺🇸 US 23.157.40.113 ◈ tcp:5499 ◈ GTHost / TChosting ◈ 03a1f
+      - 🇺🇸 US 23.157.40.103 ◈ tcp:5500 ◈ GTHost / TChosting ◈ 0f6e0
+      - 🇺🇸 US 23.157.40.113 ◈ tcp:5500 ◈ GTHost / TChosting ◈ 84ee3
+      - 🇺🇸 US 23.157.40.115 ◈ tcp:5500 ◈ GTHost / TChosting ◈ 18c42
+      - 🇺🇸 US 23.157.40.113 ◈ tcp:5600 ◈ GTHost / TChosting ◈ bb5be
+      - 🇺🇸 US 23.157.40.115 ◈ tcp:5600 ◈ GTHost / TChosting ◈ 7b4ba
+      - 🇺🇸 US 23.157.40.103 ◈ tcp:5601 ◈ GTHost / TChosting ◈ db858
+      - 🇺🇸 US 23.157.40.113 ◈ tcp:5601 ◈ GTHost / TChosting ◈ e7de6
+      - 🇺🇸 US 23.157.40.115 ◈ tcp:5601 ◈ GTHost / TChosting ◈ ab17a
+      - 🇺🇸 US 23.157.40.119 ◈ tcp:5601 ◈ GTHost / TChosting ◈ 2c0f7
+      - 🇺🇸 US 23.157.40.103 ◈ tcp:6379 ◈ GTHost / TChosting ◈ 78ebc
+      - 🇺🇸 US 23.157.40.113 ◈ tcp:6379 ◈ GTHost / TChosting ◈ dfd5a
+      - 🇺🇸 US 23.157.40.115 ◈ tcp:6379 ◈ GTHost / TChosting ◈ 6bbdc
+      - 🇺🇸 US 23.157.40.19 ◈ tcp:6679 ◈ GTHost / TChosting ◈ 5a94f
+      - 🇺🇸 US 23.157.40.103 ◈ tcp:6679 ◈ GTHost / TChosting ◈ 031a5
+      - 🇺🇸 US 23.157.40.113 ◈ tcp:6679 ◈ GTHost / TChosting ◈ afb08
+      - 🇺🇸 US 23.157.40.115 ◈ tcp:6679 ◈ GTHost / TChosting ◈ c51ed
+      - 🇺🇸 US 23.157.40.103 ◈ tcp:6697 ◈ GTHost / TChosting ◈ f41cd
+      - 🇺🇸 US 23.157.40.113 ◈ tcp:6697 ◈ GTHost / TChosting ◈ fad3a
+      - 🇺🇸 US 23.157.40.115 ◈ tcp:6697 ◈ GTHost / TChosting ◈ 7773d
+      - 🇺🇸 US 23.157.40.19 ◈ tcp:7001 ◈ GTHost / TChosting ◈ bc937
+      - 🇺🇸 US 23.157.40.103 ◈ tcp:7001 ◈ GTHost / TChosting ◈ 140bb
+      - 🇺🇸 US 23.157.40.113 ◈ tcp:7001 ◈ GTHost / TChosting ◈ 87bce
+      - 🇺🇸 US 23.157.40.113 ◈ tcp:7002 ◈ GTHost / TChosting ◈ 0310d
+      - 🇺🇸 US 23.157.40.115 ◈ tcp:7002 ◈ GTHost / TChosting ◈ ac9ea
+      - 🇺🇸 US 23.157.40.113 ◈ tcp:7306 ◈ GTHost / TChosting ◈ 1d3b8
+      - 🇺🇸 US 23.157.40.101 ◈ tcp:7307 ◈ GTHost / TChosting ◈ 6050a
+      - 🇺🇸 US 23.157.40.103 ◈ tcp:7307 ◈ GTHost / TChosting ◈ d58ce
+      - 🇺🇸 US 23.157.40.113 ◈ tcp:7307 ◈ GTHost / TChosting ◈ a934f
+      - 🇺🇸 US 23.157.40.115 ◈ tcp:7307 ◈ GTHost / TChosting ◈ 5bf04
+      - 🇺🇸 US 23.157.40.19 ◈ tcp:8000 ◈ GTHost / TChosting ◈ d5464
+      - 🇺🇸 US 23.157.40.101 ◈ tcp:8000 ◈ GTHost / TChosting ◈ 88bdc
+      - 🇺🇸 US 23.157.40.103 ◈ tcp:8000 ◈ GTHost / TChosting ◈ 321af
+      - 🇺🇸 US 23.157.40.113 ◈ tcp:8000 ◈ GTHost / TChosting ◈ 86b32
+      - 🇺🇸 US 23.157.40.115 ◈ tcp:8000 ◈ GTHost / TChosting ◈ 1fc9f
+      - 🇺🇸 US 23.157.40.101 ◈ tcp:8008 ◈ GTHost / TChosting ◈ 568f2
+      - 🇺🇸 US 23.157.40.103 ◈ tcp:8008 ◈ GTHost / TChosting ◈ fbad5
+      - 🇺🇸 US 23.157.40.113 ◈ tcp:8008 ◈ GTHost / TChosting ◈ 829cf
+      - 🇺🇸 US 23.157.40.19 ◈ tcp:8009 ◈ GTHost / TChosting ◈ 52c5a
+      - 🇺🇸 US 23.157.40.101 ◈ tcp:8009 ◈ GTHost / TChosting ◈ 8858d
+      - 🇺🇸 US 23.157.40.103 ◈ tcp:8009 ◈ GTHost / TChosting ◈ 11a79
+      - 🇺🇸 US 23.157.40.113 ◈ tcp:8009 ◈ GTHost / TChosting ◈ e0d8e
+      - 🇺🇸 US 23.157.40.115 ◈ tcp:8009 ◈ GTHost / TChosting ◈ 29bf1
+      - 🇺🇸 US 23.157.40.113 ◈ tcp:8080 ◈ GTHost / TChosting ◈ 07480
+      - 🇺🇸 US 23.157.40.115 ◈ tcp:8080 ◈ GTHost / TChosting ◈ 50fb1
+      - 🇺🇸 US 23.157.40.103 ◈ tcp:8090 ◈ GTHost / TChosting ◈ e6718
+      - 🇺🇸 US 23.157.40.113 ◈ tcp:8090 ◈ GTHost / TChosting ◈ b4561
+      - 🇺🇸 US 23.157.40.115 ◈ tcp:8090 ◈ GTHost / TChosting ◈ 2b444
+      - 🇺🇸 US 23.157.40.19 ◈ tcp:8091 ◈ GTHost / TChosting ◈ c529b
+      - 🇺🇸 US 23.157.40.103 ◈ tcp:8091 ◈ GTHost / TChosting ◈ 507e1
+      - 🇺🇸 US 23.157.40.113 ◈ tcp:8091 ◈ GTHost / TChosting ◈ e0f8f
+      - 🇺🇸 US 23.157.40.115 ◈ tcp:8091 ◈ GTHost / TChosting ◈ 7546d
+      - 🇺🇸 US 23.157.40.103 ◈ tcp:8118 ◈ GTHost / TChosting ◈ 6f9da
+      - 🇺🇸 US 23.157.40.113 ◈ tcp:8118 ◈ GTHost / TChosting ◈ 8f99d
+      - 🇺🇸 US 23.157.40.115 ◈ tcp:8118 ◈ GTHost / TChosting ◈ f2196
+      - 🇺🇸 US 23.157.40.10 ◈ tcp:8119 ◈ GTHost / TChosting ◈ 6b1b7
+      - 🇺🇸 US 23.157.40.103 ◈ tcp:8119 ◈ GTHost / TChosting ◈ d8e1a
+      - 🇺🇸 US 23.157.40.113 ◈ tcp:8119 ◈ GTHost / TChosting ◈ cdc23
+      - 🇺🇸 US 23.157.40.115 ◈ tcp:8119 ◈ GTHost / TChosting ◈ ad7ef
+      - 🇺🇸 US 23.157.40.10 ◈ tcp:8881 ◈ GTHost / TChosting ◈ a682f
+      - 🇺🇸 US 23.157.40.103 ◈ tcp:8881 ◈ GTHost / TChosting ◈ a0b2a
+      - 🇺🇸 US 23.157.40.113 ◈ tcp:8881 ◈ GTHost / TChosting ◈ b8747
+      - 🇺🇸 US 23.157.40.115 ◈ tcp:8881 ◈ GTHost / TChosting ◈ b4e90
+      - 🇺🇸 US 23.157.40.10 ◈ tcp:8882 ◈ GTHost / TChosting ◈ b94dc
+      - 🇺🇸 US 23.157.40.103 ◈ tcp:8882 ◈ GTHost / TChosting ◈ c0a0f
+      - 🇺🇸 US 23.157.40.113 ◈ tcp:8882 ◈ GTHost / TChosting ◈ d7f0b
+      - 🇺🇸 US 23.157.40.115 ◈ tcp:8882 ◈ GTHost / TChosting ◈ 61476
+      - 🇺🇸 US 23.157.40.10 ◈ tcp:8888 ◈ GTHost / TChosting ◈ c21c7
+      - 🇺🇸 US 23.157.40.19 ◈ tcp:8888 ◈ GTHost / TChosting ◈ ca984
+      - 🇺🇸 US 23.157.40.113 ◈ tcp:8888 ◈ GTHost / TChosting ◈ 95e6b
+      - 🇺🇸 US 23.157.40.115 ◈ tcp:8888 ◈ GTHost / TChosting ◈ b35dd
+      - 🇺🇸 US 23.157.40.10 ◈ tcp:9090 ◈ GTHost / TChosting ◈ 893b8
+      - 🇺🇸 US 23.157.40.113 ◈ tcp:9090 ◈ GTHost / TChosting ◈ 4d4ef
+      - 🇺🇸 US 23.157.40.115 ◈ tcp:9090 ◈ GTHost / TChosting ◈ 9f9cd
+      - 🇺🇸 US 23.157.40.19 ◈ tcp:9101 ◈ GTHost / TChosting ◈ 5921f
+      - 🇺🇸 US 23.157.40.103 ◈ tcp:9101 ◈ GTHost / TChosting ◈ 43d46
+      - 🇺🇸 US 23.157.40.113 ◈ tcp:9101 ◈ GTHost / TChosting ◈ bb2b6
+      - 🇺🇸 US 23.157.40.103 ◈ tcp:9102 ◈ GTHost / TChosting ◈ ddee3
+      - 🇺🇸 US 23.157.40.113 ◈ tcp:9102 ◈ GTHost / TChosting ◈ d5ff7
+      -   🇺🇸 US 74.48.4.5 ◈ tcp:50100 ◈ Multacom Corporation / TELUS
+        Communications Inc ◈ 7b2e9
+      - 🇺🇸 US 144.126.145.43 ◈ ws:80 ◈ Nubes / Contabo Inc ◈ 86f48
+      - 🇺🇸 US 15.204.67.50 ◈ ws:80 ◈ OVH US ◈ b0581
+      - 🇺🇸 US 15.204.87.222 ◈ tcp:443 ◈ OVH US ◈ 03ae1
+      - 🇺🇸 US 15.204.87.222 ◈ tcp:2375 ◈ OVH US ◈ 8e999
+      - 🇺🇸 US 15.204.87.222 ◈ tcp:2376 ◈ OVH US ◈ 53e39
+      - 🇺🇸 US 15.204.87.222 ◈ tcp:3306 ◈ OVH US ◈ b04da
+      - 🇺🇸 US 15.204.87.222 ◈ tcp:3389 ◈ OVH US ◈ 7ad4a
+      - 🇺🇸 US 15.204.87.222 ◈ tcp:5000 ◈ OVH US ◈ 640ed
+      - 🇺🇸 US 15.204.87.222 ◈ tcp:5001 ◈ OVH US ◈ 6e690
+      - 🇺🇸 US 15.204.87.222 ◈ tcp:5003 ◈ OVH US ◈ 8e0b1
+      - 🇺🇸 US 15.204.87.225 ◈ tcp:5003 ◈ OVH US ◈ 2f650
+      - 🇺🇸 US 15.204.87.222 ◈ tcp:5004 ◈ OVH US ◈ 108ad
+      - 🇺🇸 US 15.204.87.222 ◈ tcp:5498 ◈ OVH US ◈ 26978
+      - 🇺🇸 US 15.204.87.222 ◈ tcp:5499 ◈ OVH US ◈ bc757
+      - 🇺🇸 US 15.204.87.225 ◈ tcp:5499 ◈ OVH US ◈ 88072
+      - 🇺🇸 US 15.204.87.222 ◈ tcp:5500 ◈ OVH US ◈ 91cdb
+      - 🇺🇸 US 15.204.87.222 ◈ tcp:5600 ◈ OVH US ◈ 8e915
+      - 🇺🇸 US 15.204.87.222 ◈ tcp:5601 ◈ OVH US ◈ 70954
+      - 🇺🇸 US 15.204.87.222 ◈ tcp:6379 ◈ OVH US ◈ 8c44a
+      - 🇺🇸 US 15.204.87.222 ◈ tcp:6679 ◈ OVH US ◈ 7831d
+      - 🇺🇸 US 15.204.87.222 ◈ tcp:6697 ◈ OVH US ◈ 3a4be
+      - 🇺🇸 US 15.204.87.222 ◈ tcp:7001 ◈ OVH US ◈ 31913
+      - 🇺🇸 US 15.204.87.222 ◈ tcp:7002 ◈ OVH US ◈ c585a
+      - 🇺🇸 US 15.204.87.225 ◈ tcp:7002 ◈ OVH US ◈ d09cd
+      - 🇺🇸 US 15.204.87.222 ◈ tcp:7306 ◈ OVH US ◈ b9466
+      - 🇺🇸 US 15.204.87.225 ◈ tcp:7306 ◈ OVH US ◈ 3ce47
+      - 🇺🇸 US 15.204.87.222 ◈ tcp:7307 ◈ OVH US ◈ 2f23b
+      - 🇺🇸 US 15.204.87.225 ◈ tcp:7307 ◈ OVH US ◈ fc894
+      - 🇺🇸 US 15.204.87.222 ◈ tcp:8000 ◈ OVH US ◈ 44264
+      - 🇺🇸 US 15.204.87.225 ◈ tcp:8000 ◈ OVH US ◈ 7c0bc
+      - 🇺🇸 US 15.204.87.222 ◈ tcp:8008 ◈ OVH US ◈ b910c
+      - 🇺🇸 US 15.204.87.222 ◈ tcp:8009 ◈ OVH US ◈ fb4d9
+      - 🇺🇸 US 15.204.87.222 ◈ tcp:8090 ◈ OVH US ◈ cb7cc
+      - 🇺🇸 US 15.204.87.225 ◈ tcp:8090 ◈ OVH US ◈ 8e83f
+      - 🇺🇸 US 15.204.87.222 ◈ tcp:8091 ◈ OVH US ◈ 52c19
+      - 🇺🇸 US 15.204.87.222 ◈ tcp:8118 ◈ OVH US ◈ d41d4
+      - 🇺🇸 US 15.204.87.225 ◈ tcp:8118 ◈ OVH US ◈ 37852
+      - 🇺🇸 US 15.204.87.222 ◈ tcp:8119 ◈ OVH US ◈ 4273a
+      - 🇺🇸 US 15.204.87.222 ◈ tcp:8881 ◈ OVH US ◈ 6536d
+      - 🇺🇸 US 15.204.87.222 ◈ tcp:8882 ◈ OVH US ◈ 73ff8
+      - 🇺🇸 US 15.204.87.222 ◈ tcp:8888 ◈ OVH US ◈ 44054
+      - 🇺🇸 US 15.204.87.222 ◈ tcp:9090 ◈ OVH US ◈ 75e93
+      - 🇺🇸 US 15.204.87.225 ◈ tcp:9090 ◈ OVH US ◈ b65a0
+      - 🇺🇸 US 15.204.87.222 ◈ tcp:9101 ◈ OVH US ◈ e059f
+      - 🇺🇸 US 15.204.87.222 ◈ tcp:9102 ◈ OVH US ◈ 7ebbd
+      - 🚫🇺🇸 US 194.116.173.21 ◈ tcp:9038 ◈ Stark Industries ◈ 831d2
+      -   🚫🇺🇾 UY 179.27.200.28 ◈ tcp:989 ◈ Administracion Nacional de
+        Telecomunicaciones / Cliente Antel Uruguay ◈ 0630a
+      -   🚫🇿🇦 ZA 41.203.4.34 ◈ tcp:989 ◈ Xneelo (Pty) Ltd / Xneelo Tscolo ◈
+        e23bb
+      - 🚩CF | 🟢 | vmess | @V2rayCollectorDonate | 4
+      - 🇸🇪SE | 🟢 | trojan | @PrivateVPNs | 0
+      - 🇮🇪IE | 🟢 | trojan | @PrivateVPNs | 2
+      - 🇮🇪IE | 🟢 | trojan | @PrivateVPNs | 3
+      - 🇬🇧GB | 🟢 | trojan | @PrivateVPNs | 4
+      - 🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 9
+      - 🇨🇦CA | 🟢 | trojan | @DirectVPN | 0
+      - 🇬🇧GB | 🟢 | trojan | @DirectVPN | 4
+      - 🇫🇷FR | 🟢 | trojan | @DirectVPN | 7
+      - 🚩CF | 🟢 | vmess | @v2ray1_ng | 5
+      - 🚩CF | 🟢 | vmess | @DailyV2RY | 207
+      - 🚩CF | 🟢 | vmess | @proxystore11 | 1
+      - 🇸🇪SE | 🟢 | vmess | @proxystore11 | 3
+      - 🚩CF | 🟢 | vmess | @Hope_Net | 2
+      - 🚩CF | 🟢 | vmess | @v2Line | 0
+      - 🇺🇸US | 🟢 | vmess | @FreakConfig | 5
+      - 💘 @v2ray_configs_pool 💘
+      - 💘 @v2ray_configs_pool 💘 (2)
+      - 💘 @v2ray_configs_pool 💘 (3)
+      - '[🇨🇦]t.me/ConfigsHub`'
+      - 💘 @v2ray_configs_pool 💘 (14)
+      - '4'
+      - 🔒 SS-TCP-NA 🇺🇸 US-23.134.94.175:8119
+      - 🔒 SS-TCP-NA 🇳🇱 NL-188.212.132.20:52952
+      - 🔒 VM-TCP-NA 🇺🇸 US-142.0.134.242:45017
+      - 🔒 VM-TCP-NA 🇺🇸 US-50.114.243.61:43834
+      - 🔒 VM-TCP-NONE 🇸🇬 SG-68.183.226.206:49365
+      - 🔒 VM-WS-NA 🏴‍☠️ NA-104.16.61.8:80
+      - 🔒 VM-TCP-NA 🇨🇳 CN-112.132.212.19:50004
+      - 🔒 VM-TCP-NA 🇺🇸 US-198.2.234.99:39771
+      - 🔒 VM-TCP-NA 🇺🇸 US-198.2.218.100:41400
+      - 🔒 VM-TCP-NA 🇨🇳 CN-120.210.205.82:50002
+      - 🔒 VM-TCP-NONE 🇸🇬 SG-68.183.226.206:26011
+      - 🔒 VM-TCP-NA 🇯🇵 JP-20.243.98.115:53001
+      - 🔒 VM-TCP-NA 🇯🇵 JP-103.200.30.8:45458
+      - 🔒 TR-TCP-TLS 🇩🇪 DE-3.65.13.195:42651
+      - 🔒 TR-WS-TLS 🏴‍☠️ NA-162.159.136.234:443
+      - 🔒 TR-HTTP-TLS 🇳🇱 NL-46.30.47.23:443
+      - 🔒 TR-WS-TLS 🏴‍☠️ NA-198.41.220.3:443
+      - 🔒 TR-WS-TLS 🏴‍☠️ NA-172.67.188.24:443
+      - 🔒 TR-TCP-TLS 🇯🇵 JP-43.206.127.212:443
+      - 🔒 TR-GRPC-TLS 🏴‍☠️ NA-104.21.47.176:443
+      - 🔒 TR-WS-TLS 🏴‍☠️ NA-190.93.246.247:443
+      - 🔒 TR-WS-TLS 🏴‍☠️ NA-104.17.61.7:443
+      - 🔒 TR-WS-TLS 🏴‍☠️ NA-198.41.220.8:443
+      - 🔒 TR-WS-TLS 🏴‍☠️ NA-104.21.73.195:443
+      - 🔒 TR-WS-TLS 🏴‍☠️ NA-[::ffff:c629:dc0a]:443
+      - 🔒 TR-WS-TLS 🏴‍☠️ NA-162.159.133.234:443
+      - 🔒 TR-WS-TLS 🏴‍☠️ NA-104.21.51.9:443
+      - 🔒 TR-WS-TLS 🏴‍☠️ NA-104.18.25.92:443
+      - 🔒 TR-WS-TLS 🏴‍☠️ NA-104.26.8.202:443
+      - 🔒 TR-WS-TLS 🏴‍☠️ NA-104.24.196.20:443
+      - 🔒 TR-WS-TLS 🏴‍☠️ NA-198.41.220.83:443
+      - 🔒 TR-WS-TLS 🏴‍☠️ NA-104.21.69.52:443
+      - 🔒 TR-WS-TLS 🏴‍☠️ NA-172.67.165.204:443
+      - 🔒 TR-WS-TLS 🏴‍☠️ NA-104.21.46.126:2053
+      - 🔒 TR-WS-TLS 🏴‍☠️ NA-162.159.130.234:443
+      - 🔒 TR-WS-TLS 🏴‍☠️ NA-198.41.220.2:443
+      - 🔒 TR-WS-TLS 🏴‍☠️ NA-104.16.192.1:443
+      - 🔒 TR-TCP-TLS 🇺🇸 US-103.224.182.249:443
+      - 🔒 TR-TCP-TLS 🇺🇸 US-15.181.162.90:443
+      - 🔒 TR-WS-TLS 🏴‍☠️ NA-104.19.159.12:443
+      - 🔒 TR-WS-TLS 🏴‍☠️ NA-198.41.220.5:443
+      - 🔒 TR-WS-TLS 🏴‍☠️ NA-104.16.159.6:443
+      - 🔒 TR-WS-TLS 🏴‍☠️ NA-104.21.7.241:443
+      - 🔒 TR-WS-TLS 🏴‍☠️ NA-172.67.216.95:443
+      - 🔒 TR-WS-TLS 🏴‍☠️ NA-188.114.99.0:443
+      - 🔒 SS-TCP-NA 🇬🇧 GB-18.132.19.242:443
+      - 🔒 SS-TCP-NA 🇺🇸 US-40.172.22.164:443
+      - 🔒 SS-TCP-NA 🇩🇪 DE-185.65.202.99:49318
+      - 🔒 SS-TCP-NA 🇨🇦 CA-38.111.114.133:5499
+      - 🔒 SS-TCP-NA 🇸🇬 SG-68.183.226.206:49094
+      - 🔒 SS-TCP-NA 🇺🇸 US-147.45.124.227:30488
+      - 🔒 SS-TCP-NA 🇧🇭 BH-157.241.18.13:443
+      - 🔒 SS-TCP-NA 🇺🇸 US-23.157.40.47:3389
+      - 🏁RELAY-185.146.173.59-0317
+      - 🏁RELAY-188.114.99.205-0464
+      - 🏁RELAY-104.21.95.165-0517
+      - 🏁RELAY-104.21.82.17-0483
+      - 🏁RELAY-172.67.220.83-0446
+      - 🏁RELAY-172.67.219.194-0489
+      - 🏁RELAY-104.21.71.88-0300
+      - 🏁RELAY-172.67.204.84-1255
+      - 🏁RELAY-141.101.114.40-1208
+      - 🇮🇩ID-38.9.140.66-4994
+      - 🏁RELAY-104.19.45.108-1124
+      - 🏁RELAY-104.19.45.50-1810
+      - 🇮🇩ID-38.9.140.66-4997
+      - 🇭🇰HK-20.2.36.118-6157
+      - 🇯🇵JP-74.226.136.204-6159
+      - 🇯🇵JP-74.226.136.204-6161
+rules:
+  - MATCH,🐟 Proxies
