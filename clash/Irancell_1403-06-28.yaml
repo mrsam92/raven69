@@ -2320,7 +2320,6 @@ proxy-groups:
       - 🇺🇸 US 108.181.10.17 ◈ ws:80 ◈ Psychz Networks / TELUS Communications
         Inc. ◈ dde32
 rules:
-rules:
   - PROCESS-NAME,com.farsitel.bazaar,🎯 全球直连
   - DOMAIN-SUFFIX,cafebazaar.ir,🎯 全球直连
   - DOMAIN-SUFFIX,bazaar.download,🎯 全球直连
@@ -2337,3 +2336,4 @@ rules:
 
   - GEOIP,IR,🎯 全球直连
   - MATCH,🐟 漏网之鱼
+
