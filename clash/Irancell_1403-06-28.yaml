@@ -2321,6 +2321,10 @@ proxy-groups:
         Inc. ◈ dde32
 rules:
   - PROCESS-NAME,com.farsitel.bazaar,🎯 全球直连
+  - PROCESS-NAME,com.samanpr.blu,🎯 全球直连
+  - PROCESS-NAME,com.dotin.wepod,🎯 全球直连
+  - PROCESS-NAME,com.myirancell,🎯 全球直连
+
   - DOMAIN-SUFFIX,cafebazaar.ir,🎯 全球直连
   - DOMAIN-SUFFIX,bazaar.download,🎯 全球直连
   - DOMAIN-SUFFIX,api.cafebazaar.ir,🎯 全球直连
