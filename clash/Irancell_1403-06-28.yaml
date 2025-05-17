@@ -2324,6 +2324,18 @@ rules:
   - PROCESS-NAME,com.samanpr.blu,🎯 全球直连
   - PROCESS-NAME,com.dotin.wepod,🎯 全球直连
   - PROCESS-NAME,com.myirancell,🎯 全球直连
+  - PROCESS-NAME,com.digikala,🎯 全球直连
+  - PROCESS-NAME,com.mydigipay.app.android,🎯 全球直连
+  - PROCESS-NAME,ir.esam.app,🎯 全球直连
+  - PROCESS-NAME,ir.mci.ecareapp,🎯 全球直连
+  - PROCESS-NAME,ir.mservices.market,🎯 全球直连
+  - PROCESS-NAME,ir.rightel.myrightel,🎯 全球直连
+  - PROCESS-NAME,org.rajman.neshan.traffic.tehran.navigator,🎯 全球直连
+  - PROCESS-NAME,com.sheypoor.mobile,🎯 全球直连
+  - PROCESS-NAME,cab.snapp.driver,🎯 全球直连
+  - PROCESS-NAME,com.sibche.aspardproject.app,🎯 全球直连
+  - PROCESS-NAME,com.pdpsoft.android.saapa,🎯 全球直连
+  - PROCESS-NAME,cab.snapp.passenger,🎯 全球直连
 
   - DOMAIN-SUFFIX,cafebazaar.ir,🎯 全球直连
   - DOMAIN-SUFFIX,bazaar.download,🎯 全球直连
