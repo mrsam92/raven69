@@ -2349,6 +2349,7 @@ rules:
   - PROCESS-NAME,ir.blu.bank,🎯 全球直连
   - DOMAIN-SUFFIX,blubank.com,🎯 全球直连
   - DOMAIN-SUFFIX,api.blubank.com,🎯 全球直连
+  - DOMAIN-SUFFIX,linkedin.com,🎯 全球直连
 
   - GEOIP,IR,🎯 全球直连
   - MATCH,🐟 漏网之鱼
