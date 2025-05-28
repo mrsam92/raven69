@@ -5105,7 +5105,9 @@ rules:
   - DOMAIN-SUFFIX,parsian.ir,🎯 全球直连
   - DOMAIN-SUFFIX,ansarbank.ir,🎯 全球直连
   - DOMAIN-SUFFIX,mobilepay.ir,🎯 全球直连
-  
+
+  - DOMAIN-SUFFIX,saymyname.website,🎯 全球直连
+
   - IP-CIDR,192.168.0.0/16,DIRECT
   - IP-CIDR,10.0.0.0/8,DIRECT
   - IP-CIDR,172.16.0.0/12,DIRECT
